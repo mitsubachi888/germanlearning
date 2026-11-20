@@ -12,7 +12,7 @@ for (const l of course.lessons.filter(l => l.file)) {
   const j = read(l.id);
   for (const [id, it] of Object.entries(j.items)) {
     const prev = seen.get(id);
-    if (prev && (prev.it.de !== it.de || prev.it.uz !== it.uz)) warn(`${id}: defined differently in ${prev.lesson} and ${l.id}`);
+    if (prev && (prev.it.de !== it.de || prev.it.en !== it.en)) warn(`${id}: defined differently in ${prev.lesson} and ${l.id}`);
     seen.set(id, { it, lesson: l.id });
   }
   console.log(`${l.id}: ${Object.keys(j.items).length} items, ${j.sessions.length} session(s)`);
@@ -21,7 +21,7 @@ for (const l of course.lessons.filter(l => l.file)) {
   const want = l.sessions === 2 ? ["A", "B"] : ["A"];
   if (JSON.stringify(j.sessions.map(s => s.id)) !== JSON.stringify(want)) warn(`sessions ${j.sessions.map(s => s.id)} ≠ ${want}`);
   for (const [id, it] of Object.entries(j.items)) {
-    if (!it.de || !it.uz) warn(`${id}: needs de + uz`);
+    if (!it.de || !it.en) warn(`${id}: needs de + en`);
     if (/^(der|die|das) /.test(it.de) && id.startsWith("n.")) {
       if (it.gender !== it.de.split(" ")[0]) warn(`${id}: gender field ≠ article`);
       if (!it.plural && !/plural/i.test(it.note || "")) warn(`${id}: noun without plural or "no plural" note`);

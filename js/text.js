@@ -90,10 +90,10 @@ export function shuffle(arr) {
   return a;
 }
 
-const UZ_MONTHS = ["yanvar", "fevral", "mart", "aprel", "may", "iyun", "iyul", "avgust", "sentabr", "oktabr", "noyabr", "dekabr"];
-const UZ_DAYS = ["Yakshanba", "Dushanba", "Seshanba", "Chorshanba", "Payshanba", "Juma", "Shanba"];
-export const UZ_DAYS_SHORT = ["Ya", "Du", "Se", "Ch", "Pa", "Ju", "Sh"];
-export function uzDate(d = new Date(), { weekday = false, year = false } = {}) {
-  return `${weekday ? UZ_DAYS[d.getDay()] + ", " : ""}${year ? d.getFullYear() + "-yil " : ""}${d.getDate()}-${UZ_MONTHS[d.getMonth()]}`;
+const MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+const DAYS = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+export const DAYS_SHORT = ["Su", "Mo", "Tu", "We", "Th", "Fr", "Sa"];
+export function enDate(d = new Date(), { weekday = false } = {}) {
+  return `${weekday ? DAYS[d.getDay()] + ", " : ""}${d.getDate()} ${MONTHS[d.getMonth()]}`;
 }
-export function uzMonthYear(d) { return `${d.getFullYear()}-yil ${UZ_MONTHS[d.getMonth()]}`; }
+export function enMonthYear(d) { return `${MONTHS[d.getMonth()]} ${d.getFullYear()}`; }

@@ -1,12 +1,11 @@
 {
  "id": "d02",
- "title": "Alifbo",
+ "title": "The alphabet",
  "items": {
   "n.apfel": {
    "de": "der Apfel",
    "plural": "die Äpfel",
    "gender": "der",
-   "uz": "olma",
    "en": "apple",
    "ipa": "ˈapfl̩",
    "pic": "🍎",
@@ -18,7 +17,6 @@
    "de": "die Banane",
    "plural": "die Bananen",
    "gender": "die",
-   "uz": "banan",
    "en": "banana",
    "ipa": "baˈnaːnə",
    "pic": "🍌",
@@ -30,7 +28,6 @@
    "de": "der Computer",
    "plural": "die Computer",
    "gender": "der",
-   "uz": "kompyuter",
    "en": "computer",
    "ipa": "kɔmˈpjuːtɐ",
    "pic": "💻",
@@ -42,7 +39,6 @@
    "de": "die Dusche",
    "plural": "die Duschen",
    "gender": "die",
-   "uz": "dush",
    "en": "shower",
    "ipa": "ˈduːʃə",
    "pic": "🚿",
@@ -54,7 +50,6 @@
    "de": "der Elefant",
    "plural": "die Elefanten",
    "gender": "der",
-   "uz": "fil",
    "en": "elephant",
    "ipa": "eleˈfant",
    "pic": "🐘",
@@ -66,7 +61,6 @@
    "de": "der Fisch",
    "plural": "die Fische",
    "gender": "der",
-   "uz": "baliq",
    "en": "fish",
    "ipa": "fɪʃ",
    "pic": "🐟",
@@ -78,7 +72,6 @@
    "de": "die Gitarre",
    "plural": "die Gitarren",
    "gender": "die",
-   "uz": "gitara",
    "en": "guitar",
    "ipa": "ɡiˈtaʁə",
    "pic": "🎸",
@@ -90,7 +83,6 @@
    "de": "das Haus",
    "plural": "die Häuser",
    "gender": "das",
-   "uz": "uy",
    "en": "house",
    "ipa": "haʊ̯s",
    "pic": "🏠",
@@ -102,7 +94,6 @@
    "de": "der Igel",
    "plural": "die Igel",
    "gender": "der",
-   "uz": "tipratikan",
    "en": "hedgehog",
    "ipa": "ˈiːɡl̩",
    "pic": "🦔",
@@ -114,7 +105,6 @@
    "de": "die Jacke",
    "plural": "die Jacken",
    "gender": "die",
-   "uz": "kurtka",
    "en": "jacket",
    "ipa": "ˈjakə",
    "pic": "🧥",
@@ -126,7 +116,6 @@
    "de": "die Katze",
    "plural": "die Katzen",
    "gender": "die",
-   "uz": "mushuk",
    "en": "cat",
    "ipa": "ˈkatsə",
    "pic": "🐱",
@@ -138,7 +127,6 @@
    "de": "der Löwe",
    "plural": "die Löwen",
    "gender": "der",
-   "uz": "sher",
    "en": "lion",
    "ipa": "ˈløːvə",
    "pic": "🦁",
@@ -150,7 +138,6 @@
    "de": "die Maus",
    "plural": "die Mäuse",
    "gender": "die",
-   "uz": "sichqon",
    "en": "mouse",
    "ipa": "maʊ̯s",
    "pic": "🐭",
@@ -162,7 +149,6 @@
    "de": "die Nase",
    "plural": "die Nasen",
    "gender": "die",
-   "uz": "burun",
    "en": "nose",
    "ipa": "ˈnaːzə",
    "pic": "👃",
@@ -174,7 +160,6 @@
    "de": "die Orange",
    "plural": "die Orangen",
    "gender": "die",
-   "uz": "apelsin",
    "en": "orange",
    "ipa": "oˈʁãːʒə",
    "pic": "🍊",
@@ -186,7 +171,6 @@
    "de": "die Pizza",
    "plural": "die Pizzen",
    "gender": "die",
-   "uz": "pitsa",
    "en": "pizza",
    "ipa": "ˈpɪtsa",
    "pic": "🍕",
@@ -199,7 +183,6 @@
    "de": "die Qualle",
    "plural": "die Quallen",
    "gender": "die",
-   "uz": "meduza",
    "en": "jellyfish",
    "ipa": "ˈkvalə",
    "pic": "🪼",
@@ -212,7 +195,6 @@
    "de": "die Rose",
    "plural": "die Rosen",
    "gender": "die",
-   "uz": "atirgul",
    "en": "rose",
    "ipa": "ˈʁoːzə",
    "pic": "🌹",
@@ -224,7 +206,6 @@
    "de": "die Sonne",
    "plural": "die Sonnen",
    "gender": "die",
-   "uz": "quyosh",
    "en": "sun",
    "ipa": "ˈzɔnə",
    "pic": "☀️",
@@ -236,7 +217,6 @@
    "de": "die Tomate",
    "plural": "die Tomaten",
    "gender": "die",
-   "uz": "pomidor",
    "en": "tomato",
    "ipa": "toˈmaːtə",
    "pic": "🍅",
@@ -248,7 +228,6 @@
    "de": "die Uhr",
    "plural": "die Uhren",
    "gender": "die",
-   "uz": "soat",
    "en": "clock / watch",
    "ipa": "uːɐ̯",
    "pic": "⌚",
@@ -260,7 +239,6 @@
    "de": "der Vogel",
    "plural": "die Vögel",
    "gender": "der",
-   "uz": "qush",
    "en": "bird",
    "ipa": "ˈfoːɡl̩",
    "pic": "🐦",
@@ -272,7 +250,6 @@
    "de": "der Wal",
    "plural": "die Wale",
    "gender": "der",
-   "uz": "kit",
    "en": "whale",
    "ipa": "vaːl",
    "pic": "🐋",
@@ -284,7 +261,6 @@
    "de": "das Taxi",
    "plural": "die Taxis",
    "gender": "das",
-   "uz": "taksi",
    "en": "taxi",
    "ipa": "ˈtaksi",
    "pic": "🚕",
@@ -296,7 +272,6 @@
   "n.yoga": {
    "de": "das Yoga",
    "gender": "das",
-   "uz": "yoga",
    "en": "yoga",
    "ipa": "ˈjoːɡa",
    "pic": "🧘",
@@ -309,7 +284,6 @@
    "de": "der Zug",
    "plural": "die Züge",
    "gender": "der",
-   "uz": "poyezd",
    "en": "train",
    "ipa": "tsuːk",
    "pic": "🚆",
@@ -321,7 +295,6 @@
    "de": "der Bär",
    "plural": "die Bären",
    "gender": "der",
-   "uz": "ayiq",
    "en": "bear",
    "ipa": "bɛːɐ̯",
    "pic": "🐻",
@@ -333,7 +306,6 @@
    "de": "der Löffel",
    "plural": "die Löffel",
    "gender": "der",
-   "uz": "qoshiq",
    "en": "spoon",
    "ipa": "ˈlœfl̩",
    "pic": "🥄",
@@ -345,7 +317,6 @@
    "de": "die Tür",
    "plural": "die Türen",
    "gender": "die",
-   "uz": "eshik",
    "en": "door",
    "ipa": "tyːɐ̯",
    "pic": "🚪",
@@ -357,7 +328,6 @@
    "de": "die Straße",
    "plural": "die Straßen",
    "gender": "die",
-   "uz": "koʻcha",
    "en": "street",
    "ipa": "ˈʃtʁaːsə",
    "pic": "🛣️",
@@ -367,7 +337,6 @@
   },
   "p.wie_schreibt": {
    "de": "Wie schreibt man das?",
-   "uz": "Bu qanday yoziladi?",
    "en": "How do you spell that?",
    "ipa": "viː ˈʃʁaɪ̯pt man das",
    "pic": "✍️",
@@ -377,7 +346,6 @@
   },
   "p.buchstabieren": {
    "de": "Können Sie das bitte buchstabieren?",
-   "uz": "Harflab aytib bera olasizmi, iltimos?",
    "en": "Can you spell that, please?",
    "ipa": "ˈkœnən ziː das ˈbɪtə buːxʃtaˈbiːʁən",
    "pic": "🔤",
@@ -387,7 +355,6 @@
   },
   "p.langsamer": {
    "de": "Bitte langsamer!",
-   "uz": "Sekinroq gapiring, iltimos!",
    "en": "Slower, please!",
    "ipa": "ˈbɪtə ˈlaŋzamɐ",
    "pic": "🐢",
@@ -399,7 +366,7 @@
  "sessions": [
   {
    "id": "A",
-   "title": "26 harf + ä ö ü ß",
+   "title": "26 letters + ä ö ü ß",
    "said": [
     "p.wie_schreibt",
     "p.buchstabieren",
@@ -408,7 +375,7 @@
    "steps": [
     {
      "type": "video",
-     "title": "Video: nemis alifbosi",
+     "title": "Video: the German alphabet",
      "videoId": "TytGj8xiPyY",
      "channel": "YourGermanTeacher (Johannes)",
      "start": 35,
@@ -417,8 +384,8 @@
     },
     {
      "type": "letters",
-     "title": "Harfni bosing va tinglang",
-     "intro": "Har bir harfni bosing: avval harf nomi, keyin misol soʻz eshitiladi.",
+     "title": "Tap a letter and listen",
+     "intro": "Tap each letter: you hear its name, then an example word.",
      "letters": [
       {
        "ch": "A",
@@ -604,7 +571,7 @@
     },
     {
      "type": "compare",
-     "title": "Qiyin harflar",
+     "title": "Tricky letters",
      "intro": "Comparisons with English only where the sound really matches. “No English equivalent” = learn the mouth position.",
      "items": [
       {
@@ -669,7 +636,7 @@
     },
     {
      "type": "quiz",
-     "title": "Qaysi harf?",
+     "title": "Which letter?",
      "questions": [
       {
        "kind": "listen",
@@ -756,7 +723,7 @@
     },
     {
      "type": "phrases",
-     "title": "Harflab aytishni soʻrash",
+     "title": "Asking someone to spell",
      "items": [
       "p.wie_schreibt",
       "p.buchstabieren",
@@ -765,46 +732,46 @@
     },
     {
      "type": "type",
-     "title": "Harflab aytilgan soʻzni yozing",
-     "intro": "Soʻz harfma-harf aytiladi. Butun soʻzni yozing (artiklsiz).",
+     "title": "Type the spelled word",
+     "intro": "You hear a word spelled letter by letter. Type the whole word (no article).",
      "questions": [
       {
        "say": "K, A, T, Z, E",
        "answer": "Katze",
-       "uz": "mushuk",
-       "ask": "Tinglang va soʻzni yozing.",
+       "en": "cat",
+       "ask": "Listen and type the word.",
        "tag": "spell",
        "item": "n.katze"
       },
       {
        "say": "Z, U, G",
        "answer": "Zug",
-       "uz": "poyezd",
-       "ask": "Tinglang va soʻzni yozing.",
+       "en": "train",
+       "ask": "Listen and type the word.",
        "tag": "spell",
        "item": "n.zug"
       },
       {
        "say": "V, O, G, E, L",
        "answer": "Vogel",
-       "uz": "qush",
-       "ask": "Tinglang va soʻzni yozing.",
+       "en": "bird",
+       "ask": "Listen and type the word.",
        "tag": "spell",
        "item": "n.vogel"
       },
       {
        "say": "T, Ü, R",
        "answer": "Tür",
-       "uz": "eshik",
-       "ask": "Tinglang va soʻzni yozing.",
+       "en": "door",
+       "ask": "Listen and type the word.",
        "tag": "spell",
        "item": "n.tuer"
       },
       {
        "say": "S, T, R, A, Eszett, E",
        "answer": "Straße",
-       "uz": "koʻcha",
-       "ask": "Tinglang va soʻzni yozing.",
+       "en": "street",
+       "ask": "Listen and type the word.",
        "tag": "spell",
        "item": "n.strasse"
       }
@@ -812,7 +779,7 @@
     },
     {
      "type": "shadow",
-     "title": "Tinglang va takrorlang",
+     "title": "Listen and repeat",
      "items": [
       "p.wie_schreibt",
       "p.buchstabieren",
@@ -822,31 +789,31 @@
     },
     {
      "type": "pattern",
-     "title": "Ismingizni harflab ayting",
-     "intro": "Nemislar ismingizni soʻrashi aniq! Ismingizni nemischa harflab ayting.",
+     "title": "Spell your name",
+     "intro": "Germans will ask how to spell your name. Practise spelling it with German letter names.",
      "prompts": [
       {
        "q": "Wie ist Ihr Name?",
-       "uz": "Ismingiz nima?",
+       "en": "What's your name?",
        "item": "me.name"
       },
       {
        "q": "Wie schreibt man das?",
-       "uz": "Bu qanday yoziladi?",
+       "en": "How do you spell that?",
        "spellMe": true
       }
      ]
     },
     {
      "type": "write",
-     "title": "Qisqa yozish",
-     "prompt": "Ismingizni yozing va uni harflab yozing. Masalan: Ich heiße Aziz. A – Z – I – Z.",
+     "title": "Short writing",
+     "prompt": "Write your name in a sentence and spell it. Example: Ich heiße Aziz. A – Z – I – Z.",
      "promptEn": "Write your name in a German sentence and spell it letter by letter.",
      "minWords": 3,
      "checklist": [
-      "Ich heiße … deb yozdim",
-      "Ismimni harflab yozdim",
-      "Bosh harf bilan boshladim"
+      "I wrote Ich heiße …",
+      "I spelled my name",
+      "I started with a capital letter"
      ],
      "modelItems": [
       "me.name"

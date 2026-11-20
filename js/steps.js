@@ -11,7 +11,7 @@ export const SKILL = {
   shadow: "speak", pattern: "speak", roleplay: "speak",
   type: "write", build: "write", write: "write"
 };
-export const SKILL_LABEL = { listen: "Tinglash", speak: "Gapirish", read: "Oʻqish", write: "Yozish" };
+export const SKILL_LABEL = { listen: "Listening", speak: "Speaking", read: "Reading", write: "Writing" };
 
 const STEP = {};
 export default STEP;
@@ -21,10 +21,10 @@ function deLine(it) {
   return `<span class="de">${de(it.de)}</span>`;
 }
 function pluralLine(it) {
-  return it.plural ? `<div class="plural">koʻplik: <span class="de">${de(it.plural)}</span></div>` : "";
+  return it.plural ? `<div class="plural">plural: <span class="de">${de(it.plural)}</span></div>` : "";
 }
 function feedback(ok, html = "") {
-  const el = h(`<div class="feedback ${ok ? "ok" : "bad"}"><b>${ok ? "Toʻgʻri!" : "Xato."}</b>${html ? `<div class="fb-more">${html}</div>` : ""}</div>`);
+  const el = h(`<div class="feedback ${ok ? "ok" : "bad"}"><b>${ok ? "Correct!" : "Not quite."}</b>${html ? `<div class="fb-more">${html}</div>` : ""}</div>`);
   return el;
 }
 function bump(el, ok) { el.classList.remove("pop", "shake"); void el.offsetWidth; el.classList.add(ok ? "pop" : "shake"); }
@@ -42,8 +42,8 @@ function quizRunner(s, body, { renderQ, onAnswer }) {
     box.innerHTML = "";
     if (i >= qs.length) {
       const all = right === qs.length;
-      box.append(h(`<div class="result enter"><div class="score">${right}<small>/${qs.length}</small></div><p><b>${all ? "Barchasi toʻgʻri — zoʻr!" : "toʻgʻri javob"}</b></p><p class="muted small">${all ? "Davom etishingiz mumkin." : "Xato javoblar takrorlash kartalariga qoʻshildi."}</p></div>`));
-      const again = h(`<button class="btn ghost" type="button">Qaytadan</button>`);
+      box.append(h(`<div class="result enter"><div class="score">${right}<small>/${qs.length}</small></div><p><b>${all ? "All correct — great!" : "correct answers"}</b></p><p class="muted small">${all ? "You can move on." : "The ones you missed were added to your review cards."}</p></div>`));
+      const again = h(`<button class="btn ghost" type="button">Try again</button>`);
       again.addEventListener("click", () => { i = 0; right = 0; show(); });
       box.append(again);
       store.logEvent("quiz_completed", s.title, { right, total: qs.length });
@@ -56,7 +56,7 @@ function quizRunner(s, body, { renderQ, onAnswer }) {
     renderQ(q, card, ok => {
       if (ok) right++;
       onAnswer?.(q, ok);
-      const nx = h(`<button class="btn" type="button">${i + 1 < qs.length ? "Keyingi savol" : "Natijani koʻrish"}</button>`);
+      const nx = h(`<button class="btn" type="button">${i + 1 < qs.length ? "Next question" : "See results"}</button>`);
       nx.addEventListener("click", () => { i++; show(); });
       card.append(nx);
       nx.scrollIntoView({ block: "nearest", behavior: "smooth" });
@@ -91,10 +91,10 @@ STEP.video = (s, body) => {
   const p = new URLSearchParams({ rel: "0", playsinline: "1", modestbranding: "1" });
   if (s.start) p.set("start", String(s.start));
   if (s.end) p.set("end", String(s.end));
-  const range = s.end ? `${sec(s.start || 0)} – ${sec(s.end)}` : s.start ? `${sec(s.start)} dan boshlab` : "toʻliq video";
-  if (navigator.onLine === false) body.append(h(`<div class="video off">Videoni koʻrish uchun internet kerak. Boshqa mashqlar internetsiz ishlaydi.</div>`));
+  const range = s.end ? `${sec(s.start || 0)} – ${sec(s.end)}` : s.start ? `from ${sec(s.start)}` : "full video";
+  if (navigator.onLine === false) body.append(h(`<div class="video off">You need internet to watch the video. All other exercises work offline.</div>`));
   else body.append(h(`<div class="video"><iframe src="https://www.youtube-nocookie.com/embed/${encodeURIComponent(s.videoId)}?${p}" title="${esc(s.title || "Video")}" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>`));
-  body.append(h(`<p class="small muted vmeta"><span>${esc(s.channel || "")}</span><span>${range} · <a href="https://www.youtube.com/watch?v=${encodeURIComponent(s.videoId)}${s.start ? `&t=${s.start}s` : ""}" target="_blank" rel="noopener">YouTubeʼda ochish</a></span></p>`));
+  body.append(h(`<p class="small muted vmeta"><span>${esc(s.channel || "")}</span><span>${range} · <a href="https://www.youtube.com/watch?v=${encodeURIComponent(s.videoId)}${s.start ? `&t=${s.start}s` : ""}" target="_blank" rel="noopener">Open on YouTube</a></span></p>`));
   if (s.note) body.append(h(`<div class="panel md">${md(s.note)}</div>`));
 };
 
@@ -110,8 +110,7 @@ STEP.phrases = (s, body, ctx) => {
         <div class="big">${deLine(it)}</div>
         ${it.ipa ? `<div class="ipa">[${esc(it.ipa)}]</div>` : ""}
         ${pluralLine(it)}
-        <div class="uz">${esc(it.uz)}</div>
-        ${it.en ? `<div class="en">${esc(it.en)}</div>` : ""}
+        <div class="tr">${esc(it.en)}</div>
         ${it.note ? `<div class="note md">${md(it.note)}</div>` : ""}
       </div>
       <div class="btns"></div></div>`);
@@ -135,7 +134,7 @@ STEP.letters = (s, body, ctx) => {
       b.classList.add("heard");
       detail.hidden = false;
       detail.innerHTML = "";
-      detail.append(h(`<div class="ld"><span class="ld-ch de">${esc(L.ch)}</span><span class="ld-name">„${esc(L.name || L.say)}“</span>${it ? `<span class="ld-ex">${it.pic || ""} <span class="de">${de(it.de)}</span> · ${esc(it.uz)}</span>` : ""}</div>`));
+      detail.append(h(`<div class="ld"><span class="ld-ch de">${esc(L.ch)}</span><span class="ld-name">„${esc(L.name || L.say)}“</span>${it ? `<span class="ld-ex">${it.pic || ""} <span class="de">${de(it.de)}</span> · ${esc(it.en)}</span>` : ""}</div>`));
       const r = h(`<div class="row"></div>`);
       r.append(playBtn(L.say));
       if (it) r.append(playBtn(it.de));
@@ -166,7 +165,7 @@ STEP.quiz = (s, body, ctx) => {
   quizRunner(s, body, {
     renderQ: (q, card, done) => {
       if (q.kind === "listen") {
-        const p = h(`<div class="q-prompt"><p>Tinglang va toʻgʻrisini tanlang:</p><div class="row center"></div></div>`);
+        const p = h(`<div class="q-prompt"><p>Listen and choose the right answer:</p><div class="row center"></div></div>`);
         p.querySelector(".row").append(playBtn(q.say, { big: true }), playBtn(q.say, { slow: true }));
         card.append(p);
         setTimeout(() => speak(q.say), 300);
@@ -190,9 +189,9 @@ STEP.gender = (s, body, ctx) => {
     renderQ: (q, card, done) => {
       const it = ctx.item(q.item);
       const noun = it.de.replace(/^(der|die|das)\s+/i, "");
-      card.append(h(`<div class="g-word"><div class="pic">${it.pic || ""}</div><div class="w de">${esc(noun)}</div><div class="uz">${esc(it.uz)}</div></div>`));
+      card.append(h(`<div class="g-word"><div class="pic">${it.pic || ""}</div><div class="w de">${esc(noun)}</div><div class="tr">${esc(it.en)}</div></div>`));
       card.querySelector(".g-word").append(playBtn(it.de));
-      card.append(h(`<div class="ask">Qaysi artikl?</div>`));
+      card.append(h(`<div class="ask">Which article?</div>`));
       const row = h(`<div class="arts"></div>`);
       ["der", "die", "das"].forEach(a => {
         const b = h(`<button class="art-btn ${a}" type="button">${a}</button>`);
@@ -226,7 +225,7 @@ function umlautKeys(inp) {
   return row;
 }
 
-// Listen (or read the Uzbek meaning) and type the German.
+// Listen (or read the English meaning) and type the German.
 STEP.type = (s, body, ctx) => {
   if (s.intro) body.append(h(`<p class="muted">${esc(s.intro)}</p>`));
   quizRunner(s, body, {
@@ -234,20 +233,20 @@ STEP.type = (s, body, ctx) => {
       const it = q.item ? ctx.item(q.item) : null;
       const answer = q.answer || it?.de;
       const say = q.say || answer;
-      const p = h(`<div class="q-prompt"><p>${q.ask ? esc(q.ask) : q.hear === false ? "Nemischa yozing:" : "Tinglang va nemischa yozing."} Maʼnosi: <b>${esc(q.uz || it?.uz || "")}</b></p><div class="row"></div></div>`);
+      const p = h(`<div class="q-prompt"><p>${q.ask ? esc(q.ask) : q.hear === false ? "Write it in German:" : "Listen and type it in German."} Meaning: <b>${esc(q.en || it?.en || "")}</b></p><div class="row"></div></div>`);
       if (q.hear !== false) { p.querySelector(".row").append(playBtn(say), playBtn(say, { slow: true })); setTimeout(() => speak(say), 300); }
       card.append(p);
-      const inp = h(`<input class="field de" lang="de" autocapitalize="off" autocomplete="off" autocorrect="off" spellcheck="false" placeholder="Shu yerga yozing…" aria-label="Javob">`);
-      const check = h(`<button class="btn" type="button">Tekshirish</button>`);
+      const inp = h(`<input class="field de" lang="de" autocapitalize="off" autocomplete="off" autocorrect="off" spellcheck="false" placeholder="Type here…" aria-label="Answer">`);
+      const check = h(`<button class="btn" type="button">Check</button>`);
       card.append(inp, umlautKeys(inp), check);
       const go = () => {
-        if (!inp.value.trim()) { toast("Avval javobni yozing."); inp.focus(); return; }
+        if (!inp.value.trim()) { toast("Type your answer first."); inp.focus(); return; }
         const exact = norm(inp.value) === norm(answer);
         const near = !exact && sameButUmlauts(inp.value, answer);
         inp.disabled = true; check.remove(); card.querySelector(".keys")?.remove();
         bump(inp, exact);
         const d = wordDiff(answer, inp.value);
-        card.append(feedback(exact, `<span class="de">${de(answer)}</span>${near ? `<div class="small">Deyarli! Faqat ä / ö / ü / ß harflariga eʼtibor bering.</div>` : exact ? "" : `<div class="diff small">${diffHtml(d.ops)}</div>`}`));
+        card.append(feedback(exact, `<span class="de">${de(answer)}</span>${near ? `<div class="small">Almost! Just watch the ä / ö / ü / ß.</div>` : exact ? "" : `<div class="diff small">${diffHtml(d.ops)}</div>`}`));
         q._near = near;
         done(exact);
       };
@@ -262,19 +261,19 @@ STEP.type = (s, body, ctx) => {
   });
 };
 
-function lineItem(ctx, l) { return (l.item && ctx.item(l.item)) || { de: l.de || "", uz: l.uz || "" }; }
+function lineItem(ctx, l) { return (l.item && ctx.item(l.item)) || { de: l.de || "", en: l.en || "" }; }
 
 STEP.shadow = (s, body, ctx) => {
   let i = 0, level = 1;
-  const LEVELS = ["Tinglab takrorlash", "Yordam bilan", "Mustaqil"];
-  body.append(h(`<p class="muted">Har bir gap 3 bosqichda: toʻliq matn bilan → baʼzi soʻzlar yashiringan → faqat bosh harflar. Namunani tinglang, ovozingizni yozing, solishtiring.</p>`));
+  const LEVELS = ["Repeat", "With hints", "On your own"];
+  body.append(h(`<p class="muted">Each sentence in 3 levels: full text → some words hidden → first letters only. Listen, record yourself, compare.</p>`));
   const box = h(`<div></div>`);
   body.append(box);
   const show = () => {
     box.innerHTML = "";
     if (i >= s.items.length) {
-      box.append(h(`<div class="result enter"><div class="score">${s.items.length}</div><p><b>ta gap mashq qilindi</b></p></div>`));
-      const again = h(`<button class="btn ghost" type="button">Qaytadan</button>`); again.addEventListener("click", () => { i = 0; level = 1; show(); }); box.append(again);
+      box.append(h(`<div class="result enter"><div class="score">${s.items.length}</div><p><b>sentences practised</b></p></div>`));
+      const again = h(`<button class="btn ghost" type="button">Again</button>`); again.addEventListener("click", () => { i = 0; level = 1; show(); }); box.append(again);
       return;
     }
     const it = lineItem(ctx, { item: s.items[i] });
@@ -282,19 +281,19 @@ STEP.shadow = (s, body, ctx) => {
     const card = h(`<div class="shadow enter"></div>`);
     card.append(h(`<div class="lvls">${LEVELS.map((l, k) => `<span class="${k + 1 === level ? "on" : k + 1 < level ? "past" : ""}">${k + 1} · ${l}</span>`).join("")}</div>`));
     card.append(h(`<div class="line de">${hintLine(it.de, level)}</div>`));
-    card.append(h(`<div class="uz">${esc(it.uz)}</div>`));
+    card.append(h(`<div class="tr">${esc(it.en)}</div>`));
     const r = h(`<div class="row center"></div>`); r.append(playBtn(it.de, { big: true }), playBtn(it.de, { slow: true })); card.append(r);
     card.append(recorderUI(ctx.cleanup));
     const nav = h(`<div class="row"></div>`);
     if (level < 3) {
-      const nx = h(`<button class="btn" type="button">${level + 1}-bosqich</button>`);
+      const nx = h(`<button class="btn" type="button">Level ${level + 1}</button>`);
       nx.addEventListener("click", () => { level++; show(); });
       nav.append(nx);
     } else {
-      const reveal = h(`<button class="btn ghost" type="button">Toʻliq gapni koʻrsatish</button>`);
+      const reveal = h(`<button class="btn ghost" type="button">Show the full sentence</button>`);
       reveal.addEventListener("click", () => { card.querySelector(".line").innerHTML = de(it.de); reveal.remove(); });
-      const good = h(`<button class="btn" type="button">Ayta oldim</button>`);
-      const bad = h(`<button class="btn ghost" type="button">Hali qiyin</button>`);
+      const good = h(`<button class="btn" type="button">I said it</button>`);
+      const bad = h(`<button class="btn ghost" type="button">Still hard</button>`);
       const next = ok => { if (s.items[i]) exerciseResult(s.items[i], ok); store.result("pron", ok); store.logEvent("shadowed", s.items[i], { ok }); i++; level = 1; show(); };
       good.addEventListener("click", () => next(true));
       bad.addEventListener("click", () => next(false));
@@ -311,14 +310,14 @@ STEP.build = (s, body) => {
   if (s.intro) body.append(h(`<p class="muted">${esc(s.intro)}</p>`));
   quizRunner(s, body, {
     renderQ: (q, card, done) => {
-      card.append(h(`<div class="q-prompt"><p>Gapni tuzing:</p><h3>${esc(q.uz)}</h3></div>`));
+      card.append(h(`<div class="q-prompt"><p>Build the German sentence:</p><h3>${esc(q.en)}</h3></div>`));
       const target = q.answer.normalize("NFC").split(/\s+/).filter(Boolean);
       const pool = shuffle([...target, ...(q.extra || [])]);
-      const line = h(`<div class="build-line" aria-label="Tuzilayotgan gap"></div>`);
+      const line = h(`<div class="build-line" aria-label="Your sentence"></div>`);
       const tray = h(`<div class="tray"></div>`);
       const chosen = [];
       const render = () => {
-        line.innerHTML = chosen.length ? "" : `<span class="muted small">Pastdagi soʻzlarni bosing…</span>`;
+        line.innerHTML = chosen.length ? "" : `<span class="muted small">Tap the words below…</span>`;
         chosen.forEach((ti, pos) => {
           const t = h(`<button type="button" class="tile on de">${esc(pool[ti])}</button>`);
           t.addEventListener("click", () => { chosen.splice(pos, 1); render(); });
@@ -331,11 +330,11 @@ STEP.build = (s, body) => {
         t.addEventListener("click", () => { chosen.push(i); render(); });
         tray.append(t);
       });
-      const check = h(`<button class="btn" type="button">Tekshirish</button>`);
+      const check = h(`<button class="btn" type="button">Check</button>`);
       card.append(line, tray, check);
       render();
       check.addEventListener("click", () => {
-        if (!chosen.length) { toast("Avval soʻzlarni tanlang."); return; }
+        if (!chosen.length) { toast("Tap some words first."); return; }
         const ok = norm(chosen.map(i => pool[i]).join(" ")) === norm(q.answer);
         check.remove();
         card.querySelectorAll(".tile").forEach(t => (t.disabled = true));
@@ -355,20 +354,20 @@ STEP.picquiz = (s, body, ctx) => {
       const target = ctx.item(q.item);
       const opts = q.options.map(id => ctx.item(id)).filter(Boolean);
       const answer = q.options.indexOf(q.item);
-      card.append(h(`<div class="q-prompt"><p>Tinglang va rasmni tanlang.</p><div class="row center"></div></div>`));
+      card.append(h(`<div class="q-prompt"><p>Listen and pick the picture.</p><div class="row center"></div></div>`));
       card.querySelector(".row").append(playBtn(target.de, { big: true }), playBtn(target.de, { slow: true }));
       setTimeout(() => speak(target.de), 300);
       const grid = h(`<div class="picgrid"></div>`);
       const order = shuffle(opts.map((_, k) => k));
       order.forEach(k => {
         const o = opts[k];
-        const b = h(`<button class="picopt" type="button" aria-label="${esc(o.uz)}"><span class="pic">${o.pic || "❓"}</span><span class="small">${esc(o.uz)}</span></button>`);
+        const b = h(`<button class="picopt" type="button" aria-label="${esc(o.en)}"><span class="pic">${o.pic || "❓"}</span><span class="small">${esc(o.en)}</span></button>`);
         b.addEventListener("click", () => {
           grid.querySelectorAll(".picopt").forEach(x => (x.disabled = true));
           const ok = k === answer;
           b.classList.add(ok ? "correct" : "wrong"); bump(b, ok);
           if (!ok) [...grid.children][order.indexOf(answer)].classList.add("correct");
-          card.append(feedback(ok, `<span class="de">${de(target.de)}</span> — ${esc(target.uz)}`));
+          card.append(feedback(ok, `<span class="de">${de(target.de)}</span> — ${esc(target.en)}`));
           done(ok);
         });
         grid.append(b);
@@ -393,14 +392,14 @@ STEP.dialogue = (s, body, ctx) => {
   const rows = s.lines.map((l, k) => {
     const it = lineItem(ctx, l);
     if (l.item) ensureCard(l.item);
-    const row = h(`<button type="button" class="bubble ${l.who === "A" ? "left" : "right"}"><span class="who">${esc(l.name || l.who)}</span><span class="b-de de">${de(it.de)}</span><span class="b-uz">${esc(it.uz)}</span></button>`);
+    const row = h(`<button type="button" class="bubble ${l.who === "A" ? "left" : "right"}"><span class="who">${esc(l.name || l.who)}</span><span class="b-de de">${de(it.de)}</span><span class="b-tr">${esc(it.en)}</span></button>`);
     row.addEventListener("click", () => { token++; mark(k); speak(it.de); });
     chat.append(row);
     return row;
   });
   const mark = k => rows.forEach((r, j) => r.classList.toggle("on", j === k));
   const bar = h(`<div class="row"></div>`);
-  const all = h(`<button class="btn" type="button">▶ Butun suhbatni tinglash</button>`);
+  const all = h(`<button class="btn" type="button">▶ Play the whole dialogue</button>`);
   all.addEventListener("click", () => {
     const my = ++token;
     const next = k => {
@@ -411,8 +410,8 @@ STEP.dialogue = (s, body, ctx) => {
     };
     next(0);
   });
-  const hide = h(`<button class="chipbtn" type="button">Tarjimani yashirish</button>`);
-  hide.addEventListener("click", () => { chat.classList.toggle("no-uz"); hide.textContent = chat.classList.contains("no-uz") ? "Tarjimani koʻrsatish" : "Tarjimani yashirish"; });
+  const hide = h(`<button class="chipbtn" type="button">Hide translation</button>`);
+  hide.addEventListener("click", () => { chat.classList.toggle("no-tr"); hide.textContent = chat.classList.contains("no-tr") ? "Show translation" : "Hide translation"; });
   bar.append(all, hide);
   body.append(bar, chat);
   ctx.cleanup.push(() => { token++; });
@@ -422,7 +421,7 @@ STEP.roleplay = (s, body, ctx) => {
   const roles = [...new Set(s.lines.map(l => l.who))];
   const nameOf = w => s.lines.find(l => l.who === w)?.name || w;
   if (s.intro) body.append(h(`<p class="muted">${esc(s.intro)}</p>`));
-  const pick = h(`<div class="panel"><p><b>Qaysi rolni oʻynaysiz?</b></p><div class="row"></div><p class="small muted">Sherigingiz ovoz bilan gapiradi. Sizning gapingiz yordamchi matn sifatida chiqadi — baland ovozda ayting.</p></div>`);
+  const pick = h(`<div class="panel"><p><b>Which role do you want to play?</b></p><div class="row"></div><p class="small muted">Your partner speaks out loud. Your line appears as a hint — say it out loud.</p></div>`);
   roles.forEach(r => { const b = h(`<button class="btn" type="button">${esc(nameOf(r))}</button>`); b.addEventListener("click", () => run(r)); pick.querySelector(".row").append(b); });
   const stage = h(`<div></div>`);
   body.append(pick, stage);
@@ -436,26 +435,26 @@ STEP.roleplay = (s, body, ctx) => {
       if (my !== token) return;
       ctrl.innerHTML = "";
       if (k >= s.lines.length) {
-        ctrl.append(h(`<div class="result enter"><div class="score">✓</div><p><b>${esc(nameOf(me))} roli tugadi</b></p></div>`));
+        ctrl.append(h(`<div class="result enter"><div class="score">✓</div><p><b>Done as ${esc(nameOf(me))}</b></p></div>`));
         const other = roles.find(r => r !== me);
-        if (other) { const b = h(`<button class="btn" type="button">Rolni almashtirish: ${esc(nameOf(other))}</button>`); b.addEventListener("click", () => run(other)); ctrl.append(b); }
+        if (other) { const b = h(`<button class="btn" type="button">Switch roles: ${esc(nameOf(other))}</button>`); b.addEventListener("click", () => run(other)); ctrl.append(b); }
         store.logEvent("roleplay_completed", s.title, { role: me });
         return;
       }
       const l = s.lines[k], it = lineItem(ctx, l), side = l.who === roles[0] ? "left" : "right";
       if (l.who !== me) {
-        chat.append(h(`<div class="bubble ${side} on enter"><span class="who">${esc(l.name)}</span><span class="b-de de">${de(it.de)}</span><span class="b-uz">${esc(it.uz)}</span></div>`));
+        chat.append(h(`<div class="bubble ${side} on enter"><span class="who">${esc(l.name)}</span><span class="b-de de">${de(it.de)}</span><span class="b-tr">${esc(it.en)}</span></div>`));
         chat.lastElementChild.scrollIntoView({ block: "nearest", behavior: "smooth" });
-        ctrl.append(h(`<p class="small muted">${esc(l.name)} gapiryapti…</p>`));
+        ctrl.append(h(`<p class="small muted">${esc(l.name)} is speaking…</p>`));
         speakThen(it.de, () => setTimeout(() => step(k + 1), 400));
       } else {
-        const card = h(`<div class="shadow enter"><div class="small muted">Sizning navbatingiz · ${esc(it.uz)}</div><div class="line de">${hintLine(it.de, 2)}</div></div>`);
+        const card = h(`<div class="shadow enter"><div class="small muted">Your turn · ${esc(it.en)}</div><div class="line de">${hintLine(it.de, 2)}</div></div>`);
         card.append(recorderUI(ctx.cleanup));
         const r = h(`<div class="row"></div>`);
-        const reveal = h(`<button class="btn ghost" type="button">Koʻrsatish va tinglash</button>`);
+        const reveal = h(`<button class="btn ghost" type="button">Show and listen</button>`);
         reveal.addEventListener("click", () => { card.querySelector(".line").innerHTML = de(it.de); speak(it.de); });
-        const next = h(`<button class="btn" type="button">Keyingi gap</button>`);
-        next.addEventListener("click", () => { chat.append(h(`<div class="bubble ${side} mine enter"><span class="who">${esc(l.name)} (siz)</span><span class="b-de de">${de(it.de)}</span></div>`)); step(k + 1); });
+        const next = h(`<button class="btn" type="button">Next line</button>`);
+        next.addEventListener("click", () => { chat.append(h(`<div class="bubble ${side} mine enter"><span class="who">${esc(l.name)} (you)</span><span class="b-de de">${de(it.de)}</span></div>`)); step(k + 1); });
         r.append(reveal, next); card.append(r); ctrl.append(card);
       }
     };
@@ -469,10 +468,10 @@ STEP.pattern = (s, body, ctx) => {
   if (s.intro) body.append(h(`<div class="panel">${esc(s.intro)}</div>`));
   s.prompts.forEach((p, k) => {
     const ans = p.item ? ctx.item(p.item) : null;
-    const card = h(`<div class="panel enter" style="--d:${k * 50}ms"><div class="small muted">${k + 1}-savol</div><div class="row nowrap"><div class="grow"><div class="big de">${de(p.q)}</div>${p.uz ? `<div class="small muted">${esc(p.uz)}</div>` : ""}</div></div></div>`);
+    const card = h(`<div class="panel enter" style="--d:${k * 50}ms"><div class="small muted">Question ${k + 1}</div><div class="row nowrap"><div class="grow"><div class="big de">${de(p.q)}</div>${p.en ? `<div class="small muted">${esc(p.en)}</div>` : ""}</div></div></div>`);
     card.querySelector(".row").append(playBtn(p.q));
     card.append(recorderUI(ctx.cleanup));
-    const ex = h(`<button class="chipbtn" type="button">Namuna javob</button>`);
+    const ex = h(`<button class="chipbtn" type="button">Sample answer</button>`);
     ex.addEventListener("click", () => {
       const t = p.spellMe ? [...(ctx.profile?.name || "").toUpperCase().replace(/\s+/g, "")].join(" – ") : ans?.de || p.example; const r = h(`<div class="row"><span class="de big">${de(t)}</span></div>`); r.append(playBtn(t)); ex.replaceWith(r); });
     card.append(ex);
@@ -498,28 +497,28 @@ If you are not sure about something, say so instead of guessing.`;
 STEP.write = (s, body, ctx) => {
   const st = store.get();
   body.append(h(`<div class="panel"><p><b>${esc(s.prompt)}</b></p>${s.hint ? `<p class="small muted">${esc(s.hint)}</p>` : ""}</div>`));
-  const ta = h(`<textarea class="field de" lang="de" autocapitalize="sentences" spellcheck="false" rows="5" placeholder="Nemischa yozing…" aria-label="Matn"></textarea>`);
+  const ta = h(`<textarea class="field de" lang="de" autocapitalize="sentences" spellcheck="false" rows="5" placeholder="Write in German…" aria-label="Your text"></textarea>`);
   ta.value = st.drafts[ctx.key] || "";
   const count = h(`<div class="small muted"></div>`);
-  const upd = () => { const n = ta.value.trim() ? ta.value.trim().split(/\s+/).length : 0; count.textContent = `${n} ta soʻz${s.minWords ? ` (kamida ${s.minWords})` : ""}`; };
+  const upd = () => { const n = ta.value.trim() ? ta.value.trim().split(/\s+/).length : 0; count.textContent = `${n} ${n === 1 ? "word" : "words"}${s.minWords ? ` (at least ${s.minWords})` : ""}`; };
   ta.addEventListener("input", () => { st.drafts[ctx.key] = ta.value; store.save(); upd(); });
   upd();
   body.append(ta, umlautKeys(ta), count);
   const acts = h(`<div class="row"></div>`);
-  const cmp = h(`<button class="btn ghost" type="button">Namuna bilan solishtirish</button>`);
-  const ai = h(`<button class="btn" type="button">AI uchun nusxalash</button>`);
+  const cmp = h(`<button class="btn ghost" type="button">Compare with a model</button>`);
+  const ai = h(`<button class="btn" type="button">Copy for AI feedback</button>`);
   acts.append(cmp, ai);
   body.append(acts);
   const out = h(`<div></div>`); body.append(out);
   cmp.addEventListener("click", () => {
     out.innerHTML = "";
-    if (s.checklist) out.append(h(`<div class="panel"><h3>Oʻzingizni tekshiring</h3><ul class="checklist">${s.checklist.map((c, k) => `<li><input type="checkbox" id="wc${k}"><label for="wc${k}">${esc(c)}</label></li>`).join("")}</ul></div>`));
+    if (s.checklist) out.append(h(`<div class="panel"><h3>Check yourself</h3><ul class="checklist">${s.checklist.map((c, k) => `<li><input type="checkbox" id="wc${k}"><label for="wc${k}">${esc(c)}</label></li>`).join("")}</ul></div>`));
     const model = s.modelItems ? s.modelItems.map(id => ctx.item(id)?.de).filter(Boolean).join(" ") : s.model;
-    if (model) out.append(h(`<div class="panel"><h3>Namuna</h3><p class="de big">${de(model)}</p></div>`));
+    if (model) out.append(h(`<div class="panel"><h3>Model answer</h3><p class="de big">${de(model)}</p></div>`));
     store.logEvent("writing_submitted", ctx.key, { words: ta.value.trim().split(/\s+/).length });
   });
   ai.addEventListener("click", async () => {
-    if (ta.value.trim().length < 3) { toast("Avval matn yozing."); return; }
-    toast((await copyText(aiPrompt(s, ta.value.trim()))) ? "Nusxalandi. Claude yoki ChatGPTʼga joylang." : "Nusxalab boʻlmadi.");
+    if (ta.value.trim().length < 3) { toast("Write something first."); return; }
+    toast((await copyText(aiPrompt(s, ta.value.trim()))) ? "Copied. Paste it into Claude or ChatGPT." : "Couldn't copy.");
   });
 };

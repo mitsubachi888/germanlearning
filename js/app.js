@@ -1,19 +1,19 @@
-import { esc, de, md, uzDate, uzMonthYear, UZ_DAYS_SHORT } from "./text.js";
+import { esc, de, enDate, enMonthYear, DAYS_SHORT } from "./text.js";
 import * as store from "./store.js";
 import { ensureCard, grade, dueCards, stats } from "./srs.js";
 import { speak, stop as stopAudio, loadManifest, germanVoices } from "./speech.js";
 import { h, toast, modal, copyText, playBtn } from "./ui.js";
 import STEP, { SKILL, SKILL_LABEL } from "./steps.js";
 import * as plan from "./plan.js";
-import { JOBS, HOBBIES, CITIES, aboutMe, jobOf } from "./profile.js";
+import { JOBS, HOBBIES, CITIES, aboutMe, jobOf, jobLabel } from "./profile.js";
 
-const APP_VERSION = "0.2.0";
+const APP_VERSION = "0.3.0";
 const THEMES = [
-  ["lavender", "#DCD2FA", "#FFB627", "Lavanda"],
-  ["rose", "#F8CFDC", "#FF6A3D", "Pushti"],
-  ["sky", "#CBE5FB", "#FF5C8A", "Osmon"],
-  ["butter", "#FFEFA3", "#6D4AFF", "Sariq"],
-  ["mint", "#CFF0DC", "#D9367F", "Yalpiz"]
+  ["lavender", "#DCD2FA", "#FFB627", "Lavender"],
+  ["rose", "#F8CFDC", "#FF6A3D", "Rose"],
+  ["sky", "#CBE5FB", "#FF5C8A", "Sky"],
+  ["butter", "#FFEFA3", "#6D4AFF", "Butter"],
+  ["mint", "#CFF0DC", "#D9367F", "Mint"]
 ];
 
 /* ---------- iOS: no accidental zoom ---------- */
@@ -47,6 +47,7 @@ function item(id) {
 }
 const isReady = lid => !!lessons[lid];
 const meta = lid => course.lessons.find(l => l.id === lid);
+const stageName = n => `Stage ${n + 1}`;
 
 /* ---------- theme ---------- */
 const mq = matchMedia("(prefers-color-scheme: dark)");
@@ -77,8 +78,14 @@ async function loadJSON(url) {
   if (!r.ok) throw new Error(url);
   return r.json();
 }
+// Profiles saved by the Uzbek-language version stored the city as { de, uz }: add the English name.
+function migrateProfile() {
+  const p = store.get().profile;
+  if (p?.city && !p.city.en) { p.city.en = CITIES.find(c => c.de === p.city.de)?.en || p.city.de; delete p.city.uz; store.save(); }
+}
 async function boot() {
   applyTheme();
+  migrateProfile();
   try {
     course = await loadJSON("content/course.json");
     await Promise.all(course.lessons.filter(l => l.file).map(async l => {
@@ -87,7 +94,7 @@ async function boot() {
       for (const [id, it] of Object.entries(data.items || {})) items[id] = { ...it, id, lesson: l.id };
     }));
   } catch (e) {
-    view.innerHTML = `<div class="wrap"><div class="banner">Darslarni yuklab boʻlmadi. Internetni tekshirib, ilovani qayta oching.</div></div>`;
+    view.innerHTML = `<div class="wrap"><div class="banner">Couldn't load the lessons. Check your internet connection and open the app again.</div></div>`;
     return;
   }
   loadManifest();
@@ -100,7 +107,7 @@ async function boot() {
       document.addEventListener("visibilitychange", () => { if (!document.hidden) reg.update().catch(() => {}); });
     }).catch(() => {});
     navigator.serviceWorker.addEventListener("controllerchange", () => {
-      if (hadController) toast("Ilova yangilandi ✨");
+      if (hadController) toast("App updated ✨");
     });
   }
 }
@@ -139,7 +146,7 @@ function route() {
 /* ---------- shared bits ---------- */
 function weeklyChip() {
   const w = plan.weekly();
-  return w.streak ? `<span class="chip">🔥 ${w.streak} hafta</span>` : `<span class="chip">📅 Bu hafta ${w.thisWeek}/${w.target}</span>`;
+  return w.streak ? `<span class="chip">🔥 ${w.streak} ${w.streak === 1 ? "week" : "weeks"}</span>` : `<span class="chip">📅 This week ${w.thisWeek}/${w.target}</span>`;
 }
 
 function lessonState(l) {
@@ -151,10 +158,10 @@ function lessonState(l) {
 
 function stopNode(l, k) {
   const st = lessonState(l);
-  const sub = l.mini ? "Rolli suhbat" : `${l.sessions === 2 ? "2 qism · " : ""}${Math.round((l.len || 0) / 60)} daq video`;
+  const sub = l.mini ? "Role-play" : `${l.sessions === 2 ? "2 parts · " : ""}${Math.round((l.len || 0) / 60)} min video`;
   const node = h(`<button type="button" class="node ${st}" style="--d:${k * 60}ms">
       <span class="stop" aria-hidden="true">${st === "done" ? "✓" : l.pic}</span>
-      <span class="t"><b>${l.n ? l.n + ". " : ""}${esc(l.title)}</b><span>${st === "now" ? "Hozir · " : st === "lock" ? "Tayyorlanmoqda · " : ""}${sub}</span></span>
+      <span class="t"><b>${l.n ? l.n + ". " : ""}${esc(l.title)}</b><span>${st === "now" ? "Now · " : st === "lock" ? "Coming soon · " : ""}${sub}</span></span>
     </button>`);
   node.addEventListener("click", () => lessonSheet(l));
   return node;
@@ -163,15 +170,15 @@ function stopNode(l, k) {
 function lessonSheet(l) {
   const el = h(`<div class="sheet">
     <div class="sheet-pic">${l.pic}</div>
-    <div class="kicker">${l.n ? `${l.n}-dars` : "Mini-Gespräch"} · ${l.stage + 1}-bosqich</div>
+    <div class="kicker">${l.n ? `Lesson ${l.n}` : "Mini-Gespräch"} · ${stageName(l.stage)}</div>
     <h2 class="de">${de(l.hero)}</h2><p class="muted">${esc(l.gloss || "")}</p>
     <h3>${esc(l.title)}</h3><div class="sess"></div></div>`);
   const box = el.querySelector(".sess");
-  if (!isReady(l.id)) box.append(h(`<p class="muted">Bu dars hali tayyorlanmoqda.</p>`));
+  if (!isReady(l.id)) box.append(h(`<p class="muted">This lesson is still being prepared.</p>`));
   else plan.sessionIds(l).forEach(sid => {
     const ses = lessons[l.id].sessions.find(x => x.id === sid);
     const done = store.sessionDone(plan.sessKey(l.id, sid));
-    const a = h(`<a class="sess-row ${done ? "done" : ""}" href="#/l/${l.id}/${sid}"><span class="mark">${done ? "✓" : sid}</span><span>${esc(ses?.title || "")}<small>${ses?.steps.length || 0} ta mashq</small></span><span class="go">›</span></a>`);
+    const a = h(`<a class="sess-row ${done ? "done" : ""}" href="#/l/${l.id}/${sid}"><span class="mark">${done ? "✓" : sid}</span><span>${esc(ses?.title || "")}<small>${ses?.steps.length || 0} exercises</small></span><span class="go">›</span></a>`);
     box.append(a);
   });
   const close = modal(el);
@@ -182,51 +189,50 @@ function lessonSheet(l) {
 function todayCard() {
   const pack = plan.todayPack(course, isReady);
   const plan4 = (a, b, c, d) => `<div class="plan">
-      <div><b>🃏</b>Takrorlash<small>${a}</small></div><div><b>🎬</b>Video<small>${b}</small></div>
-      <div><b>🗣️</b>Gapirish<small>${c}</small></div><div><b>✍️</b>Yozish<small>${d}</small></div></div>`;
+      <div><b>🃏</b>Review<small>${a}</small></div><div><b>🎬</b>Video<small>${b}</small></div>
+      <div><b>🗣️</b>Speaking<small>${c}</small></div><div><b>✍️</b>Writing<small>${d}</small></div></div>`;
   if (pack.kind === "comeback") return h(`<section class="today enter">
-      <div class="k">Xush kelibsiz!</div><h2>Avval takrorlaymiz</h2>
-      <p>Siz ${pack.gap} kun dars qilmadingiz. Avval ${Math.min(pack.due, 15)} ta kartani takrorlang (~5 daqiqa), keyin yangi darsga oʻtamiz. Hech narsa yoʻqotmadingiz.</p>
-      <a class="btn" href="#/pack/comeback">Takrorlashni boshlash</a></section>`);
+      <div class="k">Welcome back!</div><h2>Let's review first</h2>
+      <p>You haven't studied for ${pack.gap} days. Review ${Math.min(pack.due, 15)} cards first (about 5 minutes), then we continue with the next lesson. Nothing is lost.</p>
+      <a class="btn" href="#/pack/comeback">Start review</a></section>`);
   if (pack.kind === "reinforce") return h(`<section class="today enter">
-      <div class="k">Mustahkamlash</div><h2>${esc(plan.TAGS[pack.tag] || pack.tag)}</h2>
-      <p>Oxirgi mashqlarda bu mavzuda xatolar koʻp (${Math.round(pack.rate * 100)}%). Qisqa mustahkamlash qilamiz.</p>
-      <a class="btn" href="#/pack/reinforce/${pack.tag}">Boshlash</a></section>`);
+      <div class="k">Extra practice</div><h2>${esc(plan.TAGS[pack.tag] || pack.tag)}</h2>
+      <p>You've made quite a few mistakes with this lately (${Math.round(pack.rate * 100)}%). Let's do a short practice round.</p>
+      <a class="btn" href="#/pack/reinforce/${pack.tag}">Start</a></section>`);
   if (pack.kind === "review") return h(`<section class="today enter">
-      <div class="k">Umumiy takrorlash</div><h2>5 ta dars ortda!</h2>
-      <p>Oʻtilgan soʻz va iboralarni mustahkamlash vaqti keldi.</p>
-      <a class="btn" href="#/pack/review/${pack.block}">Boshlash</a></section>`);
-  if (pack.kind === "done") return h(`<section class="today enter"><div class="k">Tabriklaymiz!</div><h2 class="de">Super gemacht!</h2><p>Barcha darslar tugadi. Takrorlashni davom ettiring.</p><a class="btn" href="#/review">Takrorlash</a></section>`);
+      <div class="k">Review session</div><h2>5 lessons done!</h2>
+      <p>Time to consolidate the words and phrases you've learned.</p>
+      <a class="btn" href="#/pack/review/${pack.block}">Start</a></section>`);
+  if (pack.kind === "done") return h(`<section class="today enter"><div class="k">Congratulations!</div><h2 class="de">Super gemacht!</h2><p>You've finished all the lessons. Keep reviewing.</p><a class="btn" href="#/review">Review</a></section>`);
   const l = pack.unit.lesson, sid = pack.unit.sid;
   const ses = lessons[l.id]?.sessions.find(x => x.id === sid);
   const href = pack.due > 0 ? `#/warmup/${l.id}/${sid}` : `#/l/${l.id}/${sid}`;
   const started = ses && ses.steps.some((_, k) => store.stepDone(`${l.id}.${sid}.${k}`));
-  const card = h(`<section class="today enter">
-      <div class="k">Bugungi 30 daqiqa</div>
+  return h(`<section class="today enter">
+      <div class="k">Today's 30 minutes</div>
       <h2 class="de">${de(l.hero)}</h2>
-      <p>${l.n ? `${l.n}-dars` : "Mini-Gespräch"} · ${esc(l.title)}${l.sessions === 2 ? ` · ${sid === "A" ? "1" : "2"}/2 qism` : ""}</p>
-      ${plan4(pack.due ? "5 daq" : "—", "12 daq", "10 daq", "3 daq")}
-      ${pack.ready ? `<a class="btn" href="${href}">${started ? "Davom etish ▶" : "Boshlash ▶"}</a>` : `<div class="btn disabled" aria-disabled="true">Dars tayyorlanmoqda</div>`}
+      <p>${l.n ? `Lesson ${l.n}` : "Mini-Gespräch"} · ${esc(l.title)}${l.sessions === 2 ? ` · part ${sid === "A" ? "1" : "2"} of 2` : ""}</p>
+      ${plan4(pack.due ? "5 min" : "—", "12 min", "10 min", "3 min")}
+      ${pack.ready ? `<a class="btn" href="${href}">${started ? "Continue ▶" : "Start ▶"}</a>` : `<div class="btn disabled" aria-disabled="true">Lesson coming soon</div>`}
     </section>`);
-  return card;
 }
 
 function renderHome() {
   const p = store.get().profile;
   const el = h(`<div class="wrap"></div>`);
-  el.append(h(`<div class="hello enter"><h1>Salom, ${esc(p.name)} 👋<small>${uzDate(new Date(), { weekday: true })}</small></h1>${weeklyChip()}</div>`));
+  el.append(h(`<div class="hello enter"><h1>Hi, ${esc(p.name)} 👋<small>${enDate(new Date(), { weekday: true })}</small></h1>${weeklyChip()}</div>`));
   el.append(todayCard());
   const st = stats();
-  if (st.due) el.append(h(`<a class="rowcard enter" href="#/review"><span class="ico">🃏</span><span><b>${st.due} ta karta takrorlashni kutmoqda</b><small>Eng qiyinlari birinchi</small></span><span class="go">›</span></a>`));
-  el.append(h(`<a class="rowcard enter" href="#/me"><span class="ico">🙋</span><span><b>Oʻzim haqimda — nemischa</b><small>Sizning maʼlumotlaringiz asosidagi gaplar</small></span><span class="go">›</span></a>`));
+  if (st.due) el.append(h(`<a class="rowcard enter" href="#/review"><span class="ico">🃏</span><span><b>${st.due} ${st.due === 1 ? "card" : "cards"} to review</b><small>Hardest ones first</small></span><span class="go">›</span></a>`));
+  el.append(h(`<a class="rowcard enter" href="#/me"><span class="ico">🙋</span><span><b>About me — in German</b><small>Sentences built from your profile</small></span><span class="go">›</span></a>`));
 
   const cur = plan.currentStage(course);
   const stg = course.stages[cur];
   const pr = plan.stageProgress(course, cur);
-  el.append(h(`<div class="sec"><h3>${cur + 1}-bosqich · ${esc(stg.title)}</h3><span>${pr.done} / ${pr.total}</span></div>`));
+  el.append(h(`<div class="sec"><h3>${stageName(cur)} · ${esc(stg.title)}</h3><span>${pr.done} / ${pr.total}</span></div>`));
   el.append(pathFor(cur));
   const nxt = course.stages[cur + 1];
-  el.append(h(`<a class="next-stage" href="#/path">${nxt ? `Keyingi: ${nxt.n + 1}-bosqich · ${esc(nxt.title)} — ${course.lessons.filter(l => l.stage === nxt.n && !l.mini).length} dars` : "Butun yoʻl xaritasi"} ›</a>`));
+  el.append(h(`<a class="next-stage" href="#/path">${nxt ? `Next: ${stageName(nxt.n)} · ${esc(nxt.title)} — ${course.lessons.filter(l => l.stage === nxt.n && !l.mini).length} lessons` : "Full course map"} ›</a>`));
   view.append(el);
 }
 
@@ -243,10 +249,10 @@ function pathFor(stage) {
 }
 
 function renderPath() {
-  const el = h(`<div class="wrap"><div class="pagehead enter"><a class="back" href="#/" aria-label="Orqaga">‹</a><h1>Yoʻl xaritasi</h1></div></div>`);
+  const el = h(`<div class="wrap"><div class="pagehead enter"><a class="back" href="#/" aria-label="Back">‹</a><h1>Course map</h1></div></div>`);
   course.stages.forEach(stg => {
     const pr = plan.stageProgress(course, stg.n);
-    el.append(h(`<div class="sec"><h3>${stg.pic} ${stg.n + 1}-bosqich · ${esc(stg.title)}</h3><span>${pr.done} / ${pr.total}</span></div>`));
+    el.append(h(`<div class="sec"><h3>${stg.pic} ${stageName(stg.n)} · ${esc(stg.title)}</h3><span>${pr.done} / ${pr.total}</span></div>`));
     el.append(pathFor(stg.n));
   });
   view.append(el);
@@ -255,13 +261,13 @@ function renderPath() {
 function renderMe() {
   const p = store.get().profile;
   const list = aboutMe(p);
-  const el = h(`<div class="wrap"><div class="pagehead enter"><a class="back" href="#/" aria-label="Orqaga">‹</a><h1>Oʻzim haqimda</h1></div>
-    <p class="muted">Bu gaplar sizning profilingizdan tuzilgan. Ularni yod oling — tanishuvda eng koʻp kerak boʻladi.</p><div class="cards"></div>
-    <a class="btn ghost" href="#/onboard/1">Profilni tahrirlash</a></div>`);
+  const el = h(`<div class="wrap"><div class="pagehead enter"><a class="back" href="#/" aria-label="Back">‹</a><h1>About me</h1></div>
+    <p class="muted">These sentences are built from your profile. Learn them by heart — you'll need them every time you meet someone.</p><div class="cards"></div>
+    <a class="btn ghost" href="#/onboard/1">Edit profile</a></div>`);
   const box = el.querySelector(".cards");
   list.forEach((it, k) => {
     ensureCard(it.id);
-    const row = h(`<div class="pcard enter" style="--d:${k * 40}ms"><div class="pic">${it.pic}</div><div class="txt"><div class="big de">${esc(it.de)}</div><div class="uz">${esc(it.uz)}</div></div><div class="btns"></div></div>`);
+    const row = h(`<div class="pcard enter" style="--d:${k * 40}ms"><div class="pic">${it.pic}</div><div class="txt"><div class="big de">${esc(it.de)}</div><div class="tr">${esc(it.en)}</div></div><div class="btns"></div></div>`);
     row.querySelector(".btns").append(playBtn(it.de), playBtn(it.de, { slow: true }));
     box.append(row);
   });
@@ -280,82 +286,82 @@ function renderOnboard(i) {
   const el = h(`<div class="ob"><div class="ob-top"><div class="ob-bar"><i style="width:${Math.round((i / (OB_STEPS.length - 1)) * 100)}%"></i></div></div><div class="ob-body enter"></div></div>`);
   const body = el.querySelector(".ob-body"), foot = h(`<div class="ob-foot"></div>`); // fixed bar must not sit inside an animated (transformed) parent
   const go = n => { location.hash = `#/onboard/${n}`; };
-  const nextBtn = (label = "Keyingi", valid = () => true, msg = "") => {
+  const nextBtn = (label = "Next", valid = () => true, msg = "") => {
     const b = h(`<button class="btn" type="button">${label}</button>`);
     b.addEventListener("click", () => { if (!valid()) { toast(msg); return; } go(i + 1); });
     return b;
   };
-  const back = h(`<button class="btn ghost" type="button">Orqaga</button>`);
+  const back = h(`<button class="btn ghost" type="button">Back</button>`);
   back.addEventListener("click", () => go(i - 1));
 
   if (step === "welcome") {
-    body.append(h(`<div class="ob-hero"><div class="big-emoji">🇩🇪</div><h1 class="de">Willkommen!</h1><p class="lead">Xush kelibsiz! Nemis tilini noldan, oʻz tezligingizda oʻrganamiz.</p>
-      <ul class="ticks"><li>Haftasiga 3–4 marta, 30 daqiqadan</li><li>Video, tinglash, gapirish va yozish</li><li>Hammasi sizning hayotingiz haqidagi gaplar bilan</li></ul></div>`));
-    foot.append(nextBtn("Boshlash"));
+    body.append(h(`<div class="ob-hero"><div class="big-emoji">🇩🇪</div><h1 class="de">Willkommen!</h1><p class="lead">Welcome! Let's learn German from zero, at your own pace.</p>
+      <ul class="ticks"><li>3–4 times a week, 30 minutes each</li><li>Video, listening, speaking and writing</li><li>Everything built around sentences about your own life</li></ul></div>`));
+    foot.append(nextBtn("Let's start"));
   }
   if (step === "name") {
-    body.append(h(`<h2>Ismingiz nima?</h2><p class="muted">Nemischa gaplarda ishlatamiz: <span class="de">Ich heiße …</span></p>`));
-    const inp = h(`<input class="field" autocomplete="given-name" autocapitalize="words" maxlength="30" placeholder="Masalan: Aziz" aria-label="Ism">`);
+    body.append(h(`<h2>What's your name?</h2><p class="muted">We'll use it in your German sentences: <span class="de">Ich heiße …</span></p>`));
+    const inp = h(`<input class="field" autocomplete="given-name" autocapitalize="words" maxlength="30" placeholder="e.g. Aziz" aria-label="Name">`);
     inp.value = draft.name || "";
     inp.addEventListener("input", () => { draft.name = inp.value.trim().replace(/\s+/g, " "); });
     body.append(inp);
-    foot.append(back, nextBtn("Keyingi", () => /^\p{L}[\p{L}\s'ʼʻ-]{0,29}$/u.test(draft.name || ""), "Ismingizni harflar bilan yozing."));
+    foot.append(back, nextBtn("Next", () => /^\p{L}[\p{L}\s'ʼʻ-]{0,29}$/u.test(draft.name || ""), "Please type your name using letters."));
   }
   if (step === "form") {
-    body.append(h(`<h2>Siz erkakmisiz yoki ayolmisiz?</h2><p class="muted">Nemis tilida kasb nomi shunga qarab oʻzgaradi. Masalan, “oʻqituvchi”: <span class="de">Lehrer</span> (erkak) / <span class="de">Lehrerin</span> (ayol).</p>`));
+    body.append(h(`<h2>Are you a man or a woman?</h2><p class="muted">In German, job titles change accordingly. For example, “teacher”: <span class="de">Lehrer</span> (man) / <span class="de">Lehrerin</span> (woman).</p>`));
     const opts = h(`<div class="choices two"></div>`);
-    [["m", "👨", "Erkak"], ["f", "👩", "Ayol"]].forEach(([v, e, t]) => {
+    [["m", "👨", "Man"], ["f", "👩", "Woman"]].forEach(([v, e, t]) => {
       const b = h(`<button type="button" class="choice ${draft.form === v ? "on" : ""}"><span class="e">${e}</span><b>${t}</b></button>`);
       b.addEventListener("click", () => { draft.form = v; opts.querySelectorAll(".choice").forEach(c => c.classList.remove("on")); b.classList.add("on"); });
       opts.append(b);
     });
     body.append(opts);
-    foot.append(back, nextBtn("Keyingi", () => !!draft.form, "Bittasini tanlang."));
+    foot.append(back, nextBtn("Next", () => !!draft.form, "Please choose one."));
   }
   if (step === "job") {
-    body.append(h(`<h2>Kasbingiz nima?</h2><p class="muted">Roʻyxatdagi eng yaqinini tanlang.</p>`));
+    body.append(h(`<h2>What do you do?</h2><p class="muted">Pick the closest one from the list.</p>`));
     const grid = h(`<div class="choices"></div>`);
     JOBS.forEach(j => {
-      const b = h(`<button type="button" class="choice ${draft.job === j.id ? "on" : ""}"><span class="e">${j.pic}</span><b>${esc(j.uz)}</b><small class="de">${draft.form === "f" ? j.f : j.m}</small></button>`);
+      const b = h(`<button type="button" class="choice ${draft.job === j.id ? "on" : ""}"><span class="e">${j.pic}</span><b>${esc(jobLabel(j))}</b><small class="de">${draft.form === "f" ? j.f : j.m}</small></button>`);
       b.addEventListener("click", () => { draft.job = j.id; grid.querySelectorAll(".choice").forEach(c => c.classList.remove("on")); b.classList.add("on"); });
       grid.append(b);
     });
     body.append(grid);
-    foot.append(back, nextBtn("Keyingi", () => !!draft.job, "Kasbni tanlang."));
+    foot.append(back, nextBtn("Next", () => !!draft.job, "Please choose a job."));
   }
   if (step === "city") {
-    body.append(h(`<h2>Qaysi shaharda yashaysiz?</h2><p class="muted"><span class="de">Ich wohne in …</span></p>`));
+    body.append(h(`<h2>Which city do you live in?</h2><p class="muted"><span class="de">Ich wohne in …</span></p>`));
     const grid = h(`<div class="choices chips"></div>`);
-    const other = h(`<input class="field" maxlength="30" placeholder="Boshqa shahar" aria-label="Boshqa shahar" autocapitalize="words">`);
+    const other = h(`<input class="field" maxlength="30" placeholder="Another city" aria-label="Another city" autocapitalize="words">`);
     CITIES.forEach(c => {
-      const b = h(`<button type="button" class="choice ${draft.city?.de === c.de ? "on" : ""}"><b>${esc(c.uz)}</b><small class="de">${esc(c.de)}</small></button>`);
+      const b = h(`<button type="button" class="choice ${draft.city?.de === c.de ? "on" : ""}"><b>${esc(c.en)}</b><small class="de">${esc(c.de)}</small></button>`);
       b.addEventListener("click", () => { draft.city = c; other.value = ""; grid.querySelectorAll(".choice").forEach(x => x.classList.remove("on")); b.classList.add("on"); });
       grid.append(b);
     });
     if (draft.city && !CITIES.some(c => c.de === draft.city.de)) other.value = draft.city.de;
-    other.addEventListener("input", () => { const v = other.value.trim(); grid.querySelectorAll(".choice").forEach(x => x.classList.remove("on")); draft.city = v ? { de: v, uz: v } : null; });
-    body.append(grid, h(`<p class="small muted">Roʻyxatda yoʻq boʻlsa, shahar nomini yozing (faqat shahar nomi):</p>`), other);
-    foot.append(back, nextBtn("Keyingi", () => !!draft.city?.de && /^\p{L}[\p{L}\s.'-]{0,29}$/u.test(draft.city.de), "Shaharni tanlang yoki yozing."));
+    other.addEventListener("input", () => { const v = other.value.trim(); grid.querySelectorAll(".choice").forEach(x => x.classList.remove("on")); draft.city = v ? { de: v, en: v } : null; });
+    body.append(grid, h(`<p class="small muted">Not in the list? Type the city name (just the name):</p>`), other);
+    foot.append(back, nextBtn("Next", () => !!draft.city?.de && /^\p{L}[\p{L}\s.'-]{0,29}$/u.test(draft.city.de), "Choose or type a city."));
   }
   if (step === "hobbies") {
-    body.append(h(`<h2>Qiziqishlaringiz</h2><p class="muted">1–3 tasini tanlang. <span class="de">Ich … gern.</span></p>`));
+    body.append(h(`<h2>Your hobbies</h2><p class="muted">Pick 1–3. <span class="de">Ich … gern.</span></p>`));
     const grid = h(`<div class="choices"></div>`);
     HOBBIES.forEach(hb => {
-      const b = h(`<button type="button" class="choice ${draft.hobbies.includes(hb.id) ? "on" : ""}"><span class="e">${hb.pic}</span><b>${esc(hb.uz.replace(/ni$/, ""))}</b><small class="de">${esc(hb.de)}</small></button>`);
+      const b = h(`<button type="button" class="choice ${draft.hobbies.includes(hb.id) ? "on" : ""}"><span class="e">${hb.pic}</span><b>${esc(hb.label)}</b><small class="de">${esc(hb.de)}</small></button>`);
       b.addEventListener("click", () => {
         const k = draft.hobbies.indexOf(hb.id);
         if (k >= 0) draft.hobbies.splice(k, 1);
-        else { if (draft.hobbies.length >= 3) { toast("Koʻpi bilan 3 ta."); return; } draft.hobbies.push(hb.id); }
+        else { if (draft.hobbies.length >= 3) { toast("Three at most."); return; } draft.hobbies.push(hb.id); }
         b.classList.toggle("on", draft.hobbies.includes(hb.id));
       });
       grid.append(b);
     });
     body.append(grid);
-    foot.append(back, nextBtn("Keyingi", () => draft.hobbies.length > 0, "Kamida bittasini tanlang."));
+    foot.append(back, nextBtn("Next", () => draft.hobbies.length > 0, "Pick at least one."));
   }
   if (step === "family") {
     const f = (draft.family = draft.family || { married: null, kids: null, brothers: null, sisters: null });
-    body.append(h(`<h2>Oilangiz <small class="muted">(ixtiyoriy)</small></h2><p class="muted">Faqat mashq uchun. Aytishni xohlamasangiz, oʻtkazib yuboring.</p>`));
+    body.append(h(`<h2>Your family <small class="muted">(optional)</small></h2><p class="muted">Only used for practice sentences. Skip it if you prefer.</p>`));
     const seg = (label, key, opts) => {
       const row = h(`<div class="field-row"><span>${label}</span><div class="seg"></div></div>`);
       opts.forEach(([v, t]) => {
@@ -366,46 +372,45 @@ function renderOnboard(i) {
       return row;
     };
     const nums = [0, 1, 2, 3, 4, 5].map(n => [n, String(n)]);
-    body.append(seg("Turmush qurganmisiz?", "married", [[true, "Ha"], [false, "Yoʻq"]]),
-      seg("Farzandlar", "kids", nums), seg("Aka-ukalar", "brothers", nums), seg("Opa-singillar", "sisters", nums));
-    const skip = h(`<button class="btn ghost" type="button">Oʻtkazib yuborish</button>`);
+    body.append(seg("Are you married?", "married", [[true, "Yes"], [false, "No"]]),
+      seg("Children", "kids", nums), seg("Brothers", "brothers", nums), seg("Sisters", "sisters", nums));
+    const skip = h(`<button class="btn ghost" type="button">Skip</button>`);
     skip.addEventListener("click", () => { draft.family = null; go(i + 1); });
-    foot.append(skip, nextBtn("Keyingi"));
+    foot.append(skip, nextBtn("Next"));
   }
   if (step === "days") {
-    body.append(h(`<h2>Qaysi kunlari oʻqiysiz?</h2><p class="muted">3 yoki 4 kun tanlang. Bu qatʼiy jadval emas — ilova sizning haqiqiy tezligingizga moslashadi.</p>`));
+    body.append(h(`<h2>Which days will you study?</h2><p class="muted">Pick 3 or 4 days. This isn't a strict timetable — the app adapts to your real pace.</p>`));
     const row = h(`<div class="days"></div>`);
     [1, 2, 3, 4, 5, 6, 0].forEach(d => {
-      const b = h(`<button type="button" class="${draft.days.includes(d) ? "on" : ""}">${UZ_DAYS_SHORT[d]}</button>`);
+      const b = h(`<button type="button" class="${draft.days.includes(d) ? "on" : ""}">${DAYS_SHORT[d]}</button>`);
       b.addEventListener("click", () => {
         const k = draft.days.indexOf(d);
-        if (k >= 0) draft.days.splice(k, 1); else { if (draft.days.length >= 4) { toast("Koʻpi bilan 4 kun."); return; } draft.days.push(d); }
+        if (k >= 0) draft.days.splice(k, 1); else { if (draft.days.length >= 4) { toast("Four days at most."); return; } draft.days.push(d); }
         b.classList.toggle("on", draft.days.includes(d));
       });
       row.append(b);
     });
     body.append(row);
-    foot.append(back, nextBtn("Keyingi", () => draft.days.length >= 3, "3 yoki 4 kun tanlang."));
+    foot.append(back, nextBtn("Next", () => draft.days.length >= 3, "Pick 3 or 4 days."));
   }
   if (step === "theme") {
-    body.append(h(`<h2>Rangni tanlang</h2><p class="muted">Keyin Sozlamalarda oʻzgartirish mumkin.</p>`));
+    body.append(h(`<h2>Pick a colour</h2><p class="muted">You can change it later in Settings.</p>`));
     body.append(themePicker());
-    foot.append(back, nextBtn("Tayyor"));
+    foot.append(back, nextBtn("Done"));
   }
   if (step === "done") {
     store.setProfile(draft);
     draft = null;
     const list = aboutMe(store.get().profile);
-    body.append(h(`<div class="ob-hero"><div class="big-emoji pop">🎉</div><h1 class="de">Super!</h1><p class="lead">Mana sizning birinchi nemischa gaplaringiz. ▶ tugmasini bosib tinglang.</p></div>`));
+    body.append(h(`<div class="ob-hero"><div class="big-emoji pop">🎉</div><h1 class="de">Super!</h1><p class="lead">Here are your first German sentences. Tap ▶ to listen.</p></div>`));
     const box = h(`<div class="cards"></div>`);
     list.slice(0, 4).forEach((it, k) => {
-      const row = h(`<div class="pcard enter" style="--d:${k * 80}ms"><div class="pic">${it.pic}</div><div class="txt"><div class="big de">${esc(it.de)}</div><div class="uz">${esc(it.uz)}</div></div><div class="btns"></div></div>`);
+      const row = h(`<div class="pcard enter" style="--d:${k * 80}ms"><div class="pic">${it.pic}</div><div class="txt"><div class="big de">${esc(it.de)}</div><div class="tr">${esc(it.en)}</div></div><div class="btns"></div></div>`);
       row.querySelector(".btns").append(playBtn(it.de));
       box.append(row);
     });
     body.append(box);
-    const b = h(`<a class="btn" href="#/">Bosh sahifaga</a>`);
-    foot.append(b);
+    foot.append(h(`<a class="btn" href="#/">Go to home</a>`));
   }
   view.append(el, foot);
   body.querySelector("input")?.focus({ preventScroll: true });
@@ -419,7 +424,7 @@ function themePicker() {
     b.addEventListener("click", () => { store.setSetting("theme", id); applyTheme(); wrap.querySelectorAll(".tdot").forEach(x => x.classList.toggle("on", x === b)); });
     wrap.querySelector(".dots").append(b);
   });
-  [["light", "☀️ Yorugʻ"], ["dark", "🌙 Qorongʻi"], ["auto", "⚙️ Avto"]].forEach(([m, t]) => {
+  [["light", "☀️ Light"], ["dark", "🌙 Dark"], ["auto", "⚙️ Auto"]].forEach(([m, t]) => {
     const b = h(`<button type="button" class="${s.mode === m ? "on" : ""}">${t}</button>`);
     b.addEventListener("click", () => { store.setSetting("mode", m); applyTheme(); wrap.querySelectorAll(".mode button").forEach(x => x.classList.toggle("on", x === b)); });
     wrap.querySelector(".mode").append(b);
@@ -431,7 +436,7 @@ function themePicker() {
 function renderLesson(lid, sid, stepIdx) {
   const m = meta(lid), L = lessons[lid];
   const ses = L?.sessions.find(x => x.id === sid);
-  if (!m || !ses) { view.append(h(`<div class="wrap"><div class="banner">Dars topilmadi. <a href="#/">Bosh sahifa</a></div></div>`)); return; }
+  if (!m || !ses) { view.append(h(`<div class="wrap"><div class="banner">Lesson not found. <a href="#/">Home</a></div></div>`)); return; }
   if (stepIdx == null || isNaN(stepIdx)) { const k = ses.steps.findIndex((_, j) => !store.stepDone(`${lid}.${sid}.${j}`)); stepIdx = k < 0 ? 0 : k; }
   stepIdx = Math.max(0, Math.min(stepIdx, ses.steps.length - 1));
   const step = ses.steps[stepIdx];
@@ -439,10 +444,10 @@ function renderLesson(lid, sid, stepIdx) {
   store.touch();
 
   const top = h(`<div class="ltop">
-      <a class="x" href="#/" aria-label="Darsni yopish">✕</a>
+      <a class="x" href="#/" aria-label="Close lesson">✕</a>
       <div class="segs">${ses.steps.map((_, k) => `<i class="${k < stepIdx || store.stepDone(`${lid}.${sid}.${k}`) ? "on" : k === stepIdx ? "now" : ""}"></i>`).join("")}</div>
-      <button class="x" type="button" data-report aria-label="Xato haqida xabar">⚑</button></div>`);
-  top.querySelector("[data-report]").addEventListener("click", () => reportModal(`${m.n ? m.n + "-dars" : m.id} · ${sid} · ${stepIdx + 1}-mashq: ${step.title || step.type}`));
+      <button class="x" type="button" data-report aria-label="Report a mistake">⚑</button></div>`);
+  top.querySelector("[data-report]").addEventListener("click", () => reportModal(`${m.n ? "Lesson " + m.n : m.id} · ${sid} · step ${stepIdx + 1}: ${step.title || step.type}`));
   view.append(top);
   const wrap = h(`<div class="lesson enter"></div>`);
   wrap.append(h(`<div class="stepk">${stepIdx + 1} / ${ses.steps.length} · ${esc(SKILL_LABEL[step.skill || SKILL[step.type]] || "")}</div>`));
@@ -452,10 +457,10 @@ function renderLesson(lid, sid, stepIdx) {
   view.append(wrap);
   const r = STEP[step.type];
   const ctx = { item, cleanup, key, profile: store.get().profile };
-  if (r) r(step, body, ctx); else body.append(h(`<div class="banner">“${esc(step.type)}” turidagi mashq hali qoʻllab-quvvatlanmaydi.</div>`));
+  if (r) r(step, body, ctx); else body.append(h(`<div class="banner">This exercise type (“${esc(step.type)}”) isn't supported yet.</div>`));
 
   const last = stepIdx === ses.steps.length - 1;
-  const foot = h(`<div class="foot">${stepIdx > 0 ? `<a class="btn ghost" href="#/l/${lid}/${sid}/${stepIdx - 1}">Orqaga</a>` : ""}<button class="btn" type="button" data-next>${last ? "Darsni yakunlash" : "Davom etish"}</button></div>`);
+  const foot = h(`<div class="foot">${stepIdx > 0 ? `<a class="btn ghost" href="#/l/${lid}/${sid}/${stepIdx - 1}">Back</a>` : ""}<button class="btn" type="button" data-next>${last ? "Finish lesson" : "Continue"}</button></div>`);
   foot.querySelector("[data-next]").addEventListener("click", () => {
     store.markStep(key, step.skill || SKILL[step.type]);
     store.logEvent("step_completed", key);
@@ -468,13 +473,13 @@ function renderLesson(lid, sid, stepIdx) {
 function finishSession(m, ses) {
   timerStop();
   const said = (ses.said || []).map(id => item(id)).filter(Boolean);
-  const el = h(`<div class="finish"><div class="big-emoji pop">🎉</div><h2>Ajoyib!</h2>
+  const el = h(`<div class="finish"><div class="big-emoji pop">🎉</div><h2>Great job!</h2>
     <p class="muted">${esc(m.title)} · ${esc(ses.title)}</p>
-    ${said.length ? `<h3>Bugun siz ayta oldingiz:</h3><div class="said">${said.map(it => `<div class="de">${de(it.de)}</div>`).join("")}</div>` : ""}
-    <p class="small muted">Yangi soʻz va iboralar takrorlash kartalariga qoʻshildi.</p><div class="col"></div></div>`);
+    ${said.length ? `<h3>Today you learned to say:</h3><div class="said">${said.map(it => `<div class="de">${de(it.de)}</div>`).join("")}</div>` : ""}
+    <p class="small muted">New words and phrases have been added to your review cards.</p><div class="col"></div></div>`);
   const col = el.querySelector(".col");
-  col.append(h(`<a class="btn" href="#/">Bosh sahifaga</a>`));
-  col.append(h(`<a class="btn ghost" href="#/review">Takrorlash</a>`));
+  col.append(h(`<a class="btn" href="#/">Go to home</a>`));
+  col.append(h(`<a class="btn ghost" href="#/review">Review</a>`));
   const close = modal(el);
   el.querySelectorAll("a").forEach(a => a.addEventListener("click", close));
   burst();
@@ -498,15 +503,15 @@ function burst() {
 }
 
 function reportModal(where) {
-  const el = h(`<div><h3>Xato haqida xabar</h3><p class="small muted">${esc(where)}</p>
-    <textarea class="field" rows="4" placeholder="Nima notoʻgʻri? Masalan: tarjima xato, ovoz notoʻgʻri…"></textarea>
-    <div class="row end"><button class="btn ghost" type="button" data-c>Bekor qilish</button><button class="btn" type="button" data-s>Saqlash</button></div></div>`);
+  const el = h(`<div><h3>Report a mistake</h3><p class="small muted">${esc(where)}</p>
+    <textarea class="field" rows="4" placeholder="What's wrong? e.g. wrong translation, wrong pronunciation…"></textarea>
+    <div class="row end"><button class="btn ghost" type="button" data-c>Cancel</button><button class="btn" type="button" data-s>Save</button></div></div>`);
   const close = modal(el);
   el.querySelector("[data-c]").addEventListener("click", close);
   el.querySelector("[data-s]").addEventListener("click", () => {
     const t = el.querySelector("textarea").value.trim();
-    if (!t) { toast("Avval xatoni yozing."); return; }
-    store.addReport(where, t); close(); toast("Saqlandi. Sozlamalardan yuborishingiz mumkin.");
+    if (!t) { toast("Please describe the mistake first."); return; }
+    store.addReport(where, t); close(); toast("Saved. You can send it from Settings.");
   });
 }
 
@@ -522,8 +527,8 @@ function renderReview({ mode, then, limit = 20, arg }) {
     queue = queue.concat(extra);
   }
   if (mode === "warmup" && !queue.length) { location.replace(then); return; }
-  const titles = { warmup: "Isinish: takrorlash", comeback: "Yana xush kelibsiz!", reinforce: `Mustahkamlash: ${plan.TAGS[arg] || ""}`, review: "Umumiy takrorlash", free: "Takrorlash" };
-  const el = h(`<div class="wrap"><div class="pagehead enter">${mode === "free" ? "" : `<a class="back" href="#/" aria-label="Orqaga">‹</a>`}<h1>${esc(titles[mode] || "Takrorlash")}</h1></div><div class="rv"></div></div>`);
+  const titles = { warmup: "Warm-up: review", comeback: "Welcome back!", reinforce: `Practice: ${plan.TAGS[arg] || ""}`, review: "Review session", free: "Review" };
+  const el = h(`<div class="wrap"><div class="pagehead enter">${mode === "free" ? "" : `<a class="back" href="#/" aria-label="Back">‹</a>`}<h1>${esc(titles[mode] || "Review")}</h1></div><div class="rv"></div></div>`);
   const box = el.querySelector(".rv");
   view.append(el);
   let done = 0;
@@ -538,8 +543,8 @@ function renderReview({ mode, then, limit = 20, arg }) {
     if (!queue.length) {
       finish();
       const st = stats();
-      box.append(h(`<div class="result enter"><div class="score">${done}</div><p><b>${done ? "ta karta takrorlandi" : "Hozircha takrorlash uchun karta yoʻq"}</b></p><p class="muted small">${st.total ? `Jami ${st.total} ta soʻz va ibora, ${st.learned} tasi yaxshi esda.` : "Dars oʻtganingizdan keyin kartalar paydo boʻladi."}</p></div>`));
-      box.append(h(`<a class="btn" href="${then || "#/"}">${then ? "Darsga oʻtish ▶" : "Bosh sahifaga"}</a>`));
+      box.append(h(`<div class="result enter"><div class="score">${done}</div><p><b>${done ? (done === 1 ? "card reviewed" : "cards reviewed") : "Nothing to review right now"}</b></p><p class="muted small">${st.total ? `${st.total} words and phrases so far, ${st.learned} of them well remembered.` : "Cards appear after your first lesson."}</p></div>`));
+      box.append(h(`<a class="btn" href="${then || "#/"}">${then ? "Go to the lesson ▶" : "Go to home"}</a>`));
       return;
     }
     const id = queue[0], it = item(id);
@@ -548,7 +553,7 @@ function renderReview({ mode, then, limit = 20, arg }) {
     box.append(h(`<div class="q-count wide"><i style="width:${Math.round((done / Math.max(1, total)) * 100)}%"></i></div>`));
     const card = h(`<div class="flash enter"></div>`);
     if (it.pic) card.append(h(`<div class="pic">${it.pic}</div>`));
-    if (reverse) card.append(h(`<div><div class="small muted">Nemischa ayting:</div><h2>${esc(it.uz)}</h2></div>`));
+    if (reverse) card.append(h(`<div><div class="small muted">Say it in German:</div><h2>${esc(it.en)}</h2></div>`));
     else {
       card.append(h(`<div class="big de">${de(it.de)}</div>`));
       const pr = h(`<div class="row center"></div>`); pr.append(playBtn(it.de)); card.append(pr);
@@ -556,12 +561,12 @@ function renderReview({ mode, then, limit = 20, arg }) {
     }
     const ans = h(`<div class="answer" hidden></div>`);
     if (reverse) { ans.append(h(`<div class="big de">${de(it.de)}</div>`)); const pr = h(`<div class="row center"></div>`); pr.append(playBtn(it.de)); ans.append(pr); }
-    else ans.append(h(`<div><b>${esc(it.uz)}</b>${it.en ? `<div class="small muted">${esc(it.en)}</div>` : ""}</div>`));
-    if (it.plural) ans.append(h(`<div class="small">koʻplik: <span class="de">${de(it.plural)}</span></div>`));
+    else ans.append(h(`<div><b>${esc(it.en)}</b></div>`));
+    if (it.plural) ans.append(h(`<div class="small">plural: <span class="de">${de(it.plural)}</span></div>`));
     card.append(ans);
     box.append(card);
-    const showBtn = h(`<button class="btn" type="button">Javobni koʻrsatish</button>`);
-    const grades = h(`<div class="grade" hidden><button class="btn g0" type="button" data-g="0">Unutdim</button><button class="btn ghost" type="button" data-g="1">Qiyin</button><button class="btn" type="button" data-g="2">Esladim</button></div>`);
+    const showBtn = h(`<button class="btn" type="button">Show answer</button>`);
+    const grades = h(`<div class="grade" hidden><button class="btn g0" type="button" data-g="0">Forgot</button><button class="btn ghost" type="button" data-g="1">Hard</button><button class="btn" type="button" data-g="2">Got it</button></div>`);
     showBtn.addEventListener("click", () => { ans.hidden = false; card.classList.add("flip"); showBtn.hidden = true; grades.hidden = false; if (reverse) speak(it.de); });
     grades.querySelectorAll("button").forEach(b => b.addEventListener("click", () => {
       const g = Number(b.dataset.g);
@@ -581,33 +586,33 @@ function renderProgress() {
   const w = plan.weekly();
   const e = plan.eta(course);
   const cur = plan.currentStage(course);
-  const el = h(`<div class="wrap"><div class="pagehead enter"><h1>Natijalar</h1></div></div>`);
+  const el = h(`<div class="wrap"><div class="pagehead enter"><h1>Progress</h1></div></div>`);
 
   const stages = h(`<div class="stages enter"></div>`);
   course.stages.forEach(stg => {
     const pr = plan.stageProgress(course, stg.n);
     stages.append(h(`<a href="#/path" class="stage ${stg.n === cur ? "now" : pr.done === pr.total ? "done" : ""}"><span class="e">${pr.done === pr.total ? "✓" : stg.pic}</span><b>${stg.n + 1}</b><i><u style="width:${Math.round((pr.done / pr.total) * 100)}%"></u></i></a>`));
   });
-  el.append(h(`<div class="sec"><h3>${cur + 1}-bosqich · ${esc(course.stages[cur].title)}</h3><a href="#/path">Xarita ›</a></div>`), stages);
+  el.append(h(`<div class="sec"><h3>${stageName(cur)} · ${esc(course.stages[cur].title)}</h3><a href="#/path">Map ›</a></div>`), stages);
 
-  el.append(h(`<section class="eta enter"><div class="k">A1 darajasini taxminan tugatish sanasi</div><div class="when de">${uzMonthYear(e.date)}</div>
-    <p class="small">${e.sessionsLeft} ta mashgʻulot qoldi · haftasiga ~${e.perWeek.toFixed(1).replace(".0", "")} ta ${e.measured ? "(sizning haqiqiy tezligingiz)" : "(rejadagi kunlar boʻyicha)"}</p></section>`));
+  el.append(h(`<section class="eta enter"><div class="k">Estimated A1 finish date</div><div class="when de">${enMonthYear(e.date)}</div>
+    <p class="small">${e.sessionsLeft} sessions to go · about ${e.perWeek.toFixed(1).replace(".0", "")} a week ${e.measured ? "(your real pace)" : "(based on your planned days)"}</p></section>`));
 
   const hrs = Math.floor(s.minutes / 60), mins = Math.round(s.minutes % 60);
   el.append(h(`<div class="stats enter">
-    <div class="stat"><b>${hrs ? `${hrs} soat ${mins} daq` : `${mins} daq`}</b><span>jami vaqt</span></div>
-    <div class="stat"><b>${w.streak ? `${w.streak}🔥` : `${w.thisWeek}/${w.target}`}</b><span>${w.streak ? "hafta ketma-ket" : "bu hafta"}</span></div>
-    <div class="stat"><b>${st.learned}</b><span>yaxshi esda</span></div></div>`));
+    <div class="stat"><b>${hrs ? `${hrs} h ${mins} min` : `${mins} min`}</b><span>total time</span></div>
+    <div class="stat"><b>${w.streak ? `${w.streak}🔥` : `${w.thisWeek}/${w.target}`}</b><span>${w.streak ? "weeks in a row" : "this week"}</span></div>
+    <div class="stat"><b>${st.learned}</b><span>well remembered</span></div></div>`));
 
   const max = Math.max(1, ...Object.values(s.skills));
-  el.append(h(`<div class="sec"><h3>Koʻnikmalar</h3></div>`));
-  el.append(h(`<div class="panel skills enter">${["listen", "speak", "read", "write"].map(k => `<div class="sk"><span>${{ listen: "🎧", speak: "🗣️", read: "📖", write: "✍️" }[k]} ${SKILL_LABEL[k]}</span><i><u style="width:${Math.round(((s.skills[k] || 0) / max) * 100)}%"></u></i><b>${s.skills[k] || 0}</b></div>`).join("")}<p class="small muted">Bajarilgan mashqlar soni.</p></div>`));
+  el.append(h(`<div class="sec"><h3>Skills</h3></div>`));
+  el.append(h(`<div class="panel skills enter">${["listen", "speak", "read", "write"].map(k => `<div class="sk"><span>${{ listen: "🎧", speak: "🗣️", read: "📖", write: "✍️" }[k]} ${SKILL_LABEL[k]}</span><i><u style="width:${Math.round(((s.skills[k] || 0) / max) * 100)}%"></u></i><b>${s.skills[k] || 0}</b></div>`).join("")}<p class="small muted">Number of exercises completed.</p></div>`));
 
   const errs = Object.entries(s.errors).sort((a, b) => b[1] - a[1]).slice(0, 4);
-  el.append(h(`<div class="sec"><h3>Eng koʻp xatolar</h3></div>`));
+  el.append(h(`<div class="sec"><h3>Most common mistakes</h3></div>`));
   el.append(errs.length
-    ? h(`<div class="panel enter">${errs.map(([t, n]) => `<div class="err"><span>${esc(plan.TAGS[t] || t)}</span><span class="chip">${n}</span></div>`).join("")}<p class="small muted">Takrorlash shu mavzularga koʻproq eʼtibor beradi.</p></div>`)
-    : h(`<div class="panel enter muted">Hali xatolar yoʻq.</div>`));
+    ? h(`<div class="panel enter">${errs.map(([t, n]) => `<div class="err"><span>${esc(plan.TAGS[t] || t)}</span><span class="chip">${n}</span></div>`).join("")}<p class="small muted">Reviews focus more on these.</p></div>`)
+    : h(`<div class="panel enter muted">No mistakes yet.</div>`));
   view.append(el);
 }
 
@@ -615,25 +620,26 @@ function renderProgress() {
 function renderSettings() {
   const s = store.get();
   const p = s.profile;
-  const el = h(`<div class="wrap"><div class="pagehead enter"><h1>Sozlamalar</h1></div>
-    <div class="sec"><h3>Profil</h3></div>
-    <a class="rowcard" href="#/onboard/1"><span class="ico">🙋</span><span><b>${esc(p.name)}</b><small>${esc(jobOf(p)?.uz || "")} · ${esc(p.city?.uz || "")}</small></span><span class="go">Tahrirlash ›</span></a>
-    <div class="sec"><h3>Koʻrinish</h3></div><div class="panel tp"></div>
-    <div class="sec"><h3>Ovoz</h3></div>
+  const j = jobOf(p);
+  const el = h(`<div class="wrap"><div class="pagehead enter"><h1>Settings</h1></div>
+    <div class="sec"><h3>Profile</h3></div>
+    <a class="rowcard" href="#/onboard/1"><span class="ico">🙋</span><span><b>${esc(p.name)}</b><small>${esc(j ? jobLabel(j) : "")} · ${esc(p.city?.en || p.city?.de || "")}</small></span><span class="go">Edit ›</span></a>
+    <div class="sec"><h3>Appearance</h3></div><div class="panel tp"></div>
+    <div class="sec"><h3>Voice</h3></div>
     <div class="panel">
-      <label class="setting"><span>Tezlik</span><select class="field" data-k="rate">${[0.8, 0.9, 1].map(v => `<option value="${v}" ${Number(s.settings.rate) === v ? "selected" : ""}>${v === 1 ? "Oddiy" : v + "×"}</option>`).join("")}</select></label>
-      <label class="setting"><span>Qurilma ovozi</span><select class="field" data-k="voiceURI"></select></label>
-      <p class="small muted">Asosiy ovoz — tayyor audio yozuvlar. Ular yoʻq joyda iPhone ovozi ishlatiladi. Nemischa ovoz boʻlmasa: Settings → Accessibility → Spoken Content → Voices → German (masalan, Anna).</p>
+      <label class="setting"><span>Speed</span><select class="field" data-k="rate">${[0.8, 0.9, 1].map(v => `<option value="${v}" ${Number(s.settings.rate) === v ? "selected" : ""}>${v === 1 ? "Normal" : v + "×"}</option>`).join("")}</select></label>
+      <label class="setting"><span>Device voice</span><select class="field" data-k="voiceURI"></select></label>
+      <p class="small muted">The app plays recorded audio where it exists and the iPhone's German voice everywhere else. For a better voice: Settings → Accessibility → Spoken Content → Voices → German → Anna (Enhanced).</p>
     </div>
-    <div class="sec"><h3>Xato haqida xabarlar</h3></div><div class="panel reports"></div>
-    <div class="sec"><h3>Zaxira nusxa</h3></div>
-    <div class="panel"><p class="small muted">Natijalar faqat shu telefonda saqlanadi va iOS ularni oʻchirib yuborishi mumkin. Vaqti-vaqti bilan faylga saqlang (Fayllar / iCloud).</p>
-      <div class="row"><button class="btn ghost" type="button" data-export>Faylga saqlash</button><label class="btn ghost">Fayldan tiklash<input type="file" accept="application/json,.json" data-import hidden></label></div></div>
-    <div class="panel"><button class="btn danger" type="button" data-reset>Barcha natijalarni oʻchirish</button></div>
-    <p class="small muted about">Versiya ${APP_VERSION}. Videolar: YourGermanTeacher va Max Yoko kanallari — ilova ularni faqat joylashtiradi (YouTube). Rasmlar: emoji.</p></div>`);
+    <div class="sec"><h3>Reported mistakes</h3></div><div class="panel reports"></div>
+    <div class="sec"><h3>Backup</h3></div>
+    <div class="panel"><p class="small muted">Your progress is stored only on this phone, and iOS may delete it. Save a backup file from time to time (Files / iCloud).</p>
+      <div class="row"><button class="btn ghost" type="button" data-export>Save backup</button><label class="btn ghost">Restore from file<input type="file" accept="application/json,.json" data-import hidden></label></div></div>
+    <div class="panel"><button class="btn danger" type="button" data-reset>Delete all progress</button></div>
+    <p class="small muted about">Version ${APP_VERSION}. Videos: YourGermanTeacher and Max Yoko — the app only embeds them from YouTube. Pictures: emoji.</p></div>`);
   el.querySelector(".tp").append(themePicker());
   const vs = el.querySelector('[data-k="voiceURI"]');
-  const fill = () => { const list = germanVoices(); vs.innerHTML = `<option value="">Avtomatik</option>` + list.map(v => `<option value="${esc(v.voiceURI)}" ${v.voiceURI === s.settings.voiceURI ? "selected" : ""}>${esc(v.name)}</option>`).join(""); };
+  const fill = () => { const list = germanVoices(); vs.innerHTML = `<option value="">Automatic</option>` + list.map(v => `<option value="${esc(v.voiceURI)}" ${v.voiceURI === s.settings.voiceURI ? "selected" : ""}>${esc(v.name)}</option>`).join(""); };
   fill(); setTimeout(fill, 700);
   el.querySelectorAll("[data-k]").forEach(inp => inp.addEventListener("change", () => {
     const k = inp.dataset.k;
@@ -641,29 +647,29 @@ function renderSettings() {
     speak("Guten Tag! Wie geht es Ihnen?");
   }));
   const rep = el.querySelector(".reports");
-  if (!s.reports.length) rep.append(h(`<p class="muted small">Hozircha yoʻq. Dars vaqtida ⚑ tugmasini bosing.</p>`));
+  if (!s.reports.length) rep.append(h(`<p class="muted small">Nothing yet. Tap ⚑ during a lesson to report something.</p>`));
   else {
     s.reports.slice().reverse().forEach(r => rep.append(h(`<div class="rep"><div class="small muted">${esc(r.where)}</div><div>${esc(r.text)}</div></div>`)));
-    const cp = h(`<button class="btn" type="button">Hammasini nusxalash</button>`);
-    cp.addEventListener("click", async () => toast((await copyText("German app — content reports:\n\n" + s.reports.map((r, i) => `${i + 1}. [${r.where}] ${r.text}`).join("\n"))) ? "Nusxalandi." : "Nusxalab boʻlmadi."));
-    const clr = h(`<button class="btn ghost" type="button">Roʻyxatni tozalash</button>`);
+    const cp = h(`<button class="btn" type="button">Copy all</button>`);
+    cp.addEventListener("click", async () => toast((await copyText("German app — content reports:\n\n" + s.reports.map((r, i) => `${i + 1}. [${r.where}] ${r.text}`).join("\n"))) ? "Copied." : "Couldn't copy."));
+    const clr = h(`<button class="btn ghost" type="button">Clear list</button>`);
     clr.addEventListener("click", () => { s.reports = []; store.save(); route(); });
     rep.append(h(`<div class="row"></div>`)); rep.lastChild.append(cp, clr);
   }
   el.querySelector("[data-export]").addEventListener("click", () => {
     const blob = new Blob([store.exportJSON()], { type: "application/json" });
     const a = document.createElement("a");
-    a.href = URL.createObjectURL(blob); a.download = `nemis-tili-zaxira-${store.dayKey()}.json`;
+    a.href = URL.createObjectURL(blob); a.download = `german-backup-${store.dayKey()}.json`;
     document.body.append(a); a.click(); a.remove();
     setTimeout(() => URL.revokeObjectURL(a.href), 2000);
   });
   el.querySelector("[data-import]").addEventListener("change", async e => {
     const f = e.target.files?.[0]; if (!f) return;
-    try { store.importJSON(await f.text()); applyTheme(); toast("Tiklandi."); route(); }
-    catch (err) { toast("Bu fayl zaxira nusxaga oʻxshamaydi."); }
+    try { store.importJSON(await f.text()); migrateProfile(); applyTheme(); toast("Restored."); route(); }
+    catch (err) { toast("This file doesn't look like a backup."); }
   });
   el.querySelector("[data-reset]").addEventListener("click", () => {
-    const box = h(`<div><h3>Hammasini oʻchirasizmi?</h3><p>Profil, natijalar va kartalar oʻchiriladi. Buni qaytarib boʻlmaydi (agar zaxira nusxa boʻlmasa).</p><div class="row end"><button class="btn ghost" type="button" data-c>Bekor qilish</button><button class="btn danger" type="button" data-y>Oʻchirish</button></div></div>`);
+    const box = h(`<div><h3>Delete everything?</h3><p>Your profile, progress and review cards will be deleted. This can't be undone unless you have a backup file.</p><div class="row end"><button class="btn ghost" type="button" data-c>Cancel</button><button class="btn danger" type="button" data-y>Delete</button></div></div>`);
     const close = modal(box);
     box.querySelector("[data-c]").addEventListener("click", close);
     box.querySelector("[data-y]").addEventListener("click", () => { store.resetAll(); close(); applyTheme(); location.hash = "#/onboard"; });

@@ -1,7 +1,7 @@
 # Nemis tili A1
 
 Personal PWA for learning German from zero (A1, communication-focused) for one Uzbek-speaking learner on iPhone.
-UI and translations in Uzbek (Latin), grammar notes in English, content in German.
+UI, translations and grammar notes in English (the learner prefers learning German through English), content in German.
 
 Live: https://mitsubachi888.github.io/germanlearning/
 

@@ -1,10 +1,9 @@
 {
  "id": "d04",
- "title": "Sie yoki du",
+ "title": "Sie or du?",
  "items": {
   "w.du": {
    "de": "du",
-   "uz": "sen",
    "en": "you (informal)",
    "ipa": "duː",
    "pic": "🧑‍🤝‍🧑",
@@ -14,7 +13,6 @@
   },
   "w.sie_formal": {
    "de": "Sie",
-   "uz": "Siz (hurmat bilan)",
    "en": "you (formal)",
    "ipa": "ziː",
    "pic": "🤵",
@@ -25,7 +23,6 @@
   },
   "p.wie_heisst_du": {
    "de": "Wie heißt du?",
-   "uz": "Isming nima?",
    "en": "What's your name? (informal)",
    "ipa": "viː ˈhaɪ̯st duː",
    "pic": "🧒",
@@ -35,7 +32,6 @@
   },
   "p.wie_heissen_sie": {
    "de": "Wie heißen Sie?",
-   "uz": "Ismingiz nima?",
    "en": "What's your name? (formal)",
    "ipa": "viː ˈhaɪ̯sn̩ ziː",
    "pic": "🤵",
@@ -45,7 +41,6 @@
   },
   "p.woher_kommst_du": {
    "de": "Woher kommst du?",
-   "uz": "Qayerdansan?",
    "en": "Where are you from? (informal)",
    "ipa": "voˈheːɐ̯ ˈkɔmst duː",
    "pic": "🌍",
@@ -55,7 +50,6 @@
   },
   "p.woher_kommen_sie": {
    "de": "Woher kommen Sie?",
-   "uz": "Qayerdansiz?",
    "en": "Where are you from? (formal)",
    "ipa": "voˈheːɐ̯ ˈkɔmən ziː",
    "pic": "🌍",
@@ -65,7 +59,6 @@
   },
   "p.wo_wohnst_du": {
    "de": "Wo wohnst du?",
-   "uz": "Qayerda yashaysan?",
    "en": "Where do you live? (informal)",
    "ipa": "voː ˈvoːnst duː",
    "pic": "🏠",
@@ -75,7 +68,6 @@
   },
   "p.wo_wohnen_sie": {
    "de": "Wo wohnen Sie?",
-   "uz": "Qayerda yashaysiz?",
    "en": "Where do you live? (formal)",
    "ipa": "voː ˈvoːnən ziː",
    "pic": "🏠",
@@ -85,7 +77,6 @@
   },
   "p.wie_geht_es_ihnen": {
    "de": "Wie geht es Ihnen?",
-   "uz": "Ahvolingiz qanday?",
    "en": "How are you? (formal)",
    "ipa": "viː ˈɡeːt ɛs ˈiːnən",
    "pic": "🙂",
@@ -95,7 +86,6 @@
   },
   "p.und_ihnen": {
    "de": "Danke, gut. Und Ihnen?",
-   "uz": "Rahmat, yaxshi. Oʻzingizchi?",
    "en": "Fine, thanks. And you? (formal)",
    "ipa": "ˈdaŋkə ɡuːt ʊnt ˈiːnən",
    "pic": "😊",
@@ -105,7 +95,6 @@
   },
   "p.auch_gut": {
    "de": "Auch gut, danke.",
-   "uz": "Men ham yaxshiman, rahmat.",
    "en": "Fine too, thanks.",
    "ipa": "aʊ̯x ɡuːt ˈdaŋkə",
    "pic": "👍",
@@ -115,7 +104,6 @@
   },
   "p.guten_tag_frau": {
    "de": "Guten Tag, Frau Weber!",
-   "uz": "Assalomu alaykum, Veber xonim!",
    "en": "Good day, Mrs Weber!",
    "ipa": "ˈɡuːtn̩ taːk fʁaʊ̯ ˈveːbɐ",
    "pic": "👩",
@@ -126,7 +114,6 @@
   },
   "p.guten_tag_herr": {
    "de": "Guten Tag, Herr Weber!",
-   "uz": "Assalomu alaykum, janob Veber!",
    "en": "Good day, Mr Weber!",
    "ipa": "ˈɡuːtn̩ taːk hɛʁ ˈveːbɐ",
    "pic": "👨",
@@ -136,7 +123,6 @@
   },
   "p.ich_heisse_monika": {
    "de": "Ich heiße Monika Weber.",
-   "uz": "Mening ismim Monika Veber.",
    "en": "My name is Monika Weber.",
    "pic": "👩",
    "tags": [
@@ -146,7 +132,6 @@
   },
   "p.duzen": {
    "de": "Wollen wir uns duzen?",
-   "uz": "Bir-birimizga „sen“ deb murojaat qilaylikmi?",
    "en": "Shall we say “du” to each other?",
    "ipa": "ˈvɔlən viːɐ̯ ʊns ˈduːtsn̩",
    "pic": "🤝",
@@ -157,7 +142,6 @@
   },
   "p.ja_gern": {
    "de": "Ja, gern!",
-   "uz": "Ha, mamnuniyat bilan!",
    "en": "Yes, gladly!",
    "ipa": "jaː ɡɛʁn",
    "pic": "😄",
@@ -167,7 +151,6 @@
   },
   "p.ich_bin_monika": {
    "de": "Ich bin Monika.",
-   "uz": "Men Monikaman.",
    "en": "I'm Monika.",
    "ipa": "ɪç bɪn ˈmoːnika",
    "pic": "👩",
@@ -177,7 +160,6 @@
   },
   "p.freut_mich": {
    "de": "Freut mich!",
-   "uz": "Tanishganimdan xursandman!",
    "en": "Nice to meet you!",
    "ipa": "fʁɔɪ̯t mɪç",
    "pic": "🤗",
@@ -189,7 +171,6 @@
    "de": "die Frau",
    "plural": "die Frauen",
    "gender": "die",
-   "uz": "ayol; xonim",
    "en": "woman; Mrs / Ms",
    "pic": "👩",
    "tags": [
@@ -201,7 +182,6 @@
    "de": "der Herr",
    "plural": "die Herren",
    "gender": "der",
-   "uz": "janob",
    "en": "gentleman; Mr",
    "pic": "👨",
    "tags": [
@@ -211,7 +191,6 @@
   },
   "p.danke_gut_und_dir": {
    "de": "Danke, gut. Und dir?",
-   "uz": "Rahmat, yaxshi. Oʻzingchi?",
    "en": "Fine, thanks. And you? (informal)",
    "ipa": "ˈdaŋkə ɡuːt ʊnt diːɐ̯",
    "pic": "😊",
@@ -223,7 +202,7 @@
  "sessions": [
   {
    "id": "A",
-   "title": "Kimga „du“, kimga „Sie“?",
+   "title": "Who gets du, who gets Sie?",
    "said": [
     "p.wie_geht_es_ihnen",
     "p.wie_heissen_sie",
@@ -235,7 +214,7 @@
    "steps": [
     {
      "type": "video",
-     "title": "Video: rasmiy va norasmiy murojaat",
+     "title": "Video: formal vs informal",
      "videoId": "uEZev5K9TDI",
      "channel": "YourGermanTeacher (Luzi)",
      "start": 20,
@@ -249,10 +228,10 @@
     },
     {
      "type": "quiz",
-     "title": "du yoki Sie?",
+     "title": "du or Sie?",
      "questions": [
       {
-       "prompt": "Yaqin doʻstingiz",
+       "prompt": "Your close friend",
        "options": [
         "du",
         "Sie"
@@ -262,7 +241,7 @@
        "tag": "verb"
       },
       {
-       "prompt": "Doʻkondagi sotuvchi",
+       "prompt": "A shop assistant",
        "options": [
         "Sie",
         "du"
@@ -273,7 +252,7 @@
        "explain": "Shopping is normally formal (Sie)."
       },
       {
-       "prompt": "Ishxonadagi boshligʻingiz",
+       "prompt": "Your boss at work",
        "options": [
         "Sie",
         "du"
@@ -283,7 +262,7 @@
        "tag": "verb"
       },
       {
-       "prompt": "5 yoshli bola",
+       "prompt": "A 5-year-old child",
        "options": [
         "du",
         "Sie"
@@ -293,7 +272,7 @@
        "tag": "verb"
       },
       {
-       "prompt": "Restorandagi ofitsiant",
+       "prompt": "A waiter in a restaurant",
        "options": [
         "Sie",
         "du"
@@ -303,7 +282,7 @@
        "tag": "verb"
       },
       {
-       "prompt": "Opangiz yoki singlingiz",
+       "prompt": "Your sister",
        "options": [
         "du",
         "Sie"
@@ -313,7 +292,7 @@
        "tag": "verb"
       },
       {
-       "prompt": "Koʻchada yoʻl soʻragan notanish keksa odam",
+       "prompt": "An older stranger asking you the way",
        "options": [
         "Sie",
         "du"
@@ -326,8 +305,8 @@
     },
     {
      "type": "phrases",
-     "title": "Norasmiy va rasmiy",
-     "intro": "Juft-juft oʻrganing: yuqorida „du“, pastda „Sie“.",
+     "title": "Informal and formal",
+     "intro": "Learn them in pairs: the du version first, then the Sie version.",
      "items": [
       "w.du",
       "w.sie_formal",
@@ -344,7 +323,7 @@
     },
     {
      "type": "quiz",
-     "title": "Feʼlni tanlang",
+     "title": "Choose the verb",
      "questions": [
       {
        "prompt": "Wo ___ du?",
@@ -382,10 +361,10 @@
        "tag": "verb"
       },
       {
-       "prompt": "Gap oʻrtasida kichik harf bilan yozilgan {de:sie} nimani anglatadi?",
+       "prompt": "What does a small {de:sie} in the middle of a sentence mean?",
        "options": [
-        "u (ayol) yoki ular",
-        "Siz (hurmat)"
+        "she or they",
+        "you (formal)"
        ],
        "answer": 0,
        "tag": "verb"
@@ -394,7 +373,7 @@
     },
     {
      "type": "phrases",
-     "title": "Tanishuv va „du“ga oʻtish",
+     "title": "Meeting someone & switching to du",
      "items": [
       "p.guten_tag_frau",
       "p.guten_tag_herr",
@@ -409,20 +388,20 @@
     },
     {
      "type": "roleplay",
-     "title": "Rolli oʻyin: yangi qoʻshni",
-     "intro": "Siz yangi uyga koʻchdingiz. Keksa qoʻshni Monika Veber bilan tanishasiz. Avval „Sie“, keyin u „du“ni taklif qiladi.",
+     "title": "Role-play: the new neighbour",
+     "intro": "You've just moved in and meet your older neighbour, Monika Weber. First you use Sie — then she offers du.",
      "lines": [
       {
        "who": "A",
        "name": "Monika Weber",
        "de": "Guten Tag!",
-       "uz": "Assalomu alaykum!"
+       "en": "Good day!"
       },
       {
        "who": "B",
-       "name": "Siz",
+       "name": "You",
        "de": "Guten Tag!",
-       "uz": "Assalomu alaykum!"
+       "en": "Good day!"
       },
       {
        "who": "A",
@@ -431,7 +410,7 @@
       },
       {
        "who": "B",
-       "name": "Siz",
+       "name": "You",
        "item": "p.und_ihnen"
       },
       {
@@ -446,7 +425,7 @@
       },
       {
        "who": "B",
-       "name": "Siz",
+       "name": "You",
        "item": "me.name"
       },
       {
@@ -456,7 +435,7 @@
       },
       {
        "who": "B",
-       "name": "Siz",
+       "name": "You",
        "item": "p.freut_mich"
       },
       {
@@ -466,7 +445,7 @@
       },
       {
        "who": "B",
-       "name": "Siz",
+       "name": "You",
        "item": "p.ja_gern"
       },
       {
@@ -481,22 +460,22 @@
       },
       {
        "who": "B",
-       "name": "Siz",
+       "name": "You",
        "item": "me.from"
       }
      ]
     },
     {
      "type": "build",
-     "title": "Gap tuzing",
+     "title": "Build the sentence",
      "questions": [
       {
-       "uz": "Qayerda yashaysiz? (rasmiy)",
+       "en": "Where do you live? (formal)",
        "answer": "Wo wohnen Sie?",
        "tag": "verb"
       },
       {
-       "uz": "Qayerdansan? (norasmiy)",
+       "en": "Where are you from? (informal)",
        "answer": "Woher kommst du?",
        "extra": [
         "kommen"
@@ -504,11 +483,11 @@
        "tag": "verb"
       },
       {
-       "uz": "Ahvolingiz qanday?",
+       "en": "How are you? (formal)",
        "answer": "Wie geht es Ihnen?"
       },
       {
-       "uz": "Bir-birimizga „sen“ deb murojaat qilaylikmi?",
+       "en": "Shall we say du to each other?",
        "answer": "Wollen wir uns duzen?",
        "tag": "order"
       }
@@ -516,7 +495,7 @@
     },
     {
      "type": "type",
-     "title": "Tinglang va yozing",
+     "title": "Listen and type",
      "questions": [
       {
        "item": "p.wie_heisst_du",
@@ -534,15 +513,15 @@
     },
     {
      "type": "write",
-     "title": "Qisqa yozish",
-     "prompt": "Yangi qoʻshningizga („Sie“ bilan) salom bering va 2 ta savol yozing.",
+     "title": "Short writing",
+     "prompt": "Greet your new neighbour formally (Sie) and write two questions.",
      "promptEn": "Greet a new older neighbour formally (Sie) and write two questions to them.",
      "hint": "Guten Tag! Wie heißen Sie? Woher kommen Sie? Wo wohnen Sie?",
      "minWords": 6,
      "checklist": [
-      "„Sie“ ni bosh harf bilan yozdim",
-      "Feʼl -en bilan tugaydi (heißen, kommen, wohnen)",
-      "Savol belgisi (?) qoʻydim"
+      "I wrote Sie with a capital S",
+      "The verb ends in -en (heißen, kommen, wohnen)",
+      "I used question marks (?)"
      ],
      "model": "Guten Tag! Wie geht es Ihnen? Wie heißen Sie? Woher kommen Sie?"
     }

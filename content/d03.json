@@ -1,10 +1,9 @@
 {
  "id": "d03",
- "title": "Talaffuz",
+ "title": "Pronunciation",
  "items": {
   "v.lieben": {
    "de": "lieben",
-   "uz": "sevmoq",
    "en": "to love",
    "ipa": "ˈliːbn̩",
    "pic": "❤️",
@@ -16,7 +15,6 @@
    "de": "das Bier",
    "plural": "die Biere",
    "gender": "das",
-   "uz": "pivo",
    "en": "beer",
    "ipa": "biːɐ̯",
    "pic": "🍺",
@@ -27,7 +25,6 @@
   },
   "v.heissen": {
    "de": "heißen",
-   "uz": "atalmoq (ismi … boʻlmoq)",
    "en": "to be called",
    "ipa": "ˈhaɪ̯sn̩",
    "pic": "🏷️",
@@ -37,7 +34,6 @@
   },
   "a.klein": {
    "de": "klein",
-   "uz": "kichik",
    "en": "small",
    "ipa": "klaɪ̯n",
    "pic": "🐜",
@@ -47,7 +43,6 @@
   },
   "a.laut": {
    "de": "laut",
-   "uz": "baland (ovoz)",
    "en": "loud",
    "ipa": "laʊ̯t",
    "pic": "📢",
@@ -59,7 +54,6 @@
    "de": "das Auto",
    "plural": "die Autos",
    "gender": "das",
-   "uz": "mashina",
    "en": "car",
    "ipa": "ˈaʊ̯to",
    "pic": "🚗",
@@ -70,7 +64,6 @@
   },
   "a.teuer": {
    "de": "teuer",
-   "uz": "qimmat",
    "en": "expensive",
    "ipa": "ˈtɔɪ̯ɐ",
    "pic": "💰",
@@ -80,7 +73,6 @@
   },
   "w.heute": {
    "de": "heute",
-   "uz": "bugun",
    "en": "today",
    "ipa": "ˈhɔɪ̯tə",
    "pic": "📅",
@@ -92,7 +84,6 @@
    "de": "der Baum",
    "plural": "die Bäume",
    "gender": "der",
-   "uz": "daraxt",
    "en": "tree",
    "ipa": "baʊ̯m",
    "pic": "🌳",
@@ -103,7 +94,6 @@
   },
   "v.fahren": {
    "de": "fahren",
-   "uz": "(transportda) bormoq, haydamoq",
    "en": "to drive / to go (by vehicle)",
    "ipa": "ˈfaːʁən",
    "pic": "🚙",
@@ -113,7 +103,6 @@
   },
   "w.sehr": {
    "de": "sehr",
-   "uz": "juda",
    "en": "very",
    "ipa": "zeːɐ̯",
    "pic": "➕",
@@ -125,7 +114,6 @@
    "de": "der Stuhl",
    "plural": "die Stühle",
    "gender": "der",
-   "uz": "stul",
    "en": "chair",
    "ipa": "ʃtuːl",
    "pic": "🪑",
@@ -138,7 +126,6 @@
    "de": "das Haar",
    "plural": "die Haare",
    "gender": "das",
-   "uz": "soch",
    "en": "hair",
    "ipa": "haːɐ̯",
    "pic": "💇",
@@ -149,7 +136,6 @@
   },
   "a.leer": {
    "de": "leer",
-   "uz": "boʻsh",
    "en": "empty",
    "ipa": "leːɐ̯",
    "pic": "🫙",
@@ -159,7 +145,6 @@
   },
   "a.offen": {
    "de": "offen",
-   "uz": "ochiq",
    "en": "open",
    "ipa": "ˈɔfn̩",
    "pic": "🔓",
@@ -170,7 +155,6 @@
   "n.wasser": {
    "de": "das Wasser",
    "gender": "das",
-   "uz": "suv",
    "en": "water",
    "ipa": "ˈvasɐ",
    "pic": "💧",
@@ -182,7 +166,6 @@
   },
   "p.komme": {
    "de": "Ich komme aus Deutschland.",
-   "uz": "Men Germaniyadanman.",
    "en": "I'm from Germany.",
    "ipa": "ɪç ˈkɔmə aʊ̯s ˈdɔɪ̯tʃlant",
    "pic": "🇩🇪",
@@ -192,7 +175,6 @@
   },
   "v.schreiben": {
    "de": "schreiben",
-   "uz": "yozmoq",
    "en": "to write",
    "ipa": "ˈʃʁaɪ̯bn̩",
    "pic": "✍️",
@@ -202,7 +184,6 @@
   },
   "a.schoen": {
    "de": "schön",
-   "uz": "chiroyli",
    "en": "beautiful, nice",
    "ipa": "ʃøːn",
    "pic": "🌸",
@@ -212,7 +193,6 @@
   },
   "v.machen": {
    "de": "machen",
-   "uz": "qilmoq",
    "en": "to do, to make",
    "ipa": "ˈmaxn̩",
    "pic": "🛠️",
@@ -224,7 +204,6 @@
    "de": "das Buch",
    "plural": "die Bücher",
    "gender": "das",
-   "uz": "kitob",
    "en": "book",
    "ipa": "buːx",
    "pic": "📖",
@@ -235,7 +214,6 @@
   },
   "w.ich": {
    "de": "ich",
-   "uz": "men",
    "en": "I",
    "ipa": "ɪç",
    "pic": "🙋",
@@ -245,7 +223,6 @@
   },
   "v.rechnen": {
    "de": "rechnen",
-   "uz": "hisoblamoq",
    "en": "to calculate",
    "ipa": "ˈʁɛçnən",
    "pic": "🧮",
@@ -255,7 +232,6 @@
   },
   "v.backen": {
    "de": "backen",
-   "uz": "pishirmoq (non, pirog)",
    "en": "to bake",
    "ipa": "ˈbakn̩",
    "pic": "🥐",
@@ -267,7 +243,6 @@
    "de": "der Drucker",
    "plural": "die Drucker",
    "gender": "der",
-   "uz": "printer",
    "en": "printer",
    "ipa": "ˈdʁʊkɐ",
    "pic": "🖨️",
@@ -278,7 +253,6 @@
   },
   "p.spreche": {
    "de": "Ich spreche Deutsch.",
-   "uz": "Men nemischa gapiraman.",
    "en": "I speak German.",
    "ipa": "ɪç ˈʃpʁɛçə ˈdɔɪ̯tʃ",
    "pic": "🗣️",
@@ -288,7 +262,6 @@
   },
   "n.spanien": {
    "de": "Spanien",
-   "uz": "Ispaniya",
    "en": "Spain",
    "ipa": "ˈʃpaːni̯ən",
    "pic": "🇪🇸",
@@ -300,7 +273,6 @@
    "de": "das Beispiel",
    "plural": "die Beispiele",
    "gender": "das",
-   "uz": "misol",
    "en": "example",
    "ipa": "ˈbaɪ̯ʃpiːl",
    "pic": "💡",
@@ -312,7 +284,6 @@
   },
   "v.spielen": {
    "de": "spielen",
-   "uz": "oʻynamoq",
    "en": "to play",
    "ipa": "ˈʃpiːlən",
    "pic": "⚽",
@@ -322,7 +293,6 @@
   },
   "v.studieren": {
    "de": "studieren",
-   "uz": "(universitetda) oʻqimoq",
    "en": "to study (at university)",
    "ipa": "ʃtuˈdiːʁən",
    "pic": "🎓",
@@ -334,7 +304,6 @@
    "de": "die Straße",
    "plural": "die Straßen",
    "gender": "die",
-   "uz": "koʻcha",
    "en": "street",
    "ipa": "ˈʃtʁaːsə",
    "pic": "🛣️",
@@ -345,7 +314,6 @@
   },
   "v.aufstehen": {
    "de": "aufstehen",
-   "uz": "(oʻrnidan) turmoq",
    "en": "to get up",
    "ipa": "ˈaʊ̯fˌʃteːən",
    "pic": "⏰",
@@ -356,7 +324,6 @@
   "n.obst": {
    "de": "das Obst",
    "gender": "das",
-   "uz": "meva",
    "en": "fruit",
    "ipa": "oːpst",
    "pic": "🍇",
@@ -368,7 +335,6 @@
   },
   "v.kosten": {
    "de": "kosten",
-   "uz": "turmoq (narxi)",
    "en": "to cost",
    "ipa": "ˈkɔstn̩",
    "pic": "🏷️",
@@ -380,7 +346,6 @@
    "de": "die Frage",
    "plural": "die Fragen",
    "gender": "die",
-   "uz": "savol",
    "en": "question",
    "ipa": "ˈfʁaːɡə",
    "pic": "❓",
@@ -393,7 +358,6 @@
    "de": "die Lampe",
    "plural": "die Lampen",
    "gender": "die",
-   "uz": "chiroq",
    "en": "lamp",
    "ipa": "ˈlampə",
    "pic": "💡",
@@ -404,7 +368,6 @@
   },
   "a.besser": {
    "de": "besser",
-   "uz": "yaxshiroq",
    "en": "better",
    "ipa": "ˈbɛsɐ",
    "pic": "📈",
@@ -416,7 +379,6 @@
    "de": "der Vater",
    "plural": "die Väter",
    "gender": "der",
-   "uz": "ota",
    "en": "father",
    "ipa": "ˈfaːtɐ",
    "pic": "👨",
@@ -427,7 +389,6 @@
   },
   "a.richtig": {
    "de": "richtig",
-   "uz": "toʻgʻri",
    "en": "correct",
    "ipa": "ˈʁɪçtɪç",
    "pic": "✅",
@@ -439,7 +400,6 @@
    "de": "der König",
    "plural": "die Könige",
    "gender": "der",
-   "uz": "qirol",
    "en": "king",
    "ipa": "ˈkøːnɪç",
    "pic": "👑",
@@ -450,7 +410,6 @@
   },
   "w.vierzig": {
    "de": "vierzig",
-   "uz": "qirq",
    "en": "forty",
    "ipa": "ˈfɪʁtsɪç",
    "pic": "4️⃣",
@@ -462,7 +421,6 @@
    "de": "die Station",
    "plural": "die Stationen",
    "gender": "die",
-   "uz": "bekat, stansiya",
    "en": "station",
    "ipa": "ʃtaˈtsi̯oːn",
    "pic": "🚉",
@@ -473,7 +431,6 @@
   },
   "v.funktionieren": {
    "de": "funktionieren",
-   "uz": "ishlamoq (qurilma)",
    "en": "to work, to function",
    "ipa": "fʊŋktsi̯oˈniːʁən",
    "pic": "⚙️",
@@ -485,7 +442,6 @@
    "de": "der Apfel",
    "plural": "die Äpfel",
    "gender": "der",
-   "uz": "olma",
    "en": "apple",
    "ipa": "ˈapfl̩",
    "pic": "🍎",
@@ -498,7 +454,6 @@
    "de": "das Pferd",
    "plural": "die Pferde",
    "gender": "das",
-   "uz": "ot",
    "en": "horse",
    "ipa": "pfeːɐ̯t",
    "pic": "🐴",
@@ -509,7 +464,6 @@
   },
   "w.sechs": {
    "de": "sechs",
-   "uz": "olti",
    "en": "six",
    "ipa": "zɛks",
    "pic": "6️⃣",
@@ -521,7 +475,6 @@
    "de": "der Chef",
    "plural": "die Chefs",
    "gender": "der",
-   "uz": "boshliq",
    "en": "boss",
    "ipa": "ʃɛf",
    "pic": "👔",
@@ -547,7 +500,7 @@
    "steps": [
     {
      "type": "video",
-     "title": "Video: harf birikmalari (1-qism)",
+     "title": "Video: letter combinations (part 1)",
      "videoId": "nI77g2VWysE",
      "channel": "YourGermanTeacher (Johannes)",
      "start": 38,
@@ -556,7 +509,7 @@
     },
     {
      "type": "compare",
-     "title": "Birikmalar va ingliz tili",
+     "title": "Combinations vs English",
      "intro": "Compared with English only where the sound really matches.",
      "items": [
       {
@@ -623,8 +576,8 @@
     },
     {
      "type": "phrases",
-     "title": "Video soʻzlari",
-     "intro": "Tinglang va baland ovozda takrorlang.",
+     "title": "Words from the video",
+     "intro": "Listen and repeat out loud.",
      "items": [
       "v.lieben",
       "n.bier",
@@ -654,7 +607,7 @@
     },
     {
      "type": "quiz",
-     "title": "Qanday yoziladi?",
+     "title": "How is it spelled?",
      "questions": [
       {
        "kind": "listen",
@@ -736,7 +689,7 @@
     },
     {
      "type": "picquiz",
-     "title": "Tinglang va rasmni tanlang",
+     "title": "Listen and pick the picture",
      "questions": [
       {
        "item": "n.auto",
@@ -778,7 +731,7 @@
     },
     {
      "type": "shadow",
-     "title": "Tinglang va takrorlang",
+     "title": "Listen and repeat",
      "items": [
       "v.heissen",
       "p.komme",
@@ -790,7 +743,7 @@
     },
     {
      "type": "type",
-     "title": "Tinglang va yozing",
+     "title": "Listen and type",
      "questions": [
       {
        "item": "a.klein",
@@ -812,14 +765,14 @@
     },
     {
      "type": "write",
-     "title": "Qisqa yozish",
-     "prompt": "Bugun oʻrgangan 5 ta soʻzni yozing va har birini ovoz chiqarib ayting.",
+     "title": "Short writing",
+     "prompt": "Write 5 words from today's lesson and say each one out loud.",
      "promptEn": "Write 5 German words from today's lesson (ie, ei, au, eu, sch, ch). Check my spelling.",
      "minWords": 5,
      "checklist": [
-      "ie / ei ni toʻgʻri yozdim",
-      "Otlarni bosh harf bilan yozdim (Buch, Auto)",
-      "ö harfini tugma bilan yozdim"
+      "I spelled ie / ei correctly",
+      "Nouns start with a capital letter (Buch, Auto)",
+      "I typed ö with the button"
      ],
      "model": "klein · heute · schön · das Buch · das Auto"
     }
@@ -839,7 +792,7 @@
    "steps": [
     {
      "type": "video",
-     "title": "Video: harf birikmalari (2-qism)",
+     "title": "Video: letter combinations (part 2)",
      "videoId": "nI77g2VWysE",
      "channel": "YourGermanTeacher (Johannes)",
      "start": 417,
@@ -848,7 +801,7 @@
     },
     {
      "type": "compare",
-     "title": "Birikmalar va ingliz tili",
+     "title": "Combinations vs English",
      "items": [
       {
        "letter": "sp-",
@@ -902,7 +855,7 @@
     },
     {
      "type": "phrases",
-     "title": "Video soʻzlari",
+     "title": "Words from the video",
      "items": [
       "p.spreche",
       "n.spanien",
@@ -930,22 +883,22 @@
     },
     {
      "type": "quiz",
-     "title": "Toʻgʻri talaffuz",
+     "title": "Say it right",
      "questions": [
       {
-       "prompt": "{de:Straße} — qanday boshlanadi?",
+       "prompt": "{de:Straße} — how does it start?",
        "options": [
         "„scht…“",
-        "„st…“ (ingliz tilidagi kabi)"
+        "„st…“ (like English)"
        ],
        "answer": 0,
        "tag": "pron",
        "explain": "*st* at the start = *scht*."
       },
       {
-       "prompt": "{de:Obst} — oxiri qanday?",
+       "prompt": "{de:Obst} — how does it end?",
        "options": [
-        "„st“ (oddiy s + t)",
+        "„st“ (plain s + t)",
         "„scht“"
        ],
        "answer": 0,
@@ -953,28 +906,28 @@
        "explain": "*st* at the end of a word = normal *s* + *t*."
       },
       {
-       "prompt": "{de:die Frage} — oxiridagi *e* aytiladimi?",
+       "prompt": "{de:die Frage} — do you pronounce the final *e*?",
        "options": [
-        "Ha, qisqa „ə“",
-        "Yoʻq, aytilmaydi"
+        "Yes, a short „ə“",
+        "No, it's silent"
        ],
        "answer": 0,
        "tag": "pron"
       },
       {
-       "prompt": "{de:die Station} — *-tion* qanday?",
+       "prompt": "{de:die Station} — how do you say *-tion*?",
        "options": [
         "„tsion“",
-        "„shn“ (inglizcha kabi)"
+        "„shn“ (like English)"
        ],
        "answer": 0,
        "tag": "pron"
       },
       {
-       "prompt": "{de:der Chef} nimani anglatadi?",
+       "prompt": "What does {de:der Chef} mean?",
        "options": [
-        "boshliq",
-        "oshpaz"
+        "boss",
+        "cook"
        ],
        "answer": 0,
        "explain": "*der Chef* = boss (a cook is *der Koch*)."
@@ -983,16 +936,16 @@
     },
     {
      "type": "quiz",
-     "title": "Tinglang va tanlang",
+     "title": "Listen and choose",
      "questions": [
       {
        "kind": "listen",
        "say": "Ich spreche Deutsch.",
        "item": "p.spreche",
        "options": [
-        "Men nemischa gapiraman.",
-        "Men Germaniyadanman.",
-        "Men yozaman."
+        "I speak German.",
+        "I'm from Germany.",
+        "I write."
        ],
        "answer": 0,
        "tag": "pron"
@@ -1002,9 +955,9 @@
        "say": "richtig",
        "item": "a.richtig",
        "options": [
-        "toʻgʻri",
-        "yaxshiroq",
-        "qimmat"
+        "correct",
+        "better",
+        "expensive"
        ],
        "answer": 0,
        "tag": "pron"
@@ -1014,9 +967,9 @@
        "say": "der Apfel",
        "item": "n.apfel",
        "options": [
-        "olma",
-        "ot",
-        "ota"
+        "apple",
+        "horse",
+        "father"
        ],
        "answer": 0,
        "tag": "pron"
@@ -1026,9 +979,9 @@
        "say": "das Pferd",
        "item": "n.pferd",
        "options": [
-        "ot",
-        "olma",
-        "savol"
+        "horse",
+        "apple",
+        "question"
        ],
        "answer": 0,
        "tag": "pron"
@@ -1037,7 +990,7 @@
     },
     {
      "type": "shadow",
-     "title": "Tinglang va takrorlang",
+     "title": "Listen and repeat",
      "items": [
       "p.spreche",
       "v.studieren",
@@ -1050,7 +1003,7 @@
     },
     {
      "type": "type",
-     "title": "Tinglang va yozing",
+     "title": "Listen and type",
      "questions": [
       {
        "item": "v.spielen",
@@ -1072,14 +1025,14 @@
     },
     {
      "type": "write",
-     "title": "Qisqa yozish",
-     "prompt": "Shu jumlalarni koʻchirib yozing va baland ovozda oʻqing: Ich spreche Deutsch. Ich komme aus Usbekistan.",
+     "title": "Short writing",
+     "prompt": "Copy these sentences and read them out loud: Ich spreche Deutsch. Ich komme aus Usbekistan.",
      "promptEn": "Copy these sentences and read them aloud: Ich spreche Deutsch. Ich komme aus Usbekistan.",
      "minWords": 6,
      "checklist": [
-      "sp = „schp“ deb oʻqidim",
-      "Gap bosh harf bilan boshlanadi",
-      "Deutsch — bosh harf bilan"
+      "I read sp as „schp“",
+      "Each sentence starts with a capital letter",
+      "Deutsch has a capital D"
      ],
      "model": "Ich spreche Deutsch. Ich komme aus Usbekistan."
     }

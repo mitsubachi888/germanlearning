@@ -1,10 +1,9 @@
 {
  "id": "d01",
- "title": "Salomlashish · 15 ta foydali ibora",
+ "title": "Greetings · 15 useful phrases",
  "items": {
   "p.guten_tag": {
    "de": "Guten Tag!",
-   "uz": "Assalomu alaykum! (rasmiy, kunduzi)",
    "en": "Good day! / Hello (formal)",
    "ipa": "ˈɡuːtn̩ ˈtaːk",
    "pic": "🤝",
@@ -14,7 +13,6 @@
   },
   "p.hallo": {
    "de": "Hallo!",
-   "uz": "Salom!",
    "en": "Hello! / Hi!",
    "ipa": "ˈhalo",
    "pic": "👋",
@@ -24,7 +22,6 @@
   },
   "p.wie_gehts": {
    "de": "Wie geht's?",
-   "uz": "Ishlar qalay?",
    "en": "How are you? (casual)",
    "ipa": "viː ˈɡeːts",
    "pic": "🙂",
@@ -35,7 +32,6 @@
   },
   "p.wie_geht_es_dir": {
    "de": "Wie geht es dir?",
-   "uz": "Ahvoling qanday?",
    "en": "How are you? (to a friend)",
    "ipa": "viː ˈɡeːt ɛs diːɐ̯",
    "pic": "🙂",
@@ -45,7 +41,6 @@
   },
   "p.mir_gehts_gut": {
    "de": "Mir geht's gut.",
-   "uz": "Ahvolim yaxshi.",
    "en": "I'm fine.",
    "ipa": "miːɐ̯ ˈɡeːts ˈɡuːt",
    "pic": "😊",
@@ -55,7 +50,6 @@
   },
   "p.und_dir": {
    "de": "Und dir?",
-   "uz": "Oʻzingchi?",
    "en": "And you? (casual)",
    "ipa": "ʊnt ˈdiːɐ̯",
    "pic": "👉",
@@ -65,7 +59,6 @@
   },
   "p.nicht_so_gut": {
    "de": "Nicht so gut.",
-   "uz": "Unchalik yaxshi emas.",
    "en": "Not so good.",
    "ipa": "nɪçt zoː ˈɡuːt",
    "pic": "😕",
@@ -75,7 +68,6 @@
   },
   "p.es_geht": {
    "de": "Es geht.",
-   "uz": "Yomon emas. / Oʻrtacha.",
    "en": "It's okay. / So-so.",
    "ipa": "ɛs ˈɡeːt",
    "pic": "😐",
@@ -85,7 +77,6 @@
   },
   "p.dankeschoen": {
    "de": "Danke schön!",
-   "uz": "Katta rahmat!",
    "en": "Thank you very much!",
    "ipa": "ˈdaŋkə ʃøːn",
    "pic": "🙏",
@@ -95,7 +86,6 @@
   },
   "p.bitteschoen": {
    "de": "Bitte schön!",
-   "uz": "Arzimaydi!",
    "en": "You're welcome!",
    "ipa": "ˈbɪtə ʃøːn",
    "pic": "😊",
@@ -106,7 +96,6 @@
   },
   "w.bitte": {
    "de": "bitte",
-   "uz": "iltimos",
    "en": "please",
    "ipa": "ˈbɪtə",
    "pic": "🙂",
@@ -117,7 +106,6 @@
   },
   "p.helfen": {
    "de": "Können Sie mir bitte helfen?",
-   "uz": "Menga yordam bera olasizmi, iltimos?",
    "en": "Can you please help me?",
    "ipa": "ˈkœnən ziː miːɐ̯ ˈbɪtə ˈhɛlfn̩",
    "pic": "🆘",
@@ -127,7 +115,6 @@
   },
   "p.entschuldigung": {
    "de": "Entschuldigung!",
-   "uz": "Kechirasiz!",
    "en": "Excuse me! / Sorry!",
    "ipa": "ɛntˈʃʊldɪɡʊŋ",
    "pic": "🙇",
@@ -138,7 +125,6 @@
   },
   "p.nur_bisschen": {
    "de": "Ich spreche nur ein bisschen Deutsch.",
-   "uz": "Men nemischani faqat ozgina gapiraman.",
    "en": "I only speak a little German.",
    "ipa": "ɪç ˈʃpʁɛçə nuːɐ̯ aɪ̯n ˈbɪsçən ˈdɔɪ̯tʃ",
    "pic": "🤏",
@@ -148,7 +134,6 @@
   },
   "p.wie_bitte": {
    "de": "Wie bitte?",
-   "uz": "Nima dedingiz? (tushunmadim)",
    "en": "Pardon? / Sorry?",
    "ipa": "viː ˈbɪtə",
    "pic": "👂",
@@ -158,7 +143,6 @@
   },
   "p.toilette": {
    "de": "Entschuldigung, wo ist die Toilette?",
-   "uz": "Kechirasiz, hojatxona qayerda?",
    "en": "Excuse me, where is the toilet?",
    "ipa": "ɛntˈʃʊldɪɡʊŋ voː ɪst diː toaˈlɛtə",
    "pic": "🚻",
@@ -168,7 +152,6 @@
   },
   "p.da_hinten": {
    "de": "Da hinten.",
-   "uz": "Ana u yerda, orqada.",
    "en": "Back there.",
    "ipa": "daː ˈhɪntn̩",
    "pic": "👉",
@@ -178,7 +161,6 @@
   },
   "p.was_kostet": {
    "de": "Was kostet das?",
-   "uz": "Bu qancha turadi?",
    "en": "How much is this?",
    "ipa": "vas ˈkɔstət das",
    "pic": "🏷️",
@@ -188,7 +170,6 @@
   },
   "p.bar": {
    "de": "Kann ich bar zahlen?",
-   "uz": "Naqd pul bilan toʻlasam boʻladimi?",
    "en": "Can I pay in cash?",
    "ipa": "kan ɪç ˈbaːɐ̯ ˈtsaːlən",
    "pic": "💶",
@@ -198,7 +179,6 @@
   },
   "p.karte": {
    "de": "Kann ich mit Karte zahlen?",
-   "uz": "Karta bilan toʻlasam boʻladimi?",
    "en": "Can I pay by card?",
    "ipa": "kan ɪç mɪt ˈkaʁtə ˈtsaːlən",
    "pic": "💳",
@@ -208,7 +188,6 @@
   },
   "p.speisekarte": {
    "de": "Ich hätte gerne die Speisekarte.",
-   "uz": "Menyuni bering, iltimos.",
    "en": "I'd like the menu, please.",
    "ipa": "ɪç ˈhɛtə ˈɡɛʁnə diː ˈʃpaɪ̯zəˌkaʁtə",
    "pic": "📋",
@@ -219,7 +198,6 @@
   },
   "p.natuerlich": {
    "de": "Ja, natürlich.",
-   "uz": "Ha, albatta.",
    "en": "Yes, of course.",
    "ipa": "jaː naˈtyːɐ̯lɪç",
    "pic": "👍",
@@ -229,7 +207,6 @@
   },
   "p.auf_wiedersehen": {
    "de": "Auf Wiedersehen!",
-   "uz": "Xayr! (rasmiy)",
    "en": "Goodbye! (formal)",
    "ipa": "aʊ̯f ˈviːdɐˌzeːən",
    "pic": "🫡",
@@ -239,7 +216,6 @@
   },
   "p.tschuess": {
    "de": "Tschüss!",
-   "uz": "Xayr! (norasmiy)",
    "en": "Bye!",
    "ipa": "tʃʏs",
    "pic": "👋",
@@ -251,7 +227,7 @@
  "sessions": [
   {
    "id": "A",
-   "title": "Salom, rahmat, kechirasiz",
+   "title": "Hello, thanks, excuse me",
    "said": [
     "p.guten_tag",
     "p.wie_gehts",
@@ -263,19 +239,19 @@
    "steps": [
     {
      "type": "video",
-     "title": "Video: 15 ta muhim ibora",
+     "title": "Video: 15 essential phrases",
      "videoId": "fjxkdUMHXBQ",
      "channel": "Max Yoko",
      "start": 0,
      "end": 500,
-     "note": "Max speaks English and says each phrase in German. **3:58–4:15** is an advert — you can skip it.\n\nTomosha qiling, keyin savollarga javob bering."
+     "note": "Max speaks English and says each phrase in German. **3:58–4:15** is an advert — you can skip it.\n\nWatch, then answer the questions."
     },
     {
      "type": "quiz",
-     "title": "Tushundingizmi?",
+     "title": "Did you get it?",
      "questions": [
       {
-       "prompt": "Doʻstingiz bilan uchrashdingiz. Qanday salom berasiz?",
+       "prompt": "You meet a friend. How do you say hello?",
        "options": [
         "Hallo!",
         "Auf Wiedersehen!",
@@ -286,7 +262,7 @@
        "explain": "*Hallo* is casual. *Guten Tag* is more formal (shop, office, older people)."
       },
       {
-       "prompt": "Kimdir sizga {de:Danke schön!} dedi. Nima deysiz?",
+       "prompt": "Someone says {de:Danke schön!} to you. What do you say?",
        "options": [
         "Bitte schön!",
         "Entschuldigung!",
@@ -296,7 +272,7 @@
        "deOptions": true
       },
       {
-       "prompt": "Nemis tez gapirdi, siz tushunmadingiz. Nima deysiz?",
+       "prompt": "Someone spoke too fast and you didn't understand. What do you say?",
        "options": [
         "Wie bitte?",
         "Es geht.",
@@ -306,7 +282,7 @@
        "deOptions": true
       },
       {
-       "prompt": "Doʻkonda narxni qanday soʻraysiz?",
+       "prompt": "How do you ask for the price in a shop?",
        "options": [
         "Was kostet das?",
         "Wie geht's?",
@@ -316,10 +292,10 @@
        "deOptions": true
       },
       {
-       "prompt": "{de:Was geht?} („Nima gap?“) — buni kim bilan ishlatmaslik kerak?",
+       "prompt": "{de:Was geht?} (“What's up?”) — who should you NOT say it to?",
        "options": [
-        "Boshliq bilan",
-        "Yaqin doʻst bilan"
+        "Your boss",
+        "A close friend"
        ],
        "answer": 0,
        "explain": "Max: *Was geht?* is only for close friends — not with your boss."
@@ -328,8 +304,8 @@
     },
     {
      "type": "phrases",
-     "title": "Salomlashish va xayrlashish",
-     "intro": "▶ — tinglash, 🐢 — sekin tinglash. Har bir iborani ovoz chiqarib takrorlang.",
+     "title": "Hello and goodbye",
+     "intro": "▶ listen · 🐢 listen slowly. Repeat every phrase out loud.",
      "items": [
       "p.guten_tag",
       "p.hallo",
@@ -345,7 +321,7 @@
     },
     {
      "type": "phrases",
-     "title": "Odob soʻzlari",
+     "title": "Polite words",
      "items": [
       "p.dankeschoen",
       "p.bitteschoen",
@@ -357,7 +333,7 @@
     },
     {
      "type": "phrases",
-     "title": "Kafe va doʻkonda",
+     "title": "At the café and in shops",
      "items": [
       "p.helfen",
       "p.toilette",
@@ -371,16 +347,16 @@
     },
     {
      "type": "quiz",
-     "title": "Tinglang va tanlang",
+     "title": "Listen and choose",
      "questions": [
       {
        "kind": "listen",
        "say": "Wie geht's?",
        "item": "p.wie_gehts",
        "options": [
-        "Ishlar qalay?",
-        "Xayr!",
-        "Kechirasiz!"
+        "How are you? (casual)",
+        "Bye!",
+        "Excuse me! / Sorry!"
        ],
        "answer": 0,
        "tag": "pron"
@@ -390,9 +366,9 @@
        "say": "Entschuldigung!",
        "item": "p.entschuldigung",
        "options": [
-        "Kechirasiz!",
-        "Katta rahmat!",
-        "Salom!"
+        "Excuse me! / Sorry!",
+        "Thank you very much!",
+        "Hello!"
        ],
        "answer": 0,
        "tag": "pron"
@@ -402,9 +378,9 @@
        "say": "Es geht.",
        "item": "p.es_geht",
        "options": [
-        "Yomon emas. / Oʻrtacha.",
-        "Ahvolim yaxshi.",
-        "Unchalik yaxshi emas."
+        "It's okay. / So-so.",
+        "I'm fine.",
+        "Not so good."
        ],
        "answer": 0,
        "tag": "pron"
@@ -414,9 +390,9 @@
        "say": "Auf Wiedersehen!",
        "item": "p.auf_wiedersehen",
        "options": [
-        "Xayr! (rasmiy)",
-        "Assalomu alaykum!",
-        "Arzimaydi!"
+        "Goodbye! (formal)",
+        "Good day!",
+        "You're welcome!"
        ],
        "answer": 0,
        "tag": "pron"
@@ -426,9 +402,9 @@
        "say": "Ich spreche nur ein bisschen Deutsch.",
        "item": "p.nur_bisschen",
        "options": [
-        "Men nemischani faqat ozgina gapiraman.",
-        "Menga yordam bera olasizmi?",
-        "Nima dedingiz?"
+        "I only speak a little German.",
+        "Can you help me?",
+        "Pardon?"
        ],
        "answer": 0,
        "tag": "pron"
@@ -437,7 +413,7 @@
     },
     {
      "type": "shadow",
-     "title": "Tinglang va takrorlang",
+     "title": "Listen and repeat",
      "items": [
       "p.guten_tag",
       "p.wie_gehts",
@@ -449,8 +425,8 @@
     },
     {
      "type": "dialogue",
-     "title": "Suhbat: doʻstlar uchrashdi",
-     "intro": "Bosing — har bir gapni alohida tinglang. Keyin butun suhbatni tinglang.",
+     "title": "Dialogue: friends meet",
+     "intro": "Tap a line to hear it, then play the whole dialogue.",
      "lines": [
       {
        "who": "A",
@@ -461,7 +437,7 @@
        "who": "B",
        "name": "Timur",
        "de": "Hallo, Anna!",
-       "uz": "Salom, Anna!"
+       "en": "Hi, Anna!"
       },
       {
        "who": "A",
@@ -497,8 +473,8 @@
     },
     {
      "type": "type",
-     "title": "Yozing: ä ö ü ß",
-     "intro": "Pastdagi tugmalar bilan ä, ö, ü, ß harflarini yozing.",
+     "title": "Type it: ä ö ü ß",
+     "intro": "Use the buttons under the box to type ä, ö, ü, ß.",
      "questions": [
       {
        "item": "p.tschuess",
@@ -516,85 +492,85 @@
     },
     {
      "type": "roleplay",
-     "title": "Rolli oʻyin: kafeda",
-     "intro": "Siz kafedasiz. Ofitsiant ovoz bilan gapiradi, siz mehmon rolini oʻynang.",
+     "title": "Role-play: at the café",
+     "intro": "You're at a café. The waiter speaks; you play the guest.",
      "lines": [
       {
        "who": "A",
-       "name": "Ofitsiant",
+       "name": "Waiter",
        "item": "p.guten_tag"
       },
       {
        "who": "B",
-       "name": "Mehmon",
+       "name": "Guest",
        "item": "p.guten_tag"
       },
       {
        "who": "B",
-       "name": "Mehmon",
+       "name": "Guest",
        "item": "p.speisekarte"
       },
       {
        "who": "A",
-       "name": "Ofitsiant",
+       "name": "Waiter",
        "de": "Bitte schön!",
-       "uz": "Marhamat!"
+       "en": "Here you are!"
       },
       {
        "who": "B",
-       "name": "Mehmon",
+       "name": "Guest",
        "item": "p.dankeschoen"
       },
       {
        "who": "B",
-       "name": "Mehmon",
+       "name": "Guest",
        "item": "p.toilette"
       },
       {
        "who": "A",
-       "name": "Ofitsiant",
+       "name": "Waiter",
        "item": "p.da_hinten"
       },
       {
        "who": "B",
-       "name": "Mehmon",
+       "name": "Guest",
        "item": "p.karte"
       },
       {
        "who": "A",
-       "name": "Ofitsiant",
+       "name": "Waiter",
        "item": "p.natuerlich"
       },
       {
        "who": "B",
-       "name": "Mehmon",
+       "name": "Guest",
        "item": "p.auf_wiedersehen"
       },
       {
        "who": "A",
-       "name": "Ofitsiant",
+       "name": "Waiter",
        "item": "p.auf_wiedersehen"
       }
      ]
     },
     {
      "type": "build",
-     "title": "Gap tuzing",
+     "title": "Build the sentence",
      "questions": [
       {
-       "uz": "Men nemischani faqat ozgina gapiraman.",
+       "en": "I only speak a little German.",
        "answer": "Ich spreche nur ein bisschen Deutsch."
       },
       {
-       "uz": "Menga yordam bera olasizmi, iltimos?",
+       "en": "Can you please help me?",
        "answer": "Können Sie mir bitte helfen?"
       },
       {
-       "uz": "Karta bilan toʻlasam boʻladimi?",
+       "en": "Can I pay by card?",
        "answer": "Kann ich mit Karte zahlen?"
       },
       {
-       "uz": "Kechirasiz, hojatxona qayerda?",
+       "en": "Excuse me, where is the toilet?",
        "answer": "Entschuldigung, wo ist die Toilette?",
        "note": "*die Toilette* — feminine (die)."
       }
@@ -602,16 +578,16 @@
     },
     {
      "type": "write",
-     "title": "Qisqa yozish",
-     "prompt": "Oʻzingizni tanishtiring: salom bering, ismingizni va qayerdan ekaningizni yozing.",
+     "title": "Short writing",
+     "prompt": "Introduce yourself: say hello, write your name and where you're from.",
      "promptEn": "Introduce yourself in German: greet, say your name and where you are from (2–4 short sentences).",
      "hint": "Ich heiße … · Ich komme aus …",
      "minWords": 6,
      "checklist": [
-      "Salom berdim (Guten Tag! / Hallo!)",
-      "Ismimni yozdim (Ich heiße …)",
-      "Qayerdan ekanimni yozdim (Ich komme aus …)",
-      "Gap oxirida nuqta qoʻydim"
+      "I said hello (Guten Tag! / Hallo!)",
+      "I wrote my name (Ich heiße …)",
+      "I wrote where I'm from (Ich komme aus …)",
+      "Each sentence ends with a full stop"
      ],
      "modelItems": [
       "p.guten_tag",

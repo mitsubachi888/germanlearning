@@ -36,12 +36,12 @@ export async function copyText(text) {
 }
 
 export function playBtn(text, { slow = false, big = false } = {}) {
-  const b = h(`<button class="play${slow ? " slow" : ""}${big ? " big" : ""}" type="button" aria-label="${slow ? "Sekin tinglash" : "Tinglash"}">${slow ? "🐢" : "▶"}</button>`);
+  const b = h(`<button class="play${slow ? " slow" : ""}${big ? " big" : ""}" type="button" aria-label="${slow ? "Listen slowly" : "Listen"}">${slow ? "🐢" : "▶"}</button>`);
   b.addEventListener("click", () => {
     b.classList.add("playing");
     if (!speak(text, { slow, onend: () => b.classList.remove("playing") })) {
       b.classList.remove("playing");
-      toast("Nemischa ovoz topilmadi. Sozlamalardagi yoʻriqnomani koʻring.");
+      toast("No German voice found. See the tip in Settings.");
     }
   });
   return b;
@@ -52,25 +52,25 @@ export function sec(s) { return `${Math.floor(s / 60)}:${String(s % 60).padStart
 // Recorder bar: record (manual stop, max 60 s) + play own voice. cleanupList gets a stop function.
 export function recorderUI(cleanupList, onDone) {
   const wrap = h(`<div class="rec-bar"></div>`);
-  if (!Recorder.supported()) { wrap.append(h(`<span class="small muted">Bu qurilmada ovoz yozish ishlamaydi.</span>`)); return wrap; }
-  const btn = h(`<button class="rec" type="button" aria-label="Ovoz yozish"><span>🎙</span></button>`);
+  if (!Recorder.supported()) { wrap.append(h(`<span class="small muted">Recording doesn't work on this device.</span>`)); return wrap; }
+  const btn = h(`<button class="rec" type="button" aria-label="Record"><span>🎙</span></button>`);
   const time = h(`<span class="rec-time">0:00</span>`);
-  const mine = h(`<button class="chipbtn" type="button" disabled>🔁 Oʻzimni tinglash</button>`);
+  const mine = h(`<button class="chipbtn" type="button" disabled>🔁 Play my recording</button>`);
   let rec = null;
   btn.addEventListener("click", async () => {
     if (rec && rec.recording) { rec.stop(); return; }
     rec = new Recorder({
       max: 60,
       onTick: s => { time.textContent = sec(s); },
-      onStop: r => { btn.classList.remove("on"); btn.setAttribute("aria-label", "Qayta yozish"); mine.disabled = false; onDone?.(r); }
+      onStop: r => { btn.classList.remove("on"); btn.setAttribute("aria-label", "Record again"); mine.disabled = false; onDone?.(r); }
     });
-    try { await rec.start(); btn.classList.add("on"); btn.setAttribute("aria-label", "Toʻxtatish"); time.textContent = "0:00"; }
-    catch (e) { toast("Mikrofonga ruxsat berilmagan. iPhone sozlamalarida ruxsat bering."); }
+    try { await rec.start(); btn.classList.add("on"); btn.setAttribute("aria-label", "Stop"); time.textContent = "0:00"; }
+    catch (e) { toast("No microphone access. Allow it in your iPhone settings."); }
   });
   mine.addEventListener("click", () => rec?.play());
   cleanupList.push(() => rec?.stop());
   wrap.append(btn, h(`<div class="rec-info"></div>`));
-  wrap.lastChild.append(time, h(`<span class="small muted">Toʻxtatish uchun yana bosing · 60 soniyagacha</span>`));
+  wrap.lastChild.append(time, h(`<span class="small muted">Tap again to stop · up to 60 seconds</span>`));
   wrap.append(mine);
   return wrap;
 }

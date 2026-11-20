@@ -3,12 +3,12 @@ import * as store from "./store.js";
 import { stats } from "./srs.js";
 
 export const TAGS = {
-  gender: "Artikl (der / die / das)",
-  verb: "Feʼl tuslanishi",
-  order: "Soʻz tartibi",
+  gender: "Articles (der / die / das)",
+  verb: "Verb endings / du vs Sie",
+  order: "Word order",
   case: "Akkusativ / Dativ",
-  pron: "Talaffuz",
-  spell: "Imlo (ä ö ü ß)"
+  pron: "Pronunciation",
+  spell: "Spelling (ä ö ü ß)"
 };
 
 const WEEK = 7 * 86400000;

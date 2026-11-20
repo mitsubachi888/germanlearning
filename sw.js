@@ -1,6 +1,6 @@
-// Offline cache. Bump VERSION when the asset list changes.
+﻿// Offline cache. Bump VERSION when the asset list changes.
 // Network-first for content/JS/CSS/HTML (updates arrive quickly), cache-first for icons, audio, fonts.
-const VERSION = "de-v0.2.0";
+const VERSION = "de-v0.3.0";
 const ASSETS = [
   "./", "index.html", "manifest.webmanifest", "css/app.css",
   "js/app.js", "js/store.js", "js/srs.js", "js/speech.js", "js/text.js", "js/ui.js", "js/steps.js", "js/plan.js", "js/profile.js",

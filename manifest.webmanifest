@@ -1,7 +1,7 @@
 {
-  "name": "Nemis tili A1",
-  "short_name": "Nemis tili",
-  "lang": "uz",
+  "name": "German A1",
+  "short_name": "German",
+  "lang": "en",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
