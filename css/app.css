@@ -270,6 +270,16 @@ select.field { width: auto; min-height: 44px; font-size: 16px; padding: 8px 12px
 .cmp-ex { font-size: 22px; }
 .cmp-badge { display: inline-block; margin: 8px 0; padding: 4px 10px; border-radius: 999px; font-size: 13px; font-weight: 800; background: var(--ok-bg); color: var(--ok); }
 .cmp-badge.none { background: var(--soft); color: var(--ink); }
+.letters { display: grid; grid-template-columns: repeat(6, 1fr); gap: 6px; }
+.letter { aspect-ratio: 1; border-radius: 14px; background: var(--surface); border: 1.5px solid var(--line); font-size: 24px; font-weight: 700; transition: transform .15s var(--spring), background .2s; }
+.letter:active { transform: scale(.9); }
+.letter.heard { background: var(--soft); }
+.letter.on { background: var(--air); border-color: var(--ink); }
+.letter-detail { position: sticky; top: 64px; z-index: 5; background: var(--surface); border: 1px solid var(--line); border-radius: 22px; padding: 14px 16px; margin-bottom: 12px; animation: rise .25s var(--ease) both; }
+.ld { display: flex; align-items: baseline; flex-wrap: wrap; gap: 10px; }
+.ld-ch { font-size: 44px; font-weight: 700; line-height: 1; }
+.ld-name { font-size: 20px; font-weight: 700; }
+.ld-ex { width: 100%; font-size: 17px; }
 .checklist { list-style: none; padding: 0; margin: 0; }
 .checklist li { display: flex; gap: 10px; align-items: flex-start; padding: 6px 0; }
 .checklist input { width: 22px; height: 22px; accent-color: var(--ink); flex: none; }

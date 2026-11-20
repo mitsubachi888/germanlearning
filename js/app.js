@@ -7,7 +7,7 @@ import STEP, { SKILL, SKILL_LABEL } from "./steps.js";
 import * as plan from "./plan.js";
 import { JOBS, HOBBIES, CITIES, aboutMe, jobOf } from "./profile.js";
 
-const APP_VERSION = "0.1.0";
+const APP_VERSION = "0.2.0";
 const THEMES = [
   ["lavender", "#DCD2FA", "#FFB627", "Lavanda"],
   ["rose", "#F8CFDC", "#FF6A3D", "Pushti"],
@@ -93,7 +93,16 @@ async function boot() {
   loadManifest();
   addEventListener("hashchange", route);
   route();
-  if ("serviceWorker" in navigator && location.protocol === "https:") navigator.serviceWorker.register("sw.js").catch(() => {});
+  if ("serviceWorker" in navigator && location.protocol === "https:") {
+    const hadController = !!navigator.serviceWorker.controller;
+    navigator.serviceWorker.register("sw.js").then(reg => {
+      // look for a new version whenever the app comes back to the foreground
+      document.addEventListener("visibilitychange", () => { if (!document.hidden) reg.update().catch(() => {}); });
+    }).catch(() => {});
+    navigator.serviceWorker.addEventListener("controllerchange", () => {
+      if (hadController) toast("Ilova yangilandi ✨");
+    });
+  }
 }
 
 /* ---------- router ---------- */
@@ -295,8 +304,8 @@ function renderOnboard(i) {
   if (step === "form") {
     body.append(h(`<h2>Siz erkakmisiz yoki ayolmisiz?</h2><p class="muted">Nemis tilida kasb nomi shunga qarab oʻzgaradi. Masalan, “oʻqituvchi”: <span class="de">Lehrer</span> (erkak) / <span class="de">Lehrerin</span> (ayol).</p>`));
     const opts = h(`<div class="choices two"></div>`);
-    [["m", "👨", "Erkak", "Ich bin Lehrer."], ["f", "👩", "Ayol", "Ich bin Lehrerin."]].forEach(([v, e, t, x]) => {
-      const b = h(`<button type="button" class="choice ${draft.form === v ? "on" : ""}"><span class="e">${e}</span><b>${t}</b><small class="de">${x}</small></button>`);
+    [["m", "👨", "Erkak"], ["f", "👩", "Ayol"]].forEach(([v, e, t]) => {
+      const b = h(`<button type="button" class="choice ${draft.form === v ? "on" : ""}"><span class="e">${e}</span><b>${t}</b></button>`);
       b.addEventListener("click", () => { draft.form = v; opts.querySelectorAll(".choice").forEach(c => c.classList.remove("on")); b.classList.add("on"); });
       opts.append(b);
     });

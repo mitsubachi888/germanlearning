@@ -1,5 +1,5 @@
 // Lesson step renderers. Each renderer: (step, body, ctx) where ctx = { item(id), cleanup[], key, profile }.
-import { esc, de, md, norm, loose, wordDiff, diffHtml, shuffle, hintLine } from "./text.js";
+import { esc, de, md, norm, sameButUmlauts, wordDiff, diffHtml, shuffle, hintLine } from "./text.js";
 import { h, toast, playBtn, recorderUI, copyText, sec } from "./ui.js";
 import { speak } from "./speech.js";
 import { ensureCard, exerciseResult } from "./srs.js";
@@ -7,7 +7,7 @@ import * as store from "./store.js";
 
 export const SKILL = {
   video: "listen", dialogue: "listen", listen: "listen",
-  phrases: "read", compare: "read", gender: "read", picquiz: "read", note: "read", situation: "read", quiz: "read",
+  phrases: "read", compare: "read", letters: "read", gender: "read", picquiz: "read", note: "read", situation: "read", quiz: "read",
   shadow: "speak", pattern: "speak", roleplay: "speak",
   type: "write", build: "write", write: "write"
 };
@@ -121,6 +121,32 @@ STEP.phrases = (s, body, ctx) => {
   body.append(list);
 };
 
+// Alphabet grid. letters: [{ ch, say, item }] — tap: hear the letter name, then the example word.
+STEP.letters = (s, body, ctx) => {
+  if (s.intro) body.append(h(`<p class="muted">${esc(s.intro)}</p>`));
+  const grid = h(`<div class="letters"></div>`);
+  const detail = h(`<div class="letter-detail" hidden></div>`);
+  s.letters.forEach((L, k) => {
+    const it = L.item ? ctx.item(L.item) : null;
+    if (L.item) ensureCard(L.item);
+    const b = h(`<button type="button" class="letter enter" style="--d:${k * 15}ms"><span class="de">${esc(L.ch)}</span></button>`);
+    b.addEventListener("click", () => {
+      grid.querySelectorAll(".letter").forEach(x => x.classList.toggle("on", x === b));
+      b.classList.add("heard");
+      detail.hidden = false;
+      detail.innerHTML = "";
+      detail.append(h(`<div class="ld"><span class="ld-ch de">${esc(L.ch)}</span><span class="ld-name">„${esc(L.name || L.say)}“</span>${it ? `<span class="ld-ex">${it.pic || ""} <span class="de">${de(it.de)}</span> · ${esc(it.uz)}</span>` : ""}</div>`));
+      const r = h(`<div class="row"></div>`);
+      r.append(playBtn(L.say));
+      if (it) r.append(playBtn(it.de));
+      detail.append(r);
+      speakThen(L.say, () => { if (it) setTimeout(() => speak(it.de), 300); });
+    });
+    grid.append(b);
+  });
+  body.append(detail, grid);
+};
+
 // Pronunciation vs English. item: { de, sound, en?, example?, none?, mouth? }
 STEP.compare = (s, body) => {
   if (s.intro) body.append(h(`<p class="muted">${esc(s.intro)}</p>`));
@@ -207,8 +233,9 @@ STEP.type = (s, body, ctx) => {
     renderQ: (q, card, done) => {
       const it = q.item ? ctx.item(q.item) : null;
       const answer = q.answer || it?.de;
-      const p = h(`<div class="q-prompt"><p>${q.hear === false ? "Nemischa yozing:" : "Tinglang va nemischa yozing."} Maʼnosi: <b>${esc(q.uz || it?.uz || "")}</b></p><div class="row"></div></div>`);
-      if (q.hear !== false) { p.querySelector(".row").append(playBtn(answer), playBtn(answer, { slow: true })); setTimeout(() => speak(answer), 300); }
+      const say = q.say || answer;
+      const p = h(`<div class="q-prompt"><p>${q.ask ? esc(q.ask) : q.hear === false ? "Nemischa yozing:" : "Tinglang va nemischa yozing."} Maʼnosi: <b>${esc(q.uz || it?.uz || "")}</b></p><div class="row"></div></div>`);
+      if (q.hear !== false) { p.querySelector(".row").append(playBtn(say), playBtn(say, { slow: true })); setTimeout(() => speak(say), 300); }
       card.append(p);
       const inp = h(`<input class="field de" lang="de" autocapitalize="off" autocomplete="off" autocorrect="off" spellcheck="false" placeholder="Shu yerga yozing…" aria-label="Javob">`);
       const check = h(`<button class="btn" type="button">Tekshirish</button>`);
@@ -216,7 +243,7 @@ STEP.type = (s, body, ctx) => {
       const go = () => {
         if (!inp.value.trim()) { toast("Avval javobni yozing."); inp.focus(); return; }
         const exact = norm(inp.value) === norm(answer);
-        const near = !exact && loose(inp.value) === loose(answer);
+        const near = !exact && sameButUmlauts(inp.value, answer);
         inp.disabled = true; check.remove(); card.querySelector(".keys")?.remove();
         bump(inp, exact);
         const d = wordDiff(answer, inp.value);
@@ -446,7 +473,8 @@ STEP.pattern = (s, body, ctx) => {
     card.querySelector(".row").append(playBtn(p.q));
     card.append(recorderUI(ctx.cleanup));
     const ex = h(`<button class="chipbtn" type="button">Namuna javob</button>`);
-    ex.addEventListener("click", () => { const t = ans?.de || p.example; const r = h(`<div class="row"><span class="de big">${de(t)}</span></div>`); r.append(playBtn(t)); ex.replaceWith(r); });
+    ex.addEventListener("click", () => {
+      const t = p.spellMe ? [...(ctx.profile?.name || "").toUpperCase().replace(/\s+/g, "")].join(" – ") : ans?.de || p.example; const r = h(`<div class="row"><span class="de big">${de(t)}</span></div>`); r.append(playBtn(t)); ex.replaceWith(r); });
     card.append(ex);
     body.append(card);
   });
@@ -486,7 +514,8 @@ STEP.write = (s, body, ctx) => {
   cmp.addEventListener("click", () => {
     out.innerHTML = "";
     if (s.checklist) out.append(h(`<div class="panel"><h3>Oʻzingizni tekshiring</h3><ul class="checklist">${s.checklist.map((c, k) => `<li><input type="checkbox" id="wc${k}"><label for="wc${k}">${esc(c)}</label></li>`).join("")}</ul></div>`));
-    if (s.model) out.append(h(`<div class="panel"><h3>Namuna</h3><p class="de big">${de(s.model)}</p></div>`));
+    const model = s.modelItems ? s.modelItems.map(id => ctx.item(id)?.de).filter(Boolean).join(" ") : s.model;
+    if (model) out.append(h(`<div class="panel"><h3>Namuna</h3><p class="de big">${de(model)}</p></div>`));
     store.logEvent("writing_submitted", ctx.key, { words: ta.value.trim().split(/\s+/).length });
   });
   ai.addEventListener("click", async () => {

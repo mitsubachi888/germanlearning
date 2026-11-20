@@ -14,6 +14,11 @@ export function norm(s) {
 export function loose(s) {
   return norm(s).replace(/ä/g, "ae").replace(/ö/g, "oe").replace(/ü/g, "ue").replace(/ß/g, "ss");
 }
+// Same word if we ignore umlaut dots / ß entirely (Tschuss ≈ Tschüss, Strasse ≈ Straße).
+export function sameButUmlauts(a, b) {
+  const bare = s => norm(s).replace(/ä/g, "a").replace(/ö/g, "o").replace(/ü/g, "u").replace(/ß/g, "ss");
+  return loose(a) === loose(b) || bare(a) === bare(b);
+}
 
 export const ARTICLE_CLASS = { der: "der", die: "die", das: "das" };
 // Wrap a leading der/die/das in its gender colour.
