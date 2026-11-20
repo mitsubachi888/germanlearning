@@ -293,9 +293,9 @@ function renderOnboard(i) {
     foot.append(back, nextBtn("Keyingi", () => /^\p{L}[\p{L}\s'ʼʻ-]{0,29}$/u.test(draft.name || ""), "Ismingizni harflar bilan yozing."));
   }
   if (step === "form") {
-    body.append(h(`<h2>Kasb nomlari qaysi shaklda boʻlsin?</h2><p class="muted">Nemis tilida kasb nomlari erkak va ayol uchun farq qiladi: <span class="de">Lehrer</span> / <span class="de">Lehrerin</span>.</p>`));
+    body.append(h(`<h2>Siz erkakmisiz yoki ayolmisiz?</h2><p class="muted">Nemis tilida kasb nomi shunga qarab oʻzgaradi. Masalan, “oʻqituvchi”: <span class="de">Lehrer</span> (erkak) / <span class="de">Lehrerin</span> (ayol).</p>`));
     const opts = h(`<div class="choices two"></div>`);
-    [["m", "👨", "Erkak shakli", "Lehrer"], ["f", "👩", "Ayol shakli", "Lehrerin"]].forEach(([v, e, t, x]) => {
+    [["m", "👨", "Erkak", "Ich bin Lehrer."], ["f", "👩", "Ayol", "Ich bin Lehrerin."]].forEach(([v, e, t, x]) => {
       const b = h(`<button type="button" class="choice ${draft.form === v ? "on" : ""}"><span class="e">${e}</span><b>${t}</b><small class="de">${x}</small></button>`);
       b.addEventListener("click", () => { draft.form = v; opts.querySelectorAll(".choice").forEach(c => c.classList.remove("on")); b.classList.add("on"); });
       opts.append(b);

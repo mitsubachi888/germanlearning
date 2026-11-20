@@ -2,7 +2,12 @@
 import { esc } from "./text.js";
 import { speak, Recorder } from "./speech.js";
 
-export function h(html) { const t = document.createElement("template"); t.innerHTML = html.trim(); return t.content.firstElementChild; }
+// One root element → that element; several roots → a DocumentFragment with all of them.
+export function h(html) {
+  const t = document.createElement("template");
+  t.innerHTML = html.trim();
+  return t.content.childElementCount === 1 ? t.content.firstElementChild : t.content;
+}
 
 let toastTimer;
 export function toast(msg) {
