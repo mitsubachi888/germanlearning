@@ -1,6 +1,7 @@
 // Small DOM/UI helpers shared by screens and step renderers.
 import { esc } from "./text.js";
 import { speak, Recorder } from "./speech.js";
+import { icon } from "./icons.js";
 
 // One root element → that element; several roots → a DocumentFragment with all of them.
 export function h(html) {
@@ -36,7 +37,7 @@ export async function copyText(text) {
 }
 
 export function playBtn(text, { slow = false, big = false } = {}) {
-  const b = h(`<button class="play${slow ? " slow" : ""}${big ? " big" : ""}" type="button" aria-label="${slow ? "Listen slowly" : "Listen"}">${slow ? "🐢" : "▶"}</button>`);
+  const b = h(`<button class="play${slow ? " slow" : ""}${big ? " big" : ""}" type="button" aria-label="${slow ? "Listen slowly" : "Listen"}">${icon(slow ? "slow" : "play", { size: big ? 28 : 20 })}</button>`);
   b.addEventListener("click", () => {
     b.classList.add("playing");
     if (!speak(text, { slow, onend: () => b.classList.remove("playing") })) {
@@ -53,18 +54,18 @@ export function sec(s) { return `${Math.floor(s / 60)}:${String(s % 60).padStart
 export function recorderUI(cleanupList, onDone) {
   const wrap = h(`<div class="rec-bar"></div>`);
   if (!Recorder.supported()) { wrap.append(h(`<span class="small muted">Recording doesn't work on this device.</span>`)); return wrap; }
-  const btn = h(`<button class="rec" type="button" aria-label="Record"><span>🎙</span></button>`);
+  const btn = h(`<button class="rec" type="button" aria-label="Record">${icon("mic", { size: 26 })}</button>`);
   const time = h(`<span class="rec-time">0:00</span>`);
-  const mine = h(`<button class="chipbtn" type="button" disabled>🔁 Play my recording</button>`);
+  const mine = h(`<button class="chipbtn" type="button" disabled>${icon("replay", { size: 16 })} Play my recording</button>`);
   let rec = null;
   btn.addEventListener("click", async () => {
     if (rec && rec.recording) { rec.stop(); return; }
     rec = new Recorder({
       max: 60,
       onTick: s => { time.textContent = sec(s); },
-      onStop: r => { btn.classList.remove("on"); btn.setAttribute("aria-label", "Record again"); mine.disabled = false; onDone?.(r); }
+      onStop: r => { btn.classList.remove("on"); btn.innerHTML = icon("mic", { size: 26 }); btn.setAttribute("aria-label", "Record again"); mine.disabled = false; onDone?.(r); }
     });
-    try { await rec.start(); btn.classList.add("on"); btn.setAttribute("aria-label", "Stop"); time.textContent = "0:00"; }
+    try { await rec.start(); btn.classList.add("on"); btn.innerHTML = icon("stop", { size: 24 }); btn.setAttribute("aria-label", "Stop"); time.textContent = "0:00"; }
     catch (e) { toast("No microphone access. Allow it in your iPhone settings."); }
   });
   mine.addEventListener("click", () => rec?.play());

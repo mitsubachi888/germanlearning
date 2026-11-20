@@ -1,6 +1,6 @@
 // Tiny static server for local testing: node tools/serve.mjs [port]
 import { createServer } from "node:http";
-import { readFile } from "node:fs/promises";
+import { readFile, writeFile } from "node:fs/promises";
 import { extname, join, normalize, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -11,6 +11,12 @@ const TYPES = { ".html": "text/html; charset=utf-8", ".css": "text/css", ".js": 
   ".mp3": "audio/mpeg", ".woff2": "font/woff2" };
 
 createServer(async (req, res) => {
+  // Dev helper for tools/icon.html: PUT /__icon/icon-512.png saves a rendered PNG into icons/ (localhost only).
+  if (req.method === "PUT" && /^\/__icon\/icon-\d+\.png$/.test(req.url)) {
+    const chunks = []; for await (const c of req) chunks.push(c);
+    await writeFile(join(ROOT, "icons", req.url.split("/").pop()), Buffer.concat(chunks));
+    res.writeHead(200).end("saved"); return;
+  }
   let p = decodeURIComponent(new URL(req.url, "http://x").pathname);
   if (p.endsWith("/")) p += "index.html";
   const file = normalize(join(ROOT, p));

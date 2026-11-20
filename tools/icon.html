@@ -1,0 +1,41 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>App icon renderer</title>
+<!-- Dev tool: open via `node tools/serve.mjs` → /tools/icon.html, press "Save" to write icons/icon-*.png. -->
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap" rel="stylesheet">
+<body style="font-family:system-ui;background:#eee;padding:20px">
+<div id="out" style="display:flex;gap:16px;align-items:end"></div>
+<button id="save" style="margin-top:16px;font-size:16px">Save PNGs</button> <span id="msg"></span>
+<script>
+const INK = "#241A45", AIR = "#DCD2FA";
+// Speech bubble with "Hallo". scale < 1 keeps the art inside the maskable safe zone.
+function draw(size, scale = 1) {
+  const c = document.createElement("canvas"); c.width = c.height = size;
+  const g = c.getContext("2d"); const u = size / 100;
+  g.fillStyle = INK; g.fillRect(0, 0, size, size);
+  g.save(); g.translate(size / 2, size / 2); g.scale(scale, scale); g.translate(-size / 2, -size / 2);
+  // bubble: rounded rect 12..88 × 26..70, tail bottom-left
+  const x = 12 * u, y = 26 * u, w = 76 * u, h = 44 * u, r = 11 * u;
+  g.fillStyle = AIR; g.beginPath();
+  g.moveTo(x + r, y); g.lineTo(x + w - r, y); g.quadraticCurveTo(x + w, y, x + w, y + r);
+  g.lineTo(x + w, y + h - r); g.quadraticCurveTo(x + w, y + h, x + w - r, y + h);
+  g.lineTo(40 * u, y + h); g.lineTo(27 * u, 84 * u); g.lineTo(28 * u, y + h);
+  g.lineTo(x + r, y + h); g.quadraticCurveTo(x, y + h, x, y + h - r);
+  g.lineTo(x, y + r); g.quadraticCurveTo(x, y, x + r, y); g.closePath(); g.fill();
+  g.fillStyle = INK; g.font = `700 ${25 * u}px Fraunces`; g.textAlign = "center"; g.textBaseline = "alphabetic";
+  g.fillText("Hallo", 50 * u, 56.5 * u);
+  g.restore();
+  return c;
+}
+const SIZES = [[180, 1], [192, 0.9], [512, 0.88]];
+document.fonts.load(`700 40px Fraunces`).then(() => {
+  for (const [s, k] of SIZES) { const c = draw(s, k); c.style.width = Math.min(s, 180) + "px"; c.style.borderRadius = "22%"; out.append(c); }
+});
+save.onclick = async () => {
+  for (const [s, k] of SIZES) {
+    const blob = await new Promise(r => draw(s, k).toBlob(r, "image/png"));
+    await fetch(`/__icon/icon-${s}.png`, { method: "PUT", body: blob });
+  }
+  msg.textContent = "saved";
+};
+</script>

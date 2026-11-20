@@ -2,6 +2,7 @@
 import { esc, de, md, norm, sameButUmlauts, wordDiff, diffHtml, shuffle, hintLine } from "./text.js";
 import { h, toast, playBtn, recorderUI, copyText, sec } from "./ui.js";
 import { speak } from "./speech.js";
+import { icon } from "./icons.js";
 import { ensureCard, exerciseResult } from "./srs.js";
 import * as store from "./store.js";
 
@@ -399,7 +400,7 @@ STEP.dialogue = (s, body, ctx) => {
   });
   const mark = k => rows.forEach((r, j) => r.classList.toggle("on", j === k));
   const bar = h(`<div class="row"></div>`);
-  const all = h(`<button class="btn" type="button">▶ Play the whole dialogue</button>`);
+  const all = h(`<button class="btn" type="button">${icon("play", { size: 18 })} Play all</button>`);
   all.addEventListener("click", () => {
     const my = ++token;
     const next = k => {
@@ -435,7 +436,7 @@ STEP.roleplay = (s, body, ctx) => {
       if (my !== token) return;
       ctrl.innerHTML = "";
       if (k >= s.lines.length) {
-        ctrl.append(h(`<div class="result enter"><div class="score">✓</div><p><b>Done as ${esc(nameOf(me))}</b></p></div>`));
+        ctrl.append(h(`<div class="result enter"><div class="score">${icon("check", { size: 44 })}</div><p><b>Done as ${esc(nameOf(me))}</b></p></div>`));
         const other = roles.find(r => r !== me);
         if (other) { const b = h(`<button class="btn" type="button">Switch roles: ${esc(nameOf(other))}</button>`); b.addEventListener("click", () => run(other)); ctrl.append(b); }
         store.logEvent("roleplay_completed", s.title, { role: me });

@@ -6,8 +6,9 @@ import { h, toast, modal, copyText, playBtn } from "./ui.js";
 import STEP, { SKILL, SKILL_LABEL } from "./steps.js";
 import * as plan from "./plan.js";
 import { JOBS, HOBBIES, CITIES, aboutMe, jobOf, jobLabel } from "./profile.js";
+import { icon, hydrateIcons } from "./icons.js";
 
-const APP_VERSION = "0.3.0";
+const APP_VERSION = "0.4.0";
 const THEMES = [
   ["lavender", "#DCD2FA", "#FFB627", "Lavender"],
   ["rose", "#F8CFDC", "#FF6A3D", "Rose"],
@@ -84,6 +85,7 @@ function migrateProfile() {
   if (p?.city && !p.city.en) { p.city.en = CITIES.find(c => c.de === p.city.de)?.en || p.city.de; delete p.city.uz; store.save(); }
 }
 async function boot() {
+  hydrateIcons();
   applyTheme();
   migrateProfile();
   try {
@@ -146,7 +148,7 @@ function route() {
 /* ---------- shared bits ---------- */
 function weeklyChip() {
   const w = plan.weekly();
-  return w.streak ? `<span class="chip">🔥 ${w.streak} ${w.streak === 1 ? "week" : "weeks"}</span>` : `<span class="chip">📅 This week ${w.thisWeek}/${w.target}</span>`;
+  return w.streak ? `<span class="chip">${icon("flame", { size: 16 })} ${w.streak} ${w.streak === 1 ? "week" : "weeks"}</span>` : `<span class="chip">${icon("calendar", { size: 16 })} This week ${w.thisWeek}/${w.target}</span>`;
 }
 
 function lessonState(l) {
@@ -178,7 +180,7 @@ function lessonSheet(l) {
   else plan.sessionIds(l).forEach(sid => {
     const ses = lessons[l.id].sessions.find(x => x.id === sid);
     const done = store.sessionDone(plan.sessKey(l.id, sid));
-    const a = h(`<a class="sess-row ${done ? "done" : ""}" href="#/l/${l.id}/${sid}"><span class="mark">${done ? "✓" : sid}</span><span>${esc(ses?.title || "")}<small>${ses?.steps.length || 0} exercises</small></span><span class="go">›</span></a>`);
+    const a = h(`<a class="sess-row ${done ? "done" : ""}" href="#/l/${l.id}/${sid}"><span class="mark">${done ? icon("check", { size: 18 }) : sid}</span><span>${esc(ses?.title || "")}<small>${ses?.steps.length || 0} exercises</small></span><span class="go">${icon("next", { size: 18 })}</span></a>`);
     box.append(a);
   });
   const close = modal(el);
@@ -189,8 +191,8 @@ function lessonSheet(l) {
 function todayCard() {
   const pack = plan.todayPack(course, isReady);
   const plan4 = (a, b, c, d) => `<div class="plan">
-      <div><b>🃏</b>Review<small>${a}</small></div><div><b>🎬</b>Video<small>${b}</small></div>
-      <div><b>🗣️</b>Speaking<small>${c}</small></div><div><b>✍️</b>Writing<small>${d}</small></div></div>`;
+      <div><b>${icon("review")}</b>Review<small>${a}</small></div><div><b>${icon("video")}</b>Video<small>${b}</small></div>
+      <div><b>${icon("speak")}</b>Speaking<small>${c}</small></div><div><b>${icon("write")}</b>Writing<small>${d}</small></div></div>`;
   if (pack.kind === "comeback") return h(`<section class="today enter">
       <div class="k">Welcome back!</div><h2>Let's review first</h2>
       <p>You haven't studied for ${pack.gap} days. Review ${Math.min(pack.due, 15)} cards first (about 5 minutes), then we continue with the next lesson. Nothing is lost.</p>
@@ -213,18 +215,18 @@ function todayCard() {
       <h2 class="de">${de(l.hero)}</h2>
       <p>${l.n ? `Lesson ${l.n}` : "Mini-Gespräch"} · ${esc(l.title)}${l.sessions === 2 ? ` · part ${sid === "A" ? "1" : "2"} of 2` : ""}</p>
       ${plan4(pack.due ? "5 min" : "—", "12 min", "10 min", "3 min")}
-      ${pack.ready ? `<a class="btn" href="${href}">${started ? "Continue ▶" : "Start ▶"}</a>` : `<div class="btn disabled" aria-disabled="true">Lesson coming soon</div>`}
+      ${pack.ready ? `<a class="btn" href="${href}">${started ? "Continue" : "Start"} ${icon("next", { size: 20 })}</a>` : `<div class="btn disabled" aria-disabled="true">Lesson coming soon</div>`}
     </section>`);
 }
 
 function renderHome() {
   const p = store.get().profile;
   const el = h(`<div class="wrap"></div>`);
-  el.append(h(`<div class="hello enter"><h1>Hi, ${esc(p.name)} 👋<small>${enDate(new Date(), { weekday: true })}</small></h1>${weeklyChip()}</div>`));
+  el.append(h(`<div class="hello enter"><h1>Hi, ${esc(p.name)}<small>${enDate(new Date(), { weekday: true })}</small></h1>${weeklyChip()}</div>`));
   el.append(todayCard());
   const st = stats();
-  if (st.due) el.append(h(`<a class="rowcard enter" href="#/review"><span class="ico">🃏</span><span><b>${st.due} ${st.due === 1 ? "card" : "cards"} to review</b><small>Hardest ones first</small></span><span class="go">›</span></a>`));
-  el.append(h(`<a class="rowcard enter" href="#/me"><span class="ico">🙋</span><span><b>About me — in German</b><small>Sentences built from your profile</small></span><span class="go">›</span></a>`));
+  if (st.due) el.append(h(`<a class="rowcard enter" href="#/review"><span class="ico">${icon("review")}</span><span><b>${st.due} ${st.due === 1 ? "card" : "cards"} to review</b><small>Hardest ones first</small></span><span class="go">${icon("next", { size: 18 })}</span></a>`));
+  el.append(h(`<a class="rowcard enter" href="#/me"><span class="ico">${icon("me")}</span><span><b>About me — in German</b><small>Sentences built from your profile</small></span><span class="go">${icon("next", { size: 18 })}</span></a>`));
 
   const cur = plan.currentStage(course);
   const stg = course.stages[cur];
@@ -232,7 +234,7 @@ function renderHome() {
   el.append(h(`<div class="sec"><h3>${stageName(cur)} · ${esc(stg.title)}</h3><span>${pr.done} / ${pr.total}</span></div>`));
   el.append(pathFor(cur));
   const nxt = course.stages[cur + 1];
-  el.append(h(`<a class="next-stage" href="#/path">${nxt ? `Next: ${stageName(nxt.n)} · ${esc(nxt.title)} — ${course.lessons.filter(l => l.stage === nxt.n && !l.mini).length} lessons` : "Full course map"} ›</a>`));
+  el.append(h(`<a class="next-stage" href="#/path">${nxt ? `Next: ${stageName(nxt.n)} · ${esc(nxt.title)} — ${course.lessons.filter(l => l.stage === nxt.n && !l.mini).length} lessons` : "Full course map"} ${icon("next", { size: 16 })}</a>`));
   view.append(el);
 }
 
@@ -249,10 +251,10 @@ function pathFor(stage) {
 }
 
 function renderPath() {
-  const el = h(`<div class="wrap"><div class="pagehead enter"><a class="back" href="#/" aria-label="Back">‹</a><h1>Course map</h1></div></div>`);
+  const el = h(`<div class="wrap"><div class="pagehead enter"><a class="back" href="#/" aria-label="Back">${icon("back")}</a><h1>Course map</h1></div></div>`);
   course.stages.forEach(stg => {
     const pr = plan.stageProgress(course, stg.n);
-    el.append(h(`<div class="sec"><h3>${stg.pic} ${stageName(stg.n)} · ${esc(stg.title)}</h3><span>${pr.done} / ${pr.total}</span></div>`));
+    el.append(h(`<div class="sec"><h3>${stageName(stg.n)} · ${esc(stg.title)}</h3><span>${pr.done} / ${pr.total}</span></div>`));
     el.append(pathFor(stg.n));
   });
   view.append(el);
@@ -261,7 +263,7 @@ function renderPath() {
 function renderMe() {
   const p = store.get().profile;
   const list = aboutMe(p);
-  const el = h(`<div class="wrap"><div class="pagehead enter"><a class="back" href="#/" aria-label="Back">‹</a><h1>About me</h1></div>
+  const el = h(`<div class="wrap"><div class="pagehead enter"><a class="back" href="#/" aria-label="Back">${icon("back")}</a><h1>About me</h1></div>
     <p class="muted">These sentences are built from your profile. Learn them by heart — you'll need them every time you meet someone.</p><div class="cards"></div>
     <a class="btn ghost" href="#/onboard/1">Edit profile</a></div>`);
   const box = el.querySelector(".cards");
@@ -295,7 +297,7 @@ function renderOnboard(i) {
   back.addEventListener("click", () => go(i - 1));
 
   if (step === "welcome") {
-    body.append(h(`<div class="ob-hero"><div class="big-emoji">🇩🇪</div><h1 class="de">Willkommen!</h1><p class="lead">Welcome! Let's learn German from zero, at your own pace.</p>
+    body.append(h(`<div class="ob-hero"><img class="app-mark" src="icons/icon-180.png" alt="" width="88" height="88"><h1 class="de">Willkommen!</h1><p class="lead">Welcome! Let's learn German from zero, at your own pace.</p>
       <ul class="ticks"><li>3–4 times a week, 30 minutes each</li><li>Video, listening, speaking and writing</li><li>Everything built around sentences about your own life</li></ul></div>`));
     foot.append(nextBtn("Let's start"));
   }
@@ -402,7 +404,7 @@ function renderOnboard(i) {
     store.setProfile(draft);
     draft = null;
     const list = aboutMe(store.get().profile);
-    body.append(h(`<div class="ob-hero"><div class="big-emoji pop">🎉</div><h1 class="de">Super!</h1><p class="lead">Here are your first German sentences. Tap ▶ to listen.</p></div>`));
+    body.append(h(`<div class="ob-hero"><div class="badge-ok pop">${icon("check", { size: 40 })}</div><h1 class="de">Super!</h1><p class="lead">Here are your first German sentences. Tap play to listen.</p></div>`));
     const box = h(`<div class="cards"></div>`);
     list.slice(0, 4).forEach((it, k) => {
       const row = h(`<div class="pcard enter" style="--d:${k * 80}ms"><div class="pic">${it.pic}</div><div class="txt"><div class="big de">${esc(it.de)}</div><div class="tr">${esc(it.en)}</div></div><div class="btns"></div></div>`);
@@ -424,8 +426,8 @@ function themePicker() {
     b.addEventListener("click", () => { store.setSetting("theme", id); applyTheme(); wrap.querySelectorAll(".tdot").forEach(x => x.classList.toggle("on", x === b)); });
     wrap.querySelector(".dots").append(b);
   });
-  [["light", "☀️ Light"], ["dark", "🌙 Dark"], ["auto", "⚙️ Auto"]].forEach(([m, t]) => {
-    const b = h(`<button type="button" class="${s.mode === m ? "on" : ""}">${t}</button>`);
+  [["light", "sun", "Light"], ["dark", "moon", "Dark"], ["auto", "auto", "Auto"]].forEach(([m, ic, t]) => {
+    const b = h(`<button type="button" class="${s.mode === m ? "on" : ""}">${icon(ic, { size: 16 })} ${t}</button>`);
     b.addEventListener("click", () => { store.setSetting("mode", m); applyTheme(); wrap.querySelectorAll(".mode button").forEach(x => x.classList.toggle("on", x === b)); });
     wrap.querySelector(".mode").append(b);
   });
@@ -444,9 +446,9 @@ function renderLesson(lid, sid, stepIdx) {
   store.touch();
 
   const top = h(`<div class="ltop">
-      <a class="x" href="#/" aria-label="Close lesson">✕</a>
+      <a class="x" href="#/" aria-label="Close lesson">${icon("close", { size: 18 })}</a>
       <div class="segs">${ses.steps.map((_, k) => `<i class="${k < stepIdx || store.stepDone(`${lid}.${sid}.${k}`) ? "on" : k === stepIdx ? "now" : ""}"></i>`).join("")}</div>
-      <button class="x" type="button" data-report aria-label="Report a mistake">⚑</button></div>`);
+      <button class="x" type="button" data-report aria-label="Report a mistake">${icon("flag", { size: 18 })}</button></div>`);
   top.querySelector("[data-report]").addEventListener("click", () => reportModal(`${m.n ? "Lesson " + m.n : m.id} · ${sid} · step ${stepIdx + 1}: ${step.title || step.type}`));
   view.append(top);
   const wrap = h(`<div class="lesson enter"></div>`);
@@ -473,7 +475,7 @@ function renderLesson(lid, sid, stepIdx) {
 function finishSession(m, ses) {
   timerStop();
   const said = (ses.said || []).map(id => item(id)).filter(Boolean);
-  const el = h(`<div class="finish"><div class="big-emoji pop">🎉</div><h2>Great job!</h2>
+  const el = h(`<div class="finish"><div class="badge-ok pop">${icon("check", { size: 40 })}</div><h2>Great job!</h2>
     <p class="muted">${esc(m.title)} · ${esc(ses.title)}</p>
     ${said.length ? `<h3>Today you learned to say:</h3><div class="said">${said.map(it => `<div class="de">${de(it.de)}</div>`).join("")}</div>` : ""}
     <p class="small muted">New words and phrases have been added to your review cards.</p><div class="col"></div></div>`);
@@ -488,10 +490,9 @@ function finishSession(m, ses) {
 function burst() {
   if (matchMedia("(prefers-reduced-motion: reduce)").matches) return;
   const layer = h(`<div class="burst" aria-hidden="true"></div>`);
-  const em = ["✨", "⭐", "🎉", "💫"];
-  for (let k = 0; k < 18; k++) {
+  for (let k = 0; k < 22; k++) {
     const s = document.createElement("span");
-    s.textContent = em[k % em.length];
+    s.className = ["c1", "c2", "c3"][k % 3] + (k % 2 ? " round" : "");
     s.style.setProperty("--x", `${(Math.random() - 0.5) * 320}px`);
     s.style.setProperty("--y", `${-120 - Math.random() * 260}px`);
     s.style.setProperty("--r", `${(Math.random() - 0.5) * 540}deg`);
@@ -528,7 +529,7 @@ function renderReview({ mode, then, limit = 20, arg }) {
   }
   if (mode === "warmup" && !queue.length) { location.replace(then); return; }
   const titles = { warmup: "Warm-up: review", comeback: "Welcome back!", reinforce: `Practice: ${plan.TAGS[arg] || ""}`, review: "Review session", free: "Review" };
-  const el = h(`<div class="wrap"><div class="pagehead enter">${mode === "free" ? "" : `<a class="back" href="#/" aria-label="Back">‹</a>`}<h1>${esc(titles[mode] || "Review")}</h1></div><div class="rv"></div></div>`);
+  const el = h(`<div class="wrap"><div class="pagehead enter">${mode === "free" ? "" : `<a class="back" href="#/" aria-label="Back">${icon("back")}</a>`}<h1>${esc(titles[mode] || "Review")}</h1></div><div class="rv"></div></div>`);
   const box = el.querySelector(".rv");
   view.append(el);
   let done = 0;
@@ -544,7 +545,7 @@ function renderReview({ mode, then, limit = 20, arg }) {
       finish();
       const st = stats();
       box.append(h(`<div class="result enter"><div class="score">${done}</div><p><b>${done ? (done === 1 ? "card reviewed" : "cards reviewed") : "Nothing to review right now"}</b></p><p class="muted small">${st.total ? `${st.total} words and phrases so far, ${st.learned} of them well remembered.` : "Cards appear after your first lesson."}</p></div>`));
-      box.append(h(`<a class="btn" href="${then || "#/"}">${then ? "Go to the lesson ▶" : "Go to home"}</a>`));
+      box.append(h(`<a class="btn" href="${then || "#/"}">${then ? "Go to the lesson" : "Go to home"}</a>`));
       return;
     }
     const id = queue[0], it = item(id);
@@ -591,9 +592,9 @@ function renderProgress() {
   const stages = h(`<div class="stages enter"></div>`);
   course.stages.forEach(stg => {
     const pr = plan.stageProgress(course, stg.n);
-    stages.append(h(`<a href="#/path" class="stage ${stg.n === cur ? "now" : pr.done === pr.total ? "done" : ""}"><span class="e">${pr.done === pr.total ? "✓" : stg.pic}</span><b>${stg.n + 1}</b><i><u style="width:${Math.round((pr.done / pr.total) * 100)}%"></u></i></a>`));
+    stages.append(h(`<a href="#/path" class="stage ${stg.n === cur ? "now" : pr.done === pr.total ? "done" : ""}"><span class="e">${pr.done === pr.total ? icon("check") : stg.n + 1}</span><i><u style="width:${Math.round((pr.done / pr.total) * 100)}%"></u></i></a>`));
   });
-  el.append(h(`<div class="sec"><h3>${stageName(cur)} · ${esc(course.stages[cur].title)}</h3><a href="#/path">Map ›</a></div>`), stages);
+  el.append(h(`<div class="sec"><h3>${stageName(cur)} · ${esc(course.stages[cur].title)}</h3><a href="#/path">Map ${icon("next", { size: 14 })}</a></div>`), stages);
 
   el.append(h(`<section class="eta enter"><div class="k">Estimated A1 finish date</div><div class="when de">${enMonthYear(e.date)}</div>
     <p class="small">${e.sessionsLeft} sessions to go · about ${e.perWeek.toFixed(1).replace(".0", "")} a week ${e.measured ? "(your real pace)" : "(based on your planned days)"}</p></section>`));
@@ -601,12 +602,12 @@ function renderProgress() {
   const hrs = Math.floor(s.minutes / 60), mins = Math.round(s.minutes % 60);
   el.append(h(`<div class="stats enter">
     <div class="stat"><b>${hrs ? `${hrs} h ${mins} min` : `${mins} min`}</b><span>total time</span></div>
-    <div class="stat"><b>${w.streak ? `${w.streak}🔥` : `${w.thisWeek}/${w.target}`}</b><span>${w.streak ? "weeks in a row" : "this week"}</span></div>
+    <div class="stat"><b>${w.streak ? `${w.streak}` : `${w.thisWeek}/${w.target}`}</b><span>${w.streak ? "weeks in a row" : "this week"}</span></div>
     <div class="stat"><b>${st.learned}</b><span>well remembered</span></div></div>`));
 
   const max = Math.max(1, ...Object.values(s.skills));
   el.append(h(`<div class="sec"><h3>Skills</h3></div>`));
-  el.append(h(`<div class="panel skills enter">${["listen", "speak", "read", "write"].map(k => `<div class="sk"><span>${{ listen: "🎧", speak: "🗣️", read: "📖", write: "✍️" }[k]} ${SKILL_LABEL[k]}</span><i><u style="width:${Math.round(((s.skills[k] || 0) / max) * 100)}%"></u></i><b>${s.skills[k] || 0}</b></div>`).join("")}<p class="small muted">Number of exercises completed.</p></div>`));
+  el.append(h(`<div class="panel skills enter">${["listen", "speak", "read", "write"].map(k => `<div class="sk"><span>${icon({ listen: "listen", speak: "speak", read: "read", write: "write" }[k], { size: 18 })} ${SKILL_LABEL[k]}</span><i><u style="width:${Math.round(((s.skills[k] || 0) / max) * 100)}%"></u></i><b>${s.skills[k] || 0}</b></div>`).join("")}<p class="small muted">Number of exercises completed.</p></div>`));
 
   const errs = Object.entries(s.errors).sort((a, b) => b[1] - a[1]).slice(0, 4);
   el.append(h(`<div class="sec"><h3>Most common mistakes</h3></div>`));
@@ -623,7 +624,7 @@ function renderSettings() {
   const j = jobOf(p);
   const el = h(`<div class="wrap"><div class="pagehead enter"><h1>Settings</h1></div>
     <div class="sec"><h3>Profile</h3></div>
-    <a class="rowcard" href="#/onboard/1"><span class="ico">🙋</span><span><b>${esc(p.name)}</b><small>${esc(j ? jobLabel(j) : "")} · ${esc(p.city?.en || p.city?.de || "")}</small></span><span class="go">Edit ›</span></a>
+    <a class="rowcard" href="#/onboard/1"><span class="ico">${icon("me")}</span><span><b>${esc(p.name)}</b><small>${esc(j ? jobLabel(j) : "")} · ${esc(p.city?.en || p.city?.de || "")}</small></span><span class="go">Edit</span></a>
     <div class="sec"><h3>Appearance</h3></div><div class="panel tp"></div>
     <div class="sec"><h3>Voice</h3></div>
     <div class="panel">
@@ -647,7 +648,7 @@ function renderSettings() {
     speak("Guten Tag! Wie geht es Ihnen?");
   }));
   const rep = el.querySelector(".reports");
-  if (!s.reports.length) rep.append(h(`<p class="muted small">Nothing yet. Tap ⚑ during a lesson to report something.</p>`));
+  if (!s.reports.length) rep.append(h(`<p class="muted small">Nothing yet. Tap the flag during a lesson to report something.</p>`));
   else {
     s.reports.slice().reverse().forEach(r => rep.append(h(`<div class="rep"><div class="small muted">${esc(r.where)}</div><div>${esc(r.text)}</div></div>`)));
     const cp = h(`<button class="btn" type="button">Copy all</button>`);
