@@ -7,8 +7,14 @@ const course = read("course");
 let problems = 0;
 const warn = (...a) => { problems++; console.log("  ✗", ...a); };
 
+const seen = new Map(); // item ids are global in the app: the same id must mean the same thing everywhere
 for (const l of course.lessons.filter(l => l.file)) {
   const j = read(l.id);
+  for (const [id, it] of Object.entries(j.items)) {
+    const prev = seen.get(id);
+    if (prev && (prev.it.de !== it.de || prev.it.uz !== it.uz)) warn(`${id}: defined differently in ${prev.lesson} and ${l.id}`);
+    seen.set(id, { it, lesson: l.id });
+  }
   console.log(`${l.id}: ${Object.keys(j.items).length} items, ${j.sessions.length} session(s)`);
   const ids = new Set(Object.keys(j.items));
   const ref = (id, where) => { if (!id.startsWith("me.") && !ids.has(id)) warn(`${where}: missing item ${id}`); };

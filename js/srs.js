@@ -6,7 +6,8 @@ const DAY = 86400000;
 
 export function ensureCard(id) {
   const s = get();
-  if (!s.srs[id]) { s.srs[id] = { box: 0, due: Date.now(), wrong: 0, right: 0, last: null }; save(); }
+  // A card is created when the learner first meets the item in a lesson; first review is the next day.
+  if (!s.srs[id]) { s.srs[id] = { box: 0, due: Date.now() + 20 * 3600 * 1000, wrong: 0, right: 0, last: null }; save(); }
   return s.srs[id];
 }
 

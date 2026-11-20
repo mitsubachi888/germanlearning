@@ -91,10 +91,10 @@ STEP.video = (s, body) => {
   const p = new URLSearchParams({ rel: "0", playsinline: "1", modestbranding: "1" });
   if (s.start) p.set("start", String(s.start));
   if (s.end) p.set("end", String(s.end));
-  const range = s.end ? `${sec(s.start || 0)} – ${sec(s.end)}` : s.start ? `${sec(s.start)} dan` : "toʻliq video";
+  const range = s.end ? `${sec(s.start || 0)} – ${sec(s.end)}` : s.start ? `${sec(s.start)} dan boshlab` : "toʻliq video";
   if (navigator.onLine === false) body.append(h(`<div class="video off">Videoni koʻrish uchun internet kerak. Boshqa mashqlar internetsiz ishlaydi.</div>`));
   else body.append(h(`<div class="video"><iframe src="https://www.youtube-nocookie.com/embed/${encodeURIComponent(s.videoId)}?${p}" title="${esc(s.title || "Video")}" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>`));
-  body.append(h(`<p class="small muted vmeta"><span>${esc(s.channel || "")}</span><span>${range} · <a href="https://www.youtube.com/watch?v=${encodeURIComponent(s.videoId)}${s.start ? `&t=${s.start}s` : ""}" target="_blank" rel="noopener">YouTube’da ochish</a></span></p>`));
+  body.append(h(`<p class="small muted vmeta"><span>${esc(s.channel || "")}</span><span>${range} · <a href="https://www.youtube.com/watch?v=${encodeURIComponent(s.videoId)}${s.start ? `&t=${s.start}s` : ""}" target="_blank" rel="noopener">YouTubeʼda ochish</a></span></p>`));
   if (s.note) body.append(h(`<div class="panel md">${md(s.note)}</div>`));
 };
 
@@ -520,6 +520,6 @@ STEP.write = (s, body, ctx) => {
   });
   ai.addEventListener("click", async () => {
     if (ta.value.trim().length < 3) { toast("Avval matn yozing."); return; }
-    toast((await copyText(aiPrompt(s, ta.value.trim()))) ? "Nusxalandi. Claude yoki ChatGPT’ga joylang." : "Nusxalab boʻlmadi.");
+    toast((await copyText(aiPrompt(s, ta.value.trim()))) ? "Nusxalandi. Claude yoki ChatGPTʼga joylang." : "Nusxalab boʻlmadi.");
   });
 };

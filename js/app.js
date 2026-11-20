@@ -163,7 +163,7 @@ function stopNode(l, k) {
 function lessonSheet(l) {
   const el = h(`<div class="sheet">
     <div class="sheet-pic">${l.pic}</div>
-    <div class="kicker">${l.n ? `${l.n}-dars` : "Mini-Gespräch"} · Bosqich ${l.stage}</div>
+    <div class="kicker">${l.n ? `${l.n}-dars` : "Mini-Gespräch"} · ${l.stage + 1}-bosqich</div>
     <h2 class="de">${de(l.hero)}</h2><p class="muted">${esc(l.gloss || "")}</p>
     <h3>${esc(l.title)}</h3><div class="sess"></div></div>`);
   const box = el.querySelector(".sess");
@@ -186,7 +186,7 @@ function todayCard() {
       <div><b>🗣️</b>Gapirish<small>${c}</small></div><div><b>✍️</b>Yozish<small>${d}</small></div></div>`;
   if (pack.kind === "comeback") return h(`<section class="today enter">
       <div class="k">Xush kelibsiz!</div><h2>Avval takrorlaymiz</h2>
-      <p>Siz ${pack.gap} kun dars qilmadingiz. Avval ${Math.min(pack.due, 15)} ta kartani takrorlang (~5 daqiqa), keyin yangi darsga oʻtamiz. Qarzdorlik yoʻq.</p>
+      <p>Siz ${pack.gap} kun dars qilmadingiz. Avval ${Math.min(pack.due, 15)} ta kartani takrorlang (~5 daqiqa), keyin yangi darsga oʻtamiz. Hech narsa yoʻqotmadingiz.</p>
       <a class="btn" href="#/pack/comeback">Takrorlashni boshlash</a></section>`);
   if (pack.kind === "reinforce") return h(`<section class="today enter">
       <div class="k">Mustahkamlash</div><h2>${esc(plan.TAGS[pack.tag] || pack.tag)}</h2>
@@ -223,10 +223,10 @@ function renderHome() {
   const cur = plan.currentStage(course);
   const stg = course.stages[cur];
   const pr = plan.stageProgress(course, cur);
-  el.append(h(`<div class="sec"><h3>Bosqich ${cur} · ${esc(stg.title)}</h3><span>${pr.done} / ${pr.total}</span></div>`));
+  el.append(h(`<div class="sec"><h3>${cur + 1}-bosqich · ${esc(stg.title)}</h3><span>${pr.done} / ${pr.total}</span></div>`));
   el.append(pathFor(cur));
   const nxt = course.stages[cur + 1];
-  el.append(h(`<a class="next-stage" href="#/path">${nxt ? `Keyingi: Bosqich ${nxt.n} · ${esc(nxt.title)} — ${course.lessons.filter(l => l.stage === nxt.n && !l.mini).length} dars` : "Butun yoʻl xaritasi"} ›</a>`));
+  el.append(h(`<a class="next-stage" href="#/path">${nxt ? `Keyingi: ${nxt.n + 1}-bosqich · ${esc(nxt.title)} — ${course.lessons.filter(l => l.stage === nxt.n && !l.mini).length} dars` : "Butun yoʻl xaritasi"} ›</a>`));
   view.append(el);
 }
 
@@ -246,7 +246,7 @@ function renderPath() {
   const el = h(`<div class="wrap"><div class="pagehead enter"><a class="back" href="#/" aria-label="Orqaga">‹</a><h1>Yoʻl xaritasi</h1></div></div>`);
   course.stages.forEach(stg => {
     const pr = plan.stageProgress(course, stg.n);
-    el.append(h(`<div class="sec"><h3>${stg.pic} Bosqich ${stg.n} · ${esc(stg.title)}</h3><span>${pr.done} / ${pr.total}</span></div>`));
+    el.append(h(`<div class="sec"><h3>${stg.pic} ${stg.n + 1}-bosqich · ${esc(stg.title)}</h3><span>${pr.done} / ${pr.total}</span></div>`));
     el.append(pathFor(stg.n));
   });
   view.append(el);
@@ -313,7 +313,7 @@ function renderOnboard(i) {
     foot.append(back, nextBtn("Keyingi", () => !!draft.form, "Bittasini tanlang."));
   }
   if (step === "job") {
-    body.append(h(`<h2>Kasbingiz?</h2><p class="muted">Roʻyxatdagi eng yaqinini tanlang.</p>`));
+    body.append(h(`<h2>Kasbingiz nima?</h2><p class="muted">Roʻyxatdagi eng yaqinini tanlang.</p>`));
     const grid = h(`<div class="choices"></div>`);
     JOBS.forEach(j => {
       const b = h(`<button type="button" class="choice ${draft.job === j.id ? "on" : ""}"><span class="e">${j.pic}</span><b>${esc(j.uz)}</b><small class="de">${draft.form === "f" ? j.f : j.m}</small></button>`);
@@ -522,7 +522,7 @@ function renderReview({ mode, then, limit = 20, arg }) {
     queue = queue.concat(extra);
   }
   if (mode === "warmup" && !queue.length) { location.replace(then); return; }
-  const titles = { warmup: "Isinish: takrorlash", comeback: "Qaytganingiz bilan!", reinforce: `Mustahkamlash: ${plan.TAGS[arg] || ""}`, review: "Umumiy takrorlash", free: "Takrorlash" };
+  const titles = { warmup: "Isinish: takrorlash", comeback: "Yana xush kelibsiz!", reinforce: `Mustahkamlash: ${plan.TAGS[arg] || ""}`, review: "Umumiy takrorlash", free: "Takrorlash" };
   const el = h(`<div class="wrap"><div class="pagehead enter">${mode === "free" ? "" : `<a class="back" href="#/" aria-label="Orqaga">‹</a>`}<h1>${esc(titles[mode] || "Takrorlash")}</h1></div><div class="rv"></div></div>`);
   const box = el.querySelector(".rv");
   view.append(el);
@@ -586,16 +586,16 @@ function renderProgress() {
   const stages = h(`<div class="stages enter"></div>`);
   course.stages.forEach(stg => {
     const pr = plan.stageProgress(course, stg.n);
-    stages.append(h(`<a href="#/path" class="stage ${stg.n === cur ? "now" : pr.done === pr.total ? "done" : ""}"><span class="e">${pr.done === pr.total ? "✓" : stg.pic}</span><b>${stg.n}</b><i><u style="width:${Math.round((pr.done / pr.total) * 100)}%"></u></i></a>`));
+    stages.append(h(`<a href="#/path" class="stage ${stg.n === cur ? "now" : pr.done === pr.total ? "done" : ""}"><span class="e">${pr.done === pr.total ? "✓" : stg.pic}</span><b>${stg.n + 1}</b><i><u style="width:${Math.round((pr.done / pr.total) * 100)}%"></u></i></a>`));
   });
-  el.append(h(`<div class="sec"><h3>Bosqich ${cur} · ${esc(course.stages[cur].title)}</h3><a href="#/path">Xarita ›</a></div>`), stages);
+  el.append(h(`<div class="sec"><h3>${cur + 1}-bosqich · ${esc(course.stages[cur].title)}</h3><a href="#/path">Xarita ›</a></div>`), stages);
 
-  el.append(h(`<section class="eta enter"><div class="k">A1 darajasini taxminiy tugatish</div><div class="when de">${uzMonthYear(e.date)}</div>
+  el.append(h(`<section class="eta enter"><div class="k">A1 darajasini taxminan tugatish sanasi</div><div class="when de">${uzMonthYear(e.date)}</div>
     <p class="small">${e.sessionsLeft} ta mashgʻulot qoldi · haftasiga ~${e.perWeek.toFixed(1).replace(".0", "")} ta ${e.measured ? "(sizning haqiqiy tezligingiz)" : "(rejadagi kunlar boʻyicha)"}</p></section>`));
 
   const hrs = Math.floor(s.minutes / 60), mins = Math.round(s.minutes % 60);
   el.append(h(`<div class="stats enter">
-    <div class="stat"><b>${hrs ? `${hrs}s ${mins}d` : `${mins} d`}</b><span>jami vaqt</span></div>
+    <div class="stat"><b>${hrs ? `${hrs} soat ${mins} daq` : `${mins} daq`}</b><span>jami vaqt</span></div>
     <div class="stat"><b>${w.streak ? `${w.streak}🔥` : `${w.thisWeek}/${w.target}`}</b><span>${w.streak ? "hafta ketma-ket" : "bu hafta"}</span></div>
     <div class="stat"><b>${st.learned}</b><span>yaxshi esda</span></div></div>`));
 
@@ -623,7 +623,7 @@ function renderSettings() {
     <div class="panel">
       <label class="setting"><span>Tezlik</span><select class="field" data-k="rate">${[0.8, 0.9, 1].map(v => `<option value="${v}" ${Number(s.settings.rate) === v ? "selected" : ""}>${v === 1 ? "Oddiy" : v + "×"}</option>`).join("")}</select></label>
       <label class="setting"><span>Qurilma ovozi</span><select class="field" data-k="voiceURI"></select></label>
-      <p class="small muted">Asosiy ovoz — tayyor audio yozuvlar. Ular yoʻq joyda iPhone ovozi ishlatiladi. Nemischa ovoz boʻlmasa: Sozlamalar → Universal kirish → Oʻqib berish → Ovozlar → Nemis tili (masalan, Anna).</p>
+      <p class="small muted">Asosiy ovoz — tayyor audio yozuvlar. Ular yoʻq joyda iPhone ovozi ishlatiladi. Nemischa ovoz boʻlmasa: Settings → Accessibility → Spoken Content → Voices → German (masalan, Anna).</p>
     </div>
     <div class="sec"><h3>Xato haqida xabarlar</h3></div><div class="panel reports"></div>
     <div class="sec"><h3>Zaxira nusxa</h3></div>

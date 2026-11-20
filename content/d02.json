@@ -1,0 +1,858 @@
+{
+ "id": "d02",
+ "title": "Alifbo",
+ "items": {
+  "n.apfel": {
+   "de": "der Apfel",
+   "plural": "die Äpfel",
+   "gender": "der",
+   "uz": "olma",
+   "en": "apple",
+   "ipa": "ˈapfl̩",
+   "pic": "🍎",
+   "tags": [
+    "noun"
+   ]
+  },
+  "n.banane": {
+   "de": "die Banane",
+   "plural": "die Bananen",
+   "gender": "die",
+   "uz": "banan",
+   "en": "banana",
+   "ipa": "baˈnaːnə",
+   "pic": "🍌",
+   "tags": [
+    "noun"
+   ]
+  },
+  "n.computer": {
+   "de": "der Computer",
+   "plural": "die Computer",
+   "gender": "der",
+   "uz": "kompyuter",
+   "en": "computer",
+   "ipa": "kɔmˈpjuːtɐ",
+   "pic": "💻",
+   "tags": [
+    "noun"
+   ]
+  },
+  "n.dusche": {
+   "de": "die Dusche",
+   "plural": "die Duschen",
+   "gender": "die",
+   "uz": "dush",
+   "en": "shower",
+   "ipa": "ˈduːʃə",
+   "pic": "🚿",
+   "tags": [
+    "noun"
+   ]
+  },
+  "n.elefant": {
+   "de": "der Elefant",
+   "plural": "die Elefanten",
+   "gender": "der",
+   "uz": "fil",
+   "en": "elephant",
+   "ipa": "eleˈfant",
+   "pic": "🐘",
+   "tags": [
+    "noun"
+   ]
+  },
+  "n.fisch": {
+   "de": "der Fisch",
+   "plural": "die Fische",
+   "gender": "der",
+   "uz": "baliq",
+   "en": "fish",
+   "ipa": "fɪʃ",
+   "pic": "🐟",
+   "tags": [
+    "noun"
+   ]
+  },
+  "n.gitarre": {
+   "de": "die Gitarre",
+   "plural": "die Gitarren",
+   "gender": "die",
+   "uz": "gitara",
+   "en": "guitar",
+   "ipa": "ɡiˈtaʁə",
+   "pic": "🎸",
+   "tags": [
+    "noun"
+   ]
+  },
+  "n.haus": {
+   "de": "das Haus",
+   "plural": "die Häuser",
+   "gender": "das",
+   "uz": "uy",
+   "en": "house",
+   "ipa": "haʊ̯s",
+   "pic": "🏠",
+   "tags": [
+    "noun"
+   ]
+  },
+  "n.igel": {
+   "de": "der Igel",
+   "plural": "die Igel",
+   "gender": "der",
+   "uz": "tipratikan",
+   "en": "hedgehog",
+   "ipa": "ˈiːɡl̩",
+   "pic": "🦔",
+   "tags": [
+    "noun"
+   ]
+  },
+  "n.jacke": {
+   "de": "die Jacke",
+   "plural": "die Jacken",
+   "gender": "die",
+   "uz": "kurtka",
+   "en": "jacket",
+   "ipa": "ˈjakə",
+   "pic": "🧥",
+   "tags": [
+    "noun"
+   ]
+  },
+  "n.katze": {
+   "de": "die Katze",
+   "plural": "die Katzen",
+   "gender": "die",
+   "uz": "mushuk",
+   "en": "cat",
+   "ipa": "ˈkatsə",
+   "pic": "🐱",
+   "tags": [
+    "noun"
+   ]
+  },
+  "n.loewe": {
+   "de": "der Löwe",
+   "plural": "die Löwen",
+   "gender": "der",
+   "uz": "sher",
+   "en": "lion",
+   "ipa": "ˈløːvə",
+   "pic": "🦁",
+   "tags": [
+    "noun"
+   ]
+  },
+  "n.maus": {
+   "de": "die Maus",
+   "plural": "die Mäuse",
+   "gender": "die",
+   "uz": "sichqon",
+   "en": "mouse",
+   "ipa": "maʊ̯s",
+   "pic": "🐭",
+   "tags": [
+    "noun"
+   ]
+  },
+  "n.nase": {
+   "de": "die Nase",
+   "plural": "die Nasen",
+   "gender": "die",
+   "uz": "burun",
+   "en": "nose",
+   "ipa": "ˈnaːzə",
+   "pic": "👃",
+   "tags": [
+    "noun"
+   ]
+  },
+  "n.orange": {
+   "de": "die Orange",
+   "plural": "die Orangen",
+   "gender": "die",
+   "uz": "apelsin",
+   "en": "orange",
+   "ipa": "oˈʁãːʒə",
+   "pic": "🍊",
+   "tags": [
+    "noun"
+   ]
+  },
+  "n.pizza": {
+   "de": "die Pizza",
+   "plural": "die Pizzen",
+   "gender": "die",
+   "uz": "pitsa",
+   "en": "pizza",
+   "ipa": "ˈpɪtsa",
+   "pic": "🍕",
+   "note": "Plural also: *die Pizzas*.",
+   "tags": [
+    "noun"
+   ]
+  },
+  "n.qualle": {
+   "de": "die Qualle",
+   "plural": "die Quallen",
+   "gender": "die",
+   "uz": "meduza",
+   "en": "jellyfish",
+   "ipa": "ˈkvalə",
+   "pic": "🪼",
+   "note": "*qu* is said like *kv*.",
+   "tags": [
+    "noun"
+   ]
+  },
+  "n.rose": {
+   "de": "die Rose",
+   "plural": "die Rosen",
+   "gender": "die",
+   "uz": "atirgul",
+   "en": "rose",
+   "ipa": "ˈʁoːzə",
+   "pic": "🌹",
+   "tags": [
+    "noun"
+   ]
+  },
+  "n.sonne": {
+   "de": "die Sonne",
+   "plural": "die Sonnen",
+   "gender": "die",
+   "uz": "quyosh",
+   "en": "sun",
+   "ipa": "ˈzɔnə",
+   "pic": "☀️",
+   "tags": [
+    "noun"
+   ]
+  },
+  "n.tomate": {
+   "de": "die Tomate",
+   "plural": "die Tomaten",
+   "gender": "die",
+   "uz": "pomidor",
+   "en": "tomato",
+   "ipa": "toˈmaːtə",
+   "pic": "🍅",
+   "tags": [
+    "noun"
+   ]
+  },
+  "n.uhr": {
+   "de": "die Uhr",
+   "plural": "die Uhren",
+   "gender": "die",
+   "uz": "soat",
+   "en": "clock / watch",
+   "ipa": "uːɐ̯",
+   "pic": "⌚",
+   "tags": [
+    "noun"
+   ]
+  },
+  "n.vogel": {
+   "de": "der Vogel",
+   "plural": "die Vögel",
+   "gender": "der",
+   "uz": "qush",
+   "en": "bird",
+   "ipa": "ˈfoːɡl̩",
+   "pic": "🐦",
+   "tags": [
+    "noun"
+   ]
+  },
+  "n.wal": {
+   "de": "der Wal",
+   "plural": "die Wale",
+   "gender": "der",
+   "uz": "kit",
+   "en": "whale",
+   "ipa": "vaːl",
+   "pic": "🐋",
+   "tags": [
+    "noun"
+   ]
+  },
+  "n.taxi": {
+   "de": "das Taxi",
+   "plural": "die Taxis",
+   "gender": "das",
+   "uz": "taksi",
+   "en": "taxi",
+   "ipa": "ˈtaksi",
+   "pic": "🚕",
+   "note": "Few German words start with X — here it is in the middle.",
+   "tags": [
+    "noun"
+   ]
+  },
+  "n.yoga": {
+   "de": "das Yoga",
+   "gender": "das",
+   "uz": "yoga",
+   "en": "yoga",
+   "ipa": "ˈjoːɡa",
+   "pic": "🧘",
+   "note": "No plural.",
+   "tags": [
+    "noun"
+   ]
+  },
+  "n.zug": {
+   "de": "der Zug",
+   "plural": "die Züge",
+   "gender": "der",
+   "uz": "poyezd",
+   "en": "train",
+   "ipa": "tsuːk",
+   "pic": "🚆",
+   "tags": [
+    "noun"
+   ]
+  },
+  "n.baer": {
+   "de": "der Bär",
+   "plural": "die Bären",
+   "gender": "der",
+   "uz": "ayiq",
+   "en": "bear",
+   "ipa": "bɛːɐ̯",
+   "pic": "🐻",
+   "tags": [
+    "noun"
+   ]
+  },
+  "n.loeffel": {
+   "de": "der Löffel",
+   "plural": "die Löffel",
+   "gender": "der",
+   "uz": "qoshiq",
+   "en": "spoon",
+   "ipa": "ˈlœfl̩",
+   "pic": "🥄",
+   "tags": [
+    "noun"
+   ]
+  },
+  "n.tuer": {
+   "de": "die Tür",
+   "plural": "die Türen",
+   "gender": "die",
+   "uz": "eshik",
+   "en": "door",
+   "ipa": "tyːɐ̯",
+   "pic": "🚪",
+   "tags": [
+    "noun"
+   ]
+  },
+  "n.strasse": {
+   "de": "die Straße",
+   "plural": "die Straßen",
+   "gender": "die",
+   "uz": "koʻcha",
+   "en": "street",
+   "ipa": "ˈʃtʁaːsə",
+   "pic": "🛣️",
+   "tags": [
+    "noun"
+   ]
+  },
+  "p.wie_schreibt": {
+   "de": "Wie schreibt man das?",
+   "uz": "Bu qanday yoziladi?",
+   "en": "How do you spell that?",
+   "ipa": "viː ˈʃʁaɪ̯pt man das",
+   "pic": "✍️",
+   "tags": [
+    "survive"
+   ]
+  },
+  "p.buchstabieren": {
+   "de": "Können Sie das bitte buchstabieren?",
+   "uz": "Harflab aytib bera olasizmi, iltimos?",
+   "en": "Can you spell that, please?",
+   "ipa": "ˈkœnən ziː das ˈbɪtə buːxʃtaˈbiːʁən",
+   "pic": "🔤",
+   "tags": [
+    "survive"
+   ]
+  },
+  "p.langsamer": {
+   "de": "Bitte langsamer!",
+   "uz": "Sekinroq gapiring, iltimos!",
+   "en": "Slower, please!",
+   "ipa": "ˈbɪtə ˈlaŋzamɐ",
+   "pic": "🐢",
+   "tags": [
+    "survive"
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "id": "A",
+   "title": "26 harf + ä ö ü ß",
+   "said": [
+    "p.wie_schreibt",
+    "p.buchstabieren",
+    "p.langsamer"
+   ],
+   "steps": [
+    {
+     "type": "video",
+     "title": "Video: nemis alifbosi",
+     "videoId": "TytGj8xiPyY",
+     "channel": "YourGermanTeacher (Johannes)",
+     "start": 35,
+     "end": 545,
+     "note": "Johannes says each letter — **repeat after him out loud**.\n\n- 0:42 A–E · 1:38 F–J · 2:37 K–T (repeat 4:09) · 4:26 U–Z (repeat 5:18)\n- 5:31 **ß** (Eszett) · 5:49 **ä ö ü** (Umlaut)\n- 7:00 difficult letters: E/I, R, V/F · 8:30 how to ask for spelling"
+    },
+    {
+     "type": "letters",
+     "title": "Harfni bosing va tinglang",
+     "intro": "Har bir harfni bosing: avval harf nomi, keyin misol soʻz eshitiladi.",
+     "letters": [
+      {
+       "ch": "A",
+       "say": "A",
+       "name": "a",
+       "item": "n.apfel"
+      },
+      {
+       "ch": "B",
+       "say": "Be",
+       "name": "be",
+       "item": "n.banane"
+      },
+      {
+       "ch": "C",
+       "say": "Ze",
+       "name": "ce",
+       "item": "n.computer"
+      },
+      {
+       "ch": "D",
+       "say": "De",
+       "name": "de",
+       "item": "n.dusche"
+      },
+      {
+       "ch": "E",
+       "say": "E",
+       "name": "e",
+       "item": "n.elefant"
+      },
+      {
+       "ch": "F",
+       "say": "Eff",
+       "name": "ef",
+       "item": "n.fisch"
+      },
+      {
+       "ch": "G",
+       "say": "Ge",
+       "name": "ge",
+       "item": "n.gitarre"
+      },
+      {
+       "ch": "H",
+       "say": "Ha",
+       "name": "ha",
+       "item": "n.haus"
+      },
+      {
+       "ch": "I",
+       "say": "I",
+       "name": "i",
+       "item": "n.igel"
+      },
+      {
+       "ch": "J",
+       "say": "Jott",
+       "name": "jot",
+       "item": "n.jacke"
+      },
+      {
+       "ch": "K",
+       "say": "Ka",
+       "name": "ka",
+       "item": "n.katze"
+      },
+      {
+       "ch": "L",
+       "say": "Ell",
+       "name": "el",
+       "item": "n.loewe"
+      },
+      {
+       "ch": "M",
+       "say": "Emm",
+       "name": "em",
+       "item": "n.maus"
+      },
+      {
+       "ch": "N",
+       "say": "Enn",
+       "name": "en",
+       "item": "n.nase"
+      },
+      {
+       "ch": "O",
+       "say": "O",
+       "name": "o",
+       "item": "n.orange"
+      },
+      {
+       "ch": "P",
+       "say": "Pe",
+       "name": "pe",
+       "item": "n.pizza"
+      },
+      {
+       "ch": "Q",
+       "say": "Ku",
+       "name": "ku",
+       "item": "n.qualle"
+      },
+      {
+       "ch": "R",
+       "say": "Er",
+       "name": "er",
+       "item": "n.rose"
+      },
+      {
+       "ch": "S",
+       "say": "Ess",
+       "name": "es",
+       "item": "n.sonne"
+      },
+      {
+       "ch": "T",
+       "say": "Te",
+       "name": "te",
+       "item": "n.tomate"
+      },
+      {
+       "ch": "U",
+       "say": "U",
+       "name": "u",
+       "item": "n.uhr"
+      },
+      {
+       "ch": "V",
+       "say": "Vau",
+       "name": "vau",
+       "item": "n.vogel"
+      },
+      {
+       "ch": "W",
+       "say": "We",
+       "name": "we",
+       "item": "n.wal"
+      },
+      {
+       "ch": "X",
+       "say": "Ix",
+       "name": "ix",
+       "item": "n.taxi"
+      },
+      {
+       "ch": "Y",
+       "say": "Ypsilon",
+       "name": "ypsilon",
+       "item": "n.yoga"
+      },
+      {
+       "ch": "Z",
+       "say": "Zett",
+       "name": "zett",
+       "item": "n.zug"
+      },
+      {
+       "ch": "Ä",
+       "say": "Ä",
+       "name": "ä",
+       "item": "n.baer"
+      },
+      {
+       "ch": "Ö",
+       "say": "Ö",
+       "name": "ö",
+       "item": "n.loeffel"
+      },
+      {
+       "ch": "Ü",
+       "say": "Ü",
+       "name": "ü",
+       "item": "n.tuer"
+      },
+      {
+       "ch": "ß",
+       "say": "Eszett",
+       "name": "eszett",
+       "item": "n.strasse"
+      }
+     ]
+    },
+    {
+     "type": "compare",
+     "title": "Qiyin harflar",
+     "intro": "Comparisons with English only where the sound really matches. “No English equivalent” = learn the mouth position.",
+     "items": [
+      {
+       "letter": "W w",
+       "example": "der Wal",
+       "en": "v — as in “very”",
+       "mouth": "German *w* is never English *w*. Top teeth touch the lower lip."
+      },
+      {
+       "letter": "V v",
+       "example": "der Vogel",
+       "en": "f — as in “father”",
+       "mouth": "In most German words *v* = *f*. In some words from other languages (*die Vase*) it is like English *v*."
+      },
+      {
+       "letter": "Z z",
+       "example": "der Zug",
+       "en": "ts — as in “cats”",
+       "mouth": "Always *ts*, also at the start of a word."
+      },
+      {
+       "letter": "J j",
+       "example": "die Jacke",
+       "en": "y — as in “yes”"
+      },
+      {
+       "letter": "S s",
+       "example": "die Sonne",
+       "en": "z — as in “zoo”",
+       "mouth": "Before a vowel, German *s* is voiced (buzzing)."
+      },
+      {
+       "letter": "ß",
+       "example": "die Straße",
+       "en": "s — as in “see”",
+       "mouth": "Always a sharp, voiceless *s*. Never *b*!"
+      },
+      {
+       "letter": "Ä ä",
+       "example": "der Bär",
+       "en": "e — as in “bed” (here held longer)"
+      },
+      {
+       "letter": "Ö ö",
+       "example": "der Löwe",
+       "none": true,
+       "mouth": "Say German *e* (as in *See*), keep the tongue there and **round your lips** like for *o*."
+      },
+      {
+       "letter": "Ü ü",
+       "example": "die Tür",
+       "none": true,
+       "mouth": "Say *ee* (as in “see”), keep the tongue there and **round your lips tightly** like for *oo*."
+      },
+      {
+       "letter": "R r",
+       "example": "die Rose",
+       "none": true,
+       "mouth": "Made at the back of the throat, not with the tip of the tongue — a soft, light gargle. At the end of a word it often sounds like a short *a*: *der* ≈ “dea”."
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Qaysi harf?",
+     "questions": [
+      {
+       "kind": "listen",
+       "say": "Jott",
+       "options": [
+        "J",
+        "G",
+        "Y"
+       ],
+       "answer": 0,
+       "tag": "pron",
+       "explain": "*J* = „jot“."
+      },
+      {
+       "kind": "listen",
+       "say": "Vau",
+       "options": [
+        "V",
+        "F",
+        "W"
+       ],
+       "answer": 0,
+       "tag": "pron",
+       "explain": "*V* = „vau“ — remember the car brand *VW* („Vau-We“)."
+      },
+      {
+       "kind": "listen",
+       "say": "We",
+       "options": [
+        "W",
+        "V",
+        "B"
+       ],
+       "answer": 0,
+       "tag": "pron"
+      },
+      {
+       "kind": "listen",
+       "say": "Zett",
+       "options": [
+        "Z",
+        "C",
+        "S"
+       ],
+       "answer": 0,
+       "tag": "pron"
+      },
+      {
+       "kind": "listen",
+       "say": "Ze",
+       "options": [
+        "C",
+        "Z",
+        "S"
+       ],
+       "answer": 0,
+       "tag": "pron",
+       "explain": "*C* = „ce“, sounds like *tse*."
+      },
+      {
+       "kind": "listen",
+       "say": "Eszett",
+       "options": [
+        "ß",
+        "S",
+        "Z"
+       ],
+       "answer": 0,
+       "tag": "pron"
+      },
+      {
+       "kind": "listen",
+       "say": "I",
+       "options": [
+        "I",
+        "E",
+        "A"
+       ],
+       "answer": 0,
+       "tag": "pron",
+       "explain": "German *I* sounds like English *ee*. German *E* is different — see the video at 7:00."
+      }
+     ]
+    },
+    {
+     "type": "phrases",
+     "title": "Harflab aytishni soʻrash",
+     "items": [
+      "p.wie_schreibt",
+      "p.buchstabieren",
+      "p.langsamer"
+     ]
+    },
+    {
+     "type": "type",
+     "title": "Harflab aytilgan soʻzni yozing",
+     "intro": "Soʻz harfma-harf aytiladi. Butun soʻzni yozing (artiklsiz).",
+     "questions": [
+      {
+       "say": "K, A, T, Z, E",
+       "answer": "Katze",
+       "uz": "mushuk",
+       "ask": "Tinglang va soʻzni yozing.",
+       "tag": "spell",
+       "item": "n.katze"
+      },
+      {
+       "say": "Z, U, G",
+       "answer": "Zug",
+       "uz": "poyezd",
+       "ask": "Tinglang va soʻzni yozing.",
+       "tag": "spell",
+       "item": "n.zug"
+      },
+      {
+       "say": "V, O, G, E, L",
+       "answer": "Vogel",
+       "uz": "qush",
+       "ask": "Tinglang va soʻzni yozing.",
+       "tag": "spell",
+       "item": "n.vogel"
+      },
+      {
+       "say": "T, Ü, R",
+       "answer": "Tür",
+       "uz": "eshik",
+       "ask": "Tinglang va soʻzni yozing.",
+       "tag": "spell",
+       "item": "n.tuer"
+      },
+      {
+       "say": "S, T, R, A, Eszett, E",
+       "answer": "Straße",
+       "uz": "koʻcha",
+       "ask": "Tinglang va soʻzni yozing.",
+       "tag": "spell",
+       "item": "n.strasse"
+      }
+     ]
+    },
+    {
+     "type": "shadow",
+     "title": "Tinglang va takrorlang",
+     "items": [
+      "p.wie_schreibt",
+      "p.buchstabieren",
+      "p.langsamer",
+      "me.name"
+     ]
+    },
+    {
+     "type": "pattern",
+     "title": "Ismingizni harflab ayting",
+     "intro": "Nemislar ismingizni soʻrashi aniq! Ismingizni nemischa harflab ayting.",
+     "prompts": [
+      {
+       "q": "Wie ist Ihr Name?",
+       "uz": "Ismingiz nima?",
+       "item": "me.name"
+      },
+      {
+       "q": "Wie schreibt man das?",
+       "uz": "Bu qanday yoziladi?",
+       "spellMe": true
+      }
+     ]
+    },
+    {
+     "type": "write",
+     "title": "Qisqa yozish",
+     "prompt": "Ismingizni yozing va uni harflab yozing. Masalan: Ich heiße Aziz. A – Z – I – Z.",
+     "promptEn": "Write your name in a German sentence and spell it letter by letter.",
+     "minWords": 3,
+     "checklist": [
+      "Ich heiße … deb yozdim",
+      "Ismimni harflab yozdim",
+      "Bosh harf bilan boshladim"
+     ],
+     "modelItems": [
+      "me.name"
+     ]
+    }
+   ]
+  }
+ ]
+}

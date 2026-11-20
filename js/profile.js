@@ -7,7 +7,7 @@ export const JOBS = [
   { id: "schueler",   m: "Schüler",        f: "Schülerin",        uz: "oʻquvchi",        beruf: false, pic: "🎒" },
   { id: "lehrer",     m: "Lehrer",         f: "Lehrerin",         uz: "oʻqituvchi",      beruf: true,  pic: "👩‍🏫" },
   { id: "arzt",       m: "Arzt",           f: "Ärztin",           uz: "shifokor",        beruf: true,  pic: "🩺" },
-  { id: "pfleger",    m: "Krankenpfleger", f: "Krankenpflegerin", uz: "hamshira",        beruf: true,  pic: "🏥" },
+  { id: "pfleger",    m: "Krankenpfleger", f: "Krankenpflegerin", uz: "hamshira / tibbiyot xodimi",        beruf: true,  pic: "🏥" },
   { id: "ingenieur",  m: "Ingenieur",      f: "Ingenieurin",      uz: "muhandis",        beruf: true,  pic: "🏗️" },
   { id: "programm",   m: "Programmierer",  f: "Programmiererin",  uz: "dasturchi",       beruf: true,  pic: "💻" },
   { id: "verkaeufer", m: "Verkäufer",      f: "Verkäuferin",      uz: "sotuvchi",        beruf: true,  pic: "🛒" },
@@ -89,8 +89,8 @@ export function aboutMe(p) {
         if (b) parts.push(count(b, "Bruder", "Brüder", "en"));
         if (s) parts.push(count(s, "Schwester", "Schwestern", "e"));
         const uz = [
-          b === 1 ? "bitta akam yoki ukam" : b ? `${b} ta aka-ukam` : "",
-          s === 1 ? "bitta opam yoki singlim" : s ? `${s} ta opa-singlim` : ""
+          b === 1 ? "bitta aka-ukam" : b ? `${b} ta aka-ukam` : "",
+          s === 1 ? "bitta opa-singlim" : s ? `${s} ta opa-singlim` : ""
         ].filter(Boolean).join(" va ");
         out.push({ id: "me.sibl", de: `Ich habe ${parts.join(" und ")}.`, uz: `Mening ${uz} bor.`, pic: "👫" });
       }
