@@ -16,7 +16,8 @@ const ROOT = new URL("../", import.meta.url);
 const arg = name => { const i = process.argv.indexOf("--" + name); return i < 0 ? null : (process.argv[i + 1] && !process.argv[i + 1].startsWith("--") ? process.argv[i + 1] : true); };
 const DRY = !!arg("dry-run");
 const MODEL = arg("model") || "eleven_multilingual_v2";
-const VOICE = arg("voice") || process.env.ELEVENLABS_VOICE_ID || "";
+// Default voice: "Irene – Warm, Smart and Educational" (female, standard German, educational).
+const VOICE = arg("voice") || process.env.ELEVENLABS_VOICE_ID || "8wPhfH9uUzEMHTmRkoAR";
 const ONLY = arg("only") ? String(arg("only")).split(",") : null;
 const LIMIT = Number(arg("limit")) || Infinity;
 // language_code is only accepted by some models; send it for those (or when forced with --lang).

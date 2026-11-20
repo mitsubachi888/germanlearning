@@ -1,1 +1,5 @@
-{ "files": {} }
+{
+ "voice": "8wPhfH9uUzEMHTmRkoAR",
+ "model": "eleven_multilingual_v2",
+ "files": {}
+}
