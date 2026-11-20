@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="uz" data-theme="lavender">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mẫu C · Poster</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="theme.css">
+<style>
+:root { --font-de: "Bricolage Grotesque", var(--font-ui); }
+.hero { background: var(--air); margin: 0 12px; border-radius: 34px; padding: 22px 20px 20px; position: relative; overflow: hidden; }
+.hero .k { font-size: 12px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+.hero .huge { font-family: var(--font-de); font-weight: 800; font-size: 76px; line-height: .86; letter-spacing: -.04em; margin: 10px 0 8px; }
+.hero p { margin: 0; font-weight: 600; color: var(--muted); }
+.hero .deco { position: absolute; right: -10px; top: 8px; font-size: 92px; transform: rotate(12deg); opacity: .9; }
+.bento { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; padding: 10px 12px 0; }
+.tile { background: var(--surface); border: 1px solid var(--line); border-radius: 28px; padding: 16px; position: relative; }
+.tile .k { font-size: 11px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.tile .v { font-family: var(--font-de); font-weight: 800; font-size: 40px; line-height: 1; margin-top: 8px; letter-spacing: -.03em; }
+.tile small { font-weight: 600; color: var(--muted); font-size: 13px; }
+.tile.wide { grid-column: span 2; display: flex; align-items: center; gap: 14px; }
+.tile.wide .t { flex: 1; }
+.tile.wide .t b { display: block; font-family: var(--font-de); font-size: 26px; line-height: 1.05; margin: 4px 0 2px; }
+.go { flex: none; width: 76px; height: 76px; border-radius: 50%; background: var(--accent); color: var(--on-accent); font-size: 28px; font-weight: 800; display: grid; place-items: center; }
+.ring { width: 64px; height: 64px; border-radius: 50%; background: conic-gradient(var(--ink) 0 11%, var(--line) 11% 100%); display: grid; place-items: center; position: absolute; right: 14px; bottom: 14px; }
+.ring::after { content: "11%"; width: 48px; height: 48px; border-radius: 50%; background: var(--surface); display: grid; place-items: center; font-size: 12px; font-weight: 800; }
+.tile.air { background: var(--soft); border-color: transparent; }
+/* lesson */
+.lt { display: flex; align-items: center; justify-content: space-between; padding: 4px 18px 6px; font-weight: 800; font-size: 14px; }
+.hearts { letter-spacing: 2px; }
+.dots { display: flex; gap: 6px; padding: 0 18px 14px; }
+.dots i { flex: 1; height: 6px; border-radius: 3px; background: var(--line); }
+.dots i.on { background: var(--ink); }
+.word { margin: 0 12px; background: var(--air); border-radius: 34px; padding: 24px 20px; text-align: center; }
+.word .pic { font-size: 64px; line-height: 1; }
+.word .w { font-family: var(--font-de); font-weight: 800; font-size: 72px; letter-spacing: -.03em; line-height: 1; margin: 10px 0 6px; }
+.word .uz { font-weight: 700; font-size: 18px; }
+.ask { text-align: center; font-weight: 800; font-size: 15px; margin: 16px 0 10px; color: var(--muted); text-transform: uppercase; letter-spacing: .08em; }
+.arts { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; padding: 0 12px; }
+.arts button { height: 84px; border-radius: 24px; font-family: var(--font-de); font-weight: 800; font-size: 30px; border: 3px solid currentColor; background: var(--surface); transition: transform .1s; }
+.arts button:active { transform: scale(.96); }
+.arts .der { color: var(--der); } .arts .die { color: var(--die); } .arts .das { color: var(--das); }
+.arts button.is-right::after { content: " ✓"; }
+.arts .der.is-right, .arts .die.is-right, .arts .das.is-right { color: var(--das); background: var(--das-bg); }
+.arts button.is-wrong { background: var(--die-bg); }
+.arts button.is-dim { opacity: .35; }
+.feedback { text-align: center; font-weight: 800; margin: 10px 12px 0; }
+.plural { margin: 12px 12px 0; padding: 14px 16px; border-radius: 22px; background: var(--surface); border: 1px solid var(--line); display: flex; justify-content: space-between; font-weight: 700; }
+.plural span { color: var(--muted); font-size: 13px; }
+[data-q]:not([data-done]) ~ .plural { visibility: hidden; }
+.type { margin: 12px 12px 0; padding: 14px; border-radius: 24px; background: var(--surface); border: 1px solid var(--line); }
+.type .k { font-size: 12px; font-weight: 800; color: var(--muted); text-transform: uppercase; letter-spacing: .08em; }
+.type .in { margin: 8px 0 10px; padding: 12px 14px; border-radius: 14px; background: var(--base); border: 2px solid var(--ink); font-family: var(--font-de); font-size: 22px; font-weight: 700; }
+.type .in::after { content: "|"; animation: blink 1s steps(1) infinite; margin-left: 1px; }
+@keyframes blink { 50% { opacity: 0; } }
+.keys { display: flex; gap: 8px; }
+.keys button { flex: 1; height: 44px; border-radius: 12px; background: var(--soft); font-family: var(--font-de); font-weight: 800; font-size: 20px; }
+.foot { position: absolute; left: 0; right: 0; bottom: 0; padding: 14px 12px 30px; background: linear-gradient(transparent, var(--base) 30%); }
+</style>
+</head>
+<body>
+<main class="stage">
+  <figure>
+    <div class="phone">
+      <div class="status"></div>
+      <div class="scroll">
+        <section class="hero">
+          <span class="deco">👋</span>
+          <div class="k">Bosqich 0 · 2-dars</div>
+          <div class="huge de">Hallo,<br>Aziz!</div>
+          <p>Bugun: alifbo va ismingizni harflab aytish.</p>
+        </section>
+        <div class="bento">
+          <div class="tile wide">
+            <div class="t"><span class="k">Keyingi dars · 30 daq</span><b class="de">Das Alphabet</b><small>Video · gapirish · yozish</small></div>
+            <button class="go" aria-label="Boshlash">▶</button>
+          </div>
+          <div class="tile"><span class="k">Ketma-ket</span><div class="v">5🔥</div><small>kun</small></div>
+          <div class="tile air"><span class="k">Takrorlash</span><div class="v">12</div><small>karta kutmoqda</small></div>
+          <div class="tile"><span class="k">A1 yoʻli</span><div class="v" style="font-size:22px;margin-top:10px">mart<br>2027</div><small>taxminan</small><div class="ring"></div></div>
+          <div class="tile"><span class="k">Soʻzlar</span><div class="v">48</div><small>oʻrganildi</small></div>
+          <div class="tile wide air"><div class="t"><span class="k">⭐ Mini-Gespräch</span><b class="de" style="font-size:20px">3 dars qoldi</b><small>Tanishuv suhbati</small></div></div>
+        </div>
+      </div>
+      <nav class="tabbar">
+        <a class="on" href="#"><span class="ico">🏠</span>Asosiy</a>
+        <a href="#"><span class="ico">🃏</span>Takrorlash</a>
+        <a href="#"><span class="ico">🗺️</span>Yoʻl</a>
+        <a href="#"><span class="ico">📈</span>Natijalar</a>
+      </nav>
+    </div>
+    <figcaption class="caption">Màn hình chính · chữ lớn + bento</figcaption>
+  </figure>
+
+  <figure>
+    <div class="phone">
+      <div class="status"></div>
+      <div class="scroll">
+        <div class="lt"><span>✕</span><span>Artikl mashqi · 3 / 10</span><span class="hearts">⚑</span></div>
+        <div class="dots"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+        <div class="word">
+          <div class="pic">🏠</div>
+          <div class="w de">Haus</div>
+          <div class="uz">uy</div>
+        </div>
+        <div data-q>
+          <div class="ask">Qaysi artikl?</div>
+          <div class="arts">
+            <button class="der" data-ok="0">der</button>
+            <button class="die" data-ok="0">die</button>
+            <button class="das" data-ok="1">das</button>
+          </div>
+          <div class="feedback" hidden></div>
+        </div>
+        <div class="plural"><b class="de"><span class="art das" style="color:var(--das);font-size:inherit">das</span> Haus → <span class="art die" style="color:var(--die);font-size:inherit">die</span> Häuser</b><span>koʻplik</span></div>
+        <div class="type">
+          <div class="k">Yozing: “Xayr!”</div>
+          <div class="in">Tsch</div>
+          <div class="keys"><button>ä</button><button>ö</button><button>ü</button><button>ß</button></div>
+        </div>
+      </div>
+      <div class="foot"><button class="btn">Tekshirish</button></div>
+    </div>
+    <figcaption class="caption">Bài học · chọn der/die/das có màu + gõ với ä ö ü ß</figcaption>
+  </figure>
+</main>
+<script type="module" src="kit.js"></script>
+</body>
+</html>

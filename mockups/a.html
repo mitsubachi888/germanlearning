@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="uz" data-theme="lavender">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mẫu A · Hành trình</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="theme.css">
+<style>
+.wrap { padding: 8px 20px 0; }
+.hello { display: flex; justify-content: space-between; align-items: center; margin: 6px 0 18px; }
+.hello h1 { font-size: 26px; margin: 0; font-weight: 800; letter-spacing: -.02em; }
+.hello small { display: block; color: var(--muted); font-weight: 600; font-size: 13px; }
+.today { background: var(--air); border-radius: 28px; padding: 20px; }
+.today .k { font-size: 12px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.today h2 { margin: 6px 0 2px; font-size: 30px; line-height: 1.1; }
+.today p { margin: 0 0 14px; color: var(--muted); font-weight: 600; }
+.plan { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; margin-bottom: 16px; }
+.plan div { background: var(--surface); border-radius: 14px; padding: 10px 6px; text-align: center; font-size: 11px; font-weight: 700; color: var(--muted); }
+.plan b { display: block; font-size: 20px; margin-bottom: 2px; }
+.sec { display: flex; align-items: baseline; justify-content: space-between; margin: 28px 0 6px; }
+.sec h3 { margin: 0; font-size: 18px; }
+.sec span { font-size: 13px; color: var(--muted); font-weight: 700; }
+.path { position: relative; padding: 10px 0 0; }
+.path svg { position: absolute; inset: 0; width: 100%; height: 100%; z-index: 0; }
+.node { position: relative; z-index: 1; display: flex; align-items: center; gap: 14px; height: 92px; }
+.node:nth-child(odd) { flex-direction: row-reverse; text-align: right; }
+.stop { flex: none; width: 64px; height: 64px; border-radius: 50%; display: grid; place-items: center; font-size: 26px; border: 3px solid var(--ink); background: var(--surface); }
+.node.done .stop { background: var(--ink); color: var(--base); font-size: 24px; font-weight: 800; }
+.node.now .stop { width: 78px; height: 78px; background: var(--accent); border-color: var(--accent); box-shadow: 0 0 0 8px color-mix(in srgb, var(--accent) 25%, transparent); }
+.node.lock .stop { border-style: dashed; border-color: var(--line); opacity: .8; }
+.node .t b { display: block; font-size: 16px; }
+.node .t span { font-size: 13px; color: var(--muted); font-weight: 600; }
+.node.lock .t { opacity: .6; }
+.next-stage { margin-top: 18px; padding: 16px; border-radius: 20px; border: 1.5px dashed var(--line); color: var(--muted); font-weight: 600; font-size: 14px; }
+/* lesson */
+.ltop { display: flex; align-items: center; gap: 12px; padding: 4px 20px 12px; }
+.ltop .x { width: 36px; height: 36px; border-radius: 50%; background: var(--soft); font-size: 18px; }
+.segs { flex: 1; display: grid; grid-template-columns: repeat(4,1fr); gap: 5px; }
+.segs i { height: 8px; border-radius: 4px; background: var(--line); }
+.segs i.on { background: var(--ink); }
+.segs i.half { background: linear-gradient(90deg, var(--accent) 45%, var(--line) 45%); }
+.ltop time { font-weight: 800; font-size: 14px; }
+.stepk { padding: 0 20px; font-size: 13px; font-weight: 800; color: var(--muted); letter-spacing: .06em; text-transform: uppercase; }
+.lh { padding: 4px 20px 14px; margin: 0; font-size: 26px; }
+.video { margin: 0 20px; aspect-ratio: 16/9; border-radius: 22px; background: var(--ink); color: var(--base); display: grid; place-items: center; position: relative; overflow: hidden; }
+.video .play { width: 64px; height: 64px; border-radius: 50%; background: var(--accent); color: var(--on-accent); display: grid; place-items: center; font-size: 24px; }
+.video .meta { position: absolute; left: 14px; bottom: 12px; right: 14px; display: flex; justify-content: space-between; font-size: 12px; font-weight: 700; opacity: .85; }
+.q { margin: 18px 20px 0; background: var(--surface); border-radius: 24px; padding: 18px; border: 1px solid var(--line); }
+.q h4 { margin: 0 0 4px; font-size: 17px; }
+.q p { margin: 0 0 14px; color: var(--muted); font-size: 14px; font-weight: 600; }
+.opt { display: flex; align-items: center; gap: 12px; width: 100%; text-align: left; padding: 14px; border-radius: 16px; border: 2px solid var(--line); margin-bottom: 8px; font-weight: 700; font-size: 16px; background: var(--base); }
+.opt kbd { font: inherit; width: 28px; height: 28px; border-radius: 8px; background: var(--soft); display: grid; place-items: center; font-size: 13px; }
+.opt.is-right { border-color: var(--das); background: var(--das-bg); }
+.opt.is-wrong { border-color: var(--die); background: var(--die-bg); }
+.opt.is-dim { opacity: .5; }
+.feedback { font-weight: 800; margin-top: 6px; }
+.foot { position: absolute; left: 0; right: 0; bottom: 0; padding: 14px 20px 30px; background: linear-gradient(transparent, var(--base) 30%); }
+</style>
+</head>
+<body>
+<main class="stage">
+  <!-- HOME -->
+  <figure>
+    <div class="phone">
+      <div class="status"></div>
+      <div class="scroll"><div class="wrap">
+        <div class="hello">
+          <h1>Salom, Aziz 👋<small>Payshanba · 20-noyabr</small></h1>
+          <span class="chip">🔥 5 kun</span>
+        </div>
+
+        <section class="today">
+          <div class="k">Bugungi 30 daqiqa</div>
+          <h2 class="de">Das Alphabet</h2>
+          <p>2-dars · Alifbo</p>
+          <div class="plan">
+            <div><b>🃏</b>Takrorlash<br>5 daq</div>
+            <div><b>🎬</b>Video<br>12 daq</div>
+            <div><b>🗣️</b>Gapirish<br>10 daq</div>
+            <div><b>✍️</b>Yozish<br>3 daq</div>
+          </div>
+          <button class="btn">Boshlash ▶</button>
+        </section>
+
+        <div class="sec"><h3>Bosqich 0 · Tovushlar</h3><span>1 / 5</span></div>
+        <div class="path">
+          <svg viewBox="0 0 350 460" preserveAspectRatio="none" aria-hidden="true">
+            <path d="M318 46 C 318 110, 32 70, 32 138 S 318 180, 318 230 S 32 280, 32 322 S 318 370, 318 414" fill="none" stroke="var(--air)" stroke-width="14" stroke-linecap="round"/>
+          </svg>
+          <div class="node done"><div class="stop">✓</div><div class="t"><b>Salomlashish</b><span>15 ta ibora · 8:32</span></div></div>
+          <div class="node now"><div class="stop">🔤</div><div class="t"><b>Alifbo</b><span>Hozir · 9:36</span></div></div>
+          <div class="node lock"><div class="stop">👄</div><div class="t"><b>Talaffuz</b><span>2 qism · 15:34</span></div></div>
+          <div class="node lock"><div class="stop">🤝</div><div class="t"><b>Sie yoki du</b><span>9:19</span></div></div>
+          <div class="node lock"><div class="stop">⭐</div><div class="t"><b>Mini-Gespräch</b><span>Rolli suhbat</span></div></div>
+        </div>
+        <div class="next-stage">Keyingi: Bosqich 1 · Oʻzim haqimda — 9 dars</div>
+      </div></div>
+      <nav class="tabbar">
+        <a class="on" href="#"><span class="ico">🧭</span>Oʻrganish</a>
+        <a href="#"><span class="ico">🃏</span>Takrorlash</a>
+        <a href="#"><span class="ico">📈</span>Natijalar</a>
+        <a href="#"><span class="ico">⚙️</span>Sozlamalar</a>
+      </nav>
+    </div>
+    <figcaption class="caption">Màn hình chính · bản đồ hành trình theo chặng</figcaption>
+  </figure>
+
+  <!-- LESSON -->
+  <figure>
+    <div class="phone">
+      <div class="status"></div>
+      <div class="scroll">
+        <div class="ltop">
+          <button class="x" aria-label="Yopish">✕</button>
+          <div class="segs"><i class="on"></i><i class="half"></i><i></i><i></i></div>
+          <time>12:30</time>
+        </div>
+        <div class="stepk">2 / 4 · Video</div>
+        <h2 class="lh de">Das Alphabet</h2>
+        <div class="video">
+          <div class="play">▶</div>
+          <div class="meta"><span>YourGermanTeacher</span><span>0:00 – 4:48</span></div>
+        </div>
+        <div class="q" data-q>
+          <h4>Tushundingizmi?</h4>
+          <p>Nemischa <b class="de">W</b> harfi qanday oʻqiladi?</p>
+          <button class="opt" data-ok="1"><kbd>A</kbd><span>Inglizcha <i>v</i> kabi (<i>very</i>)</span></button>
+          <button class="opt" data-ok="0"><kbd>B</kbd><span>Inglizcha <i>w</i> kabi (<i>water</i>)</span></button>
+          <button class="opt" data-ok="0"><kbd>C</kbd><span>Inglizcha <i>f</i> kabi (<i>fish</i>)</span></button>
+          <div class="feedback" hidden></div>
+        </div>
+      </div>
+      <div class="foot"><button class="btn">Davom etish</button></div>
+    </div>
+    <figcaption class="caption">Bài học · bước video + câu hỏi hiểu nhanh</figcaption>
+  </figure>
+</main>
+<script type="module" src="kit.js"></script>
+</body>
+</html>

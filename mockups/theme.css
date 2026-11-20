@@ -1,0 +1,104 @@
+/* Shared theme tokens for the 3 mockups. 5 themes × light/dark.
+   Model: air (favourite pastel, ~30%) + base (neutral, ~60%) + one strong accent (~10%).
+   Gender colours are fixed across all themes. */
+
+:root {
+  --der: #2563EB; --die: #DC2626; --das: #16A34A;
+  --der-bg: #E8F0FE; --die-bg: #FDECEC; --das-bg: #E7F6EC;
+  --radius: 18px;
+  --font-ui: "Plus Jakarta Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-de: "Fraunces", Georgia, serif;
+}
+
+/* ---- light palettes ---- */
+[data-theme="rose"]     { --air:#F8CFDC; --base:#FFF7F4; --ink:#3B1527; --accent:#FF6A3D; --on-accent:#2A0E05; --surface:#FFFFFF; }
+[data-theme="lavender"] { --air:#DCD2FA; --base:#FBFAFF; --ink:#241A45; --accent:#FFB627; --on-accent:#241A45; --surface:#FFFFFF; }
+[data-theme="sky"]      { --air:#CBE5FB; --base:#F7FBFF; --ink:#0F2742; --accent:#FF5C8A; --on-accent:#0F2742; --surface:#FFFFFF; }
+[data-theme="butter"]   { --air:#FFEFA3; --base:#FFFCF1; --ink:#2B2140; --accent:#6D4AFF; --on-accent:#FFFFFF; --surface:#FFFFFF; }
+[data-theme="mint"]     { --air:#CFF0DC; --base:#F6FBF7; --ink:#10302A; --accent:#D9367F; --on-accent:#FFFFFF; --surface:#FFFFFF; }
+
+/* ---- dark palettes (base tinted by theme, air becomes a deep tint) ---- */
+[data-mode="dark"][data-theme="rose"]     { --air:#6B2E45; --base:#1F1218; --ink:#FBE3EA; --surface:#2E1B24; }
+[data-mode="dark"][data-theme="lavender"] { --air:#43357A; --base:#16122A; --ink:#ECE7FF; --surface:#231C3F; }
+[data-mode="dark"][data-theme="sky"]      { --air:#24486F; --base:#0D1A2B; --ink:#E3F1FD; --surface:#16283F; }
+[data-mode="dark"][data-theme="butter"]   { --air:#5C4E1E; --base:#1C1810; --ink:#FFF6CF; --surface:#2B2516; }
+[data-mode="dark"][data-theme="mint"]     { --air:#285343; --base:#0F1E19; --ink:#DDF5E7; --surface:#18302A; }
+[data-mode="dark"] {
+  --der:#8DB4FF; --die:#FF8A8A; --das:#6EDC9F;
+  --der-bg:#1B2A4A; --die-bg:#3F1A1A; --das-bg:#163826;
+}
+
+/* derived */
+[data-theme] {
+  --muted: color-mix(in srgb, var(--ink) 64%, var(--base));
+  --line: color-mix(in srgb, var(--ink) 12%, transparent);
+  --soft: color-mix(in srgb, var(--air) 45%, var(--base));
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+[hidden] { display: none !important; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; font-family: var(--font-ui); color: var(--ink); background: var(--base);
+  touch-action: manipulation; -webkit-font-smoothing: antialiased;
+}
+button { font: inherit; color: inherit; border: 0; background: none; cursor: pointer; touch-action: manipulation; }
+.de { font-family: var(--font-de); }
+.g-der { color: var(--der); } .g-die { color: var(--die); } .g-das { color: var(--das); }
+
+/* ---- mockup chrome (not part of the app) ---- */
+.kit {
+  position: sticky; top: 0; z-index: 50; display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center;
+  justify-content: center; padding: 10px 16px; background: color-mix(in srgb, var(--base) 88%, transparent);
+  backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); font-size: 13px;
+}
+.kit a { color: var(--muted); text-decoration: none; font-weight: 600; }
+.kit a[aria-current] { color: var(--ink); text-decoration: underline; text-underline-offset: 4px; }
+.kit .dots { display: flex; gap: 6px; }
+.kit .dot { width: 26px; height: 26px; border-radius: 50%; border: 2px solid var(--line); }
+.kit .dot[aria-pressed="true"] { outline: 2px solid var(--ink); outline-offset: 2px; }
+.kit .seg { display: inline-flex; border: 1px solid var(--line); border-radius: 999px; overflow: hidden; }
+.kit .seg button { padding: 6px 12px; font-size: 13px; font-weight: 600; color: var(--muted); }
+.kit .seg button[aria-pressed="true"] { background: var(--ink); color: var(--base); }
+
+.stage { display: flex; gap: 40px; justify-content: center; align-items: flex-start; padding: 28px 16px 60px; }
+.phone {
+  width: 390px; min-height: 844px; background: var(--base); border-radius: 44px; overflow: hidden; position: relative;
+  box-shadow: 0 0 0 10px #111, 0 30px 60px rgba(0,0,0,.25); display: flex; flex-direction: column;
+}
+.phone .status { height: 47px; flex: none; }
+.phone .scroll { flex: 1; overflow-y: auto; padding-bottom: 130px; }
+.caption { text-align: center; font-size: 13px; color: var(--muted); margin-top: 18px; font-weight: 600; }
+.view-switch { display: none; }
+
+@media (max-width: 860px) {
+  .stage { padding: 0; gap: 0; display: block; }
+  .phone { width: 100%; min-height: calc(100vh - 100px); border-radius: 0; box-shadow: none; }
+  .phone .status { height: 8px; }
+  .caption { display: none; }
+  .view-switch { display: inline-flex; }
+  .stage > figure:not(.active) { display: none; }
+  .kit { position: static; }
+  .phone .tabbar, .phone .foot { position: fixed; z-index: 40; }
+  figure { margin: 0; }
+}
+figure { margin: 0; }
+
+/* ---- shared app bits ---- */
+.tabbar {
+  position: absolute; left: 0; right: 0; bottom: 0; display: flex; justify-content: space-around;
+  padding: 8px 8px 26px; background: color-mix(in srgb, var(--surface) 92%, transparent);
+  backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border-top: 1px solid var(--line);
+}
+.tabbar a { display: flex; flex-direction: column; align-items: center; gap: 2px; font-size: 11px; font-weight: 600; color: var(--muted); text-decoration: none; min-width: 64px; }
+.tabbar a .ico { font-size: 22px; line-height: 28px; filter: grayscale(1); opacity: .7; }
+.tabbar a.on { color: var(--ink); }
+.tabbar a.on .ico { filter: none; opacity: 1; }
+.btn {
+  display: flex; align-items: center; justify-content: center; gap: 8px; width: 100%; min-height: 54px; border-radius: 999px;
+  background: var(--accent); color: var(--on-accent); font-weight: 800; font-size: 17px;
+}
+.btn.ghost { background: transparent; color: var(--ink); border: 1.5px solid var(--line); font-weight: 700; }
+.chip { display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px; border-radius: 999px; font-size: 12px; font-weight: 700; background: var(--soft); color: var(--ink); }
+.art { font-weight: 800; }
+.art.der { color: var(--der); } .art.die { color: var(--die); } .art.das { color: var(--das); }
