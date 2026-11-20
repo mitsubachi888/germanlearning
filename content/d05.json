@@ -1,0 +1,537 @@
+{
+ "id": "d05",
+ "title": "Personal pronouns",
+ "items": {
+  "w.er": {
+   "de": "er",
+   "en": "he; it (for a der-word)",
+   "ipa": "eːɐ̯",
+   "pic": "👨",
+   "tags": [
+    "verb"
+   ]
+  },
+  "w.sie_she": {
+   "de": "sie",
+   "en": "she; it (for a die-word)",
+   "ipa": "ziː",
+   "pic": "👩",
+   "tags": [
+    "verb"
+   ]
+  },
+  "w.es": {
+   "de": "es",
+   "en": "it (for a das-word)",
+   "ipa": "ɛs",
+   "pic": "📱",
+   "tags": [
+    "verb"
+   ]
+  },
+  "w.wir": {
+   "de": "wir",
+   "en": "we",
+   "ipa": "viːɐ̯",
+   "pic": "👫",
+   "tags": [
+    "verb"
+   ]
+  },
+  "w.ihr": {
+   "de": "ihr",
+   "en": "you (several people, informal)",
+   "ipa": "iːɐ̯",
+   "pic": "👥",
+   "tags": [
+    "verb"
+   ]
+  },
+  "w.sie_they": {
+   "de": "sie",
+   "en": "they",
+   "ipa": "ziː",
+   "pic": "👨‍👩‍👧",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d05.p.er_spielt": {
+   "de": "Er spielt Basketball.",
+   "en": "He plays basketball.",
+   "ipa": "eːɐ̯ ʃpiːlt ˈbaːskətbal",
+   "pic": "🏀",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d05.p.sie_liest": {
+   "de": "Sie liest ein Buch.",
+   "en": "She is reading a book.",
+   "ipa": "ziː liːst aɪ̯n buːx",
+   "pic": "📖",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d05.p.es_ist_ruhig": {
+   "de": "Es ist ruhig.",
+   "en": "It's quiet.",
+   "ipa": "ɛs ɪst ˈʁuːɪç",
+   "pic": "🤫",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d05.p.ihr_lernt": {
+   "de": "Ihr lernt Deutsch.",
+   "en": "You (all) are learning German.",
+   "ipa": "iːɐ̯ lɛʁnt dɔɪ̯tʃ",
+   "pic": "📚",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d05.p.wir_fruehstuecken": {
+   "de": "Wir frühstücken.",
+   "en": "We're having breakfast.",
+   "ipa": "viːɐ̯ ˈfʁyːʃtʏkn̩",
+   "pic": "🥐",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d05.p.sie_spielen": {
+   "de": "Sie spielen ein Spiel.",
+   "en": "They are playing a game.",
+   "ipa": "ziː ˈʃpiːlən aɪ̯n ʃpiːl",
+   "pic": "🎲",
+   "tags": [
+    "verb"
+   ]
+  },
+  "n.kuehlschrank": {
+   "de": "der Kühlschrank",
+   "plural": "die Kühlschränke",
+   "gender": "der",
+   "en": "fridge",
+   "ipa": "ˈkyːlʃʁaŋk",
+   "pic": "🧊",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.tasche": {
+   "de": "die Tasche",
+   "plural": "die Taschen",
+   "gender": "die",
+   "en": "bag",
+   "ipa": "ˈtaʃə",
+   "pic": "👜",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.handy": {
+   "de": "das Handy",
+   "plural": "die Handys",
+   "gender": "das",
+   "en": "mobile phone",
+   "ipa": "ˈhɛndi",
+   "pic": "📱",
+   "note": "A German word that only looks English — in English it's a *mobile* or *cell phone*.",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.stift": {
+   "de": "der Stift",
+   "plural": "die Stifte",
+   "gender": "der",
+   "en": "pen",
+   "ipa": "ʃtɪft",
+   "pic": "🖊️",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.tisch": {
+   "de": "der Tisch",
+   "plural": "die Tische",
+   "gender": "der",
+   "en": "table",
+   "ipa": "tɪʃ",
+   "pic": "🪑",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.baby": {
+   "de": "das Baby",
+   "plural": "die Babys",
+   "gender": "das",
+   "en": "baby",
+   "ipa": "ˈbeːbi",
+   "pic": "👶",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "d05.p.er_ist_neu": {
+   "de": "Der Kühlschrank ist neu. Er ist neu.",
+   "en": "The fridge is new. It is new.",
+   "pic": "🧊",
+   "tags": [
+    "gender"
+   ]
+  },
+  "d05.p.sie_ist_schoen": {
+   "de": "Die Tasche ist schön. Sie ist schön.",
+   "en": "The bag is nice. It is nice.",
+   "pic": "👜",
+   "tags": [
+    "gender"
+   ]
+  },
+  "d05.p.es_ist_alt": {
+   "de": "Das Handy ist alt. Es ist alt.",
+   "en": "The phone is old. It is old.",
+   "pic": "📱",
+   "tags": [
+    "gender"
+   ]
+  },
+  "d05.p.sie_sind_praktisch": {
+   "de": "Die Stifte sind praktisch. Sie sind praktisch.",
+   "en": "The pens are practical. They are practical.",
+   "pic": "🖊️",
+   "tags": [
+    "gender"
+   ]
+  },
+  "d05.p.es_regnet": {
+   "de": "Es regnet.",
+   "en": "It's raining.",
+   "ipa": "ɛs ˈʁeːɡnət",
+   "pic": "🌧️",
+   "tags": []
+  },
+  "d05.p.es_ist_spaet": {
+   "de": "Es ist spät.",
+   "en": "It's late.",
+   "ipa": "ɛs ɪst ʃpɛːt",
+   "pic": "🌙",
+   "tags": []
+  },
+  "d05.p.es_ist_kalt": {
+   "de": "Es ist kalt.",
+   "en": "It's cold.",
+   "ipa": "ɛs ɪst kalt",
+   "pic": "🥶",
+   "tags": []
+  }
+ },
+ "sessions": [
+  {
+   "id": "A",
+   "title": "ich, du, er, sie, es …",
+   "said": [
+    "w.wir",
+    "d05.p.sie_liest",
+    "d05.p.er_ist_neu",
+    "d05.p.es_regnet",
+    "me.name"
+   ],
+   "steps": [
+    {
+     "type": "video",
+     "title": "Video: personal pronouns",
+     "videoId": "IGmXQG65TSY",
+     "channel": "YourGermanTeacher (Luzi)",
+     "start": 30,
+     "end": 500,
+     "note": "Luzi explains in English and gives German examples.\n\n- 1:19 singular · 2:11 plural · 3:07 example sentences\n- 4:42 pronouns for **things** (der → er, die → sie, das → es)\n- 7:48 *es* with no person: *Es regnet.*"
+    },
+    {
+     "type": "table",
+     "title": "The pronouns",
+     "skipFirst": true,
+     "intro": "Tap a row to hear it.",
+     "cols": [
+      "",
+      "singular",
+      "plural"
+     ],
+     "rows": [
+      [
+       "1st",
+       "ich (I)",
+       "wir (we)"
+      ],
+      [
+       "2nd",
+       "du (you)",
+       "ihr (you all)"
+      ],
+      [
+       "3rd",
+       "er · sie · es",
+       "sie (they)"
+      ],
+      [
+       "formal",
+       "Sie (you)",
+       "Sie (you)"
+      ]
+     ],
+     "note": "**sie** has three meanings — the verb and context tell you which: *sie* = she, *sie* = they, *Sie* (capital S) = you (formal)."
+    },
+    {
+     "type": "phrases",
+     "title": "Pronouns",
+     "items": [
+      "w.ich",
+      "w.du",
+      "w.er",
+      "w.sie_she",
+      "w.es",
+      "w.wir",
+      "w.ihr",
+      "w.sie_they"
+     ]
+    },
+    {
+     "type": "phrases",
+     "title": "Sentences like the ones in the video",
+     "items": [
+      "d05.p.er_spielt",
+      "d05.p.sie_liest",
+      "d05.p.es_ist_ruhig",
+      "d05.p.wir_fruehstuecken",
+      "d05.p.ihr_lernt",
+      "d05.p.sie_spielen"
+     ],
+     "intro": "Two are slightly changed to more natural German: Wir frühstücken (video: Wir essen Frühstück) and Sie spielen ein Spiel (video: Sie machen ein Spiel)."
+    },
+    {
+     "type": "quiz",
+     "title": "Which pronoun?",
+     "questions": [
+      {
+       "prompt": "{de:Anna} → ?",
+       "options": [
+        "sie",
+        "er",
+        "es"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "verb"
+      },
+      {
+       "prompt": "{de:Peter} → ?",
+       "options": [
+        "er",
+        "sie",
+        "wir"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "verb"
+      },
+      {
+       "prompt": "{de:Tom und ich} → ?",
+       "options": [
+        "wir",
+        "ihr",
+        "sie"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "verb"
+      },
+      {
+       "prompt": "You talk to two friends. → ?",
+       "options": [
+        "ihr",
+        "du",
+        "Sie"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "verb",
+       "explain": "*du* = one friend, *ihr* = several friends."
+      },
+      {
+       "prompt": "{de:Anna und Peter} → ?",
+       "options": [
+        "sie",
+        "wir",
+        "es"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "verb",
+       "explain": "*sie* (they)."
+      }
+     ]
+    },
+    {
+     "type": "note",
+     "title": "Things are he, she or it",
+     "md": "In English a thing is always *it*. In German the pronoun follows the **article** of the noun:\n\n- {de:der Kühlschrank} → **er**: {de:Er ist neu.}\n- {de:die Tasche} → **sie**: {de:Sie ist schön.}\n- {de:das Handy} → **es**: {de:Es ist alt.}\n- plural {de:die Stifte} → **sie**: {de:Sie sind praktisch.}\n\nSo a table is a „he“ (*der Tisch → er*), and a baby is an „it“ (*das Baby → es*). That's why you always learn a noun **with** its article."
+    },
+    {
+     "type": "phrases",
+     "title": "der → er · die → sie · das → es",
+     "items": [
+      "d05.p.er_ist_neu",
+      "d05.p.sie_ist_schoen",
+      "d05.p.es_ist_alt",
+      "d05.p.sie_sind_praktisch"
+     ]
+    },
+    {
+     "type": "gender",
+     "title": "der, die or das?",
+     "questions": [
+      {
+       "item": "n.kuehlschrank"
+      },
+      {
+       "item": "n.tasche"
+      },
+      {
+       "item": "n.handy"
+      },
+      {
+       "item": "n.stift"
+      },
+      {
+       "item": "n.tisch"
+      },
+      {
+       "item": "n.baby"
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "er, sie or es?",
+     "questions": [
+      {
+       "prompt": "{de:Der Tisch ist groß.} → ___ ist groß.",
+       "options": [
+        "Er",
+        "Sie",
+        "Es"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "gender"
+      },
+      {
+       "prompt": "{de:Die Tasche ist neu.} → ___ ist neu.",
+       "options": [
+        "Sie",
+        "Er",
+        "Es"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "gender"
+      },
+      {
+       "prompt": "{de:Das Baby ist klein.} → ___ ist klein.",
+       "options": [
+        "Es",
+        "Er",
+        "Sie"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "gender"
+      },
+      {
+       "prompt": "{de:Die Stifte sind neu.} → ___ sind neu.",
+       "options": [
+        "Sie",
+        "Es",
+        "Er"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "gender",
+       "explain": "Plural → *sie*, and the verb is *sind*."
+      }
+     ]
+    },
+    {
+     "type": "phrases",
+     "title": "„es“ with no person",
+     "intro": "Weather and time use *es*, just like English *it*.",
+     "items": [
+      "d05.p.es_regnet",
+      "d05.p.es_ist_spaet",
+      "d05.p.es_ist_kalt"
+     ]
+    },
+    {
+     "type": "shadow",
+     "title": "Listen and repeat",
+     "items": [
+      "d05.p.sie_liest",
+      "d05.p.ihr_lernt",
+      "d05.p.er_ist_neu",
+      "d05.p.es_regnet",
+      "me.name"
+     ]
+    },
+    {
+     "type": "build",
+     "title": "Build the sentence",
+     "questions": [
+      {
+       "en": "She is reading a book.",
+       "answer": "Sie liest ein Buch.",
+       "tag": "order"
+      },
+      {
+       "en": "The phone is old. It is old.",
+       "answer": "Das Handy ist alt. Es ist alt.",
+       "extra": [
+        "Er"
+       ],
+       "tag": "gender"
+      },
+      {
+       "en": "It's raining.",
+       "answer": "Es regnet."
+      }
+     ]
+    },
+    {
+     "type": "write",
+     "title": "Short writing",
+     "prompt": "Describe 3 things around you. Name each thing with its article, then use er / sie / es.",
+     "promptEn": "Describe 3 things around me in German. For each: 'Das ist ein/eine …' and then a sentence with er/sie/es (A1).",
+     "hint": "Das ist ein Handy. Es ist alt. · Das ist eine Tasche. Sie ist schön.",
+     "minWords": 12,
+     "checklist": [
+      "der-word → er",
+      "die-word → sie",
+      "das-word → es",
+      "Nouns start with a capital letter"
+     ],
+     "model": "Das ist ein Tisch. Er ist groß. Das ist eine Tasche. Sie ist schön. Das ist ein Handy. Es ist alt."
+    }
+   ]
+  }
+ ]
+}

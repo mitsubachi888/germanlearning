@@ -1,0 +1,389 @@
+{
+ "id": "m1",
+ "title": "Mini-Gespräch 1: introduce yourself",
+ "items": {
+  "m1.p.hallo_leon": {
+   "de": "Hallo! Ich bin Leon. Und du?",
+   "en": "Hi! I'm Leon. And you?",
+   "pic": "👋",
+   "tags": []
+  },
+  "m1.p.freut_mich": {
+   "de": "Freut mich!",
+   "en": "Nice to meet you!",
+   "pic": "🤗",
+   "tags": []
+  },
+  "m1.p.aus_hamburg": {
+   "de": "Ich komme aus Deutschland, aus Hamburg.",
+   "en": "I'm from Germany, from Hamburg.",
+   "pic": "🇩🇪",
+   "tags": []
+  },
+  "m1.p.wo_wohnst_du": {
+   "de": "Und wo wohnst du jetzt?",
+   "en": "And where do you live now?",
+   "pic": "🏠",
+   "tags": [
+    "order"
+   ]
+  },
+  "m1.p.beruflich": {
+   "de": "Was machst du beruflich?",
+   "en": "What do you do for work?",
+   "pic": "💼",
+   "tags": [
+    "verb"
+   ]
+  },
+  "m1.p.leon_job": {
+   "de": "Ich bin Student. Ich studiere Informatik.",
+   "en": "I'm a student. I study computer science.",
+   "pic": "🎓",
+   "tags": []
+  },
+  "m1.p.hobbys": {
+   "de": "Und was machst du gern in der Freizeit?",
+   "en": "And what do you like doing in your free time?",
+   "pic": "❓",
+   "tags": []
+  },
+  "m1.p.leon_hobby": {
+   "de": "Ich spiele gern Fußball.",
+   "en": "I like playing football.",
+   "pic": "⚽",
+   "tags": []
+  },
+  "m1.p.geschwister": {
+   "de": "Hast du Geschwister?",
+   "en": "Do you have any brothers or sisters?",
+   "pic": "👫",
+   "tags": []
+  },
+  "m1.p.toll": {
+   "de": "Toll! Bis bald!",
+   "en": "Great! See you soon!",
+   "pic": "😄",
+   "tags": []
+  },
+  "m1.p.tschuess": {
+   "de": "Tschüss, bis bald!",
+   "en": "Bye, see you soon!",
+   "pic": "👋",
+   "tags": []
+  },
+  "m1.p.und_du": {
+   "de": "Und du?",
+   "en": "And you?",
+   "pic": "👉",
+   "tags": []
+  },
+  "m1.p.wie_bitte_langsam": {
+   "de": "Wie bitte? Noch einmal langsam, bitte.",
+   "en": "Pardon? Again slowly, please.",
+   "pic": "🐢",
+   "tags": []
+  }
+ },
+ "sessions": [
+  {
+   "id": "A",
+   "title": "Meeting someone new",
+   "said": [
+    "me.name",
+    "me.from",
+    "me.city",
+    "me.job",
+    "me.hobby",
+    "m1.p.und_du"
+   ],
+   "steps": [
+    {
+     "type": "note",
+     "title": "Your first real conversation",
+     "md": "Today there's no video. You'll put everything from lessons 1–13 together and have a whole conversation: greeting, name, where you're from, where you live, your job, your hobbies — and asking **back**.\n\nThe magic phrase: {de:Und du?} — it turns every answer into a conversation.\n\nIf you don't understand: {de:Wie bitte? Noch einmal langsam, bitte.}"
+    },
+    {
+     "type": "dialogue",
+     "title": "Listen: Leon meets Aziz",
+     "intro": "Listen to the whole conversation first. Tap a line to hear it again.",
+     "lines": [
+      {
+       "who": "A",
+       "name": "Leon",
+       "item": "m1.p.hallo_leon"
+      },
+      {
+       "who": "B",
+       "name": "Aziz",
+       "de": "Hallo, ich bin Aziz.",
+       "en": "Hi, I'm Aziz."
+      },
+      {
+       "who": "A",
+       "name": "Leon",
+       "item": "p.woher_kommst_du"
+      },
+      {
+       "who": "B",
+       "name": "Aziz",
+       "de": "Ich komme aus Usbekistan. Und du?",
+       "en": "I'm from Uzbekistan. And you?"
+      },
+      {
+       "who": "A",
+       "name": "Leon",
+       "item": "m1.p.aus_hamburg"
+      },
+      {
+       "who": "A",
+       "name": "Leon",
+       "item": "m1.p.wo_wohnst_du"
+      },
+      {
+       "who": "B",
+       "name": "Aziz",
+       "de": "Ich komme aus Taschkent. Aber ich wohne jetzt in Berlin.",
+       "en": "I'm from Tashkent. But I live in Berlin now."
+      },
+      {
+       "who": "A",
+       "name": "Leon",
+       "item": "m1.p.beruflich"
+      },
+      {
+       "who": "B",
+       "name": "Aziz",
+       "de": "Ich bin Ingenieur von Beruf. Und du?",
+       "en": "I'm an engineer. And you?"
+      },
+      {
+       "who": "A",
+       "name": "Leon",
+       "item": "m1.p.leon_job"
+      },
+      {
+       "who": "B",
+       "name": "Aziz",
+       "item": "m1.p.hobbys"
+      },
+      {
+       "who": "A",
+       "name": "Leon",
+       "item": "m1.p.leon_hobby"
+      },
+      {
+       "who": "B",
+       "name": "Aziz",
+       "de": "Ich auch! Und ich lese gern.",
+       "en": "Me too! And I like reading."
+      },
+      {
+       "who": "A",
+       "name": "Leon",
+       "item": "m1.p.toll"
+      },
+      {
+       "who": "B",
+       "name": "Aziz",
+       "item": "m1.p.tschuess"
+      }
+     ]
+    },
+    {
+     "type": "phrases",
+     "title": "Useful lines",
+     "items": [
+      "m1.p.und_du",
+      "m1.p.freut_mich",
+      "m1.p.beruflich",
+      "m1.p.hobbys",
+      "m1.p.geschwister",
+      "m1.p.wie_bitte_langsam",
+      "m1.p.tschuess"
+     ]
+    },
+    {
+     "type": "pattern",
+     "title": "Your answers",
+     "intro": "Answer each question out loud with your own information — then check the sample (built from your profile).",
+     "prompts": [
+      {
+       "q": "Wie heißt du?",
+       "en": "What's your name?",
+       "item": "me.name"
+      },
+      {
+       "q": "Woher kommst du?",
+       "en": "Where are you from?",
+       "item": "me.from"
+      },
+      {
+       "q": "Wo wohnst du?",
+       "en": "Where do you live?",
+       "item": "me.city"
+      },
+      {
+       "q": "Was machst du beruflich?",
+       "en": "What do you do for work?",
+       "item": "me.job"
+      },
+      {
+       "q": "Was machst du gern in der Freizeit?",
+       "en": "What do you like doing in your free time?",
+       "item": "me.hobby"
+      },
+      {
+       "q": "Hast du Geschwister?",
+       "en": "Do you have any brothers or sisters?",
+       "item": "me.sibl",
+       "example": "Ja, ich habe einen Bruder."
+      }
+     ]
+    },
+    {
+     "type": "roleplay",
+     "title": "Role-play: you meet Leon",
+     "intro": "Choose “You”. Leon speaks; your lines come from your own profile. Say them out loud, then ask back. If you have the same hobby as Leon, you can say: Ich auch!",
+     "lines": [
+      {
+       "who": "A",
+       "name": "Leon",
+       "item": "m1.p.hallo_leon"
+      },
+      {
+       "who": "B",
+       "name": "You",
+       "item": "me.name"
+      },
+      {
+       "who": "A",
+       "name": "Leon",
+       "item": "m1.p.freut_mich"
+      },
+      {
+       "who": "A",
+       "name": "Leon",
+       "item": "p.woher_kommst_du"
+      },
+      {
+       "who": "B",
+       "name": "You",
+       "item": "me.from"
+      },
+      {
+       "who": "B",
+       "name": "You",
+       "item": "m1.p.und_du"
+      },
+      {
+       "who": "A",
+       "name": "Leon",
+       "item": "m1.p.aus_hamburg"
+      },
+      {
+       "who": "A",
+       "name": "Leon",
+       "item": "m1.p.wo_wohnst_du"
+      },
+      {
+       "who": "B",
+       "name": "You",
+       "item": "me.city"
+      },
+      {
+       "who": "A",
+       "name": "Leon",
+       "item": "m1.p.beruflich"
+      },
+      {
+       "who": "B",
+       "name": "You",
+       "item": "me.job"
+      },
+      {
+       "who": "B",
+       "name": "You",
+       "item": "m1.p.und_du"
+      },
+      {
+       "who": "A",
+       "name": "Leon",
+       "item": "m1.p.leon_job"
+      },
+      {
+       "who": "B",
+       "name": "You",
+       "item": "m1.p.hobbys"
+      },
+      {
+       "who": "A",
+       "name": "Leon",
+       "item": "m1.p.leon_hobby"
+      },
+      {
+       "who": "B",
+       "name": "You",
+       "item": "me.hobby"
+      },
+      {
+       "who": "A",
+       "name": "Leon",
+       "item": "m1.p.toll"
+      },
+      {
+       "who": "B",
+       "name": "You",
+       "item": "m1.p.tschuess"
+      }
+     ]
+    },
+    {
+     "type": "build",
+     "title": "Asking back",
+     "questions": [
+      {
+       "en": "What do you do for work?",
+       "answer": "Was machst du beruflich?",
+       "tag": "order"
+      },
+      {
+       "en": "And what do you like doing in your free time?",
+       "answer": "Und was machst du gern in der Freizeit?",
+       "tag": "order"
+      },
+      {
+       "en": "Do you have any brothers or sisters?",
+       "answer": "Hast du Geschwister?",
+       "tag": "order"
+      }
+     ]
+    },
+    {
+     "type": "write",
+     "title": "Your self-introduction",
+     "prompt": "Write a complete introduction (6–8 sentences): name, origin, city, job, hobbies, family — and end with 2 questions to the other person.",
+     "promptEn": "Write a German self-introduction (6-8 sentences, A1): name, where I'm from, where I live, my job, hobbies, family, and finish with two du-questions to the other person.",
+     "minWords": 35,
+     "checklist": [
+      "Name, origin, city",
+      "Job (no article!)",
+      "Hobby with gern",
+      "Two questions back (Und du? / Was …?)"
+     ],
+     "modelItems": [
+      "p.hallo",
+      "me.name",
+      "me.from",
+      "me.city",
+      "me.job",
+      "me.hobby",
+      "me.sibl",
+      "m1.p.beruflich",
+      "m1.p.hobbys"
+     ]
+    }
+   ]
+  }
+ ]
+}

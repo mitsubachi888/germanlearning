@@ -1,0 +1,597 @@
+{
+ "id": "d07",
+ "title": "W-questions",
+ "items": {
+  "q.wer": {
+   "de": "wer?",
+   "en": "who?",
+   "ipa": "veːɐ̯",
+   "pic": "🧑",
+   "tags": [
+    "order"
+   ]
+  },
+  "q.wie": {
+   "de": "wie?",
+   "en": "how?",
+   "ipa": "viː",
+   "pic": "🤔",
+   "tags": [
+    "order"
+   ]
+  },
+  "q.was": {
+   "de": "was?",
+   "en": "what?",
+   "ipa": "vas",
+   "pic": "❓",
+   "tags": [
+    "order"
+   ]
+  },
+  "q.wo": {
+   "de": "wo?",
+   "en": "where?",
+   "ipa": "voː",
+   "pic": "📍",
+   "tags": [
+    "order"
+   ]
+  },
+  "q.woher": {
+   "de": "woher?",
+   "en": "where from?",
+   "ipa": "voˈheːɐ̯",
+   "pic": "🛬",
+   "tags": [
+    "order"
+   ]
+  },
+  "q.wohin": {
+   "de": "wohin?",
+   "en": "where to?",
+   "ipa": "voˈhɪn",
+   "pic": "🛫",
+   "tags": [
+    "order"
+   ]
+  },
+  "q.wann": {
+   "de": "wann?",
+   "en": "when?",
+   "ipa": "van",
+   "pic": "🕒",
+   "tags": [
+    "order"
+   ]
+  },
+  "q.was_fuer": {
+   "de": "was für …?",
+   "en": "what kind of …?",
+   "ipa": "vas fyːɐ̯",
+   "pic": "🔎",
+   "tags": [
+    "order"
+   ]
+  },
+  "q.warum": {
+   "de": "warum?",
+   "en": "why?",
+   "ipa": "vaˈʁʊm",
+   "pic": "🤷",
+   "tags": [
+    "order"
+   ]
+  },
+  "q.wie_oft": {
+   "de": "wie oft?",
+   "en": "how often?",
+   "ipa": "viː ˈɔft",
+   "pic": "🔁",
+   "tags": [
+    "order"
+   ]
+  },
+  "q.wie_viel": {
+   "de": "wie viel?",
+   "en": "how much?",
+   "ipa": "viː ˈfiːl",
+   "pic": "💶",
+   "tags": [
+    "order"
+   ]
+  },
+  "q.wie_viele": {
+   "de": "wie viele?",
+   "en": "how many?",
+   "ipa": "viː ˈfiːlə",
+   "pic": "🔢",
+   "tags": [
+    "order"
+   ]
+  },
+  "d07.p.wer_ist_das": {
+   "de": "Wer ist das?",
+   "en": "Who is that?",
+   "ipa": "veːɐ̯ ɪst das",
+   "pic": "🧑",
+   "tags": [
+    "order"
+   ]
+  },
+  "d07.p.bahnhof": {
+   "de": "Wie komme ich zum Bahnhof?",
+   "en": "How do I get to the train station?",
+   "ipa": "viː ˈkɔmə ɪç tsʊm ˈbaːnhoːf",
+   "pic": "🚉",
+   "tags": [
+    "order"
+   ]
+  },
+  "d07.p.was_ist_das": {
+   "de": "Was ist das?",
+   "en": "What is that?",
+   "ipa": "vas ɪst das",
+   "pic": "❓",
+   "tags": [
+    "order"
+   ]
+  },
+  "d07.p.was_heisst_table": {
+   "de": "Was heißt „table“ auf Deutsch?",
+   "en": "What's “table” in German?",
+   "pic": "🪑",
+   "tags": [
+    "order"
+   ]
+  },
+  "d07.p.wohin_gehst_du": {
+   "de": "Wohin gehst du?",
+   "en": "Where are you going?",
+   "ipa": "voˈhɪn ɡeːst duː",
+   "pic": "🚶",
+   "tags": [
+    "order"
+   ]
+  },
+  "d07.p.wann_kommt_zug": {
+   "de": "Wann kommt der Zug?",
+   "en": "When does the train come?",
+   "ipa": "van kɔmt deːɐ̯ tsuːk",
+   "pic": "🚆",
+   "tags": [
+    "order"
+   ]
+  },
+  "d07.p.was_fuer_handy": {
+   "de": "Was für ein Handy hast du?",
+   "en": "What kind of phone do you have?",
+   "pic": "📱",
+   "tags": [
+    "order"
+   ]
+  },
+  "d07.p.warum_lernst_du": {
+   "de": "Warum lernst du Deutsch?",
+   "en": "Why are you learning German?",
+   "ipa": "vaˈʁʊm lɛʁnst duː dɔɪ̯tʃ",
+   "pic": "🤷",
+   "tags": [
+    "order"
+   ]
+  },
+  "d07.p.wie_oft_lernst_du": {
+   "de": "Wie oft lernst du Deutsch?",
+   "en": "How often do you study German?",
+   "pic": "🔁",
+   "tags": [
+    "order"
+   ]
+  },
+  "d07.p.wie_viel_cola": {
+   "de": "Wie viel kostet eine Cola?",
+   "en": "How much is a cola?",
+   "pic": "🥤",
+   "tags": [
+    "order"
+   ]
+  },
+  "d07.p.wie_viel_wasser": {
+   "de": "Wie viel Wasser trinkst du pro Tag?",
+   "en": "How much water do you drink a day?",
+   "pic": "💧",
+   "tags": [
+    "order"
+   ]
+  },
+  "d07.p.wie_viele_zaehne": {
+   "de": "Wie viele Zähne hat ein Mensch?",
+   "en": "How many teeth does a person have?",
+   "pic": "🦷",
+   "tags": [
+    "order"
+   ]
+  },
+  "d07.p.welcher_tag": {
+   "de": "Welcher Tag ist heute?",
+   "en": "What day is it today?",
+   "ipa": "ˈvɛlçɐ taːk ɪst ˈhɔɪ̯tə",
+   "pic": "📅",
+   "tags": [
+    "gender"
+   ]
+  },
+  "d07.p.welche_muetze": {
+   "de": "Welche Mütze soll ich tragen?",
+   "en": "Which cap should I wear?",
+   "pic": "🧢",
+   "tags": [
+    "gender"
+   ]
+  },
+  "d07.p.welches_bild": {
+   "de": "Welches Bild gefällt dir?",
+   "en": "Which picture do you like?",
+   "pic": "🖼️",
+   "tags": [
+    "gender"
+   ]
+  },
+  "n.zahn": {
+   "de": "der Zahn",
+   "plural": "die Zähne",
+   "gender": "der",
+   "en": "tooth",
+   "ipa": "tsaːn",
+   "pic": "🦷",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.stunde": {
+   "de": "die Stunde",
+   "plural": "die Stunden",
+   "gender": "die",
+   "en": "hour",
+   "ipa": "ˈʃtʊndə",
+   "pic": "⏰",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.bild": {
+   "de": "das Bild",
+   "plural": "die Bilder",
+   "gender": "das",
+   "en": "picture",
+   "ipa": "bɪlt",
+   "pic": "🖼️",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.muetze": {
+   "de": "die Mütze",
+   "plural": "die Mützen",
+   "gender": "die",
+   "en": "woolly hat, cap",
+   "ipa": "ˈmʏtsə",
+   "pic": "🧢",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.urlaub": {
+   "de": "der Urlaub",
+   "plural": "die Urlaube",
+   "gender": "der",
+   "en": "holiday, vacation",
+   "ipa": "ˈuːɐ̯laʊ̯p",
+   "pic": "🏖️",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "id": "A",
+   "title": "wer, wie, was, wo …",
+   "said": [
+    "p.wo_wohnst_du",
+    "p.woher_kommst_du",
+    "d07.p.warum_lernst_du",
+    "d07.p.wann_kommt_zug",
+    "d07.p.wie_viele_zaehne"
+   ],
+   "steps": [
+    {
+     "type": "video",
+     "title": "Video: A1 question words",
+     "videoId": "7euPPqMFnqE",
+     "channel": "YourGermanTeacher",
+     "start": 29,
+     "end": 782,
+     "note": "Each question word has its own chapter, with 2–3 example questions (each said twice — repeat them):\n\n1:29 wer · 2:10 wie · 2:37 was · 3:13 wo · 3:55 woher · 4:46 wohin · 5:51 wann · 6:24 was für · 7:17 warum · 8:01 wie oft · 8:39 wie viel · 9:25 wie viele · 10:48 bonus: welcher / welche / welches"
+    },
+    {
+     "type": "phrases",
+     "title": "The question words",
+     "intro": "All of them start with **w**, said like English *v*.",
+     "items": [
+      "q.wer",
+      "q.wie",
+      "q.was",
+      "q.wo",
+      "q.woher",
+      "q.wohin",
+      "q.wann",
+      "q.was_fuer",
+      "q.warum",
+      "q.wie_oft",
+      "q.wie_viel",
+      "q.wie_viele"
+     ]
+    },
+    {
+     "type": "note",
+     "title": "Word order in W-questions",
+     "md": "**W-word → verb → subject → rest**\n\n- {de:Wo wohnst du?}\n- {de:Warum lernst du Deutsch?}\n- {de:Wann kommt der Zug?}\n\n**wo / woher / wohin**: *wo* = where (a place), *woher* = where from, *wohin* = where to. English often just says *where*, German doesn't.\n\n**wie viel / wie viele**: *wie viel* + things you can't count (*Wasser, Geld*), *wie viele* + plural (*Zähne, Stunden*)."
+    },
+    {
+     "type": "phrases",
+     "title": "Questions from the video (1)",
+     "items": [
+      "d07.p.wer_ist_das",
+      "p.wie_heisst_du",
+      "d07.p.bahnhof",
+      "d07.p.was_ist_das",
+      "d07.p.was_heisst_table",
+      "p.wo_wohnst_du",
+      "p.woher_kommst_du",
+      "d07.p.wohin_gehst_du"
+     ]
+    },
+    {
+     "type": "phrases",
+     "title": "Questions from the video (2)",
+     "items": [
+      "d07.p.wann_kommt_zug",
+      "d07.p.was_fuer_handy",
+      "d07.p.warum_lernst_du",
+      "d07.p.wie_oft_lernst_du",
+      "d07.p.wie_viel_cola",
+      "d07.p.wie_viel_wasser",
+      "d07.p.wie_viele_zaehne"
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Which question word?",
+     "questions": [
+      {
+       "prompt": "___ wohnst du? — {de:In Berlin.}",
+       "options": [
+        "Wo",
+        "Woher",
+        "Wohin"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "order"
+      },
+      {
+       "prompt": "___ kommst du? — {de:Aus Usbekistan.}",
+       "options": [
+        "Woher",
+        "Wo",
+        "Wann"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "order"
+      },
+      {
+       "prompt": "___ gehst du? — {de:Nach Hause.}",
+       "options": [
+        "Wohin",
+        "Woher",
+        "Wer"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "order"
+      },
+      {
+       "prompt": "___ kommt der Zug? — {de:Morgen.}",
+       "options": [
+        "Wann",
+        "Wie",
+        "Wo"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "order"
+      },
+      {
+       "prompt": "___ ist das? — {de:Das ist Anna.}",
+       "options": [
+        "Wer",
+        "Was",
+        "Wie"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "order"
+      },
+      {
+       "prompt": "___ Wasser trinkst du?",
+       "options": [
+        "Wie viel",
+        "Wie viele",
+        "Wie oft"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "order",
+       "explain": "*Wasser* can't be counted → *wie viel*."
+      },
+      {
+       "prompt": "___ Stunden hat ein Tag?",
+       "options": [
+        "Wie viele",
+        "Wie oft",
+        "Wo"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "order",
+       "explain": "*Stunden* is plural → *wie viele*. (You may also hear *wie viel Stunden* in speech, but *wie viele* is the standard form.)"
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Listen and choose",
+     "questions": [
+      {
+       "kind": "listen",
+       "say": "Wohin gehst du?",
+       "item": "d07.p.wohin_gehst_du",
+       "options": [
+        "Where are you going?",
+        "Where are you from?",
+        "Where do you live?"
+       ],
+       "answer": 0,
+       "tag": "pron"
+      },
+      {
+       "kind": "listen",
+       "say": "Wie oft lernst du Deutsch?",
+       "item": "d07.p.wie_oft_lernst_du",
+       "options": [
+        "How often do you study German?",
+        "Why are you learning German?",
+        "How much German do you speak?"
+       ],
+       "answer": 0,
+       "tag": "pron"
+      },
+      {
+       "kind": "listen",
+       "say": "Was für ein Handy hast du?",
+       "item": "d07.p.was_fuer_handy",
+       "options": [
+        "What kind of phone do you have?",
+        "Whose phone is that?",
+        "How much is the phone?"
+       ],
+       "answer": 0,
+       "tag": "pron"
+      }
+     ]
+    },
+    {
+     "type": "note",
+     "title": "Bonus: welcher, welche, welches (which)",
+     "md": "The ending follows the noun's article:\n\n- {de:der Tag} → {de:Welcher Tag ist heute?}\n- {de:die Mütze} → {de:Welche Mütze soll ich tragen?} (plural also *welche*)\n- {de:das Bild} → {de:Welches Bild gefällt dir?}"
+    },
+    {
+     "type": "gender",
+     "title": "der, die or das?",
+     "questions": [
+      {
+       "item": "n.zahn"
+      },
+      {
+       "item": "n.stunde"
+      },
+      {
+       "item": "n.bild"
+      },
+      {
+       "item": "n.muetze"
+      },
+      {
+       "item": "n.urlaub"
+      }
+     ]
+    },
+    {
+     "type": "build",
+     "title": "Build the question",
+     "questions": [
+      {
+       "en": "Where do you live?",
+       "answer": "Wo wohnst du?",
+       "extra": [
+        "Woher"
+       ],
+       "tag": "order"
+      },
+      {
+       "en": "Why are you learning German?",
+       "answer": "Warum lernst du Deutsch?",
+       "tag": "order"
+      },
+      {
+       "en": "When does the train come?",
+       "answer": "Wann kommt der Zug?",
+       "tag": "order"
+      },
+      {
+       "en": "Which day is it today?",
+       "answer": "Welcher Tag ist heute?",
+       "extra": [
+        "Welches"
+       ],
+       "tag": "gender"
+      }
+     ]
+    },
+    {
+     "type": "pattern",
+     "title": "Answer about yourself",
+     "intro": "Listen to the question and answer out loud. Then check the sample answer.",
+     "prompts": [
+      {
+       "q": "Wie heißt du?",
+       "en": "What's your name?",
+       "item": "me.name"
+      },
+      {
+       "q": "Woher kommst du?",
+       "en": "Where are you from?",
+       "item": "me.from"
+      },
+      {
+       "q": "Wo wohnst du?",
+       "en": "Where do you live?",
+       "item": "me.city"
+      }
+     ]
+    },
+    {
+     "type": "write",
+     "title": "Short writing",
+     "prompt": "A new classmate sits next to you. Write 5 questions to ask them — use 5 different question words.",
+     "promptEn": "Write 5 German questions (du-form) to a new classmate, each with a different W-question word.",
+     "hint": "Wie heißt du? · Woher …? · Wo …? · Warum …? · Wie oft …?",
+     "minWords": 15,
+     "checklist": [
+      "W-word → verb → du",
+      "du-verbs end in -st",
+      "Each question ends with ?"
+     ],
+     "model": "Wie heißt du? Woher kommst du? Wo wohnst du? Warum lernst du Deutsch? Wie oft lernst du Deutsch?"
+    }
+   ]
+  }
+ ]
+}

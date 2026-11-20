@@ -17,7 +17,8 @@ for (const l of course.lessons.filter(l => l.file)) {
   }
   console.log(`${l.id}: ${Object.keys(j.items).length} items, ${j.sessions.length} session(s)`);
   const ids = new Set(Object.keys(j.items));
-  const ref = (id, where) => { if (!id.startsWith("me.") && !ids.has(id)) warn(`${where}: missing item ${id}`); };
+  // items from earlier lessons may be reused (the app keeps one global item map)
+  const ref = (id, where) => { if (!id.startsWith("me.") && !ids.has(id) && !seen.has(id)) warn(`${where}: missing item ${id}`); };
   const want = l.sessions === 2 ? ["A", "B"] : ["A"];
   if (JSON.stringify(j.sessions.map(s => s.id)) !== JSON.stringify(want)) warn(`sessions ${j.sessions.map(s => s.id)} ≠ ${want}`);
   for (const [id, it] of Object.entries(j.items)) {

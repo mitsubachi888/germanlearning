@@ -1,0 +1,626 @@
+{
+ "id": "d12",
+ "title": "Top 10 verbs",
+ "items": {
+  "v.werden": {
+   "de": "werden",
+   "en": "to become (also used for the future)",
+   "ipa": "ˈveːɐ̯dn̩",
+   "pic": "🌱",
+   "tags": [
+    "verb"
+   ]
+  },
+  "v.sagen": {
+   "de": "sagen",
+   "en": "to say",
+   "ipa": "ˈzaːɡn̩",
+   "pic": "💬",
+   "tags": [
+    "verb"
+   ]
+  },
+  "v.geben": {
+   "de": "geben",
+   "en": "to give",
+   "ipa": "ˈɡeːbn̩",
+   "pic": "🎁",
+   "tags": [
+    "verb"
+   ]
+  },
+  "v.kommen": {
+   "de": "kommen",
+   "en": "to come",
+   "ipa": "ˈkɔmən",
+   "pic": "🚶",
+   "tags": [
+    "verb"
+   ]
+  },
+  "v.gehen": {
+   "de": "gehen",
+   "en": "to go (on foot)",
+   "ipa": "ˈɡeːən",
+   "pic": "🚶‍♀️",
+   "tags": [
+    "verb"
+   ]
+  },
+  "v.finden": {
+   "de": "finden",
+   "en": "to find; to think (opinion)",
+   "ipa": "ˈfɪndn̩",
+   "pic": "🔎",
+   "tags": [
+    "verb"
+   ]
+  },
+  "n.zeitung": {
+   "de": "die Zeitung",
+   "plural": "die Zeitungen",
+   "gender": "die",
+   "en": "newspaper",
+   "ipa": "ˈtsaɪ̯tʊŋ",
+   "pic": "📰",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.ball": {
+   "de": "der Ball",
+   "plural": "die Bälle",
+   "gender": "der",
+   "en": "ball",
+   "ipa": "bal",
+   "pic": "⚽",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.blume": {
+   "de": "die Blume",
+   "plural": "die Blumen",
+   "gender": "die",
+   "en": "flower",
+   "ipa": "ˈbluːmə",
+   "pic": "🌷",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.schuh": {
+   "de": "der Schuh",
+   "plural": "die Schuhe",
+   "gender": "der",
+   "en": "shoe",
+   "ipa": "ʃuː",
+   "pic": "👟",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.marke": {
+   "de": "die Marke",
+   "plural": "die Marken",
+   "gender": "die",
+   "en": "brand",
+   "ipa": "ˈmaʁkə",
+   "pic": "🏷️",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.film": {
+   "de": "der Film",
+   "plural": "die Filme",
+   "gender": "der",
+   "en": "film, movie",
+   "ipa": "fɪlm",
+   "pic": "🎬",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.paar": {
+   "de": "das Paar",
+   "plural": "die Paare",
+   "gender": "das",
+   "en": "couple, pair",
+   "ipa": "paːɐ̯",
+   "pic": "💑",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "d12.p.zeitung": {
+   "de": "Das ist eine Zeitung.",
+   "en": "That's a newspaper.",
+   "pic": "📰",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d12.p.ball": {
+   "de": "Er hat einen Ball.",
+   "en": "He has a ball.",
+   "ipa": "eːɐ̯ hat ˈaɪ̯nən bal",
+   "pic": "⚽",
+   "note": "*der Ball* → after *haben*: **einen** Ball.",
+   "tags": [
+    "case"
+   ]
+  },
+  "d12.p.anstrengend": {
+   "de": "Das wird anstrengend.",
+   "en": "That's going to be tiring.",
+   "ipa": "das vɪʁt ˈanʃtʁɛŋənt",
+   "pic": "😮‍💨",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d12.p.sagt": {
+   "de": "Er sagt: „Guten Tag!“",
+   "en": "He says: “Good day!”",
+   "pic": "🤝",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d12.p.blume": {
+   "de": "Er gibt der Frau eine Blume.",
+   "en": "He gives the woman a flower.",
+   "ipa": "eːɐ̯ ɡɪpt deːɐ̯ fʁaʊ̯ ˈaɪ̯nə ˈbluːmə",
+   "pic": "🌷",
+   "note": "*der Frau* = to the woman (Dativ — later lesson).",
+   "tags": [
+    "case"
+   ]
+  },
+  "d12.p.aus_deutschland": {
+   "de": "Die Marke kommt aus Deutschland.",
+   "en": "The brand comes from Germany.",
+   "pic": "👟",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d12.p.nach_hause": {
+   "de": "Sie gehen nach Hause.",
+   "en": "They're going home.",
+   "ipa": "ziː ˈɡeːən naːx ˈhaʊ̯zə",
+   "pic": "🏠",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d12.p.kaffee": {
+   "de": "Sie macht einen Kaffee.",
+   "en": "She's making a coffee.",
+   "pic": "☕",
+   "tags": [
+    "case"
+   ]
+  },
+  "d12.p.film": {
+   "de": "Das Paar sieht einen Film.",
+   "en": "The couple is watching a film.",
+   "pic": "🎬",
+   "tags": [
+    "case"
+   ]
+  },
+  "d12.p.wie_findest_du": {
+   "de": "Wie findest du das Wetter?",
+   "en": "What do you think of the weather?",
+   "ipa": "viː ˈfɪndəst duː das ˈvɛtɐ",
+   "pic": "🌤️",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d12.p.uhr_modern": {
+   "de": "Ich finde die Uhr sehr modern.",
+   "en": "I think the watch is very modern.",
+   "pic": "⌚",
+   "tags": [
+    "verb"
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "id": "A",
+   "title": "sein, haben, werden …",
+   "said": [
+    "d12.p.ball",
+    "d12.p.nach_hause",
+    "d12.p.kaffee",
+    "d12.p.wie_findest_du",
+    "d12.p.uhr_modern"
+   ],
+   "steps": [
+    {
+     "type": "video",
+     "title": "Video: the 10 most common verbs",
+     "videoId": "7ZiLS0b96BY",
+     "channel": "YourGermanTeacher (Luzi)",
+     "start": 46,
+     "end": 746,
+     "note": "For each verb Luzi conjugates it with you (*wir konjugieren zusammen*) — **say every form with her**. Then she shows a picture and asks a question.\n\n0:52 sein · 1:45 haben · 3:03 werden · 4:02 sagen · 4:56 geben · 6:33 kommen · 7:45 gehen · 8:47 machen · 9:55 sehen · 11:12 finden"
+    },
+    {
+     "type": "phrases",
+     "title": "The 10 verbs",
+     "items": [
+      "v.sein",
+      "v.haben",
+      "v.werden",
+      "v.sagen",
+      "v.geben",
+      "v.kommen",
+      "v.gehen",
+      "v.machen",
+      "v.sehen",
+      "v.finden"
+     ]
+    },
+    {
+     "type": "table",
+     "title": "Regular endings in the present tense",
+     "intro": "These four follow the normal endings. *finden*: stem ends in *-d* → extra *e* (*du findest, er findet*).",
+     "cols": [
+      "",
+      "sagen",
+      "kommen",
+      "gehen",
+      "finden"
+     ],
+     "rows": [
+      [
+       "ich",
+       "sag|e",
+       "komm|e",
+       "geh|e",
+       "find|e"
+      ],
+      [
+       "du",
+       "sag|st",
+       "komm|st",
+       "geh|st",
+       "find|est"
+      ],
+      [
+       "er/sie/es",
+       "sag|t",
+       "komm|t",
+       "geh|t",
+       "find|et"
+      ],
+      [
+       "wir",
+       "sag|en",
+       "komm|en",
+       "geh|en",
+       "find|en"
+      ],
+      [
+       "ihr",
+       "sag|t",
+       "komm|t",
+       "geh|t",
+       "find|et"
+      ],
+      [
+       "sie/Sie",
+       "sag|en",
+       "komm|en",
+       "geh|en",
+       "find|en"
+      ]
+     ]
+    },
+    {
+     "type": "table",
+     "title": "Irregular ones",
+     "intro": "*werden* and *geben* change in **du** and **er/sie/es** — like the verbs in lesson 6. *sein* and *haben*: see lesson 6.",
+     "cols": [
+      "",
+      "werden",
+      "geben",
+      "sehen"
+     ],
+     "rows": [
+      [
+       "ich",
+       "werde",
+       "gebe",
+       "sehe"
+      ],
+      [
+       "du",
+       "wirst",
+       "gibst",
+       "siehst"
+      ],
+      [
+       "er/sie/es",
+       "wird",
+       "gibt",
+       "sieht"
+      ],
+      [
+       "wir",
+       "werden",
+       "geben",
+       "sehen"
+      ],
+      [
+       "ihr",
+       "werdet",
+       "gebt",
+       "seht"
+      ],
+      [
+       "sie/Sie",
+       "werden",
+       "geben",
+       "sehen"
+      ]
+     ]
+    },
+    {
+     "type": "phrases",
+     "title": "Answers to the picture questions",
+     "items": [
+      "d12.p.zeitung",
+      "d12.p.ball",
+      "d12.p.anstrengend",
+      "d12.p.sagt",
+      "d12.p.blume",
+      "d12.p.aus_deutschland",
+      "d12.p.nach_hause",
+      "d12.p.kaffee",
+      "d12.p.film",
+      "d12.p.wie_findest_du",
+      "d12.p.uhr_modern"
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Choose the right form",
+     "questions": [
+      {
+       "prompt": "du ___ (werden)",
+       "options": [
+        "wirst",
+        "werdest",
+        "wird"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "verb"
+      },
+      {
+       "prompt": "er ___ (geben)",
+       "options": [
+        "gibt",
+        "gebt",
+        "gibst"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "verb"
+      },
+      {
+       "prompt": "ihr ___ (sein)",
+       "options": [
+        "seid",
+        "sind",
+        "seit"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "verb"
+      },
+      {
+       "prompt": "du ___ (finden)",
+       "options": [
+        "findest",
+        "findst",
+        "finden"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "verb"
+      },
+      {
+       "prompt": "wir ___ (gehen)",
+       "options": [
+        "gehen",
+        "geht",
+        "gehst"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "verb"
+      },
+      {
+       "prompt": "sie ___ (sehen) — she",
+       "options": [
+        "sieht",
+        "seht",
+        "sehe"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "verb"
+      },
+      {
+       "prompt": "{de:Wie findest du das Wetter?} means …",
+       "options": [
+        "What do you think of the weather?",
+        "Where do you find the weather?"
+       ],
+       "answer": 0,
+       "explain": "*finden* + opinion = *to think (about something)*."
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Listen and choose",
+     "questions": [
+      {
+       "kind": "listen",
+       "say": "Sie gehen nach Hause.",
+       "item": "d12.p.nach_hause",
+       "options": [
+        "They're going home.",
+        "She's going home.",
+        "They're coming home."
+       ],
+       "answer": 0,
+       "tag": "pron"
+      },
+      {
+       "kind": "listen",
+       "say": "Er gibt der Frau eine Blume.",
+       "item": "d12.p.blume",
+       "options": [
+        "He gives the woman a flower.",
+        "He buys a flower.",
+        "The woman gives him a flower."
+       ],
+       "answer": 0,
+       "tag": "pron"
+      },
+      {
+       "kind": "listen",
+       "say": "Das wird anstrengend.",
+       "item": "d12.p.anstrengend",
+       "options": [
+        "That's going to be tiring.",
+        "That was tiring.",
+        "That's not tiring."
+       ],
+       "answer": 0,
+       "tag": "pron"
+      }
+     ]
+    },
+    {
+     "type": "gender",
+     "title": "der, die or das?",
+     "questions": [
+      {
+       "item": "n.zeitung"
+      },
+      {
+       "item": "n.ball"
+      },
+      {
+       "item": "n.blume"
+      },
+      {
+       "item": "n.schuh"
+      },
+      {
+       "item": "n.film"
+      },
+      {
+       "item": "n.paar"
+      }
+     ]
+    },
+    {
+     "type": "build",
+     "title": "Build the sentence",
+     "questions": [
+      {
+       "en": "She's making a coffee.",
+       "answer": "Sie macht einen Kaffee.",
+       "extra": [
+        "ein"
+       ],
+       "tag": "case"
+      },
+      {
+       "en": "I think the watch is very modern.",
+       "answer": "Ich finde die Uhr sehr modern.",
+       "tag": "order"
+      },
+      {
+       "en": "The brand comes from Germany.",
+       "answer": "Die Marke kommt aus Deutschland.",
+       "tag": "verb"
+      }
+     ]
+    },
+    {
+     "type": "type",
+     "title": "Listen and type",
+     "questions": [
+      {
+       "item": "d12.p.ball",
+       "tag": "case"
+      },
+      {
+       "item": "d12.p.wie_findest_du",
+       "tag": "verb"
+      }
+     ]
+    },
+    {
+     "type": "pattern",
+     "title": "Your opinion",
+     "intro": "Answer with *Ich finde … (sehr) gut / schön / modern / langweilig*.",
+     "prompts": [
+      {
+       "q": "Wie findest du das Wetter?",
+       "en": "What do you think of the weather?",
+       "example": "Ich finde das Wetter schön."
+      },
+      {
+       "q": "Wie findest du Deutsch?",
+       "en": "What do you think of German?",
+       "example": "Ich finde Deutsch interessant."
+      }
+     ]
+    },
+    {
+     "type": "shadow",
+     "title": "Listen and repeat",
+     "items": [
+      "d12.p.ball",
+      "d12.p.nach_hause",
+      "d12.p.kaffee",
+      "d12.p.wie_findest_du"
+     ]
+    },
+    {
+     "type": "write",
+     "title": "Short writing",
+     "prompt": "Write 5 sentences, each with a different verb from today (sein, haben, gehen, machen, finden …).",
+     "promptEn": "Write 5 simple German sentences, each using a different verb: sein, haben, gehen, machen, finden.",
+     "minWords": 15,
+     "checklist": [
+      "The verb is in 2nd position",
+      "Irregular forms: du wirst, er gibt, er sieht",
+      "finden: du findest, er findet"
+     ],
+     "model": "Ich bin müde. Ich habe einen Bruder. Wir gehen nach Hause. Meine Mutter macht einen Kaffee. Ich finde Deutsch interessant."
+    }
+   ]
+  }
+ ]
+}

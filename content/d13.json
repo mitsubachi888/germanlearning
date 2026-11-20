@@ -1,0 +1,440 @@
+{
+ "id": "d13",
+ "title": "Hobbies",
+ "items": {
+  "n.hobby": {
+   "de": "das Hobby",
+   "plural": "die Hobbys",
+   "gender": "das",
+   "en": "hobby",
+   "ipa": "ˈhɔbi",
+   "pic": "🎯",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.freizeit": {
+   "de": "die Freizeit",
+   "gender": "die",
+   "en": "free time",
+   "ipa": "ˈfʁaɪ̯ˌtsaɪ̯t",
+   "pic": "🕊️",
+   "note": "No plural.",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "w.gern": {
+   "de": "gern",
+   "en": "gladly → verb + gern = to like doing",
+   "ipa": "ɡɛʁn",
+   "pic": "❤️",
+   "note": "Also *gerne*. *sehr gern* = very much.",
+   "tags": [
+    "order"
+   ]
+  },
+  "w.taeglich": {
+   "de": "täglich",
+   "en": "every day, daily",
+   "ipa": "ˈtɛːklɪç",
+   "pic": "📆",
+   "tags": []
+  },
+  "w.oft": {
+   "de": "oft",
+   "en": "often",
+   "ipa": "ɔft",
+   "pic": "🔁",
+   "tags": []
+  },
+  "w.nie": {
+   "de": "nie",
+   "en": "never",
+   "ipa": "niː",
+   "pic": "🚫",
+   "tags": []
+  },
+  "d13.p.was_sind_hobbys": {
+   "de": "Was sind deine Hobbys?",
+   "en": "What are your hobbies?",
+   "ipa": "vas zɪnt ˈdaɪ̯nə ˈhɔbis",
+   "pic": "❓",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d13.p.freizeit": {
+   "de": "Was machst du gern in der Freizeit?",
+   "en": "What do you like doing in your free time?",
+   "ipa": "vas maxst duː ɡɛʁn ɪn deːɐ̯ ˈfʁaɪ̯tsaɪ̯t",
+   "pic": "❓",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d13.p.hobbys_sind": {
+   "de": "Meine Hobbys sind Tanzen und Singen.",
+   "en": "My hobbies are dancing and singing.",
+   "pic": "💃",
+   "note": "Verbs used as nouns get a capital letter: *das Tanzen, das Singen*.",
+   "tags": [
+    "order"
+   ]
+  },
+  "d13.p.singe_tanze": {
+   "de": "Ich singe und tanze gern.",
+   "en": "I like singing and dancing.",
+   "pic": "🎤",
+   "tags": [
+    "order"
+   ]
+  },
+  "d13.p.volleyball": {
+   "de": "Ich spiele gern Volleyball und treffe oft Freunde.",
+   "en": "I like playing volleyball and I often meet friends.",
+   "pic": "🏐",
+   "tags": [
+    "order"
+   ]
+  },
+  "d13.p.malen_singen": {
+   "de": "Meine Hobbys sind Malen und Singen.",
+   "en": "My hobbies are painting and singing.",
+   "pic": "🎨",
+   "tags": [
+    "order"
+   ]
+  },
+  "d13.p.gitarre": {
+   "de": "Ich spiele gern Gitarre und höre täglich Musik.",
+   "en": "I like playing the guitar and I listen to music every day.",
+   "pic": "🎸",
+   "tags": [
+    "order"
+   ]
+  },
+  "d13.p.fussball_lesen": {
+   "de": "Meine Hobbys sind Fußball und Lesen.",
+   "en": "My hobbies are football and reading.",
+   "pic": "⚽",
+   "tags": [
+    "order"
+   ]
+  },
+  "d13.p.shoppen": {
+   "de": "Ich gehe gern shoppen.",
+   "en": "I like going shopping.",
+   "pic": "🛍️",
+   "tags": [
+    "order"
+   ]
+  },
+  "d13.p.brettspiele": {
+   "de": "Ich spiele gern Brettspiele und lese jeden Tag.",
+   "en": "I like playing board games and I read every day.",
+   "pic": "🎲",
+   "tags": [
+    "order"
+   ]
+  },
+  "d13.p.sport": {
+   "de": "Ich koche gern und mache sehr gern Sport.",
+   "en": "I like cooking and I really like doing sport.",
+   "pic": "🏃",
+   "tags": [
+    "order"
+   ]
+  },
+  "d13.p.fitnessstudio": {
+   "de": "Ich gehe nicht gern ins Fitnessstudio.",
+   "en": "I don't like going to the gym.",
+   "pic": "🏋️",
+   "note": "*nicht gern* = don't like doing.",
+   "tags": [
+    "order"
+   ]
+  },
+  "d13.p.maria_liest": {
+   "de": "Maria liest jeden Tag.",
+   "en": "Maria reads every day.",
+   "pic": "📖",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d13.p.tom_spielt": {
+   "de": "Tom spielt täglich PlayStation.",
+   "en": "Tom plays PlayStation every day.",
+   "pic": "🎮",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d13.p.oma_sudoku": {
+   "de": "Meine Oma spielt gern Sudoku.",
+   "en": "My grandma likes doing sudoku.",
+   "pic": "🧩",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d13.p.restaurant": {
+   "de": "Sonntags essen wir gern im Restaurant.",
+   "en": "On Sundays we like eating out at a restaurant.",
+   "pic": "🍽️",
+   "tags": [
+    "order"
+   ]
+  },
+  "d13.p.garten": {
+   "de": "Die Deutschen arbeiten sehr gern im Garten.",
+   "en": "Germans really like working in the garden.",
+   "pic": "🌻",
+   "tags": [
+    "order"
+   ]
+  },
+  "d13.p.wandern": {
+   "de": "Wir wandern sehr gern.",
+   "en": "We really like hiking.",
+   "pic": "🥾",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d13.p.mein_hobby_ist": {
+   "de": "Mein Hobby ist Lesen.",
+   "en": "My hobby is reading.",
+   "pic": "📚",
+   "tags": [
+    "gender"
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "id": "A",
+   "title": "Was sind deine Hobbys?",
+   "said": [
+    "d13.p.was_sind_hobbys",
+    "d13.p.freizeit",
+    "me.hobby",
+    "d13.p.fitnessstudio",
+    "d13.p.mein_hobby_ist"
+   ],
+   "steps": [
+    {
+     "type": "video",
+     "title": "Video: talking about hobbies",
+     "videoId": "lYHKQnGrtLM",
+     "channel": "YourGermanTeacher (Luzi)",
+     "start": 60,
+     "end": 672,
+     "note": "Chapters: 1:07 *Was sind deine Hobbys?* — two ways to answer · 4:26 *Was machst du gern in der Freizeit?* · 5:43 Top 10 hobbies in Germany · 10:55 homework."
+    },
+    {
+     "type": "note",
+     "title": "Two ways to talk about hobbies",
+     "md": "**1. Meine Hobbys sind + nouns**\n\n{de:Meine Hobbys sind Tanzen und Singen.} — *tanzen, singen* become nouns, so they get a **capital letter**. With one hobby: {de:Mein Hobby ist Lesen.}\n\n**2. verb + gern** (= like doing)\n\n{de:Ich singe gern.} · {de:Ich tanze gern.} · {de:Ich singe und tanze gern.}\n\n*gern* comes **after** the verb. Stronger: **sehr gern**. Negative: **nicht gern** — {de:Ich gehe nicht gern ins Fitnessstudio.}"
+    },
+    {
+     "type": "phrases",
+     "title": "Questions and key words",
+     "items": [
+      "d13.p.was_sind_hobbys",
+      "d13.p.freizeit",
+      "n.hobby",
+      "n.freizeit",
+      "w.gern",
+      "w.oft",
+      "w.taeglich",
+      "w.nie"
+     ]
+    },
+    {
+     "type": "phrases",
+     "title": "Answers from the video",
+     "items": [
+      "d13.p.hobbys_sind",
+      "d13.p.singe_tanze",
+      "d13.p.volleyball",
+      "d13.p.malen_singen",
+      "d13.p.gitarre",
+      "d13.p.fussball_lesen",
+      "d13.p.shoppen",
+      "d13.p.brettspiele",
+      "d13.p.sport"
+     ]
+    },
+    {
+     "type": "phrases",
+     "title": "Top 10 hobbies in Germany",
+     "intro": "From the video's list: hiking, board games, reading, the gym, computer games, puzzles, eating out, photography, gardening, shopping.",
+     "items": [
+      "d13.p.wandern",
+      "d13.p.maria_liest",
+      "d13.p.fitnessstudio",
+      "d13.p.tom_spielt",
+      "d13.p.oma_sudoku",
+      "d13.p.restaurant",
+      "d13.p.garten"
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Where does „gern“ go?",
+     "questions": [
+      {
+       "prompt": "I like reading.",
+       "options": [
+        "Ich lese gern.",
+        "Ich gern lese.",
+        "Gern ich lese."
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "order"
+      },
+      {
+       "prompt": "I like playing football.",
+       "options": [
+        "Ich spiele gern Fußball.",
+        "Ich spiele Fußball gern ich.",
+        "Ich gern spiele Fußball."
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "order"
+      },
+      {
+       "prompt": "My hobbies are dancing and singing.",
+       "options": [
+        "Meine Hobbys sind Tanzen und Singen.",
+        "Meine Hobbys sind tanzen und singen.",
+        "Mein Hobbys ist Tanzen und Singen."
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "spell",
+       "explain": "Verbs used as nouns → capital letters. Plural → *Meine … sind*."
+      },
+      {
+       "prompt": "I don't like going to the gym.",
+       "options": [
+        "Ich gehe nicht gern ins Fitnessstudio.",
+        "Ich gehe gern nicht ins Fitnessstudio."
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "order"
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Listen and choose",
+     "questions": [
+      {
+       "kind": "listen",
+       "say": "Ich spiele gern Gitarre und höre täglich Musik.",
+       "item": "d13.p.gitarre",
+       "options": [
+        "I like playing the guitar and I listen to music every day.",
+        "I play the guitar every day.",
+        "I don't like music."
+       ],
+       "answer": 0,
+       "tag": "pron"
+      },
+      {
+       "kind": "listen",
+       "say": "Sonntags essen wir gern im Restaurant.",
+       "item": "d13.p.restaurant",
+       "options": [
+        "On Sundays we like eating out at a restaurant.",
+        "On Sundays we cook at home.",
+        "We never eat at restaurants."
+       ],
+       "answer": 0,
+       "tag": "pron"
+      }
+     ]
+    },
+    {
+     "type": "build",
+     "title": "Build the sentence",
+     "questions": [
+      {
+       "en": "I like going shopping.",
+       "answer": "Ich gehe gern shoppen.",
+       "tag": "order"
+      },
+      {
+       "en": "What do you like doing in your free time?",
+       "answer": "Was machst du gern in der Freizeit?",
+       "tag": "order"
+      },
+      {
+       "en": "My hobby is reading.",
+       "answer": "Mein Hobby ist Lesen.",
+       "extra": [
+        "Meine",
+        "sind"
+       ],
+       "tag": "gender"
+      }
+     ]
+    },
+    {
+     "type": "pattern",
+     "title": "Your hobbies",
+     "intro": "The sample answer is your own hobby from your profile.",
+     "prompts": [
+      {
+       "q": "Was machst du gern in der Freizeit?",
+       "en": "What do you like doing in your free time?",
+       "item": "me.hobby"
+      },
+      {
+       "q": "Was sind deine Hobbys?",
+       "en": "What are your hobbies?",
+       "example": "Meine Hobbys sind Lesen und Kochen."
+      }
+     ]
+    },
+    {
+     "type": "shadow",
+     "title": "Listen and repeat",
+     "items": [
+      "d13.p.was_sind_hobbys",
+      "d13.p.singe_tanze",
+      "d13.p.fitnessstudio",
+      "me.hobby"
+     ]
+    },
+    {
+     "type": "write",
+     "title": "Homework from the video",
+     "prompt": "Was sind deine Hobbys? Write 3–4 sentences: your hobbies, how often you do them, and one thing you don't like doing.",
+     "promptEn": "Answer in German: What are my hobbies? 3-4 sentences with 'Meine Hobbys sind …', 'Ich … gern', oft/täglich, and one 'nicht gern'.",
+     "hint": "Meine Hobbys sind … · Ich … gern … · Ich … täglich … · Ich … nicht gern …",
+     "minWords": 15,
+     "checklist": [
+      "Hobby nouns with a capital letter",
+      "gern after the verb",
+      "Mein Hobby ist / Meine Hobbys sind"
+     ],
+     "modelItems": [
+      "d13.p.mein_hobby_ist",
+      "me.hobby",
+      "d13.p.gitarre",
+      "d13.p.fitnessstudio"
+     ]
+    }
+   ]
+  }
+ ]
+}

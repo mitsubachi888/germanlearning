@@ -1,0 +1,583 @@
+{
+ "id": "d08",
+ "title": "Numbers 1–20",
+ "items": {
+  "num.0": {
+   "de": "null",
+   "en": "0",
+   "ipa": "nʊl",
+   "pic": "0️⃣",
+   "tags": [
+    "num"
+   ]
+  },
+  "num.1": {
+   "de": "eins",
+   "en": "1",
+   "ipa": "aɪ̯ns",
+   "pic": "1️⃣",
+   "tags": [
+    "num"
+   ]
+  },
+  "num.2": {
+   "de": "zwei",
+   "en": "2",
+   "ipa": "tsvaɪ̯",
+   "pic": "2️⃣",
+   "tags": [
+    "num"
+   ]
+  },
+  "num.3": {
+   "de": "drei",
+   "en": "3",
+   "ipa": "dʁaɪ̯",
+   "pic": "3️⃣",
+   "tags": [
+    "num"
+   ]
+  },
+  "num.4": {
+   "de": "vier",
+   "en": "4",
+   "ipa": "fiːɐ̯",
+   "pic": "4️⃣",
+   "tags": [
+    "num"
+   ]
+  },
+  "num.5": {
+   "de": "fünf",
+   "en": "5",
+   "ipa": "fʏnf",
+   "pic": "5️⃣",
+   "tags": [
+    "num"
+   ]
+  },
+  "num.6": {
+   "de": "sechs",
+   "en": "6",
+   "ipa": "zɛks",
+   "pic": "6️⃣",
+   "tags": [
+    "num"
+   ]
+  },
+  "num.7": {
+   "de": "sieben",
+   "en": "7",
+   "ipa": "ˈziːbn̩",
+   "pic": "7️⃣",
+   "tags": [
+    "num"
+   ]
+  },
+  "num.8": {
+   "de": "acht",
+   "en": "8",
+   "ipa": "axt",
+   "pic": "8️⃣",
+   "tags": [
+    "num"
+   ]
+  },
+  "num.9": {
+   "de": "neun",
+   "en": "9",
+   "ipa": "nɔɪ̯n",
+   "pic": "9️⃣",
+   "tags": [
+    "num"
+   ]
+  },
+  "num.10": {
+   "de": "zehn",
+   "en": "10",
+   "ipa": "tseːn",
+   "pic": "🔟",
+   "tags": [
+    "num"
+   ]
+  },
+  "num.11": {
+   "de": "elf",
+   "en": "11",
+   "ipa": "ɛlf",
+   "tags": [
+    "num"
+   ]
+  },
+  "num.12": {
+   "de": "zwölf",
+   "en": "12",
+   "ipa": "tsvœlf",
+   "tags": [
+    "num"
+   ]
+  },
+  "num.13": {
+   "de": "dreizehn",
+   "en": "13",
+   "ipa": "ˈdʁaɪ̯tseːn",
+   "tags": [
+    "num"
+   ]
+  },
+  "num.14": {
+   "de": "vierzehn",
+   "en": "14",
+   "ipa": "ˈfɪʁtseːn",
+   "tags": [
+    "num"
+   ]
+  },
+  "num.15": {
+   "de": "fünfzehn",
+   "en": "15",
+   "ipa": "ˈfʏnftseːn",
+   "tags": [
+    "num"
+   ]
+  },
+  "num.16": {
+   "de": "sechzehn",
+   "en": "16",
+   "ipa": "ˈzɛçtseːn",
+   "note": "No *s*: sech**s** → **sech**zehn.",
+   "tags": [
+    "num"
+   ]
+  },
+  "num.17": {
+   "de": "siebzehn",
+   "en": "17",
+   "ipa": "ˈziːptseːn",
+   "note": "No *-en*: sieb**en** → **sieb**zehn.",
+   "tags": [
+    "num"
+   ]
+  },
+  "num.18": {
+   "de": "achtzehn",
+   "en": "18",
+   "ipa": "ˈaxtseːn",
+   "tags": [
+    "num"
+   ]
+  },
+  "num.19": {
+   "de": "neunzehn",
+   "en": "19",
+   "ipa": "ˈnɔɪ̯ntseːn",
+   "tags": [
+    "num"
+   ]
+  },
+  "num.20": {
+   "de": "zwanzig",
+   "en": "20",
+   "ipa": "ˈtsvantsɪç",
+   "tags": [
+    "num"
+   ]
+  },
+  "w.plus": {
+   "de": "plus",
+   "en": "plus (+)",
+   "ipa": "plʊs",
+   "pic": "➕",
+   "tags": [
+    "num"
+   ]
+  },
+  "w.minus": {
+   "de": "minus",
+   "en": "minus (−)",
+   "ipa": "ˈmiːnʊs",
+   "pic": "➖",
+   "tags": [
+    "num"
+   ]
+  },
+  "w.mal": {
+   "de": "mal",
+   "en": "times (×)",
+   "ipa": "maːl",
+   "pic": "✖️",
+   "tags": [
+    "num"
+   ]
+  },
+  "w.geteilt": {
+   "de": "geteilt durch",
+   "en": "divided by (÷)",
+   "ipa": "ɡəˈtaɪ̯lt dʊʁç",
+   "pic": "➗",
+   "tags": [
+    "num"
+   ]
+  },
+  "d08.p.1plus2": {
+   "de": "Eins plus zwei ist drei.",
+   "en": "1 + 2 = 3",
+   "pic": "➕",
+   "tags": [
+    "num"
+   ]
+  },
+  "d08.p.9minus4": {
+   "de": "Neun minus vier ist fünf.",
+   "en": "9 − 4 = 5",
+   "pic": "➖",
+   "tags": [
+    "num"
+   ]
+  },
+  "d08.p.2mal6": {
+   "de": "Zwei mal sechs ist zwölf.",
+   "en": "2 × 6 = 12",
+   "pic": "✖️",
+   "tags": [
+    "num"
+   ]
+  },
+  "d08.p.8durch4": {
+   "de": "Acht geteilt durch vier ist zwei.",
+   "en": "8 ÷ 4 = 2",
+   "pic": "➗",
+   "tags": [
+    "num"
+   ]
+  },
+  "d08.p.zwei_bitte": {
+   "de": "Zwei Kaffee, bitte!",
+   "en": "Two coffees, please!",
+   "ipa": "tsvaɪ̯ ˈkafe ˈbɪtə",
+   "pic": "☕",
+   "note": "In the video: *Zwei Bier, bitte!* — same pattern: number + thing + *bitte*.",
+   "tags": [
+    "num"
+   ]
+  },
+  "d08.p.drei_tee": {
+   "de": "Drei Tee, bitte!",
+   "en": "Three teas, please!",
+   "pic": "🍵",
+   "tags": [
+    "num"
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "id": "A",
+   "title": "null bis zwanzig",
+   "said": [
+    "num.12",
+    "num.16",
+    "num.17",
+    "d08.p.2mal6",
+    "d08.p.zwei_bitte"
+   ],
+   "steps": [
+    {
+     "type": "video",
+     "title": "Video: numbers 1–20",
+     "videoId": "Bje6l_koJig",
+     "channel": "YourGermanTeacher (Luzi)",
+     "start": 0,
+     "end": 280,
+     "note": "Count along out loud when Luzi says the numbers. After the numbers there are small sums — say the result before she does. At the end: ordering in a bar."
+    },
+    {
+     "type": "phrases",
+     "title": "0–10",
+     "items": [
+      "num.0",
+      "num.1",
+      "num.2",
+      "num.3",
+      "num.4",
+      "num.5",
+      "num.6",
+      "num.7",
+      "num.8",
+      "num.9",
+      "num.10"
+     ]
+    },
+    {
+     "type": "compare",
+     "title": "Sounds to watch",
+     "intro": "Compared with English only where the sound really matches.",
+     "items": [
+      {
+       "letter": "z",
+       "example": "zehn",
+       "en": "ts — as in “cats”",
+       "mouth": "*zwei, zehn, zwölf, zwanzig* all start with *ts*."
+      },
+      {
+       "letter": "v",
+       "example": "vier",
+       "en": "f — as in “fear”"
+      },
+      {
+       "letter": "ei / eu",
+       "example": "neun",
+       "en": "*ei* = “eye” (*eins, zwei, drei*) · *eu* = “oy” (*neun*)"
+      },
+      {
+       "letter": "ü / ö",
+       "example": "fünf",
+       "none": true,
+       "mouth": "*fünf*: say *ee* with rounded lips. *zwölf*: say *e* with rounded lips."
+      },
+      {
+       "letter": "-ig",
+       "example": "zwanzig",
+       "none": true,
+       "mouth": "Ends with the soft *ch* of *ich* (in the south also *-ik*)."
+      }
+     ]
+    },
+    {
+     "type": "note",
+     "title": "11–20",
+     "md": "**11 elf** and **12 zwölf** are special — just learn them.\n\n**13–19** = unit + *zehn*: {de:dreizehn}, {de:vierzehn}, {de:fünfzehn} …\n\nTwo small traps:\n\n- {de:sechzehn} — the *s* of *sechs* disappears\n- {de:siebzehn} — the *-en* of *sieben* disappears\n\n**20** = {de:zwanzig}"
+    },
+    {
+     "type": "phrases",
+     "title": "11–20",
+     "items": [
+      "num.11",
+      "num.12",
+      "num.13",
+      "num.14",
+      "num.15",
+      "num.16",
+      "num.17",
+      "num.18",
+      "num.19",
+      "num.20"
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Which number do you hear?",
+     "questions": [
+      {
+       "kind": "listen",
+       "say": "zwölf",
+       "item": "num.12",
+       "options": [
+        "12",
+        "2",
+        "20"
+       ],
+       "answer": 0,
+       "tag": "num"
+      },
+      {
+       "kind": "listen",
+       "say": "sechzehn",
+       "item": "num.16",
+       "options": [
+        "16",
+        "6",
+        "60"
+       ],
+       "answer": 0,
+       "tag": "num"
+      },
+      {
+       "kind": "listen",
+       "say": "siebzehn",
+       "item": "num.17",
+       "options": [
+        "17",
+        "7",
+        "70"
+       ],
+       "answer": 0,
+       "tag": "num"
+      },
+      {
+       "kind": "listen",
+       "say": "drei",
+       "item": "num.3",
+       "options": [
+        "3",
+        "2",
+        "13"
+       ],
+       "answer": 0,
+       "tag": "num"
+      },
+      {
+       "kind": "listen",
+       "say": "elf",
+       "item": "num.11",
+       "options": [
+        "11",
+        "12",
+        "8"
+       ],
+       "answer": 0,
+       "tag": "num"
+      },
+      {
+       "kind": "listen",
+       "say": "neunzehn",
+       "item": "num.19",
+       "options": [
+        "19",
+        "9",
+        "90"
+       ],
+       "answer": 0,
+       "tag": "num"
+      },
+      {
+       "kind": "listen",
+       "say": "vierzehn",
+       "item": "num.14",
+       "options": [
+        "14",
+        "4",
+        "40"
+       ],
+       "answer": 0,
+       "tag": "num"
+      }
+     ]
+    },
+    {
+     "type": "phrases",
+     "title": "Calculating — rechnen",
+     "items": [
+      "w.plus",
+      "w.minus",
+      "w.mal",
+      "w.geteilt",
+      "d08.p.1plus2",
+      "d08.p.9minus4",
+      "d08.p.2mal6",
+      "d08.p.8durch4"
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Do the sum",
+     "questions": [
+      {
+       "kind": "listen",
+       "say": "Drei plus vier ist …?",
+       "options": [
+        "sieben",
+        "acht",
+        "elf"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "num"
+      },
+      {
+       "kind": "listen",
+       "say": "Zehn minus zwei ist …?",
+       "options": [
+        "acht",
+        "zwölf",
+        "sechs"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "num"
+      },
+      {
+       "kind": "listen",
+       "say": "Drei mal fünf ist …?",
+       "options": [
+        "fünfzehn",
+        "fünfzig",
+        "acht"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "num"
+      },
+      {
+       "kind": "listen",
+       "say": "Zwanzig geteilt durch zwei ist …?",
+       "options": [
+        "zehn",
+        "zwölf",
+        "zwei"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "num"
+      }
+     ]
+    },
+    {
+     "type": "type",
+     "title": "Listen and write the number word",
+     "questions": [
+      {
+       "item": "num.12",
+       "tag": "spell"
+      },
+      {
+       "item": "num.5",
+       "tag": "spell"
+      },
+      {
+       "item": "num.17",
+       "tag": "spell"
+      },
+      {
+       "item": "num.20",
+       "tag": "spell"
+      }
+     ]
+    },
+    {
+     "type": "phrases",
+     "title": "Ordering with numbers",
+     "intro": "From the video: in a bar, just say the number + the drink + *bitte*.",
+     "items": [
+      "d08.p.zwei_bitte",
+      "d08.p.drei_tee"
+     ]
+    },
+    {
+     "type": "shadow",
+     "title": "Listen and repeat",
+     "items": [
+      "num.16",
+      "num.17",
+      "d08.p.2mal6",
+      "d08.p.zwei_bitte"
+     ]
+    },
+    {
+     "type": "write",
+     "title": "Short writing",
+     "prompt": "Write 4 sums with words (plus, minus, mal, geteilt durch). Then read them out loud.",
+     "promptEn": "Write 4 small sums in German words using plus, minus, mal and geteilt durch (numbers up to 20).",
+     "hint": "Vier plus fünf ist neun.",
+     "minWords": 16,
+     "checklist": [
+      "sechzehn without s, siebzehn without -en",
+      "ü in fünf, ö in zwölf",
+      "Each sentence starts with a capital letter"
+     ],
+     "model": "Vier plus fünf ist neun. Zwanzig minus acht ist zwölf. Drei mal sechs ist achtzehn. Sechzehn geteilt durch zwei ist acht."
+    }
+   ]
+  }
+ ]
+}

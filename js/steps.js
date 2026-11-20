@@ -8,7 +8,7 @@ import * as store from "./store.js";
 
 export const SKILL = {
   video: "listen", dialogue: "listen", listen: "listen",
-  phrases: "read", compare: "read", letters: "read", gender: "read", picquiz: "read", note: "read", situation: "read", quiz: "read",
+  phrases: "read", compare: "read", letters: "read", table: "read", gender: "read", picquiz: "read", note: "read", situation: "read", quiz: "read",
   shadow: "speak", pattern: "speak", roleplay: "speak",
   type: "write", build: "write", write: "write"
 };
@@ -119,6 +119,24 @@ STEP.phrases = (s, body, ctx) => {
     list.append(row);
   });
   body.append(list);
+};
+
+// Grammar table (pronouns, conjugations). cols: ["", "wohnen", …]; rows: [["ich", "wohne", …], …].
+// A cell may mark the ending with |: "wohn|e" → "wohn<b>e</b>". Tap a row to hear "ich wohne".
+STEP.table = (s, body) => {
+  if (s.intro) body.append(h(`<div class="md muted">${md(s.intro)}</div>`));
+  const cell = c => { const [stem, end] = String(c).split("|"); return end != null ? `${esc(stem)}<b class="end">${esc(end)}</b>` : esc(c); };
+  const tbl = h(`<div class="gtable enter"><table><thead><tr>${s.cols.map(c => `<th>${esc(c)}</th>`).join("")}</tr></thead><tbody></tbody></table></div>`);
+  s.rows.forEach(r => {
+    const tr = h(`<table><tbody><tr>${r.map((c, k) => `<td class="${k ? "de" : "de pr"}">${cell(c)}</td>`).join("")}</tr></tbody></table>`).querySelector("tr");
+    tr.addEventListener("click", () => {
+      tbl.querySelectorAll("tr").forEach(x => x.classList.toggle("on", x === tr));
+      speak(r.slice(s.skipFirst ? 1 : 0).map(c => String(c).replace("|", "")).join(" … ").replace(/\s*\(.*?\)/g, ""));
+    });
+    tbl.querySelector("tbody").append(tr);
+  });
+  body.append(tbl);
+  if (s.note) body.append(h(`<div class="panel md">${md(s.note)}</div>`));
 };
 
 // Alphabet grid. letters: [{ ch, say, item }] — tap: hear the letter name, then the example word.

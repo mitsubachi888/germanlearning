@@ -1,0 +1,114 @@
+{
+ "id": "d09",
+ "title": "Numbers 20–100",
+ "items": {
+  "num.30": { "de": "dreißig", "en": "30", "ipa": "ˈdʁaɪ̯sɪç", "note": "With **ß** — the only ten that doesn't end in *-zig*.", "tags": ["num"] },
+  "num.40": { "de": "vierzig", "en": "40", "ipa": "ˈfɪʁtsɪç", "tags": ["num"] },
+  "num.50": { "de": "fünfzig", "en": "50", "ipa": "ˈfʏnftsɪç", "tags": ["num"] },
+  "num.60": { "de": "sechzig", "en": "60", "ipa": "ˈzɛçtsɪç", "note": "Like *sechzehn*: no *s*.", "tags": ["num"] },
+  "num.70": { "de": "siebzig", "en": "70", "ipa": "ˈziːptsɪç", "note": "Like *siebzehn*: no *-en*.", "tags": ["num"] },
+  "num.80": { "de": "achtzig", "en": "80", "ipa": "ˈaxtsɪç", "tags": ["num"] },
+  "num.90": { "de": "neunzig", "en": "90", "ipa": "ˈnɔɪ̯ntsɪç", "tags": ["num"] },
+  "num.100": { "de": "hundert", "en": "100", "ipa": "ˈhʊndɐt", "note": "Also *einhundert*.", "tags": ["num"] },
+  "num.21": { "de": "einundzwanzig", "en": "21", "ipa": "ˈaɪ̯nʊntˌtsvantsɪç", "note": "*ein*-und-zwanzig: **eins** loses its *s* here.", "tags": ["num"] },
+  "num.22": { "de": "zweiundzwanzig", "en": "22", "ipa": "ˈtsvaɪ̯ʊntˌtsvantsɪç", "tags": ["num"] },
+  "num.23": { "de": "dreiundzwanzig", "en": "23", "tags": ["num"] },
+  "num.24": { "de": "vierundzwanzig", "en": "24", "tags": ["num"] },
+  "num.25": { "de": "fünfundzwanzig", "en": "25", "tags": ["num"] },
+  "num.26": { "de": "sechsundzwanzig", "en": "26", "note": "Here *sechs* keeps its *s*.", "tags": ["num"] },
+  "num.27": { "de": "siebenundzwanzig", "en": "27", "note": "Here *sieben* keeps its *-en*.", "tags": ["num"] },
+  "num.28": { "de": "achtundzwanzig", "en": "28", "tags": ["num"] },
+  "num.29": { "de": "neunundzwanzig", "en": "29", "tags": ["num"] },
+  "num.31": { "de": "einunddreißig", "en": "31", "tags": ["num"] },
+  "num.45": { "de": "fünfundvierzig", "en": "45", "tags": ["num"] },
+  "num.67": { "de": "siebenundsechzig", "en": "67", "tags": ["num"] },
+  "num.73": { "de": "dreiundsiebzig", "en": "73", "tags": ["num"] },
+  "num.81": { "de": "einundachtzig", "en": "81", "tags": ["num"] },
+  "num.98": { "de": "achtundneunzig", "en": "98", "tags": ["num"] },
+  "num.99": { "de": "neunundneunzig", "en": "99", "tags": ["num"] },
+  "d09.p.wie_alt": { "de": "Wie alt bist du?", "en": "How old are you?", "ipa": "viː ˈalt bɪst duː", "pic": "🎂", "tags": ["num"] },
+  "d09.p.wie_alt_sie": { "de": "Wie alt sind Sie?", "en": "How old are you? (formal)", "pic": "🎂", "tags": ["num"] },
+  "d09.p.jahre_alt": { "de": "Ich bin dreißig Jahre alt.", "en": "I'm thirty years old.", "ipa": "ɪç bɪn ˈdʁaɪ̯sɪç ˈjaːʁə alt", "pic": "🎂", "tags": ["num"] },
+  "d09.p.hundert_euro": { "de": "Das kostet hundert Euro.", "en": "That costs a hundred euros.", "pic": "💶", "tags": ["num"] },
+  "d09.p.handynummer": { "de": "Meine Handynummer ist null, eins, sieben, sechs …", "en": "My mobile number is 0 1 7 6 …", "pic": "📱", "note": "Phone numbers are usually said digit by digit or in pairs.", "tags": ["num"] }
+ },
+ "sessions": [
+  {
+   "id": "A",
+   "title": "einundzwanzig bis hundert",
+   "said": ["num.30", "num.21", "num.67", "d09.p.wie_alt", "d09.p.jahre_alt"],
+   "steps": [
+    {
+     "type": "video", "title": "Video: numbers 20–100", "videoId": "aqk2YZX8YVw", "channel": "YourGermanTeacher", "start": 30, "end": 493,
+     "note": "- 0:37 the tens (20, 30 … 100) — repeat each one\n- 2:22 **21 = einundzwanzig**: the unit comes first\n- 5:11 practice: say the number on screen before the teacher does\n- 7:32 *Wie alt bist du?*"
+    },
+    {
+     "type": "phrases", "title": "The tens",
+     "items": ["num.20", "num.30", "num.40", "num.50", "num.60", "num.70", "num.80", "num.90", "num.100"]
+    },
+    {
+     "type": "note", "title": "21–99: the unit comes first",
+     "md": "German says the **unit first**, then **und**, then the ten — like old English *four-and-twenty*:\n\n- 21 = {de:einundzwanzig} (*one-and-twenty*)\n- 45 = {de:fünfundvierzig} (*five-and-forty*)\n- 98 = {de:achtundneunzig}\n\nIt's written as **one word**. Careful when you hear a number: *fünfundvierzig* starts with the 5, but you write **45**.\n\n*eins* → **ein**undzwanzig. *sechs* and *sieben* stay complete here: {de:sechsundzwanzig}, {de:siebenundzwanzig}."
+    },
+    {
+     "type": "phrases", "title": "21–29",
+     "items": ["num.21", "num.22", "num.23", "num.24", "num.25", "num.26", "num.27", "num.28", "num.29"]
+    },
+    {
+     "type": "quiz", "title": "Practice from the video",
+     "questions": [
+      { "kind": "listen", "say": "einunddreißig", "item": "num.31", "options": ["31", "13", "30"], "answer": 0, "tag": "num" },
+      { "kind": "listen", "say": "fünfundvierzig", "item": "num.45", "options": ["45", "54", "15"], "answer": 0, "tag": "num" },
+      { "kind": "listen", "say": "siebenundsechzig", "item": "num.67", "options": ["67", "76", "17"], "answer": 0, "tag": "num" },
+      { "kind": "listen", "say": "dreiundsiebzig", "item": "num.73", "options": ["73", "37", "33"], "answer": 0, "tag": "num" },
+      { "kind": "listen", "say": "einundachtzig", "item": "num.81", "options": ["81", "18", "80"], "answer": 0, "tag": "num" },
+      { "kind": "listen", "say": "achtundneunzig", "item": "num.98", "options": ["98", "89", "18"], "answer": 0, "tag": "num" },
+      { "kind": "listen", "say": "neunundneunzig", "item": "num.99", "options": ["99", "19", "90"], "answer": 0, "tag": "num" }
+     ]
+    },
+    {
+     "type": "quiz", "title": "Which is written correctly?",
+     "questions": [
+      { "prompt": "34", "options": ["vierunddreißig", "dreißigundvier", "dreiundvierzig"], "answer": 0, "deOptions": true, "tag": "num" },
+      { "prompt": "56", "options": ["sechsundfünfzig", "fünfundsechzig", "sechzigundfünf"], "answer": 0, "deOptions": true, "tag": "num" },
+      { "prompt": "77", "options": ["siebenundsiebzig", "siebenundsiebenzig", "siebzigundsieben"], "answer": 0, "deOptions": true, "tag": "num" },
+      { "prompt": "60", "options": ["sechzig", "sechszig", "sechzehn"], "answer": 0, "deOptions": true, "tag": "num" }
+     ]
+    },
+    {
+     "type": "phrases", "title": "Age and prices",
+     "items": ["d09.p.wie_alt", "d09.p.wie_alt_sie", "d09.p.jahre_alt", "d09.p.hundert_euro", "d09.p.handynummer"]
+    },
+    {
+     "type": "type", "title": "Listen and write the number word",
+     "questions": [
+      { "item": "num.30", "tag": "spell" },
+      { "item": "num.21", "tag": "spell" },
+      { "item": "num.45", "tag": "spell" }
+     ]
+    },
+    {
+     "type": "pattern", "title": "Answer out loud",
+     "intro": "Say your own answer. The sample answer is just an example.",
+     "prompts": [
+      { "q": "Wie alt bist du?", "en": "How old are you?", "item": "d09.p.jahre_alt" },
+      { "q": "Wie viel kostet das?", "en": "How much does it cost?", "item": "d09.p.hundert_euro" }
+     ]
+    },
+    {
+     "type": "shadow", "title": "Listen and repeat",
+     "items": ["num.30", "num.67", "num.98", "d09.p.wie_alt", "d09.p.jahre_alt"]
+    },
+    {
+     "type": "write", "title": "Short writing",
+     "prompt": "Answer the video's question: Wie alt bist du? Then write the ages of 2 people in your family (in words).",
+     "promptEn": "Write in German how old I am and how old two family members are, numbers written as words.",
+     "hint": "Ich bin … Jahre alt. Mein Vater ist … Jahre alt.",
+     "minWords": 12,
+     "checklist": ["Numbers as one word (einundzwanzig)", "dreißig with ß", "Jahre alt at the end"],
+     "model": "Ich bin dreiunddreißig Jahre alt. Mein Vater ist neunundfünfzig Jahre alt. Meine Schwester ist siebenundzwanzig Jahre alt."
+    }
+   ]
+  }
+ ]
+}

@@ -274,6 +274,16 @@ select.field { width: auto; min-height: 44px; font-size: 16px; padding: 8px 12px
 .cmp-ex { font-size: 22px; }
 .cmp-badge { display: inline-block; margin: 8px 0; padding: 4px 10px; border-radius: 999px; font-size: 13px; font-weight: 800; background: var(--ok-bg); color: var(--ok); }
 .cmp-badge.none { background: var(--soft); color: var(--ink); }
+.gtable { background: var(--surface); border: 1px solid var(--line); border-radius: 22px; overflow-x: auto; margin: 10px 0 12px; }
+.gtable table { width: 100%; border-collapse: collapse; }
+.gtable th { text-align: left; font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); padding: 12px 12px 6px; font-weight: 800; }
+.gtable td { padding: 9px 8px; font-size: 18px; border-top: 1px solid var(--line); white-space: nowrap; }
+.gtable td.pr { color: var(--muted); font-size: 15px; }
+.gtable th { padding: 12px 10px 6px; }
+.gtable .end { color: var(--accent); filter: brightness(.85); }
+[data-mode="dark"] .gtable .end { filter: none; }
+.gtable tr { cursor: pointer; transition: background .2s; }
+.gtable tbody tr.on { background: var(--soft); }
 .letters { display: grid; grid-template-columns: repeat(6, 1fr); gap: 6px; }
 .letter { aspect-ratio: 1; border-radius: 14px; background: var(--surface); border: 1.5px solid var(--line); font-size: 24px; font-weight: 700; transition: transform .15s var(--spring), background .2s; }
 .letter:active { transform: scale(.9); }

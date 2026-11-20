@@ -1,0 +1,584 @@
+{
+ "id": "d10",
+ "title": "Jobs",
+ "items": {
+  "n.lehrer": {
+   "de": "der Lehrer",
+   "plural": "die Lehrer",
+   "gender": "der",
+   "en": "teacher (man)",
+   "ipa": "ˈleːʁɐ",
+   "pic": "👨‍🏫",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.lehrerin": {
+   "de": "die Lehrerin",
+   "plural": "die Lehrerinnen",
+   "gender": "die",
+   "en": "teacher (woman)",
+   "ipa": "ˈleːʁəʁɪn",
+   "pic": "👩‍🏫",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.arzt": {
+   "de": "der Arzt",
+   "plural": "die Ärzte",
+   "gender": "der",
+   "en": "doctor (man)",
+   "ipa": "aːɐ̯tst",
+   "pic": "👨‍⚕️",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.aerztin": {
+   "de": "die Ärztin",
+   "plural": "die Ärztinnen",
+   "gender": "die",
+   "en": "doctor (woman)",
+   "ipa": "ˈɛːɐ̯tstɪn",
+   "pic": "👩‍⚕️",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.koch": {
+   "de": "der Koch",
+   "plural": "die Köche",
+   "gender": "der",
+   "en": "cook (man)",
+   "ipa": "kɔx",
+   "pic": "👨‍🍳",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.koechin": {
+   "de": "die Köchin",
+   "plural": "die Köchinnen",
+   "gender": "die",
+   "en": "cook (woman)",
+   "ipa": "ˈkœçɪn",
+   "pic": "👩‍🍳",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.geschaeftsmann": {
+   "de": "der Geschäftsmann",
+   "plural": "die Geschäftsleute",
+   "gender": "der",
+   "en": "businessman",
+   "ipa": "ɡəˈʃɛft͡sman",
+   "pic": "🤵",
+   "note": "Plural *Geschäftsleute* (business people).",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.geschaeftsfrau": {
+   "de": "die Geschäftsfrau",
+   "plural": "die Geschäftsfrauen",
+   "gender": "die",
+   "en": "businesswoman",
+   "pic": "👩‍💼",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.hausmann": {
+   "de": "der Hausmann",
+   "plural": "die Hausmänner",
+   "gender": "der",
+   "en": "househusband",
+   "pic": "🏠",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.hausfrau": {
+   "de": "die Hausfrau",
+   "plural": "die Hausfrauen",
+   "gender": "die",
+   "en": "housewife",
+   "pic": "🏠",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.beruf": {
+   "de": "der Beruf",
+   "plural": "die Berufe",
+   "gender": "der",
+   "en": "job, profession",
+   "ipa": "bəˈʁuːf",
+   "pic": "💼",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.job": {
+   "de": "der Job",
+   "plural": "die Jobs",
+   "gender": "der",
+   "en": "job (often a side job)",
+   "ipa": "dʒɔp",
+   "pic": "🧾",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "d10.p.was_sind_sie": {
+   "de": "Was sind Sie von Beruf?",
+   "en": "What do you do for a living? (formal)",
+   "ipa": "vas zɪnt ziː fɔn bəˈʁuːf",
+   "pic": "💼",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d10.p.was_bist_du": {
+   "de": "Was bist du von Beruf?",
+   "en": "What do you do for a living? (informal)",
+   "pic": "💼",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d10.p.beruflich_sie": {
+   "de": "Was machen Sie beruflich?",
+   "en": "What do you do for work? (formal)",
+   "ipa": "vas ˈmaxn̩ ziː bəˈʁuːflɪç",
+   "pic": "💼",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d10.p.beruflich_du": {
+   "de": "Was machst du beruflich?",
+   "en": "What do you do for work? (informal)",
+   "pic": "💼",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d10.p.friseurin": {
+   "de": "Ich bin Friseurin.",
+   "en": "I'm a hairdresser.",
+   "ipa": "ɪç bɪn fʁiˈzøːʁɪn",
+   "pic": "💇",
+   "note": "No article: *Ich bin Friseurin* — not *eine Friseurin*.",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d10.p.als_gaertner": {
+   "de": "Ich arbeite als Gärtner.",
+   "en": "I work as a gardener.",
+   "ipa": "ɪç ˈaʁbaɪ̯tə als ˈɡɛʁtnɐ",
+   "pic": "🌱",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d10.p.wo_arbeiten_sie": {
+   "de": "Wo arbeiten Sie?",
+   "en": "Where do you work? (formal)",
+   "pic": "📍",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d10.p.wo_arbeitest_du": {
+   "de": "Wo arbeitest du?",
+   "en": "Where do you work? (informal)",
+   "pic": "📍",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d10.p.bei_mercedes": {
+   "de": "Ich arbeite bei Mercedes.",
+   "en": "I work at Mercedes.",
+   "pic": "🏢",
+   "tags": [
+    "case"
+   ]
+  },
+  "d10.p.in_stuttgart": {
+   "de": "Ich arbeite in Stuttgart.",
+   "en": "I work in Stuttgart.",
+   "pic": "🏙️",
+   "tags": [
+    "case"
+   ]
+  },
+  "d10.p.alles": {
+   "de": "Ich arbeite als Ingenieur bei Mercedes in Stuttgart.",
+   "en": "I work as an engineer at Mercedes in Stuttgart.",
+   "pic": "🏗️",
+   "tags": [
+    "order"
+   ]
+  },
+  "d10.p.job_kellner": {
+   "de": "Ich habe einen Job als Kellner.",
+   "en": "I have a job as a waiter.",
+   "pic": "🍽️",
+   "tags": [
+    "case"
+   ]
+  },
+  "d10.p.student": {
+   "de": "Ich bin Student.",
+   "en": "I'm a (university) student.",
+   "pic": "🎓",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d10.p.schuelerin": {
+   "de": "Ich bin Schülerin.",
+   "en": "I'm a pupil (at school).",
+   "pic": "🎒",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d10.p.praktikum": {
+   "de": "Ich mache ein Praktikum.",
+   "en": "I'm doing an internship.",
+   "ipa": "ɪç ˈmaxə aɪ̯n ˈpʁaktikʊm",
+   "pic": "🧑‍💻",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d10.p.ausbildung": {
+   "de": "Ich mache eine Ausbildung.",
+   "en": "I'm doing vocational training (an apprenticeship).",
+   "ipa": "ɪç ˈmaxə ˈaɪ̯nə ˈaʊ̯sbɪldʊŋ",
+   "pic": "🛠️",
+   "note": "Work in a company + classes at a *Berufsschule*, with an exam at the end.",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d10.p.studiere": {
+   "de": "Ich studiere Deutsch.",
+   "en": "I study German (at university).",
+   "pic": "🏛️",
+   "note": "*studieren* = only at university. Otherwise: *Ich lerne Deutsch.*",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d10.p.arbeitssuche": {
+   "de": "Ich bin auf Arbeitssuche.",
+   "en": "I'm looking for work.",
+   "ipa": "ɪç bɪn aʊ̯f ˈaʁbaɪ̯tsˌzuːxə",
+   "pic": "🔍",
+   "note": "Sounds more positive than *Ich bin arbeitslos* (I'm unemployed).",
+   "tags": []
+  },
+  "d10.p.arbeitslos": {
+   "de": "Ich bin arbeitslos.",
+   "en": "I'm unemployed.",
+   "pic": "📄",
+   "tags": []
+  }
+ },
+ "sessions": [
+  {
+   "id": "A",
+   "title": "Was sind Sie von Beruf?",
+   "said": [
+    "d10.p.was_sind_sie",
+    "me.job",
+    "d10.p.als_gaertner",
+    "d10.p.bei_mercedes",
+    "d10.p.wo_arbeitest_du"
+   ],
+   "steps": [
+    {
+     "type": "video",
+     "title": "Video: talking about your job",
+     "videoId": "L6Up_-0bfq8",
+     "channel": "YourGermanTeacher",
+     "start": 0,
+     "end": 515,
+     "note": "Chapters: 0:00 job titles for men and women · 1:48 questions and answers · 4:47 Job, Student, Schüler · 6:11 bonus tips (Praktikum, Ausbildung, studieren vs lernen). Homework at 8:18."
+    },
+    {
+     "type": "note",
+     "title": "Men's and women's job titles",
+     "md": "Most women's job titles = men's + **-in**, and they are always **die**:\n\n- {de:der Lehrer} → {de:die Lehrerin}\n- {de:der Architekt} → {de:die Architektin}\n\nSome also get an umlaut: {de:der Arzt} → {de:die Ärztin}, {de:der Koch} → {de:die Köchin}.\n\nJobs with *-mann* change to *-frau*: {de:der Geschäftsmann} → {de:die Geschäftsfrau}.\n\nPlural of *-in* words: **-innen** ({de:die Lehrerinnen})."
+    },
+    {
+     "type": "phrases",
+     "title": "Job titles",
+     "items": [
+      "n.lehrer",
+      "n.lehrerin",
+      "n.arzt",
+      "n.aerztin",
+      "n.koch",
+      "n.koechin",
+      "n.geschaeftsmann",
+      "n.geschaeftsfrau",
+      "n.hausmann",
+      "n.hausfrau",
+      "n.beruf",
+      "n.job"
+     ]
+    },
+    {
+     "type": "gender",
+     "title": "der or die?",
+     "questions": [
+      {
+       "item": "n.lehrerin"
+      },
+      {
+       "item": "n.arzt"
+      },
+      {
+       "item": "n.koechin"
+      },
+      {
+       "item": "n.geschaeftsmann"
+      },
+      {
+       "item": "n.hausfrau"
+      },
+      {
+       "item": "n.beruf"
+      }
+     ]
+    },
+    {
+     "type": "phrases",
+     "title": "Asking and answering",
+     "items": [
+      "d10.p.was_sind_sie",
+      "d10.p.was_bist_du",
+      "d10.p.beruflich_sie",
+      "d10.p.beruflich_du",
+      "d10.p.friseurin",
+      "d10.p.als_gaertner",
+      "d10.p.wo_arbeiten_sie",
+      "d10.p.wo_arbeitest_du"
+     ]
+    },
+    {
+     "type": "note",
+     "title": "arbeiten als · bei · in",
+     "md": "- **als** + job: {de:Ich arbeite als Gärtner.}\n- **bei** + company: {de:Ich arbeite bei Mercedes.}\n- **in** + city or country: {de:Ich arbeite in Stuttgart.}\n\nAll together: {de:Ich arbeite als Ingenieur bei Mercedes in Stuttgart.}\n\nWith *sein* there is **no article**: {de:Ich bin Friseurin.} (English: *I'm **a** hairdresser*)."
+    },
+    {
+     "type": "phrases",
+     "title": "als, bei, in",
+     "items": [
+      "d10.p.bei_mercedes",
+      "d10.p.in_stuttgart",
+      "d10.p.alles",
+      "d10.p.job_kellner"
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "als, bei or in?",
+     "questions": [
+      {
+       "prompt": "Ich arbeite ___ Lehrerin.",
+       "options": [
+        "als",
+        "bei",
+        "in"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "case"
+      },
+      {
+       "prompt": "Ich arbeite ___ Siemens.",
+       "options": [
+        "bei",
+        "als",
+        "in"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "case"
+      },
+      {
+       "prompt": "Ich arbeite ___ München.",
+       "options": [
+        "in",
+        "bei",
+        "als"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "case"
+      },
+      {
+       "prompt": "Ich bin ___ Arzt.",
+       "options": [
+        "— (nothing)",
+        "ein",
+        "als"
+       ],
+       "answer": 0,
+       "tag": "case",
+       "explain": "*Ich bin Arzt.* — no article with *sein*."
+      },
+      {
+       "prompt": "A woman who cooks in a restaurant is …",
+       "options": [
+        "Köchin",
+        "Kochin",
+        "Kocherin"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "spell"
+      }
+     ]
+    },
+    {
+     "type": "phrases",
+     "title": "Student, Schüler and the bonus tips",
+     "items": [
+      "d10.p.student",
+      "d10.p.schuelerin",
+      "d10.p.praktikum",
+      "d10.p.ausbildung",
+      "d10.p.studiere",
+      "d10.p.arbeitssuche",
+      "d10.p.arbeitslos"
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Which one fits?",
+     "questions": [
+      {
+       "prompt": "Ali is 15 and goes to school.",
+       "options": [
+        "Er ist Schüler.",
+        "Er ist Student.",
+        "Er macht eine Ausbildung."
+       ],
+       "answer": 0,
+       "deOptions": true
+      },
+      {
+       "prompt": "You take a German course in the evening.",
+       "options": [
+        "Ich lerne Deutsch.",
+        "Ich studiere Deutsch."
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "explain": "*studieren* is only for university."
+      },
+      {
+       "prompt": "You don't have a job and you're looking for one. The friendlier way to say it:",
+       "options": [
+        "Ich bin auf Arbeitssuche.",
+        "Ich bin arbeitslos."
+       ],
+       "answer": 0,
+       "deOptions": true
+      }
+     ]
+    },
+    {
+     "type": "build",
+     "title": "Build the sentence",
+     "questions": [
+      {
+       "en": "I work as an engineer at Mercedes in Stuttgart.",
+       "answer": "Ich arbeite als Ingenieur bei Mercedes in Stuttgart.",
+       "tag": "order"
+      },
+      {
+       "en": "What do you do for work? (informal)",
+       "answer": "Was machst du beruflich?",
+       "tag": "order"
+      },
+      {
+       "en": "I'm doing an internship.",
+       "answer": "Ich mache ein Praktikum.",
+       "extra": [
+        "eine"
+       ],
+       "tag": "gender"
+      }
+     ]
+    },
+    {
+     "type": "pattern",
+     "title": "Your job",
+     "intro": "Answer about yourself. The sample answer comes from your profile.",
+     "prompts": [
+      {
+       "q": "Was sind Sie von Beruf?",
+       "en": "What do you do for a living?",
+       "item": "me.job"
+      },
+      {
+       "q": "Wo wohnen Sie?",
+       "en": "Where do you live?",
+       "item": "me.city"
+      }
+     ]
+    },
+    {
+     "type": "shadow",
+     "title": "Listen and repeat",
+     "items": [
+      "d10.p.was_sind_sie",
+      "me.job",
+      "d10.p.alles",
+      "d10.p.arbeitssuche"
+     ]
+    },
+    {
+     "type": "write",
+     "title": "Homework from the video",
+     "prompt": "Was machst du beruflich und wo arbeitest du? Answer in 2–3 sentences (als, bei, in).",
+     "promptEn": "Answer in German: What do I do for work and where do I work? Use arbeiten als / bei / in.",
+     "hint": "Ich bin … von Beruf. Ich arbeite als … bei … in …",
+     "minWords": 10,
+     "checklist": [
+      "Job title without article",
+      "als + job, bei + company, in + city",
+      "Women's job title ends in -in (if it's about a woman)"
+     ],
+     "modelItems": [
+      "me.job",
+      "d10.p.in_stuttgart"
+     ]
+    }
+   ]
+  }
+ ]
+}

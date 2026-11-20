@@ -8,7 +8,7 @@ import * as plan from "./plan.js";
 import { JOBS, HOBBIES, CITIES, aboutMe, jobOf, jobLabel } from "./profile.js";
 import { icon, hydrateIcons } from "./icons.js";
 
-const APP_VERSION = "0.4.0";
+const APP_VERSION = "0.5.0";
 const THEMES = [
   ["lavender", "#DCD2FA", "#FFB627", "Lavender"],
   ["rose", "#F8CFDC", "#FF6A3D", "Rose"],
@@ -43,7 +43,13 @@ const items = {};       // itemId -> item
 let cleanup = [];
 
 function item(id) {
-  if (id?.startsWith("me.")) return aboutMe(store.get().profile).find(x => x.id === id) || null;
+  if (id?.startsWith("me.")) {
+    const mine = aboutMe(store.get().profile);
+    // "me.hobby" = the learner's first hobby; "me.family" = married/single sentence
+    if (id === "me.hobby") return mine.find(x => x.id.startsWith("me.hobby.")) || null;
+    if (id === "me.family") return mine.find(x => x.id === "me.married" || x.id === "me.single") || null;
+    return mine.find(x => x.id === id) || null;
+  }
   return items[id] || null;
 }
 const isReady = lid => !!lessons[lid];

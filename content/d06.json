@@ -1,0 +1,884 @@
+{
+ "id": "d06",
+ "title": "Present tense",
+ "items": {
+  "v.wohnen": {
+   "de": "wohnen",
+   "en": "to live (somewhere)",
+   "ipa": "ˈvoːnən",
+   "pic": "🏠",
+   "tags": [
+    "verb"
+   ]
+  },
+  "v.kaufen": {
+   "de": "kaufen",
+   "en": "to buy",
+   "ipa": "ˈkaʊ̯fn̩",
+   "pic": "🛍️",
+   "tags": [
+    "verb"
+   ]
+  },
+  "v.schauen": {
+   "de": "schauen",
+   "en": "to watch, to look",
+   "ipa": "ˈʃaʊ̯ən",
+   "pic": "👀",
+   "tags": [
+    "verb"
+   ]
+  },
+  "v.lernen": {
+   "de": "lernen",
+   "en": "to learn",
+   "ipa": "ˈlɛʁnən",
+   "pic": "📚",
+   "tags": [
+    "verb"
+   ]
+  },
+  "v.trinken": {
+   "de": "trinken",
+   "en": "to drink",
+   "ipa": "ˈtʁɪŋkn̩",
+   "pic": "🥤",
+   "tags": [
+    "verb"
+   ]
+  },
+  "v.arbeiten": {
+   "de": "arbeiten",
+   "en": "to work",
+   "ipa": "ˈaʁbaɪ̯tn̩",
+   "pic": "💼",
+   "note": "Stem ends in *-t*, so add an *e*: *du arbeit**e**st, er arbeit**e**t*.",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d06.p.was_machst_du_gerade": {
+   "de": "Was machst du gerade?",
+   "en": "What are you doing right now?",
+   "ipa": "vas ˈmaxst duː ɡəˈʁaːdə",
+   "pic": "❓",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d06.p.ich_schaue": {
+   "de": "Ich schaue YouTube.",
+   "en": "I'm watching YouTube.",
+   "pic": "📺",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d06.p.ich_lerne_gerade": {
+   "de": "Ich lerne gerade Deutsch.",
+   "en": "I'm learning German right now.",
+   "ipa": "ɪç ˈlɛʁnə ɡəˈʁaːdə dɔɪ̯tʃ",
+   "pic": "📚",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d06.p.seit_zwei_jahren": {
+   "de": "Er lernt seit zwei Jahren Deutsch.",
+   "en": "He has been learning German for two years.",
+   "ipa": "eːɐ̯ lɛʁnt zaɪ̯t tsvaɪ̯ ˈjaːʁən dɔɪ̯tʃ",
+   "pic": "⏳",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d06.p.lisa_schlaeft": {
+   "de": "Lisa schläft.",
+   "en": "Lisa is sleeping.",
+   "ipa": "ˈliːza ʃlɛːft",
+   "pic": "😴",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d06.p.ich_kaufe_brot": {
+   "de": "Ich kaufe Brot.",
+   "en": "I'm buying bread.",
+   "ipa": "ɪç ˈkaʊ̯fə bʁoːt",
+   "pic": "🍞",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d06.p.wir_wohnen": {
+   "de": "Wir wohnen in Berlin.",
+   "en": "We live in Berlin.",
+   "pic": "🏙️",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d06.p.trinkst_du_tee": {
+   "de": "Trinkst du Tee?",
+   "en": "Do you drink tea?",
+   "ipa": "ˈtʁɪŋkst duː teː",
+   "pic": "🍵",
+   "tags": [
+    "verb"
+   ]
+  },
+  "w.gerade": {
+   "de": "gerade",
+   "en": "right now, at the moment",
+   "ipa": "ɡəˈʁaːdə",
+   "pic": "⏱️",
+   "tags": [
+    "verb"
+   ]
+  },
+  "v.sein": {
+   "de": "sein",
+   "en": "to be",
+   "ipa": "zaɪ̯n",
+   "pic": "🟰",
+   "tags": [
+    "verb"
+   ]
+  },
+  "v.haben": {
+   "de": "haben",
+   "en": "to have",
+   "ipa": "ˈhaːbn̩",
+   "pic": "🤲",
+   "tags": [
+    "verb"
+   ]
+  },
+  "v.helfen": {
+   "de": "helfen",
+   "en": "to help",
+   "ipa": "ˈhɛlfn̩",
+   "pic": "🤝",
+   "tags": [
+    "verb"
+   ]
+  },
+  "v.treffen": {
+   "de": "treffen",
+   "en": "to meet (someone)",
+   "ipa": "ˈtʁɛfn̩",
+   "pic": "🧑‍🤝‍🧑",
+   "tags": [
+    "verb"
+   ]
+  },
+  "v.sehen": {
+   "de": "sehen",
+   "en": "to see",
+   "ipa": "ˈzeːən",
+   "pic": "👁️",
+   "tags": [
+    "verb"
+   ]
+  },
+  "v.lesen": {
+   "de": "lesen",
+   "en": "to read",
+   "ipa": "ˈleːzn̩",
+   "pic": "📖",
+   "tags": [
+    "verb"
+   ]
+  },
+  "v.waschen": {
+   "de": "waschen",
+   "en": "to wash",
+   "ipa": "ˈvaʃn̩",
+   "pic": "🧼",
+   "tags": [
+    "verb"
+   ]
+  },
+  "v.schlafen": {
+   "de": "schlafen",
+   "en": "to sleep",
+   "ipa": "ˈʃlaːfn̩",
+   "pic": "😴",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d06.p.ich_bin_muede": {
+   "de": "Ich bin müde.",
+   "en": "I'm tired.",
+   "ipa": "ɪç bɪn ˈmyːdə",
+   "pic": "🥱",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d06.p.du_hast_zeit": {
+   "de": "Hast du Zeit?",
+   "en": "Do you have time?",
+   "ipa": "hast duː tsaɪ̯t",
+   "pic": "⌚",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d06.p.er_hilft": {
+   "de": "Er hilft mir.",
+   "en": "He helps me.",
+   "ipa": "eːɐ̯ hɪlft miːɐ̯",
+   "pic": "🤝",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d06.p.du_faehrst": {
+   "de": "Du fährst nach Hause.",
+   "en": "You're driving home.",
+   "ipa": "duː fɛːɐ̯st naːx ˈhaʊ̯zə",
+   "pic": "🚗",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d06.p.sie_sieht": {
+   "de": "Sie sieht einen Film.",
+   "en": "She is watching a film.",
+   "ipa": "ziː ziːt ˈaɪ̯nən fɪlm",
+   "pic": "🎬",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d06.p.morgen_frei": {
+   "de": "Morgen habe ich frei.",
+   "en": "I'm off tomorrow.",
+   "ipa": "ˈmɔʁɡn̩ ˈhaːbə ɪç fʁaɪ̯",
+   "pic": "🏖️",
+   "tags": [
+    "verb",
+    "order"
+   ]
+  },
+  "d06.p.was_machst_du_morgen": {
+   "de": "Was machst du morgen?",
+   "en": "What are you doing tomorrow?",
+   "ipa": "vas maxst duː ˈmɔʁɡn̩",
+   "pic": "📅",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d06.p.morgen_tasche": {
+   "de": "Morgen kaufe ich eine Tasche.",
+   "en": "Tomorrow I'll buy a bag.",
+   "ipa": "ˈmɔʁɡn̩ ˈkaʊ̯fə ɪç ˈaɪ̯nə ˈtaʃə",
+   "pic": "👜",
+   "tags": [
+    "verb",
+    "order"
+   ]
+  },
+  "w.morgen": {
+   "de": "morgen",
+   "en": "tomorrow",
+   "ipa": "ˈmɔʁɡn̩",
+   "pic": "📅",
+   "tags": []
+  }
+ },
+ "sessions": [
+  {
+   "id": "A",
+   "title": "Regular verbs",
+   "said": [
+    "d06.p.was_machst_du_gerade",
+    "d06.p.ich_lerne_gerade",
+    "d06.p.wir_wohnen",
+    "d06.p.trinkst_du_tee",
+    "me.city"
+   ],
+   "steps": [
+    {
+     "type": "video",
+     "title": "Video: the present tense (part 1)",
+     "videoId": "Ya-3_64snmo",
+     "channel": "YourGermanTeacher (Luzi)",
+     "start": 0,
+     "end": 510,
+     "note": "Chapters: 1:45 when to use the present tense · 3:49 regular verbs and their endings.\n\nThe conjugation tables are on screen — pause the video to read them."
+    },
+    {
+     "type": "note",
+     "title": "One tense for “I live”, “I'm living” and “I'll live”",
+     "md": "German has **no -ing form**. *Präsens* (present tense) covers:\n\n- now: {de:Lisa schläft.} = Lisa *is sleeping*\n- facts and habits: {de:Ich trinke Tee.} = I drink tea\n- something that started earlier and still goes on: {de:Er lernt seit zwei Jahren Deutsch.} = he *has been learning* German for two years\n- the future (with a time word): {de:Morgen habe ich frei.}\n\nTo stress “right now”, add **gerade**: {de:Ich lerne gerade Deutsch.}"
+    },
+    {
+     "type": "table",
+     "title": "Regular verbs: stem + ending",
+     "intro": "Infinitive **wohn|en** → cut off *-en* → stem **wohn-** → add the ending. Tap a row to hear it.",
+     "cols": [
+      "",
+      "wohnen",
+      "machen",
+      "kaufen"
+     ],
+     "rows": [
+      [
+       "ich",
+       "wohn|e",
+       "mach|e",
+       "kauf|e"
+      ],
+      [
+       "du",
+       "wohn|st",
+       "mach|st",
+       "kauf|st"
+      ],
+      [
+       "er/sie/es",
+       "wohn|t",
+       "mach|t",
+       "kauf|t"
+      ],
+      [
+       "wir",
+       "wohn|en",
+       "mach|en",
+       "kauf|en"
+      ],
+      [
+       "ihr",
+       "wohn|t",
+       "mach|t",
+       "kauf|t"
+      ],
+      [
+       "sie/Sie",
+       "wohn|en",
+       "mach|en",
+       "kauf|en"
+      ]
+     ],
+     "note": "Learn the six endings by heart: **-e, -st, -t, -en, -t, -en**. *wir* and *sie / Sie* always look like the infinitive."
+    },
+    {
+     "type": "phrases",
+     "title": "Verbs and sentences",
+     "items": [
+      "v.wohnen",
+      "v.kaufen",
+      "v.schauen",
+      "v.lernen",
+      "v.trinken",
+      "v.arbeiten",
+      "w.gerade",
+      "d06.p.was_machst_du_gerade",
+      "d06.p.ich_schaue",
+      "d06.p.ich_lerne_gerade",
+      "d06.p.seit_zwei_jahren",
+      "d06.p.lisa_schlaeft",
+      "d06.p.ich_kaufe_brot",
+      "d06.p.wir_wohnen",
+      "d06.p.trinkst_du_tee"
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Choose the right form",
+     "questions": [
+      {
+       "prompt": "ich ___ (wohnen)",
+       "options": [
+        "wohne",
+        "wohnst",
+        "wohnt"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "verb"
+      },
+      {
+       "prompt": "du ___ (machen)",
+       "options": [
+        "machst",
+        "macht",
+        "machen"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "verb"
+      },
+      {
+       "prompt": "er ___ (kaufen)",
+       "options": [
+        "kauft",
+        "kaufe",
+        "kaufen"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "verb"
+      },
+      {
+       "prompt": "wir ___ (lernen)",
+       "options": [
+        "lernen",
+        "lernt",
+        "lernst"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "verb"
+      },
+      {
+       "prompt": "ihr ___ (trinken)",
+       "options": [
+        "trinkt",
+        "trinken",
+        "trinkst"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "verb"
+      },
+      {
+       "prompt": "Sie ___ (schauen) — formal",
+       "options": [
+        "schauen",
+        "schaut",
+        "schaust"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "verb"
+      },
+      {
+       "prompt": "du ___ (arbeiten)",
+       "options": [
+        "arbeitest",
+        "arbeitst",
+        "arbeiten"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "verb",
+       "explain": "The stem *arbeit-* ends in *t* → add *e*: *du arbeit**e**st*."
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Listen and choose",
+     "questions": [
+      {
+       "kind": "listen",
+       "say": "Was machst du gerade?",
+       "item": "d06.p.was_machst_du_gerade",
+       "options": [
+        "What are you doing right now?",
+        "What are you doing tomorrow?",
+        "Where do you live?"
+       ],
+       "answer": 0,
+       "tag": "pron"
+      },
+      {
+       "kind": "listen",
+       "say": "Er lernt seit zwei Jahren Deutsch.",
+       "item": "d06.p.seit_zwei_jahren",
+       "options": [
+        "He has been learning German for two years.",
+        "He learned German two years ago.",
+        "He will learn German for two years."
+       ],
+       "answer": 0,
+       "tag": "pron"
+      },
+      {
+       "kind": "listen",
+       "say": "Trinkst du Tee?",
+       "item": "d06.p.trinkst_du_tee",
+       "options": [
+        "Do you drink tea?",
+        "Do you buy tea?",
+        "Do you have time?"
+       ],
+       "answer": 0,
+       "tag": "pron"
+      }
+     ]
+    },
+    {
+     "type": "type",
+     "title": "Type the verb form",
+     "intro": "Type the whole sentence.",
+     "questions": [
+      {
+       "answer": "Ich wohne in Berlin.",
+       "en": "I live in Berlin.",
+       "tag": "verb"
+      },
+      {
+       "answer": "Du lernst Deutsch.",
+       "en": "You're learning German.",
+       "tag": "verb"
+      },
+      {
+       "answer": "Wir kaufen Brot.",
+       "en": "We're buying bread.",
+       "tag": "verb"
+      }
+     ]
+    },
+    {
+     "type": "shadow",
+     "title": "Listen and repeat",
+     "items": [
+      "d06.p.was_machst_du_gerade",
+      "d06.p.ich_lerne_gerade",
+      "d06.p.trinkst_du_tee",
+      "me.city"
+     ]
+    },
+    {
+     "type": "write",
+     "title": "Short writing",
+     "prompt": "Write 4 sentences about yourself in the present tense. Use wohnen, lernen, trinken, arbeiten (or other verbs).",
+     "promptEn": "Write 4 sentences about myself in the German present tense using wohnen, lernen, trinken and arbeiten.",
+     "hint": "Ich wohne in … · Ich lerne … · Ich trinke gern … · Ich arbeite …",
+     "minWords": 12,
+     "checklist": [
+      "ich-form ends in -e",
+      "The verb is the 2nd element",
+      "Nouns start with a capital letter"
+     ],
+     "modelItems": [
+      "me.city",
+      "d06.p.ich_lerne_gerade"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B",
+   "title": "sein, haben and vowel changes",
+   "said": [
+    "d06.p.ich_bin_muede",
+    "d06.p.du_hast_zeit",
+    "d06.p.er_hilft",
+    "d06.p.du_faehrst",
+    "d06.p.morgen_frei"
+   ],
+   "steps": [
+    {
+     "type": "video",
+     "title": "Video: the present tense (part 2)",
+     "videoId": "Ya-3_64snmo",
+     "channel": "YourGermanTeacher (Luzi)",
+     "start": 510,
+     "end": 933,
+     "note": "Chapters: 8:30 irregular verbs · 9:04 sein & haben · 10:27 helfen · 11:38 sehen · 12:20 fahren · 13:30 bonus: present for the future · 15:11 homework."
+    },
+    {
+     "type": "table",
+     "title": "sein and haben",
+     "intro": "**sein** is completely irregular — learn it by heart. **haben** only changes with *du* and *er/sie/es* (the *b* drops out).",
+     "cols": [
+      "",
+      "sein",
+      "haben"
+     ],
+     "rows": [
+      [
+       "ich",
+       "bin",
+       "hab|e"
+      ],
+      [
+       "du",
+       "bist",
+       "ha|st"
+      ],
+      [
+       "er/sie/es",
+       "ist",
+       "ha|t"
+      ],
+      [
+       "wir",
+       "sind",
+       "hab|en"
+      ],
+      [
+       "ihr",
+       "seid",
+       "hab|t"
+      ],
+      [
+       "sie/Sie",
+       "sind",
+       "hab|en"
+      ]
+     ]
+    },
+    {
+     "type": "table",
+     "title": "Vowel change in du and er/sie/es",
+     "intro": "Most irregular verbs change **only** in the 2nd and 3rd person singular. The endings stay regular.",
+     "cols": [
+      "",
+      "ich",
+      "du",
+      "er/sie/es"
+     ],
+     "rows": [
+      [
+       "helfen (e→i)",
+       "helfe",
+       "hilfst",
+       "hilft"
+      ],
+      [
+       "treffen (e→i)",
+       "treffe",
+       "triffst",
+       "trifft"
+      ],
+      [
+       "sehen (e→ie)",
+       "sehe",
+       "siehst",
+       "sieht"
+      ],
+      [
+       "lesen (e→ie)",
+       "lese",
+       "liest",
+       "liest"
+      ],
+      [
+       "fahren (a→ä)",
+       "fahre",
+       "fährst",
+       "fährt"
+      ],
+      [
+       "waschen (a→ä)",
+       "wasche",
+       "wäschst",
+       "wäscht"
+      ],
+      [
+       "schlafen (a→ä)",
+       "schlafe",
+       "schläfst",
+       "schläft"
+      ]
+     ],
+     "skipFirst": true,
+     "note": "*lesen*: the stem already ends in *s*, so *du liest* (not *liesst*)."
+    },
+    {
+     "type": "phrases",
+     "title": "Verbs and sentences",
+     "items": [
+      "v.sein",
+      "v.haben",
+      "v.helfen",
+      "v.treffen",
+      "v.sehen",
+      "v.lesen",
+      "v.fahren",
+      "v.waschen",
+      "v.schlafen",
+      "d06.p.ich_bin_muede",
+      "d06.p.du_hast_zeit",
+      "d06.p.er_hilft",
+      "d06.p.du_faehrst",
+      "d06.p.sie_sieht"
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Choose the right form",
+     "questions": [
+      {
+       "prompt": "du ___ (sein)",
+       "options": [
+        "bist",
+        "ist",
+        "bin"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "verb"
+      },
+      {
+       "prompt": "ihr ___ (sein)",
+       "options": [
+        "seid",
+        "sind",
+        "seit"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "verb",
+       "explain": "*ihr seid* (with **d**). *seit* (with t) means *since*."
+      },
+      {
+       "prompt": "er ___ (haben)",
+       "options": [
+        "hat",
+        "habt",
+        "habet"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "verb"
+      },
+      {
+       "prompt": "du ___ (helfen)",
+       "options": [
+        "hilfst",
+        "helfst",
+        "hilfe"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "verb"
+      },
+      {
+       "prompt": "sie ___ (sehen) — she",
+       "options": [
+        "sieht",
+        "seht",
+        "sehen"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "verb"
+      },
+      {
+       "prompt": "du ___ (fahren)",
+       "options": [
+        "fährst",
+        "fahrst",
+        "fährt"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "verb"
+      },
+      {
+       "prompt": "wir ___ (fahren)",
+       "options": [
+        "fahren",
+        "fähren",
+        "fahrt"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "verb",
+       "explain": "No vowel change with *wir*."
+      }
+     ]
+    },
+    {
+     "type": "note",
+     "title": "Bonus: talking about the future",
+     "md": "Germans usually talk about the future with the **present tense + a time word**:\n\n- {de:Was machst du morgen?} = What are you doing tomorrow?\n- {de:Morgen kaufe ich eine Tasche.} = Tomorrow I'll buy a bag.\n- {de:Morgen habe ich frei.} = I'm off tomorrow.\n\nNotice: when *morgen* comes first, the verb is still in **2nd position** and *ich* moves after it."
+    },
+    {
+     "type": "phrases",
+     "title": "The future with „morgen“",
+     "items": [
+      "w.morgen",
+      "d06.p.was_machst_du_morgen",
+      "d06.p.morgen_tasche",
+      "d06.p.morgen_frei"
+     ]
+    },
+    {
+     "type": "build",
+     "title": "Build the sentence",
+     "questions": [
+      {
+       "en": "I'm off tomorrow.",
+       "answer": "Morgen habe ich frei.",
+       "tag": "order",
+       "note": "Time word first → verb second → then *ich*."
+      },
+      {
+       "en": "Do you have time?",
+       "answer": "Hast du Zeit?",
+       "extra": [
+        "hat"
+       ],
+       "tag": "verb"
+      },
+      {
+       "en": "He helps me.",
+       "answer": "Er hilft mir.",
+       "extra": [
+        "helft"
+       ],
+       "tag": "verb"
+      },
+      {
+       "en": "Tomorrow I'll buy a bag.",
+       "answer": "Morgen kaufe ich eine Tasche.",
+       "tag": "order"
+      }
+     ]
+    },
+    {
+     "type": "type",
+     "title": "Listen and type",
+     "questions": [
+      {
+       "item": "d06.p.ich_bin_muede",
+       "tag": "spell"
+      },
+      {
+       "item": "d06.p.du_faehrst",
+       "tag": "spell"
+      },
+      {
+       "item": "d06.p.du_hast_zeit",
+       "tag": "verb"
+      }
+     ]
+    },
+    {
+     "type": "shadow",
+     "title": "Listen and repeat",
+     "items": [
+      "d06.p.ich_bin_muede",
+      "d06.p.er_hilft",
+      "d06.p.du_faehrst",
+      "d06.p.morgen_frei"
+     ]
+    },
+    {
+     "type": "write",
+     "title": "Homework from the video",
+     "prompt": "What are you doing this evening and tomorrow? Write 3–4 sentences in the present tense.",
+     "promptEn": "Answer in German, present tense: What am I doing this evening (heute Abend) and tomorrow (morgen)? 3–4 sentences.",
+     "hint": "Heute Abend … ich … · Morgen … ich …",
+     "minWords": 12,
+     "checklist": [
+      "Time word first → verb second (Heute Abend lese ich …)",
+      "Irregular forms: du fährst, er hilft …",
+      "Each sentence ends with a full stop"
+     ],
+     "model": "Heute Abend lese ich ein Buch. Morgen arbeite ich. Morgen Abend treffe ich Freunde."
+    }
+   ]
+  }
+ ]
+}

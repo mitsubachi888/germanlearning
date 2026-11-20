@@ -90,7 +90,8 @@
    "src": "ygt",
    "video": "IGmXQG65TSY",
    "len": 518,
-   "sessions": 1
+   "sessions": 1,
+   "file": true
   },
   {
    "id": "d06",
@@ -103,7 +104,8 @@
    "src": "ygt",
    "video": "Ya-3_64snmo",
    "len": 971,
-   "sessions": 2
+   "sessions": 2,
+   "file": true
   },
   {
    "id": "d07",
@@ -116,7 +118,8 @@
    "src": "ygt",
    "video": "7euPPqMFnqE",
    "len": 833,
-   "sessions": 1
+   "sessions": 1,
+   "file": true
   },
   {
    "id": "d08",
@@ -129,7 +132,8 @@
    "src": "ygt",
    "video": "Bje6l_koJig",
    "len": 291,
-   "sessions": 1
+   "sessions": 1,
+   "file": true
   },
   {
    "id": "d09",
@@ -142,7 +146,8 @@
    "src": "ygt",
    "video": "aqk2YZX8YVw",
    "len": 506,
-   "sessions": 1
+   "sessions": 1,
+   "file": true
   },
   {
    "id": "d10",
@@ -155,7 +160,8 @@
    "src": "ygt",
    "video": "L6Up_-0bfq8",
    "len": 542,
-   "sessions": 1
+   "sessions": 1,
+   "file": true
   },
   {
    "id": "d11",
@@ -168,7 +174,8 @@
    "src": "ygt",
    "video": "R1ZLm9E-9nw",
    "len": 482,
-   "sessions": 1
+   "sessions": 1,
+   "file": true
   },
   {
    "id": "d12",
@@ -181,7 +188,8 @@
    "src": "ygt",
    "video": "7ZiLS0b96BY",
    "len": 784,
-   "sessions": 1
+   "sessions": 1,
+   "file": true
   },
   {
    "id": "d13",
@@ -194,7 +202,8 @@
    "src": "ygt",
    "video": "lYHKQnGrtLM",
    "len": 706,
-   "sessions": 1
+   "sessions": 1,
+   "file": true
   },
   {
    "id": "m1",
@@ -205,7 +214,8 @@
    "title": "Mini-Gespräch 1: introduce yourself",
    "hero": "Ich heiße …",
    "gloss": "My name is …",
-   "sessions": 1
+   "sessions": 1,
+   "file": true
   },
   {
    "id": "d14",

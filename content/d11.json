@@ -1,0 +1,611 @@
+{
+ "id": "d11",
+ "title": "Family",
+ "items": {
+  "n.familie": {
+   "de": "die Familie",
+   "plural": "die Familien",
+   "gender": "die",
+   "en": "family",
+   "ipa": "faˈmiːli̯ə",
+   "pic": "👨‍👩‍👧‍👦",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.mutter": {
+   "de": "die Mutter",
+   "plural": "die Mütter",
+   "gender": "die",
+   "en": "mother",
+   "ipa": "ˈmʊtɐ",
+   "pic": "👩",
+   "note": "Informal: *Mama*.",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "d11.pl.eltern": {
+   "de": "die Eltern",
+   "en": "parents",
+   "ipa": "ˈɛltɐn",
+   "pic": "👫",
+   "note": "Plural only.",
+   "tags": [
+    "noun"
+   ]
+  },
+  "n.bruder": {
+   "de": "der Bruder",
+   "plural": "die Brüder",
+   "gender": "der",
+   "en": "brother",
+   "ipa": "ˈbʁuːdɐ",
+   "pic": "👦",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.schwester": {
+   "de": "die Schwester",
+   "plural": "die Schwestern",
+   "gender": "die",
+   "en": "sister",
+   "ipa": "ˈʃvɛstɐ",
+   "pic": "👧",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "d11.pl.geschwister": {
+   "de": "die Geschwister",
+   "en": "brothers and sisters, siblings",
+   "ipa": "ɡəˈʃvɪstɐ",
+   "pic": "👫",
+   "note": "Plural only. English *siblings* sounds quite formal; Germans say *Geschwister* all the time.",
+   "tags": [
+    "noun"
+   ]
+  },
+  "n.grossvater": {
+   "de": "der Großvater",
+   "plural": "die Großväter",
+   "gender": "der",
+   "en": "grandfather",
+   "ipa": "ˈɡʁoːsˌfaːtɐ",
+   "pic": "👴",
+   "note": "Informal: *der Opa*.",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.grossmutter": {
+   "de": "die Großmutter",
+   "plural": "die Großmütter",
+   "gender": "die",
+   "en": "grandmother",
+   "ipa": "ˈɡʁoːsˌmʊtɐ",
+   "pic": "👵",
+   "note": "Informal: *die Oma*.",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "d11.pl.grosseltern": {
+   "de": "die Großeltern",
+   "en": "grandparents",
+   "pic": "👴👵",
+   "note": "Plural only.",
+   "tags": [
+    "noun"
+   ]
+  },
+  "n.onkel": {
+   "de": "der Onkel",
+   "plural": "die Onkel",
+   "gender": "der",
+   "en": "uncle",
+   "ipa": "ˈɔŋkl̩",
+   "pic": "👨",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.tante": {
+   "de": "die Tante",
+   "plural": "die Tanten",
+   "gender": "die",
+   "en": "aunt",
+   "ipa": "ˈtantə",
+   "pic": "👩",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.cousin": {
+   "de": "der Cousin",
+   "plural": "die Cousins",
+   "gender": "der",
+   "en": "cousin (male)",
+   "ipa": "kuˈzɛ̃ː",
+   "pic": "🧑",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.cousine": {
+   "de": "die Cousine",
+   "plural": "die Cousinen",
+   "gender": "die",
+   "en": "cousin (female)",
+   "ipa": "kuˈziːnə",
+   "pic": "👩",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.ehefrau": {
+   "de": "die Ehefrau",
+   "plural": "die Ehefrauen",
+   "gender": "die",
+   "en": "wife",
+   "ipa": "ˈeːəˌfʁaʊ̯",
+   "pic": "👰",
+   "note": "In everyday speech: *meine Frau* = my wife.",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.ehemann": {
+   "de": "der Ehemann",
+   "plural": "die Ehemänner",
+   "gender": "der",
+   "en": "husband",
+   "ipa": "ˈeːəˌman",
+   "pic": "🤵",
+   "note": "In everyday speech: *mein Mann* = my husband.",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.sohn": {
+   "de": "der Sohn",
+   "plural": "die Söhne",
+   "gender": "der",
+   "en": "son",
+   "ipa": "zoːn",
+   "pic": "👦",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.tochter": {
+   "de": "die Tochter",
+   "plural": "die Töchter",
+   "gender": "die",
+   "en": "daughter",
+   "ipa": "ˈtɔxtɐ",
+   "pic": "👧",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.kind": {
+   "de": "das Kind",
+   "plural": "die Kinder",
+   "gender": "das",
+   "en": "child",
+   "ipa": "kɪnt",
+   "pic": "🧒",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.enkel": {
+   "de": "der Enkel",
+   "plural": "die Enkel",
+   "gender": "der",
+   "en": "grandson",
+   "ipa": "ˈɛŋkl̩",
+   "pic": "👶",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.enkelin": {
+   "de": "die Enkelin",
+   "plural": "die Enkelinnen",
+   "gender": "die",
+   "en": "granddaughter",
+   "ipa": "ˈɛŋkəlɪn",
+   "pic": "👶",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "d11.p.einen_bruder": {
+   "de": "Ich habe einen Bruder.",
+   "en": "I have a brother.",
+   "ipa": "ɪç ˈhaːbə ˈaɪ̯nən ˈbʁuːdɐ",
+   "pic": "👦",
+   "tags": [
+    "case"
+   ]
+  },
+  "d11.p.eine_schwester": {
+   "de": "Ich habe eine Schwester.",
+   "en": "I have a sister.",
+   "pic": "👧",
+   "tags": [
+    "case"
+   ]
+  },
+  "d11.p.geschwister": {
+   "de": "Das sind meine Geschwister.",
+   "en": "These are my brothers and sisters.",
+   "pic": "👫",
+   "tags": [
+    "case"
+   ]
+  },
+  "d11.p.mein_vater": {
+   "de": "Das ist mein Vater.",
+   "en": "This is my father.",
+   "pic": "👨",
+   "tags": [
+    "gender"
+   ]
+  },
+  "d11.p.meine_mutter": {
+   "de": "Das ist meine Mutter.",
+   "en": "This is my mother.",
+   "pic": "👩",
+   "tags": [
+    "gender"
+   ]
+  },
+  "d11.p.eltern": {
+   "de": "Das sind meine Eltern.",
+   "en": "These are my parents.",
+   "pic": "👫",
+   "tags": [
+    "gender"
+   ]
+  },
+  "d11.p.onkel": {
+   "de": "Das ist mein Onkel.",
+   "en": "This is my uncle.",
+   "pic": "👨",
+   "tags": [
+    "gender"
+   ]
+  },
+  "d11.p.tante": {
+   "de": "Das ist meine Tante.",
+   "en": "This is my aunt.",
+   "pic": "👩",
+   "tags": [
+    "gender"
+   ]
+  },
+  "d11.p.sohn_tochter": {
+   "de": "Wir haben einen Sohn und eine Tochter.",
+   "en": "We have a son and a daughter.",
+   "pic": "👦👧",
+   "tags": [
+    "case"
+   ]
+  },
+  "d11.p.hast_du_geschwister": {
+   "de": "Hast du Geschwister?",
+   "en": "Do you have any brothers or sisters?",
+   "ipa": "hast duː ɡəˈʃvɪstɐ",
+   "pic": "❓",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d11.p.hast_du_kinder": {
+   "de": "Hast du Kinder?",
+   "en": "Do you have children?",
+   "pic": "❓",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d11.p.bist_du_verheiratet": {
+   "de": "Bist du verheiratet?",
+   "en": "Are you married?",
+   "ipa": "bɪst duː fɛɐ̯ˈhaɪ̯ʁaːtət",
+   "pic": "💍",
+   "tags": [
+    "verb"
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "id": "A",
+   "title": "Meine Familie",
+   "said": [
+    "d11.p.geschwister",
+    "d11.p.eltern",
+    "d11.p.meine_mutter",
+    "d11.p.hast_du_geschwister",
+    "me.sibl"
+   ],
+   "steps": [
+    {
+     "type": "video",
+     "title": "Video: my family",
+     "videoId": "R1ZLm9E-9nw",
+     "channel": "YourGermanTeacher (Luzi)",
+     "start": 20,
+     "end": 455,
+     "note": "Luzi tells her family story: first as a child (*vor 20 Jahren* — 0:41), then as a grandmother (*in 40 Jahren* — 4:24). At 6:29: the prefixes **Schwieger-** (in-law), **Stief-** (step-) and **Paten-** (god-)."
+    },
+    {
+     "type": "phrases",
+     "title": "Parents, brothers and sisters",
+     "items": [
+      "n.familie",
+      "n.vater",
+      "n.mutter",
+      "d11.pl.eltern",
+      "n.bruder",
+      "n.schwester",
+      "d11.pl.geschwister"
+     ]
+    },
+    {
+     "type": "phrases",
+     "title": "Grandparents and relatives",
+     "items": [
+      "n.grossvater",
+      "n.grossmutter",
+      "d11.pl.grosseltern",
+      "n.onkel",
+      "n.tante",
+      "n.cousin",
+      "n.cousine"
+     ]
+    },
+    {
+     "type": "phrases",
+     "title": "Husband, wife, children",
+     "items": [
+      "n.ehemann",
+      "n.ehefrau",
+      "n.sohn",
+      "n.tochter",
+      "n.kind",
+      "n.enkel",
+      "n.enkelin"
+     ]
+    },
+    {
+     "type": "note",
+     "title": "mein / meine · einen / eine",
+     "md": "The article word follows the noun:\n\n- **der** words: {de:Das ist mein Vater.} · {de:Ich habe einen Bruder.}\n- **die** words: {de:Das ist meine Mutter.} · {de:Ich habe eine Schwester.}\n- **plural**: {de:Das sind meine Eltern.} (*sind*, not *ist*)\n\nWhy **einen** after *haben*? *haben* takes the accusative case — and only **der** words change: *ein* → *einen*. You'll learn this properly in the Akkusativ lesson; for now just learn {de:Ich habe einen Bruder.} as a whole sentence."
+    },
+    {
+     "type": "phrases",
+     "title": "Sentences from the video",
+     "items": [
+      "d11.p.einen_bruder",
+      "d11.p.eine_schwester",
+      "d11.p.geschwister",
+      "d11.p.mein_vater",
+      "d11.p.meine_mutter",
+      "d11.p.eltern",
+      "d11.p.onkel",
+      "d11.p.tante",
+      "d11.p.sohn_tochter"
+     ]
+    },
+    {
+     "type": "gender",
+     "title": "der, die or das?",
+     "questions": [
+      {
+       "item": "n.mutter"
+      },
+      {
+       "item": "n.bruder"
+      },
+      {
+       "item": "n.tante"
+      },
+      {
+       "item": "n.kind"
+      },
+      {
+       "item": "n.tochter"
+      },
+      {
+       "item": "n.onkel"
+      },
+      {
+       "item": "n.familie"
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Who is it?",
+     "questions": [
+      {
+       "prompt": "Your mother's mother is your …",
+       "options": [
+        "Großmutter",
+        "Tante",
+        "Schwester"
+       ],
+       "answer": 0,
+       "deOptions": true
+      },
+      {
+       "prompt": "Your father's brother is your …",
+       "options": [
+        "Onkel",
+        "Cousin",
+        "Großvater"
+       ],
+       "answer": 0,
+       "deOptions": true
+      },
+      {
+       "prompt": "Your aunt's daughter is your …",
+       "options": [
+        "Cousine",
+        "Tante",
+        "Enkelin"
+       ],
+       "answer": 0,
+       "deOptions": true
+      },
+      {
+       "prompt": "Your son's son is your …",
+       "options": [
+        "Enkel",
+        "Bruder",
+        "Onkel"
+       ],
+       "answer": 0,
+       "deOptions": true
+      },
+      {
+       "prompt": "Mother + father = …",
+       "options": [
+        "Eltern",
+        "Geschwister",
+        "Großeltern"
+       ],
+       "answer": 0,
+       "deOptions": true
+      },
+      {
+       "prompt": "Das ist ___ Schwester.",
+       "options": [
+        "meine",
+        "mein"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "gender"
+      },
+      {
+       "prompt": "Ich habe ___ Bruder.",
+       "options": [
+        "einen",
+        "eine",
+        "ein"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "case"
+      }
+     ]
+    },
+    {
+     "type": "note",
+     "title": "Bonus: in-laws, step-, god-",
+     "md": "- **Schwieger-** = in-law: {de:die Schwiegermutter}, {de:der Schwiegervater}, {de:der Schwiegersohn}\n- **Stief-** = step-: {de:der Stiefvater}, {de:die Stiefmutter}, {de:die Stiefschwester}\n- **Paten-** = god-: {de:der Patenonkel} (godfather), {de:die Patentante} (godmother)"
+    },
+    {
+     "type": "build",
+     "title": "Build the sentence",
+     "questions": [
+      {
+       "en": "These are my parents.",
+       "answer": "Das sind meine Eltern.",
+       "extra": [
+        "ist"
+       ],
+       "tag": "verb"
+      },
+      {
+       "en": "I have a brother.",
+       "answer": "Ich habe einen Bruder.",
+       "extra": [
+        "eine"
+       ],
+       "tag": "case"
+      },
+      {
+       "en": "Do you have any brothers or sisters?",
+       "answer": "Hast du Geschwister?",
+       "tag": "order"
+      }
+     ]
+    },
+    {
+     "type": "pattern",
+     "title": "Your family",
+     "intro": "Answer about your own family. If you filled in the family part of your profile, the sample answer is your own sentence.",
+     "prompts": [
+      {
+       "q": "Hast du Geschwister?",
+       "en": "Do you have any brothers or sisters?",
+       "item": "me.sibl",
+       "example": "Ja, ich habe einen Bruder und eine Schwester."
+      },
+      {
+       "q": "Hast du Kinder?",
+       "en": "Do you have children?",
+       "item": "me.kids",
+       "example": "Ja, ich habe zwei Kinder."
+      },
+      {
+       "q": "Bist du verheiratet?",
+       "en": "Are you married?",
+       "item": "me.family",
+       "example": "Ja, ich bin verheiratet."
+      }
+     ]
+    },
+    {
+     "type": "shadow",
+     "title": "Listen and repeat",
+     "items": [
+      "d11.p.einen_bruder",
+      "d11.p.eltern",
+      "d11.p.hast_du_geschwister",
+      "d11.p.sohn_tochter"
+     ]
+    },
+    {
+     "type": "write",
+     "title": "Short writing",
+     "prompt": "Describe your family in 4–5 sentences (who is in it, brothers and sisters, children …).",
+     "promptEn": "Describe my family in German in 4-5 simple sentences (A1): parents, brothers/sisters, maybe children.",
+     "hint": "Das ist meine Familie. Ich habe … Mein Vater heißt … Meine Mutter heißt …",
+     "minWords": 15,
+     "checklist": [
+      "mein + der-word, meine + die-word",
+      "Ich habe einen (der-word) / eine (die-word)",
+      "Plural → sind"
+     ],
+     "model": "Das ist meine Familie. Mein Vater heißt Rustam. Meine Mutter heißt Dilnoza. Ich habe einen Bruder und eine Schwester. Das sind meine Geschwister."
+    }
+   ]
+  }
+ ]
+}
