@@ -1,0 +1,54 @@
+{
+  "title": "Nemis tili A1",
+  "stages": [
+    { "n": 0, "title": "Tovushlar va salomlashish", "pic": "👋" },
+    { "n": 1, "title": "Oʻzim haqimda", "pic": "🙋" },
+    { "n": 2, "title": "Kundalik hayot", "pic": "☕" },
+    { "n": 3, "title": "Sayohat va hikoyalar", "pic": "🚆" }
+  ],
+  "lessons": [
+    { "id": "d01", "n": 1, "stage": 0, "pic": "👋", "title": "Salomlashish · 15 ta ibora", "hero": "Guten Tag!", "gloss": "Xayrli kun!", "src": "max", "video": "fjxkdUMHXBQ", "len": 512, "sessions": 1 },
+    { "id": "d02", "n": 2, "stage": 0, "pic": "🔤", "title": "Alifbo", "hero": "Das Alphabet", "gloss": "Alifbo", "src": "ygt", "video": "TytGj8xiPyY", "len": 576, "sessions": 1 },
+    { "id": "d03", "n": 3, "stage": 0, "pic": "👄", "title": "Talaffuz", "hero": "die Aussprache", "gloss": "talaffuz", "src": "ygt", "video": "nI77g2VWysE", "len": 934, "sessions": 2 },
+    { "id": "d04", "n": 4, "stage": 0, "pic": "🤝", "title": "Sie yoki du", "hero": "Wie geht es Ihnen?", "gloss": "Ahvolingiz qanday?", "src": "ygt", "video": "uEZev5K9TDI", "len": 559, "sessions": 1 },
+
+    { "id": "d05", "n": 5, "stage": 1, "pic": "🧑", "title": "Kishilik olmoshlari", "hero": "ich, du, er, sie", "gloss": "men, sen, u", "src": "ygt", "video": "IGmXQG65TSY", "len": 518, "sessions": 1 },
+    { "id": "d06", "n": 6, "stage": 1, "pic": "⏱️", "title": "Hozirgi zamon", "hero": "Ich lerne Deutsch.", "gloss": "Men nemis tilini oʻrganyapman.", "src": "ygt", "video": "Ya-3_64snmo", "len": 971, "sessions": 2 },
+    { "id": "d07", "n": 7, "stage": 1, "pic": "❓", "title": "W-soʻroq soʻzlari", "hero": "Wer? Was? Wo?", "gloss": "Kim? Nima? Qayerda?", "src": "ygt", "video": "7euPPqMFnqE", "len": 833, "sessions": 1 },
+    { "id": "d08", "n": 8, "stage": 1, "pic": "🔢", "title": "Sonlar 1–20", "hero": "eins, zwei, drei", "gloss": "bir, ikki, uch", "src": "ygt", "video": "Bje6l_koJig", "len": 291, "sessions": 1 },
+    { "id": "d09", "n": 9, "stage": 1, "pic": "💯", "title": "Sonlar 20–100", "hero": "zweiundzwanzig", "gloss": "yigirma ikki", "src": "ygt", "video": "aqk2YZX8YVw", "len": 506, "sessions": 1 },
+    { "id": "d10", "n": 10, "stage": 1, "pic": "💼", "title": "Kasblar", "hero": "Was sind Sie von Beruf?", "gloss": "Kasbingiz nima?", "src": "ygt", "video": "L6Up_-0bfq8", "len": 542, "sessions": 1 },
+    { "id": "d11", "n": 11, "stage": 1, "pic": "👨‍👩‍👧", "title": "Oila", "hero": "meine Familie", "gloss": "mening oilam", "src": "ygt", "video": "R1ZLm9E-9nw", "len": 482, "sessions": 1 },
+    { "id": "d12", "n": 12, "stage": 1, "pic": "🔟", "title": "Eng muhim 10 ta feʼl", "hero": "sein, haben, machen", "gloss": "boʻlmoq, ega boʻlmoq, qilmoq", "src": "ygt", "video": "7ZiLS0b96BY", "len": 784, "sessions": 1 },
+    { "id": "d13", "n": 13, "stage": 1, "pic": "🎨", "title": "Qiziqishlar", "hero": "Ich lese gern.", "gloss": "Men kitob oʻqishni yaxshi koʻraman.", "src": "ygt", "video": "lYHKQnGrtLM", "len": 706, "sessions": 1 },
+    { "id": "m1", "n": null, "stage": 1, "mini": true, "pic": "⭐", "title": "Mini-Gespräch 1: oʻzingizni tanishtiring", "hero": "Ich heiße …", "gloss": "Mening ismim …", "sessions": 1 },
+
+    { "id": "d14", "n": 14, "stage": 2, "pic": "📅", "title": "Kunlar, kun qismlari, oylar", "hero": "am Montag", "gloss": "dushanba kuni", "src": "ygt", "video": "BtDsNX2i_uU", "len": 522, "sessions": 1 },
+    { "id": "d15", "n": 15, "stage": 2, "pic": "🕒", "title": "Soatni aytish", "hero": "Wie spät ist es?", "gloss": "Soat necha?", "src": "ygt", "video": "niBAknPZn0I", "len": 853, "sessions": 1 },
+    { "id": "d16", "n": 16, "stage": 2, "pic": "⏳", "title": "Vaqt predloglari", "hero": "um, am, im", "gloss": "vaqt predloglari", "src": "ygt", "video": "ziPDfbS5Rlk", "len": 559, "sessions": 1 },
+    { "id": "d17", "n": 17, "stage": 2, "pic": "🎨", "title": "der / die / das", "hero": "der, die, das", "gloss": "artikllar", "src": "ygt", "video": "IFsEX4ZY6bc", "len": 953, "sessions": 2 },
+    { "id": "d18", "n": 18, "stage": 2, "pic": "👥", "title": "Koʻplik", "hero": "die Kinder", "gloss": "bolalar", "src": "ygt", "video": "3Aqc5WDKO9A", "len": 607, "sessions": 1 },
+    { "id": "d19", "n": 19, "stage": 2, "pic": "🚫", "title": "kein yoki nicht", "hero": "Ich habe kein Auto.", "gloss": "Mening mashinam yoʻq.", "src": "ygt", "video": "NcswV-xuyMc", "len": 754, "sessions": 1 },
+    { "id": "d20", "n": 20, "stage": 2, "pic": "🎯", "title": "Akkusativ", "hero": "Ich trinke einen Kaffee.", "gloss": "Men qahva ichaman.", "src": "ygt", "video": "fPKH95g_9cs", "len": 755, "sessions": 1 },
+    { "id": "d21", "n": 21, "stage": 2, "pic": "🧩", "title": "Gapda soʻz tartibi", "hero": "Heute lerne ich Deutsch.", "gloss": "Bugun men nemis tilini oʻrganaman.", "src": "ygt", "video": "O-_cxHx5FD4", "len": 709, "sessions": 1 },
+    { "id": "d22", "n": 22, "stage": 2, "pic": "☕", "title": "Kafeda buyurtma berish", "hero": "Ich hätte gern einen Kaffee.", "gloss": "Menga bitta qahva, iltimos.", "src": "ygt", "video": "d2XXhIVjmTc", "len": 684, "sessions": 1 },
+    { "id": "d23", "n": 23, "stage": 2, "pic": "😋", "title": "mögen / möchten / gern", "hero": "Ich möchte Tee.", "gloss": "Men choy xohlayman.", "src": "ygt", "video": "RVkZUHdv_iA", "len": 595, "sessions": 1 },
+    { "id": "d24", "n": 24, "stage": 2, "pic": "💪", "title": "können", "hero": "Ich kann schwimmen.", "gloss": "Men suza olaman.", "src": "ygt", "video": "rltGCzVa9U4", "len": 718, "sessions": 1 },
+    { "id": "d25", "n": 25, "stage": 2, "pic": "⏰", "title": "Ajraladigan feʼllar", "hero": "Ich stehe um sieben Uhr auf.", "gloss": "Men soat yettida turaman.", "src": "ygt", "video": "Tizr0WwCzFQ", "len": 737, "sessions": 1 },
+    { "id": "d26", "n": 26, "stage": 2, "pic": "📘", "title": "mein / dein", "hero": "mein Buch, dein Buch", "gloss": "mening kitobim, sening kitobing", "src": "ygt", "video": "xdVWELZqPT8", "len": 653, "sessions": 1 },
+    { "id": "m2", "n": null, "stage": 2, "mini": true, "pic": "⭐", "title": "Mini-Gespräch 2: uchrashuv va kafe", "hero": "Hast du am Samstag Zeit?", "gloss": "Shanba kuni boʻsh vaqting bormi?", "sessions": 1 },
+
+    { "id": "d27", "n": 27, "stage": 3, "pic": "🚌", "title": "Transport", "hero": "mit dem Bus", "gloss": "avtobusda", "src": "ygt", "video": "xE57KB9xs-g", "len": 755, "sessions": 1 },
+    { "id": "d28", "n": 28, "stage": 3, "pic": "🧭", "title": "Yoʻl soʻrash", "hero": "Wo ist der Bahnhof?", "gloss": "Vokzal qayerda?", "src": "ygt", "video": "JKk5vVRvqlc", "len": 1073, "sessions": 2 },
+    { "id": "d29", "n": 29, "stage": 3, "pic": "🎁", "title": "Dativ", "hero": "mit meinem Freund", "gloss": "doʻstim bilan", "src": "ygt", "video": "G-dgLzu18EU", "len": 873, "sessions": 1 },
+    { "id": "d30", "n": 30, "stage": 3, "pic": "📍", "title": "Joy predloglari + Dativ", "hero": "auf dem Tisch", "gloss": "stol ustida", "src": "ygt", "video": "2lP-26s27CE", "len": 754, "sessions": 1 },
+    { "id": "d31", "n": 31, "stage": 3, "pic": "🌤️", "title": "Ob-havo va kichik suhbat", "hero": "Das Wetter ist schön.", "gloss": "Havo yaxshi.", "src": "ygt", "video": "Ox0t6uz-iiU", "len": 816, "sessions": 1 },
+    { "id": "d32", "n": 32, "stage": 3, "pic": "📌", "title": "müssen", "hero": "Ich muss arbeiten.", "gloss": "Men ishlashim kerak.", "src": "ygt", "video": "PGQhyX1NWes", "len": 508, "sessions": 1 },
+    { "id": "d33", "n": 33, "stage": 3, "pic": "📣", "title": "Buyruq gaplar", "hero": "Kommen Sie bitte!", "gloss": "Iltimos, keling!", "src": "ygt", "video": "Mty5HjzgNOc", "len": 1118, "sessions": 2 },
+    { "id": "d34", "n": 34, "stage": 3, "pic": "📖", "title": "Perfekt (haben bilan)", "hero": "Ich habe Deutsch gelernt.", "gloss": "Men nemis tilini oʻrgandim.", "src": "ygt", "video": "cWFjOK9sfBw", "len": 1211, "sessions": 2 },
+    { "id": "d35", "n": 35, "stage": 3, "pic": "🛤️", "title": "Perfekt: sein yoki haben", "hero": "Ich bin nach Berlin gefahren.", "gloss": "Men Berlinga bordim.", "src": "ygt", "video": "5vG9ofF0EHk", "len": 870, "sessions": 1 },
+    { "id": "d36", "n": 36, "stage": 3, "pic": "🕰️", "title": "war / hatte", "hero": "Ich war zu Hause.", "gloss": "Men uyda edim.", "src": "ygt", "video": "g0Zo17VXDAA", "len": 574, "sessions": 1 },
+    { "id": "d37", "n": 37, "stage": 3, "pic": "😋", "title": "gefallen / schmecken", "hero": "Das schmeckt gut!", "gloss": "Bu mazali!", "src": "ygt", "video": "31NBABygZAU", "len": 838, "sessions": 1 },
+    { "id": "m3", "n": null, "stage": 3, "mini": true, "pic": "🏁", "title": "Mini-Gespräch 3: dam olish kunlari", "hero": "Was hast du am Wochenende gemacht?", "gloss": "Dam olish kunlari nima qilding?", "src": "max", "video": "mNX1wpIQ4Uk", "len": 1502, "sessions": 1 }
+  ]
+}
