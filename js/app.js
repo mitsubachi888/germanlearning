@@ -8,7 +8,7 @@ import * as plan from "./plan.js";
 import { JOBS, HOBBIES, CITIES, aboutMe, jobOf, jobLabel } from "./profile.js";
 import { icon, hydrateIcons } from "./icons.js";
 
-const APP_VERSION = "0.6.0";
+const APP_VERSION = "0.7.0";
 const THEMES = [
   ["lavender", "#DCD2FA", "#FFB627", "Lavender"],
   ["rose", "#F8CFDC", "#FF6A3D", "Rose"],

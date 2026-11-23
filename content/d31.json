@@ -1,0 +1,416 @@
+{
+ "id": "d31",
+ "title": "Weather & small talk",
+ "items": {
+  "n.wetter": {
+   "de": "das Wetter",
+   "gender": "das",
+   "en": "weather",
+   "ipa": "ˈvɛtɐ",
+   "pic": "🌤️",
+   "note": "No plural.",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.sonne": {
+   "de": "die Sonne",
+   "plural": "die Sonnen",
+   "gender": "die",
+   "en": "sun",
+   "ipa": "ˈzɔnə",
+   "pic": "☀️",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.regen": {
+   "de": "der Regen",
+   "gender": "der",
+   "en": "rain",
+   "ipa": "ˈʁeːɡn̩",
+   "pic": "🌧️",
+   "note": "No plural.",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.schnee": {
+   "de": "der Schnee",
+   "gender": "der",
+   "en": "snow",
+   "ipa": "ʃneː",
+   "pic": "❄️",
+   "note": "No plural.",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.wind": {
+   "de": "der Wind",
+   "plural": "die Winde",
+   "gender": "der",
+   "en": "wind",
+   "ipa": "vɪnt",
+   "pic": "💨",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.grad": {
+   "de": "der Grad",
+   "plural": "die Grade",
+   "gender": "der",
+   "en": "degree",
+   "ipa": "ɡʁaːt",
+   "pic": "🌡️",
+   "note": "*zwanzig Grad* — no plural ending after a number.",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "d31.p.wie_ist_wetter": {
+   "de": "Wie ist das Wetter heute?",
+   "en": "What's the weather like today?",
+   "ipa": "viː ɪst das ˈvɛtɐ ˈhɔɪ̯tə",
+   "pic": "🌤️",
+   "tags": []
+  },
+  "d31.p.sonne_scheint": {
+   "de": "Die Sonne scheint.",
+   "en": "The sun is shining.",
+   "pic": "☀️",
+   "tags": []
+  },
+  "d31.p.es_ist_sonnig": {
+   "de": "Es ist sonnig.",
+   "en": "It's sunny.",
+   "pic": "☀️",
+   "tags": []
+  },
+  "d31.p.es_ist_bewoelkt": {
+   "de": "Es ist bewölkt.",
+   "en": "It's cloudy.",
+   "ipa": "ɛs ɪst bəˈvœlkt",
+   "pic": "☁️",
+   "tags": []
+  },
+  "d31.p.es_regnet": {
+   "de": "Es regnet.",
+   "en": "It's raining.",
+   "pic": "🌧️",
+   "tags": []
+  },
+  "d31.p.es_schneit": {
+   "de": "Es schneit.",
+   "en": "It's snowing.",
+   "ipa": "ɛs ʃnaɪ̯t",
+   "pic": "🌨️",
+   "tags": []
+  },
+  "d31.p.es_ist_windig": {
+   "de": "Es ist windig.",
+   "en": "It's windy.",
+   "pic": "💨",
+   "tags": []
+  },
+  "d31.p.es_ist_warm": {
+   "de": "Es ist warm.",
+   "en": "It's warm.",
+   "pic": "😎",
+   "tags": []
+  },
+  "d31.p.es_ist_kalt": {
+   "de": "Es ist kalt.",
+   "en": "It's cold.",
+   "pic": "🥶",
+   "tags": []
+  },
+  "d31.p.es_ist_heiss": {
+   "de": "Es ist heiß.",
+   "en": "It's hot.",
+   "pic": "🥵",
+   "tags": []
+  },
+  "d31.p.grad": {
+   "de": "Es sind zwanzig Grad.",
+   "en": "It's twenty degrees.",
+   "pic": "🌡️",
+   "tags": [
+    "num"
+   ]
+  },
+  "d31.p.minus": {
+   "de": "Es sind minus fünf Grad.",
+   "en": "It's minus five degrees.",
+   "pic": "🌡️",
+   "tags": [
+    "num"
+   ]
+  },
+  "d31.p.im_sommer": {
+   "de": "Im Sommer ist es in Usbekistan sehr heiß.",
+   "en": "In summer it's very hot in Uzbekistan.",
+   "pic": "☀️",
+   "tags": [
+    "order"
+   ]
+  },
+  "d31.p.schoenes_wetter": {
+   "de": "Schönes Wetter heute, oder?",
+   "en": "Nice weather today, isn't it?",
+   "pic": "😊",
+   "tags": []
+  },
+  "d31.p.ja_endlich": {
+   "de": "Ja, endlich scheint die Sonne!",
+   "en": "Yes, the sun's finally shining!",
+   "pic": "☀️",
+   "tags": [
+    "order"
+   ]
+  },
+  "d31.p.schon_wieder": {
+   "de": "Es regnet schon wieder.",
+   "en": "It's raining again.",
+   "pic": "🙄",
+   "tags": []
+  },
+  "d31.p.wie_ist_wetter_bei_dir": {
+   "de": "Wie ist das Wetter in deiner Stadt?",
+   "en": "What's the weather like in your city?",
+   "pic": "🏙️",
+   "tags": []
+  },
+  "d31.p.lieblingswetter": {
+   "de": "Ich mag die Sonne, aber ich mag keinen Regen.",
+   "en": "I like the sun, but I don't like rain.",
+   "pic": "🌦️",
+   "tags": [
+    "case"
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "id": "A",
+   "title": "Wie ist das Wetter?",
+   "said": [
+    "d31.p.wie_ist_wetter",
+    "d31.p.es_regnet",
+    "d31.p.grad",
+    "d31.p.schoenes_wetter",
+    "d31.p.im_sommer"
+   ],
+   "steps": [
+    {
+     "type": "video",
+     "title": "Video: the weather and small talk",
+     "videoId": "Ox0t6uz-iiU",
+     "channel": "YourGermanTeacher (Johannes)",
+     "start": 0,
+     "end": 816,
+     "note": "Chapters: 0:55 the seasons · 1:31 climate and temperature · 5:13 the weather · 10:44 small talk: questions and answers · 13:10 homework.\n\nThis video has **no subtitles** — just watch and listen for the words below. The phrases in this lesson are standard German for the same topics."
+    },
+    {
+     "type": "phrases",
+     "title": "Weather words",
+     "items": [
+      "n.wetter",
+      "n.sonne",
+      "n.regen",
+      "n.schnee",
+      "n.wind",
+      "n.wolke",
+      "n.grad"
+     ]
+    },
+    {
+     "type": "note",
+     "title": "Talking about the weather: always „es“",
+     "md": "Weather sentences use **es** (lesson 5):\n\n- verbs: {de:Es regnet.} · {de:Es schneit.}\n- adjectives: {de:Es ist sonnig / bewölkt / windig / warm / kalt / heiß.}\n- temperature: {de:Es sind zwanzig Grad.} (plural verb *sind*)\n\nAnd for how **you** feel (lesson 29): {de:Mir ist kalt.}"
+    },
+    {
+     "type": "phrases",
+     "title": "What's the weather like?",
+     "items": [
+      "d31.p.wie_ist_wetter",
+      "d31.p.sonne_scheint",
+      "d31.p.es_ist_sonnig",
+      "d31.p.es_ist_bewoelkt",
+      "d31.p.es_regnet",
+      "d31.p.es_schneit",
+      "d31.p.es_ist_windig",
+      "d31.p.es_ist_warm",
+      "d31.p.es_ist_kalt",
+      "d31.p.es_ist_heiss",
+      "d31.p.grad",
+      "d31.p.minus"
+     ]
+    },
+    {
+     "type": "picquiz",
+     "title": "Listen and pick the picture",
+     "questions": [
+      {
+       "item": "d31.p.es_regnet",
+       "options": [
+        "d31.p.es_regnet",
+        "d31.p.es_schneit",
+        "d31.p.es_ist_sonnig",
+        "d31.p.es_ist_windig"
+       ]
+      },
+      {
+       "item": "d31.p.es_schneit",
+       "options": [
+        "d31.p.es_schneit",
+        "d31.p.es_ist_bewoelkt",
+        "d31.p.es_ist_heiss",
+        "d31.p.es_regnet"
+       ]
+      },
+      {
+       "item": "d31.p.es_ist_bewoelkt",
+       "options": [
+        "d31.p.es_ist_bewoelkt",
+        "d31.p.es_ist_sonnig",
+        "d31.p.es_ist_windig",
+        "d31.p.es_ist_kalt"
+       ]
+      },
+      {
+       "item": "d31.p.es_ist_windig",
+       "options": [
+        "d31.p.es_ist_windig",
+        "d31.p.es_regnet",
+        "d31.p.es_ist_warm",
+        "d31.p.es_schneit"
+       ]
+      }
+     ]
+    },
+    {
+     "type": "phrases",
+     "title": "Small talk",
+     "intro": "Weather is the classic small-talk topic in Germany — with neighbours, colleagues, at the bus stop.",
+     "items": [
+      "d31.p.schoenes_wetter",
+      "d31.p.ja_endlich",
+      "d31.p.schon_wieder",
+      "d31.p.wie_ist_wetter_bei_dir",
+      "d31.p.im_sommer",
+      "d31.p.lieblingswetter"
+     ]
+    },
+    {
+     "type": "dialogue",
+     "title": "At the bus stop",
+     "lines": [
+      {
+       "who": "A",
+       "name": "Frau Weber",
+       "item": "d31.p.schoenes_wetter"
+      },
+      {
+       "who": "B",
+       "name": "Aziz",
+       "item": "d31.p.ja_endlich"
+      },
+      {
+       "who": "A",
+       "name": "Frau Weber",
+       "de": "Und morgen soll es regnen.",
+       "en": "And it's supposed to rain tomorrow."
+      },
+      {
+       "who": "B",
+       "name": "Aziz",
+       "de": "Schade! In Usbekistan ist es jetzt sehr warm.",
+       "en": "What a pity! It's very warm in Uzbekistan now."
+      },
+      {
+       "who": "A",
+       "name": "Frau Weber",
+       "de": "Wie viel Grad sind es da?",
+       "en": "How many degrees is it there?"
+      },
+      {
+       "who": "B",
+       "name": "Aziz",
+       "de": "Ungefähr fünfundzwanzig Grad.",
+       "en": "About twenty-five degrees."
+      }
+     ]
+    },
+    {
+     "type": "build",
+     "title": "Build the sentence",
+     "questions": [
+      {
+       "en": "What's the weather like today?",
+       "answer": "Wie ist das Wetter heute?",
+       "alts": [
+        "Wie ist heute das Wetter?"
+       ],
+       "tag": "order"
+      },
+      {
+       "en": "It's twenty degrees.",
+       "answer": "Es sind zwanzig Grad.",
+       "extra": [
+        "bin"
+       ],
+       "tag": "verb"
+      },
+      {
+       "en": "In summer it's very hot in Uzbekistan.",
+       "answer": "Im Sommer ist es in Usbekistan sehr heiß.",
+       "alts": [
+        "In Usbekistan ist es im Sommer sehr heiß.",
+        "Es ist im Sommer in Usbekistan sehr heiß.",
+        "Es ist in Usbekistan im Sommer sehr heiß."
+       ],
+       "tag": "order"
+      }
+     ]
+    },
+    {
+     "type": "pattern",
+     "title": "Homework: your weather",
+     "prompts": [
+      {
+       "q": "Wie ist das Wetter heute?",
+       "en": "What's the weather like today?",
+       "example": "Es ist bewölkt und kalt. Es sind acht Grad."
+      },
+      {
+       "q": "Wie ist das Wetter in deiner Stadt im Sommer?",
+       "en": "What's the weather like in your city in summer?",
+       "item": "d31.p.im_sommer"
+      }
+     ]
+    },
+    {
+     "type": "write",
+     "title": "Short writing",
+     "prompt": "Describe the weather today and the weather in your home country in two seasons (4–5 sentences).",
+     "promptEn": "Describe in German today's weather and the weather in Uzbekistan in two seasons (4-5 sentences with es ist / es regnet / es sind … Grad).",
+     "minWords": 20,
+     "checklist": [
+      "Es ist + adjective / Es regnet",
+      "Es sind … Grad",
+      "Im Sommer / im Winter + verb second"
+     ],
+     "model": "Heute ist es bewölkt und windig. Es sind zehn Grad. Im Sommer ist es in Usbekistan sehr heiß. Im Winter ist es kalt und manchmal schneit es."
+    }
+   ]
+  }
+ ]
+}

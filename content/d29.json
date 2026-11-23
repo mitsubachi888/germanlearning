@@ -1,0 +1,402 @@
+{
+ "id": "d29",
+ "title": "Dativ",
+ "items": {
+  "v.gehoeren": {
+   "de": "gehören",
+   "en": "to belong (to someone)",
+   "ipa": "ɡəˈhøːʁən",
+   "pic": "🏷️",
+   "note": "+ Dativ: *Das gehört mir.*",
+   "tags": [
+    "case"
+   ]
+  },
+  "v.bringen": {
+   "de": "bringen",
+   "en": "to bring",
+   "ipa": "ˈbʁɪŋən",
+   "pic": "🍽️",
+   "tags": [
+    "case"
+   ]
+  },
+  "v.zeigen": {
+   "de": "zeigen",
+   "en": "to show",
+   "ipa": "ˈtsaɪ̯ɡn̩",
+   "pic": "👉",
+   "tags": [
+    "case"
+   ]
+  },
+  "v.erzaehlen": {
+   "de": "erzählen",
+   "en": "to tell (a story)",
+   "ipa": "ɛɐ̯ˈtsɛːlən",
+   "pic": "📖",
+   "tags": [
+    "case"
+   ]
+  },
+  "n.gast": {
+   "de": "der Gast",
+   "plural": "die Gäste",
+   "gender": "der",
+   "en": "guest",
+   "ipa": "ɡast",
+   "pic": "🧑",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.geschichte": {
+   "de": "die Geschichte",
+   "plural": "die Geschichten",
+   "gender": "die",
+   "en": "story; history",
+   "ipa": "ɡəˈʃɪçtə",
+   "pic": "📚",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "d29.p.hilft_frau": {
+   "de": "Der Mann hilft der Frau.",
+   "en": "The man helps the woman.",
+   "pic": "🤝",
+   "tags": [
+    "case"
+   ]
+  },
+  "d29.p.hilfst_kind": {
+   "de": "Du hilfst dem Kind.",
+   "en": "You help the child.",
+   "pic": "🧒",
+   "tags": [
+    "case"
+   ]
+  },
+  "d29.p.gehoert_mir": {
+   "de": "Der Stift gehört mir.",
+   "en": "The pen belongs to me.",
+   "pic": "🖊️",
+   "tags": [
+    "case"
+   ]
+  },
+  "d29.p.gehoert_frau": {
+   "de": "Der Hund gehört der Frau.",
+   "en": "The dog belongs to the woman.",
+   "pic": "🐕",
+   "tags": [
+    "case"
+   ]
+  },
+  "d29.p.auto_kaputt": {
+   "de": "Das Auto ist kaputt.",
+   "en": "The car is broken.",
+   "pic": "🚗",
+   "tags": [
+    "case"
+   ]
+  },
+  "d29.p.gibt_brief": {
+   "de": "Der Mann gibt der Frau einen Brief.",
+   "en": "The man gives the woman a letter.",
+   "pic": "✉️",
+   "tags": [
+    "case"
+   ]
+  },
+  "d29.p.kellner_gast": {
+   "de": "Der Kellner bringt dem Gast das Essen.",
+   "en": "The waiter brings the guest the food.",
+   "pic": "🍽️",
+   "tags": [
+    "case"
+   ]
+  },
+  "d29.p.mutter_brief": {
+   "de": "Er schreibt seiner Mutter einen Brief.",
+   "en": "He's writing his mother a letter.",
+   "pic": "✉️",
+   "tags": [
+    "case"
+   ]
+  },
+  "d29.p.geschichte": {
+   "de": "Er erzählt dem Kind eine Geschichte.",
+   "en": "He tells the child a story.",
+   "pic": "📖",
+   "tags": [
+    "case"
+   ]
+  },
+  "d29.p.studenten": {
+   "de": "Ich erkläre den Studenten den Dativ.",
+   "en": "I explain the dative to the students.",
+   "pic": "🧑‍🏫",
+   "tags": [
+    "case"
+   ]
+  },
+  "d29.p.mir_heiss": {
+   "de": "Mir ist heiß.",
+   "en": "I'm hot.",
+   "ipa": "miːɐ̯ ɪst haɪ̯s",
+   "pic": "🥵",
+   "note": "Not *Ich bin heiß* — that means *I'm sexy*!",
+   "tags": [
+    "case"
+   ]
+  },
+  "d29.p.dir_kalt": {
+   "de": "Ist dir kalt?",
+   "en": "Are you cold?",
+   "pic": "🥶",
+   "note": "*Ich bin kalt* = I'm a cold (unfriendly) person.",
+   "tags": [
+    "case"
+   ]
+  },
+  "d29.p.dir_langweilig": {
+   "de": "Ist dir langweilig?",
+   "en": "Are you bored?",
+   "pic": "🥱",
+   "tags": [
+    "case"
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "id": "A",
+   "title": "dem, der, den — the third case",
+   "said": [
+    "d29.p.hilft_frau",
+    "d29.p.gehoert_mir",
+    "d29.p.gibt_brief",
+    "d29.p.mir_heiss",
+    "d29.p.dir_kalt"
+   ],
+   "steps": [
+    {
+     "type": "video",
+     "title": "Video: what is the dative?",
+     "videoId": "G-dgLzu18EU",
+     "channel": "YourGermanTeacher (Luzi)",
+     "start": 53,
+     "end": 840,
+     "note": "0:53 the Dativ articles · 2:10 when to use it · 3:39 verbs with Dativ · 5:15 Nominativ, Akkusativ, Dativ together · 8:14 examples with two objects · 11:54 bonus: *Mir ist heiß* · 13:13 homework."
+    },
+    {
+     "type": "table",
+     "title": "Dativ articles",
+     "skipFirst": true,
+     "intro": "Tap a row to hear it.",
+     "cols": [
+      "",
+      "Nominativ",
+      "Dativ"
+     ],
+     "rows": [
+      [
+       "der (m)",
+       "der / ein Mann",
+       "dem / einem Mann"
+      ],
+      [
+       "die (f)",
+       "die / eine Frau",
+       "der / einer Frau"
+      ],
+      [
+       "das (n)",
+       "das / ein Kind",
+       "dem / einem Kind"
+      ],
+      [
+       "plural",
+       "die Kinder",
+       "den Kindern"
+      ]
+     ],
+     "note": "Masculine and neuter are the same (**dem**). In the plural the noun usually gets an extra **-n**: *den Kinder**n***. Pronouns: *ich → mir, du → dir*."
+    },
+    {
+     "type": "note",
+     "title": "When do you need the Dativ?",
+     "md": "1. After certain **prepositions** (lesson 30, and *mit*, *zu* from lessons 27–28).\n2. After certain **verbs** — about 50, e.g. **helfen**, **gehören**: {de:Der Mann hilft der Frau.} · {de:Der Stift gehört mir.}\n3. With **two objects** — the thing is Akkusativ, the **person who receives** is Dativ:\n\n{de:Der Mann gibt **der Frau** **einen Brief**.} → *der Frau* (to whom?) = Dativ, *einen Brief* (what?) = Akkusativ.\n\nWith two nouns, the **Dativ usually comes first**."
+    },
+    {
+     "type": "phrases",
+     "title": "Verbs with Dativ",
+     "items": [
+      "v.helfen",
+      "v.gehoeren",
+      "d29.p.hilft_frau",
+      "d29.p.hilfst_kind",
+      "d29.p.gehoert_mir",
+      "d29.p.gehoert_frau"
+     ]
+    },
+    {
+     "type": "phrases",
+     "title": "Two objects: who gets what?",
+     "items": [
+      "v.geben",
+      "v.bringen",
+      "v.zeigen",
+      "v.erzaehlen",
+      "d29.p.gibt_brief",
+      "d29.p.kellner_gast",
+      "d29.p.mutter_brief",
+      "d29.p.geschichte",
+      "d29.p.studenten"
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "dem, der or den?",
+     "questions": [
+      {
+       "prompt": "Ich helfe ___ Mann. (der Mann)",
+       "options": [
+        "dem",
+        "den",
+        "der"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "case"
+      },
+      {
+       "prompt": "Das Buch gehört ___ Frau. (die Frau)",
+       "options": [
+        "der",
+        "die",
+        "dem"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "case"
+      },
+      {
+       "prompt": "Er gibt ___ Kind einen Apfel. (das Kind)",
+       "options": [
+        "dem",
+        "das",
+        "den"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "case"
+      },
+      {
+       "prompt": "Sie zeigt ___ Gästen das Haus. (plural)",
+       "options": [
+        "den",
+        "dem",
+        "die"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "case"
+      },
+      {
+       "prompt": "Wir helfen ___ Lehrerin.",
+       "options": [
+        "der",
+        "die",
+        "den"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "case"
+      },
+      {
+       "prompt": "In {de:Der Kellner bringt dem Gast das Essen.} — what is Akkusativ?",
+       "options": [
+        "das Essen",
+        "dem Gast",
+        "der Kellner"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "case"
+      }
+     ]
+    },
+    {
+     "type": "phrases",
+     "title": "Bonus: how you feel",
+     "intro": "For feeling hot, cold or bored, German uses the Dativ: **mir** (to me), **dir** (to you).",
+     "items": [
+      "d29.p.mir_heiss",
+      "d29.p.dir_kalt",
+      "d29.p.dir_langweilig"
+     ]
+    },
+    {
+     "type": "build",
+     "title": "Build the sentence",
+     "questions": [
+      {
+       "en": "The man gives the woman a letter.",
+       "answer": "Der Mann gibt der Frau einen Brief.",
+       "extra": [
+        "die"
+       ],
+       "tag": "case"
+      },
+      {
+       "en": "The pen belongs to me.",
+       "answer": "Der Stift gehört mir.",
+       "extra": [
+        "mich"
+       ],
+       "tag": "case",
+       "alts": [
+        "Mir gehört der Stift."
+       ]
+      },
+      {
+       "en": "I'm cold.",
+       "answer": "Mir ist kalt.",
+       "extra": [
+        "Ich"
+       ],
+       "tag": "case"
+      }
+     ]
+    },
+    {
+     "type": "shadow",
+     "title": "Listen and repeat",
+     "items": [
+      "d29.p.hilft_frau",
+      "d29.p.gibt_brief",
+      "d29.p.mir_heiss",
+      "d29.p.dir_kalt"
+     ]
+    },
+    {
+     "type": "write",
+     "title": "Homework from the video",
+     "prompt": "Write 3 sentences with geben, bringen or zeigen — each with a person (Dativ) and a thing (Akkusativ).",
+     "promptEn": "Write 3 German sentences with geben, bringen or zeigen, each with a Dativ person and an Akkusativ thing (e.g. Ich gebe meiner Mutter eine Blume).",
+     "minWords": 15,
+     "checklist": [
+      "Person = Dativ (dem / der / den …n)",
+      "Thing = Akkusativ (einen / eine / ein)",
+      "Dativ before Akkusativ"
+     ],
+     "model": "Ich gebe der Lehrerin das Buch. Der Kellner bringt dem Mann einen Kaffee. Ich zeige dem Kind ein Bild."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,590 @@
+{
+ "id": "d33",
+ "title": "The imperative",
+ "items": {
+  "d33.p.trinken_sie": {
+   "de": "Trinken Sie den Tee!",
+   "en": "Drink the tea!",
+   "pic": "🍵",
+   "tags": [
+    "verb",
+    "order"
+   ]
+  },
+  "d33.p.ergaenzen": {
+   "de": "Ergänzen Sie den Text!",
+   "en": "Complete the text!",
+   "pic": "📝",
+   "note": "Typical instruction in German textbooks.",
+   "tags": [
+    "verb",
+    "order"
+   ]
+  },
+  "d33.p.mehr_sport": {
+   "de": "Machen Sie mehr Sport!",
+   "en": "Do more sport!",
+   "pic": "🏃",
+   "tags": [
+    "verb",
+    "order"
+   ]
+  },
+  "d33.p.platz": {
+   "de": "Nehmen Sie Platz!",
+   "en": "Take a seat!",
+   "ipa": "ˈneːmən ziː plats",
+   "pic": "🪑",
+   "tags": [
+    "verb",
+    "order"
+   ]
+  },
+  "d33.p.gemuese": {
+   "de": "Geben Sie das Gemüse in die Pfanne!",
+   "en": "Put the vegetables in the pan!",
+   "pic": "🥘",
+   "tags": [
+    "verb",
+    "order"
+   ]
+  },
+  "d33.p.seien_sie": {
+   "de": "Seien Sie vorsichtig!",
+   "en": "Be careful!",
+   "ipa": "ˈzaɪ̯ən ziː ˈfoːɐ̯zɪçtɪç",
+   "pic": "⚠️",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d33.p.kommen_sie": {
+   "de": "Kommen Sie bitte herein!",
+   "en": "Please come in!",
+   "pic": "🚪",
+   "tags": [
+    "verb",
+    "order"
+   ]
+  },
+  "d33.p.warten_sie": {
+   "de": "Warten Sie bitte einen Moment!",
+   "en": "Please wait a moment!",
+   "pic": "⏳",
+   "tags": [
+    "verb",
+    "order"
+   ]
+  },
+  "d33.p.trinkt": {
+   "de": "Trinkt den Tee!",
+   "en": "Drink the tea! (to several friends)",
+   "pic": "🍵",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d33.p.mach": {
+   "de": "Mach die Hausaufgaben!",
+   "en": "Do your homework!",
+   "pic": "📚",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d33.p.macht": {
+   "de": "Macht die Hausaufgaben!",
+   "en": "Do your homework! (to several people)",
+   "pic": "📚",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d33.p.warte": {
+   "de": "Warte!",
+   "en": "Wait!",
+   "pic": "✋",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d33.p.gib": {
+   "de": "Gib mir den Stift!",
+   "en": "Give me the pen!",
+   "ipa": "ɡiːp miːɐ̯ deːn ʃtɪft",
+   "pic": "🖊️",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d33.p.fahr": {
+   "de": "Fahr schneller!",
+   "en": "Drive faster!",
+   "pic": "🏎️",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d33.p.lauf": {
+   "de": "Lauf schneller!",
+   "en": "Run faster!",
+   "pic": "🏃",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d33.p.schlaf": {
+   "de": "Schlaf jetzt!",
+   "en": "Go to sleep now!",
+   "pic": "😴",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d33.p.geh": {
+   "de": "Geh nach Hause!",
+   "en": "Go home!",
+   "pic": "🏠",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d33.p.hilf": {
+   "de": "Hilf mir bitte!",
+   "en": "Help me, please!",
+   "pic": "🆘",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d33.p.helft": {
+   "de": "Helft mir!",
+   "en": "Help me! (to several people)",
+   "pic": "🆘",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d33.p.kommt": {
+   "de": "Kommt zu mir!",
+   "en": "Come to me! (to several people)",
+   "pic": "👋",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d33.p.sei_still": {
+   "de": "Sei still!",
+   "en": "Be quiet!",
+   "ipa": "zaɪ̯ ʃtɪl",
+   "pic": "🤫",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d33.p.sei_brav": {
+   "de": "Sei brav!",
+   "en": "Be good! (to a child)",
+   "pic": "😇",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d33.p.hab_geduld": {
+   "de": "Hab Geduld!",
+   "en": "Be patient!",
+   "ipa": "haːp ɡəˈdʊlt",
+   "pic": "🧘",
+   "note": "Literally: *have patience*.",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d33.p.werd_erwachsen": {
+   "de": "Werd erwachsen!",
+   "en": "Grow up!",
+   "pic": "🧑",
+   "tags": [
+    "verb"
+   ],
+   "note": "Standard: *Werde erwachsen!* — *werd* is spoken."
+  },
+  "d33.p.feiere": {
+   "de": "Feiere nicht zu lange!",
+   "en": "Don't party too long!",
+   "pic": "🎉",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d33.p.so_lieb": {
+   "de": "Sei doch so lieb und bring mir einen Kaffee, bitte!",
+   "en": "Would you be a dear and bring me a coffee, please?",
+   "pic": "☕",
+   "note": "*doch*, *bitte* and *sei so lieb* make an order friendly.",
+   "tags": [
+    "verb"
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "id": "A",
+   "title": "The formal imperative (Sie)",
+   "said": [
+    "d33.p.platz",
+    "d33.p.seien_sie",
+    "d33.p.kommen_sie",
+    "d33.p.warten_sie",
+    "d33.p.ergaenzen"
+   ],
+   "steps": [
+    {
+     "type": "video",
+     "title": "Video: the imperative (part 1)",
+     "videoId": "Mty5HjzgNOc",
+     "channel": "YourGermanTeacher (Luzi)",
+     "start": 0,
+     "end": 446,
+     "note": "Chapters: 1:11 when to use it · 1:50 situations (request, instruction, order) · 3:00 the formal imperative · 4:05 examples · 5:04 the exception *Seien Sie …!*"
+    },
+    {
+     "type": "note",
+     "title": "Sie-imperative: swap the order",
+     "md": "Use the imperative to ask, instruct or order. For people you say *Sie* to:\n\nTake the **Sie-form** and put the **verb first**:\n\n{de:Sie trinken den Tee.} → {de:**Trinken Sie** den Tee!}\n\nThe only exception: *sein* → {de:**Seien Sie** vorsichtig!}\n\nAdd **bitte** to make it polite: {de:Kommen Sie bitte herein!}"
+    },
+    {
+     "type": "phrases",
+     "title": "Formal imperatives",
+     "items": [
+      "d33.p.trinken_sie",
+      "d33.p.ergaenzen",
+      "d33.p.mehr_sport",
+      "d33.p.platz",
+      "d33.p.gemuese",
+      "d33.p.seien_sie",
+      "d33.p.kommen_sie",
+      "d33.p.warten_sie"
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Make it a Sie-imperative",
+     "questions": [
+      {
+       "prompt": "Sie warten. → …",
+       "options": [
+        "Warten Sie!",
+        "Sie warten!",
+        "Wartet Sie!"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "verb"
+      },
+      {
+       "prompt": "Sie sind ruhig. → …",
+       "options": [
+        "Seien Sie ruhig!",
+        "Sind Sie ruhig!",
+        "Sein Sie ruhig!"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "verb"
+      },
+      {
+       "prompt": "At the doctor's: the doctor tells you to drink more water.",
+       "options": [
+        "Trinken Sie mehr Wasser!",
+        "Trink Sie mehr Wasser!",
+        "Sie trinken mehr Wasser?"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "verb"
+      },
+      {
+       "kind": "listen",
+       "say": "Nehmen Sie Platz!",
+       "item": "d33.p.platz",
+       "options": [
+        "Take a seat!",
+        "Take this!",
+        "Come in!"
+       ],
+       "answer": 0,
+       "tag": "pron"
+      }
+     ]
+    },
+    {
+     "type": "build",
+     "title": "Build the sentence",
+     "questions": [
+      {
+       "en": "Please wait a moment!",
+       "answer": "Warten Sie bitte einen Moment!",
+       "alts": [
+        "Bitte warten Sie einen Moment!",
+        "Warten Sie einen Moment, bitte!"
+       ],
+       "tag": "order"
+      },
+      {
+       "en": "Be careful!",
+       "answer": "Seien Sie vorsichtig!",
+       "extra": [
+        "Sein"
+       ],
+       "tag": "verb"
+      }
+     ]
+    },
+    {
+     "type": "shadow",
+     "title": "Listen and repeat",
+     "items": [
+      "d33.p.platz",
+      "d33.p.seien_sie",
+      "d33.p.kommen_sie",
+      "d33.p.warten_sie"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B",
+   "title": "The informal imperative (du / ihr)",
+   "said": [
+    "d33.p.gib",
+    "d33.p.hilf",
+    "d33.p.sei_still",
+    "d33.p.hab_geduld",
+    "d33.p.so_lieb"
+   ],
+   "steps": [
+    {
+     "type": "video",
+     "title": "Video: the imperative (part 2)",
+     "videoId": "Mty5HjzgNOc",
+     "channel": "YourGermanTeacher (Luzi)",
+     "start": 446,
+     "end": 1091,
+     "note": "Chapters: 7:26 the informal imperative · 11:10 examples · 12:44 special cases (sein, haben, werden, -eln/-ern) · 16:03 bonus: making it friendly."
+    },
+    {
+     "type": "table",
+     "title": "du and ihr",
+     "skipFirst": true,
+     "intro": "**du**: du-form **minus -st**, no pronoun. **ihr**: ihr-form, no pronoun. Tap a row to hear it.",
+     "cols": [
+      "verb",
+      "du …",
+      "→ du!",
+      "ihr!"
+     ],
+     "rows": [
+      [
+       "machen",
+       "du machst",
+       "Mach!",
+       "Macht!"
+      ],
+      [
+       "kommen",
+       "du kommst",
+       "Komm!",
+       "Kommt!"
+      ],
+      [
+       "warten",
+       "du wartest",
+       "Warte!",
+       "Wartet!"
+      ],
+      [
+       "geben",
+       "du gibst",
+       "Gib!",
+       "Gebt!"
+      ],
+      [
+       "helfen",
+       "du hilfst",
+       "Hilf!",
+       "Helft!"
+      ],
+      [
+       "fahren",
+       "du fährst",
+       "Fahr!",
+       "Fahrt!"
+      ],
+      [
+       "schlafen",
+       "du schläfst",
+       "Schlaf!",
+       "Schlaft!"
+      ]
+     ],
+     "note": "e → i **stays** (*gib, hilf*), but ä → a **goes back** (*fahr, schlaf, lauf*). Verbs in *-t / -d* keep an *-e*: *Warte!*"
+    },
+    {
+     "type": "phrases",
+     "title": "Informal imperatives from the video",
+     "items": [
+      "d33.p.mach",
+      "d33.p.macht",
+      "d33.p.trinkt",
+      "d33.p.warte",
+      "d33.p.gib",
+      "d33.p.fahr",
+      "d33.p.lauf",
+      "d33.p.schlaf",
+      "d33.p.geh",
+      "d33.p.hilf",
+      "d33.p.helft",
+      "d33.p.kommt"
+     ]
+    },
+    {
+     "type": "phrases",
+     "title": "Special cases: sein, haben, werden, -ern",
+     "items": [
+      "d33.p.sei_still",
+      "d33.p.sei_brav",
+      "d33.p.hab_geduld",
+      "d33.p.werd_erwachsen",
+      "d33.p.feiere",
+      "d33.p.so_lieb"
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Choose the imperative",
+     "questions": [
+      {
+       "prompt": "To a friend: (geben) ___ mir das Buch!",
+       "options": [
+        "Gib",
+        "Geb",
+        "Gibst"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "verb"
+      },
+      {
+       "prompt": "To a friend: (fahren) ___ langsam!",
+       "options": [
+        "Fahr",
+        "Fähr",
+        "Fährst"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "verb",
+       "explain": "The umlaut of *du fährst* disappears: *Fahr!*"
+      },
+      {
+       "prompt": "To two friends: (kommen) ___ schnell!",
+       "options": [
+        "Kommt",
+        "Komm",
+        "Kommen"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "verb"
+      },
+      {
+       "prompt": "To a child: (sein) ___ leise!",
+       "options": [
+        "Sei",
+        "Bist",
+        "Seid"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "verb"
+      },
+      {
+       "prompt": "To a friend: (helfen) ___ mir bitte!",
+       "options": [
+        "Hilf",
+        "Helf",
+        "Hilfst"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "verb"
+      }
+     ]
+    },
+    {
+     "type": "build",
+     "title": "Build the sentence",
+     "questions": [
+      {
+       "en": "Give me the pen!",
+       "answer": "Gib mir den Stift!",
+       "extra": [
+        "Gibst"
+       ],
+       "tag": "verb"
+      },
+      {
+       "en": "Help me, please!",
+       "answer": "Hilf mir bitte!",
+       "alts": [
+        "Bitte hilf mir!",
+        "Hilf mir, bitte!"
+       ],
+       "tag": "verb"
+      },
+      {
+       "en": "Go home!",
+       "answer": "Geh nach Hause!",
+       "extra": [
+        "Gehst"
+       ],
+       "tag": "verb"
+      }
+     ]
+    },
+    {
+     "type": "pattern",
+     "title": "Give friendly instructions",
+     "intro": "Tell a friend what to do — make it friendly with *doch* and *bitte*.",
+     "prompts": [
+      {
+       "q": "Ich bin so müde …",
+       "en": "I'm so tired …",
+       "example": "Dann schlaf doch ein bisschen!"
+      },
+      {
+       "q": "Ich habe Hunger.",
+       "en": "I'm hungry.",
+       "example": "Dann iss doch etwas!"
+      }
+     ]
+    },
+    {
+     "type": "write",
+     "title": "Short writing",
+     "prompt": "Write 5 imperatives: 2 to a friend (du), 1 to friends (ihr), 2 polite ones (Sie) — e.g. at work or in a recipe.",
+     "promptEn": "Write 5 German imperative sentences: 2 du-form, 1 ihr-form, 2 Sie-form (polite). Check the verb forms.",
+     "minWords": 15,
+     "checklist": [
+      "du: no -st, no pronoun",
+      "ihr: ihr-form without ihr",
+      "Sie: verb first + Sie",
+      "End with !"
+     ],
+     "model": "Komm doch mit! Gib mir bitte das Handy! Macht die Musik leiser! Nehmen Sie bitte Platz! Geben Sie die Tomaten in die Pfanne!"
+    }
+   ]
+  }
+ ]
+}

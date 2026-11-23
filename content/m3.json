@@ -1,0 +1,531 @@
+{
+ "id": "m3",
+ "title": "Mini-Gespräch 3: your weekend",
+ "items": {
+  "m3.p.wie_war": {
+   "de": "Wie war dein Wochenende?",
+   "en": "How was your weekend?",
+   "ipa": "viː vaːɐ̯ daɪ̯n ˈvɔxn̩ˌʔɛndə",
+   "pic": "🗓️",
+   "tags": [
+    "verb"
+   ]
+  },
+  "m3.p.was_gemacht": {
+   "de": "Was hast du am Wochenende gemacht?",
+   "en": "What did you do at the weekend?",
+   "pic": "❓",
+   "tags": [
+    "verb"
+   ]
+  },
+  "m3.p.super": {
+   "de": "Super, danke! Und deins?",
+   "en": "Great, thanks! And yours?",
+   "pic": "😄",
+   "tags": []
+  },
+  "m3.p.am_samstag": {
+   "de": "Am Samstag bin ich nach Hamburg gefahren.",
+   "en": "On Saturday I went to Hamburg.",
+   "pic": "🚆",
+   "tags": [
+    "verb",
+    "order"
+   ]
+  },
+  "m3.p.freunde": {
+   "de": "Ich habe Freunde getroffen.",
+   "en": "I met friends.",
+   "pic": "🧑‍🤝‍🧑",
+   "tags": [
+    "verb"
+   ]
+  },
+  "m3.p.essen": {
+   "de": "Wir haben im Restaurant gegessen.",
+   "en": "We ate at a restaurant.",
+   "pic": "🍽️",
+   "tags": [
+    "verb"
+   ]
+  },
+  "m3.p.wetter": {
+   "de": "Das Wetter war schön.",
+   "en": "The weather was nice.",
+   "pic": "☀️",
+   "tags": [
+    "verb"
+   ]
+  },
+  "m3.p.zu_hause": {
+   "de": "Ich war zu Hause. Ich habe viel geschlafen.",
+   "en": "I was at home. I slept a lot.",
+   "pic": "😴",
+   "tags": [
+    "verb"
+   ]
+  },
+  "m3.p.am_sonntag": {
+   "de": "Am Sonntag habe ich Deutsch gelernt.",
+   "en": "On Sunday I studied German.",
+   "pic": "📚",
+   "tags": [
+    "verb",
+    "order"
+   ]
+  },
+  "m3.p.klingt_gut": {
+   "de": "Das klingt gut!",
+   "en": "That sounds good!",
+   "ipa": "das klɪŋt ɡuːt",
+   "pic": "👍",
+   "tags": []
+  },
+  "m3.p.wie_schade": {
+   "de": "Oh, wie schade!",
+   "en": "Oh, what a pity!",
+   "pic": "😕",
+   "tags": []
+  },
+  "m3.p.hat_gefallen": {
+   "de": "Hat es dir gefallen?",
+   "en": "Did you like it?",
+   "pic": "😊",
+   "tags": [
+    "case"
+   ]
+  },
+  "m3.p.ja_sehr": {
+   "de": "Ja, sehr! Hamburg ist wirklich schön.",
+   "en": "Yes, a lot! Hamburg is really beautiful.",
+   "pic": "⚓",
+   "tags": []
+  },
+  "m3.p.und_du": {
+   "de": "Und was hast du gemacht?",
+   "en": "And what did you do?",
+   "pic": "👉",
+   "tags": [
+    "verb"
+   ]
+  },
+  "m3.p.mein_name_ist": {
+   "de": "Mein Name ist Max.",
+   "en": "My name is Max.",
+   "pic": "👋",
+   "tags": []
+  },
+  "m3.p.guten_morgen": {
+   "de": "Guten Morgen!",
+   "en": "Good morning!",
+   "ipa": "ˈɡuːtn̩ ˈmɔʁɡn̩",
+   "pic": "🌅",
+   "tags": []
+  },
+  "m3.p.guten_abend": {
+   "de": "Guten Abend!",
+   "en": "Good evening!",
+   "ipa": "ˈɡuːtn̩ ˈaːbn̩t",
+   "pic": "🌆",
+   "tags": []
+  },
+  "m3.p.bis_spaeter": {
+   "de": "Bis später!",
+   "en": "See you later!",
+   "pic": "👋",
+   "tags": []
+  },
+  "m3.p.heute_montag": {
+   "de": "Heute ist Montag. Morgen ist Dienstag.",
+   "en": "Today is Monday. Tomorrow is Tuesday.",
+   "pic": "📅",
+   "tags": []
+  },
+  "m3.p.hat_sie_hunger": {
+   "de": "Hat sie Hunger?",
+   "en": "Is she hungry?",
+   "pic": "🍽️",
+   "note": "Literally *does she have hunger?*",
+   "tags": [
+    "order"
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "id": "A",
+   "title": "Big review (part 1) + telling a story",
+   "said": [
+    "m3.p.was_gemacht",
+    "m3.p.am_samstag",
+    "m3.p.freunde",
+    "m3.p.wetter",
+    "m3.p.klingt_gut"
+   ],
+   "steps": [
+    {
+     "type": "note",
+     "title": "The last stage: look back and tell stories",
+     "md": "You've finished all 37 lessons! This Mini-Gespräch has two parts:\n\n1. **Review** with Max Yoko's *A1 in 25 minutes* — almost everything there you already know. Use it to check yourself.\n2. **Your weekend**: talk about the past with the Perfekt (*habe gemacht, bin gefahren*) and *war / hatte*.\n\nThe video's subtitles miss most German words — just listen, and repeat what you understand."
+    },
+    {
+     "type": "video",
+     "title": "Video: A1 in 25 minutes (part 1)",
+     "videoId": "mNX1wpIQ4Uk",
+     "channel": "Max Yoko",
+     "start": 28,
+     "end": 753,
+     "note": "Chapters: 0:28 alphabet and pronunciation · 4:44 greetings · 6:19 introducing yourself · 8:03 sentence structure · 9:33 personal pronouns.\n\nYou know all of this from lessons 1–6. Can you say each sentence **before** Max translates it?"
+    },
+    {
+     "type": "phrases",
+     "title": "Greetings you may have forgotten",
+     "items": [
+      "m3.p.guten_morgen",
+      "p.guten_tag",
+      "m3.p.guten_abend",
+      "p.tschuess",
+      "m3.p.bis_spaeter",
+      "p.auf_wiedersehen",
+      "m3.p.mein_name_ist"
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Quick review: lessons 1–13",
+     "questions": [
+      {
+       "prompt": "{de:Sie} with a capital S in the middle of a sentence means …",
+       "options": [
+        "you (formal)",
+        "she",
+        "they"
+       ],
+       "answer": 0,
+       "tag": "verb"
+      },
+      {
+       "prompt": "du ___ (lernen)",
+       "options": [
+        "lernst",
+        "lernt",
+        "lerne"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "verb"
+      },
+      {
+       "prompt": "17 = …",
+       "options": [
+        "siebzehn",
+        "siebenzehn",
+        "siebzig"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "num"
+      },
+      {
+       "prompt": "45 = …",
+       "options": [
+        "fünfundvierzig",
+        "vierundfünfzig",
+        "vierzigfünf"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "num"
+      },
+      {
+       "prompt": "I like reading.",
+       "options": [
+        "Ich lese gern.",
+        "Ich gern lese.",
+        "Ich mag lesen gern."
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "order"
+      },
+      {
+       "prompt": "das Mädchen — why das?",
+       "options": [
+        "-chen words are always das",
+        "girls are neuter in German",
+        "it's an exception with no rule"
+       ],
+       "answer": 0,
+       "tag": "gender"
+      }
+     ]
+    },
+    {
+     "type": "note",
+     "title": "Telling a story about the past",
+     "md": "Mix the tenses you've learned:\n\n- **Perfekt with haben**: {de:Ich habe Freunde getroffen.} · {de:Wir haben im Restaurant gegessen.}\n- **Perfekt with sein** (movement): {de:Am Samstag bin ich nach Hamburg gefahren.}\n- **war / hatte**: {de:Das Wetter war schön.} · {de:Ich hatte keine Zeit.}\n\nStructure your story with {de:am Samstag … am Sonntag …}, {de:zuerst … dann … danach …}"
+    },
+    {
+     "type": "phrases",
+     "title": "My weekend",
+     "items": [
+      "m3.p.am_samstag",
+      "m3.p.freunde",
+      "m3.p.essen",
+      "m3.p.wetter",
+      "m3.p.zu_hause",
+      "m3.p.am_sonntag"
+     ]
+    },
+    {
+     "type": "build",
+     "title": "Build the sentence",
+     "questions": [
+      {
+       "en": "On Saturday I went to Hamburg.",
+       "answer": "Am Samstag bin ich nach Hamburg gefahren.",
+       "alts": [
+        "Ich bin am Samstag nach Hamburg gefahren."
+       ],
+       "extra": [
+        "habe"
+       ],
+       "tag": "verb"
+      },
+      {
+       "en": "We ate at a restaurant.",
+       "answer": "Wir haben im Restaurant gegessen.",
+       "extra": [
+        "sind"
+       ],
+       "tag": "verb",
+       "alts": [
+        "Im Restaurant haben wir gegessen."
+       ]
+      },
+      {
+       "en": "The weather was nice.",
+       "answer": "Das Wetter war schön.",
+       "tag": "verb"
+      }
+     ]
+    },
+    {
+     "type": "shadow",
+     "title": "Listen and repeat",
+     "items": [
+      "m3.p.was_gemacht",
+      "m3.p.am_samstag",
+      "m3.p.freunde",
+      "m3.p.wetter"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B",
+   "title": "Big review (part 2) + your weekend",
+   "said": [
+    "m3.p.wie_war",
+    "m3.p.und_du",
+    "m3.p.hat_gefallen",
+    "me.name",
+    "me.hobby"
+   ],
+   "steps": [
+    {
+     "type": "video",
+     "title": "Video: A1 in 25 minutes (part 2)",
+     "videoId": "mNX1wpIQ4Uk",
+     "channel": "Max Yoko",
+     "start": 753,
+     "end": 1465,
+     "note": "Chapters: 12:33 asking and answering questions · 15:10 numbers · 19:39 days of the week · 21:21 noun genders · 23:18 a short dialogue."
+    },
+    {
+     "type": "phrases",
+     "title": "From the video",
+     "items": [
+      "m3.p.heute_montag",
+      "m3.p.hat_sie_hunger",
+      "d09.p.wie_alt"
+     ]
+    },
+    {
+     "type": "dialogue",
+     "title": "Monday morning: Leon and Aziz",
+     "intro": "Listen to the whole conversation first.",
+     "lines": [
+      {
+       "who": "A",
+       "name": "Leon",
+       "de": "Hallo Aziz! Wie war dein Wochenende?",
+       "en": "Hi Aziz! How was your weekend?"
+      },
+      {
+       "who": "B",
+       "name": "Aziz",
+       "item": "m3.p.super"
+      },
+      {
+       "who": "A",
+       "name": "Leon",
+       "de": "Auch gut. Was hast du gemacht?",
+       "en": "Good too. What did you do?"
+      },
+      {
+       "who": "B",
+       "name": "Aziz",
+       "item": "m3.p.am_samstag"
+      },
+      {
+       "who": "B",
+       "name": "Aziz",
+       "item": "m3.p.freunde"
+      },
+      {
+       "who": "B",
+       "name": "Aziz",
+       "item": "m3.p.essen"
+      },
+      {
+       "who": "A",
+       "name": "Leon",
+       "item": "m3.p.hat_gefallen"
+      },
+      {
+       "who": "B",
+       "name": "Aziz",
+       "item": "m3.p.ja_sehr"
+      },
+      {
+       "who": "B",
+       "name": "Aziz",
+       "item": "m3.p.und_du"
+      },
+      {
+       "who": "A",
+       "name": "Leon",
+       "item": "m3.p.zu_hause"
+      },
+      {
+       "who": "A",
+       "name": "Leon",
+       "item": "m3.p.am_sonntag"
+      },
+      {
+       "who": "B",
+       "name": "Aziz",
+       "item": "m3.p.klingt_gut"
+      }
+     ]
+    },
+    {
+     "type": "phrases",
+     "title": "Reacting",
+     "items": [
+      "m3.p.wie_war",
+      "m3.p.was_gemacht",
+      "m3.p.und_du",
+      "m3.p.hat_gefallen",
+      "m3.p.klingt_gut",
+      "m3.p.wie_schade"
+     ]
+    },
+    {
+     "type": "roleplay",
+     "title": "Role-play: your weekend",
+     "intro": "Choose “You”. Leon asks about your weekend. Say the lines — then change one detail and say your **real** weekend.",
+     "lines": [
+      {
+       "who": "A",
+       "name": "Leon",
+       "item": "m3.p.wie_war"
+      },
+      {
+       "who": "B",
+       "name": "You",
+       "item": "m3.p.super"
+      },
+      {
+       "who": "A",
+       "name": "Leon",
+       "item": "m3.p.was_gemacht"
+      },
+      {
+       "who": "B",
+       "name": "You",
+       "item": "m3.p.am_samstag"
+      },
+      {
+       "who": "B",
+       "name": "You",
+       "item": "m3.p.wetter"
+      },
+      {
+       "who": "A",
+       "name": "Leon",
+       "item": "m3.p.hat_gefallen"
+      },
+      {
+       "who": "B",
+       "name": "You",
+       "item": "m3.p.ja_sehr"
+      },
+      {
+       "who": "B",
+       "name": "You",
+       "item": "m3.p.und_du"
+      },
+      {
+       "who": "A",
+       "name": "Leon",
+       "item": "m3.p.zu_hause"
+      },
+      {
+       "who": "B",
+       "name": "You",
+       "item": "m3.p.klingt_gut"
+      }
+     ]
+    },
+    {
+     "type": "pattern",
+     "title": "Your answers",
+     "prompts": [
+      {
+       "q": "Wie war dein Wochenende?",
+       "en": "How was your weekend?",
+       "example": "Gut, danke! Das Wetter war schön."
+      },
+      {
+       "q": "Was hast du am Samstag gemacht?",
+       "en": "What did you do on Saturday?",
+       "example": "Ich habe eingekauft und Freunde getroffen."
+      },
+      {
+       "q": "Was machst du gern in der Freizeit?",
+       "en": "What do you like doing in your free time?",
+       "item": "me.hobby"
+      }
+     ]
+    },
+    {
+     "type": "write",
+     "title": "Your final text",
+     "prompt": "Write about your last weekend (6–8 sentences): where you were, what you did, what you ate, the weather, and whether you liked it.",
+     "promptEn": "Write 6-8 German sentences about my last weekend (A1): Perfekt with haben and sein, war/hatte, time words (am Samstag, dann, danach), and gefallen.",
+     "minWords": 40,
+     "checklist": [
+      "Perfekt: haben / sein + participle at the end",
+      "war / hatte",
+      "am Samstag, dann, danach + verb second",
+      "Es hat mir gefallen."
+     ],
+     "model": "Am Samstag bin ich früh aufgestanden. Dann bin ich mit dem Bus in die Stadt gefahren. Ich habe Freunde getroffen und wir haben Plov gegessen. Das Wetter war schön. Am Sonntag war ich zu Hause und habe Deutsch gelernt. Das Wochenende hat mir gut gefallen."
+    }
+   ]
+  }
+ ]
+}

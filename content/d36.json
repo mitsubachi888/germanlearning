@@ -1,0 +1,385 @@
+{
+ "id": "d36",
+ "title": "war / hatte",
+ "items": {
+  "d36.p.smartphone": {
+   "de": "Ich hatte ein Smartphone.",
+   "en": "I had a smartphone.",
+   "pic": "📱",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d36.p.sauer": {
+   "de": "Ich war sauer.",
+   "en": "I was angry.",
+   "ipa": "ɪç vaːɐ̯ ˈzaʊ̯ɐ",
+   "pic": "😠",
+   "note": "*sauer* = sour, and also (colloquially) angry.",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d36.p.keine_freunde": {
+   "de": "Er hatte keine Freunde.",
+   "en": "He had no friends.",
+   "pic": "😔",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d36.p.in_berlin": {
+   "de": "Sie war in Berlin.",
+   "en": "She was in Berlin.",
+   "pic": "🏙️",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d36.p.traurig": {
+   "de": "Er war traurig.",
+   "en": "He was sad.",
+   "pic": "😢",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d36.p.lehrerin": {
+   "de": "Meine Mutter war Lehrerin.",
+   "en": "My mother was a teacher.",
+   "pic": "👩‍🏫",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d36.p.einkaufen": {
+   "de": "Sie war einkaufen.",
+   "en": "She was (out) shopping.",
+   "pic": "🛍️",
+   "note": "*war* + infinitive = where someone was / what they were doing.",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d36.p.haustier": {
+   "de": "Hattest du als Kind ein Haustier?",
+   "en": "Did you have a pet as a child?",
+   "ipa": "ˈhatəst duː als kɪnt aɪ̯n ˈhaʊ̯sˌtiːɐ̯",
+   "pic": "🐾",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d36.p.kaninchen": {
+   "de": "Ich hatte ein Kaninchen.",
+   "en": "I had a rabbit.",
+   "pic": "🐰",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d36.p.krank": {
+   "de": "Er war letzte Woche krank.",
+   "en": "He was ill last week.",
+   "pic": "🤒",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d36.p.date": {
+   "de": "Lisa und Max hatten gestern ein Date.",
+   "en": "Lisa and Max had a date yesterday.",
+   "pic": "💕",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d36.p.noch_nie": {
+   "de": "Sie waren noch nie in Deutschland.",
+   "en": "They've never been to Germany.",
+   "pic": "🇩🇪",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d36.p.wart_ihr": {
+   "de": "Wart ihr schon einmal in Deutschland?",
+   "en": "Have you (all) ever been to Germany?",
+   "pic": "❓",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d36.p.unfall": {
+   "de": "Ich glaube, sie hatte einen Unfall.",
+   "en": "I think she had an accident.",
+   "pic": "🚑",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d36.p.wo_warst_du": {
+   "de": "Wo warst du am Wochenende?",
+   "en": "Where were you at the weekend?",
+   "ipa": "voː vaːɐ̯st duː am ˈvɔxn̩ˌʔɛndə",
+   "pic": "🗓️",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d36.p.strand": {
+   "de": "Ich war am Strand. Das Wetter war super.",
+   "en": "I was at the beach. The weather was great.",
+   "pic": "🏖️",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d36.p.schon_einmal": {
+   "de": "Ja, ich war schon einmal in Deutschland.",
+   "en": "Yes, I've been to Germany before.",
+   "pic": "✅",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d36.p.noch_nie_ich": {
+   "de": "Nein, ich war noch nie in Deutschland.",
+   "en": "No, I've never been to Germany.",
+   "pic": "❌",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d36.p.auto": {
+   "de": "Er hatte ein Auto.",
+   "en": "He had a car.",
+   "pic": "🚗",
+   "note": "*Er hat ein Auto gehabt* is correct too, but *hatte* sounds much better.",
+   "tags": [
+    "verb"
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "id": "A",
+   "title": "I was, I had",
+   "said": [
+    "d36.p.wo_warst_du",
+    "d36.p.strand",
+    "d36.p.haustier",
+    "d36.p.schon_einmal",
+    "d36.p.krank"
+   ],
+   "steps": [
+    {
+     "type": "video",
+     "title": "Video: haben and sein in the simple past",
+     "videoId": "g0Zo17VXDAA",
+     "channel": "YourGermanTeacher (Johannes)",
+     "start": 0,
+     "end": 556,
+     "note": "Chapters: 0:34 *haben* · 2:20 *sein* · 3:29 when to use them · 5:31 example questions · 7:41 bonus tips."
+    },
+    {
+     "type": "table",
+     "title": "hatte and war",
+     "cols": [
+      "",
+      "haben → hatte",
+      "sein → war"
+     ],
+     "rows": [
+      [
+       "ich",
+       "hatte",
+       "war"
+      ],
+      [
+       "du",
+       "hattest",
+       "warst"
+      ],
+      [
+       "er/sie/es",
+       "hatte",
+       "war"
+      ],
+      [
+       "wir",
+       "hatten",
+       "waren"
+      ],
+      [
+       "ihr",
+       "hattet",
+       "wart"
+      ],
+      [
+       "sie/Sie",
+       "hatten",
+       "waren"
+      ]
+     ],
+     "note": "*ich* = *er/sie/es* (hatte, war) and *wir* = *sie/Sie* (hatten, waren)."
+    },
+    {
+     "type": "note",
+     "title": "Why not the Perfekt?",
+     "md": "In speech Germans use the Perfekt (lessons 34–35) — **except** for *haben* and *sein*. For those two, the simple past is normal in conversation too:\n\n- {de:Ich war in Berlin.} (rather than *Ich bin in Berlin gewesen*)\n- {de:Er hatte ein Auto.} (rather than *Er hat ein Auto gehabt*)\n\n**war** for places, feelings, jobs: {de:Sie war in Berlin.} · {de:Er war traurig.} · {de:Meine Mutter war Lehrerin.}\n**hatte** for things you had: {de:Er hatte keine Freunde.}\n\nTo sound German: {de:Ich war schon einmal in Deutschland.} (not *Ich bin nach Deutschland gegangen*)."
+    },
+    {
+     "type": "phrases",
+     "title": "Sentences from the video",
+     "items": [
+      "d36.p.smartphone",
+      "d36.p.sauer",
+      "d36.p.keine_freunde",
+      "d36.p.in_berlin",
+      "d36.p.traurig",
+      "d36.p.lehrerin",
+      "d36.p.einkaufen",
+      "d36.p.auto"
+     ]
+    },
+    {
+     "type": "phrases",
+     "title": "Questions and answers",
+     "items": [
+      "d36.p.haustier",
+      "d36.p.kaninchen",
+      "d36.p.krank",
+      "d36.p.date",
+      "d36.p.noch_nie",
+      "d36.p.wart_ihr",
+      "d36.p.unfall",
+      "d36.p.wo_warst_du",
+      "d36.p.strand",
+      "d36.p.schon_einmal",
+      "d36.p.noch_nie_ich"
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Choose",
+     "questions": [
+      {
+       "prompt": "Wo ___ du gestern? (sein)",
+       "options": [
+        "warst",
+        "warest",
+        "wart"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "verb"
+      },
+      {
+       "prompt": "Wir ___ keine Zeit. (haben)",
+       "options": [
+        "hatten",
+        "hattet",
+        "hatte"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "verb"
+      },
+      {
+       "prompt": "Er ___ letzte Woche krank. (sein)",
+       "options": [
+        "war",
+        "warst",
+        "waren"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "verb"
+      },
+      {
+       "prompt": "___ ihr schon einmal in Wien? (sein)",
+       "options": [
+        "Wart",
+        "Wartet",
+        "Waren"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "verb"
+      },
+      {
+       "prompt": "The most natural German:",
+       "options": [
+        "Ich war schon einmal in Deutschland.",
+        "Ich bin schon einmal in Deutschland gehabt.",
+        "Ich hatte schon einmal in Deutschland."
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "verb"
+      }
+     ]
+    },
+    {
+     "type": "build",
+     "title": "Build the sentence",
+     "questions": [
+      {
+       "en": "Where were you at the weekend?",
+       "answer": "Wo warst du am Wochenende?",
+       "tag": "order"
+      },
+      {
+       "en": "Did you have a pet as a child?",
+       "answer": "Hattest du als Kind ein Haustier?",
+       "tag": "order"
+      },
+      {
+       "en": "No, I've never been to Germany.",
+       "answer": "Nein, ich war noch nie in Deutschland.",
+       "tag": "order",
+       "alts": [
+        "Nein, in Deutschland war ich noch nie."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "pattern",
+     "title": "Questions from the video",
+     "prompts": [
+      {
+       "q": "Hattest du als Kind ein Haustier?",
+       "en": "Did you have a pet as a child?",
+       "example": "Ja, ich hatte eine Katze."
+      },
+      {
+       "q": "Warst du schon einmal in Deutschland?",
+       "en": "Have you ever been to Germany?",
+       "item": "d36.p.noch_nie_ich"
+      },
+      {
+       "q": "Wo warst du am Wochenende?",
+       "en": "Where were you at the weekend?",
+       "example": "Ich war bei meiner Familie."
+      }
+     ]
+    },
+    {
+     "type": "write",
+     "title": "Short writing",
+     "prompt": "Write about your childhood: where you were, what you had, what your parents were (4–5 sentences with war / hatte).",
+     "promptEn": "Write 4-5 German sentences about my childhood with war and hatte (where I lived, a pet or toy, my parents' jobs, how I was).",
+     "minWords": 20,
+     "checklist": [
+      "war / hatte (ich = er/sie/es)",
+      "No article with jobs (war Lehrerin)",
+      "Verb in position 2"
+     ],
+     "model": "Als Kind war ich oft in Samarkand. Ich hatte eine Katze. Mein Vater war Ingenieur. Meine Mutter war Lehrerin. Ich war sehr glücklich."
+    }
+   ]
+  }
+ ]
+}

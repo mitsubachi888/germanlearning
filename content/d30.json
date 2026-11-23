@@ -1,0 +1,484 @@
+{
+ "id": "d30",
+ "title": "Prepositions of place + Dativ",
+ "items": {
+  "w.auf": {
+   "de": "auf",
+   "en": "on (on top of)",
+   "ipa": "aʊ̯f",
+   "pic": "⬆️",
+   "tags": [
+    "case"
+   ]
+  },
+  "w.an": {
+   "de": "an",
+   "en": "at, on (touching the side)",
+   "ipa": "an",
+   "pic": "🖼️",
+   "tags": [
+    "case"
+   ]
+  },
+  "w.neben": {
+   "de": "neben",
+   "en": "next to",
+   "ipa": "ˈneːbn̩",
+   "pic": "↔️",
+   "tags": [
+    "case"
+   ]
+  },
+  "w.vor": {
+   "de": "vor",
+   "en": "in front of",
+   "ipa": "foːɐ̯",
+   "pic": "⏩",
+   "tags": [
+    "case"
+   ]
+  },
+  "w.hinter": {
+   "de": "hinter",
+   "en": "behind",
+   "ipa": "ˈhɪntɐ",
+   "pic": "⏪",
+   "tags": [
+    "case"
+   ]
+  },
+  "w.zwischen": {
+   "de": "zwischen",
+   "en": "between",
+   "ipa": "ˈtsvɪʃn̩",
+   "pic": "↕️",
+   "tags": [
+    "case"
+   ]
+  },
+  "w.ueber": {
+   "de": "über",
+   "en": "above, over",
+   "ipa": "ˈyːbɐ",
+   "pic": "☁️",
+   "tags": [
+    "case"
+   ]
+  },
+  "w.unter": {
+   "de": "unter",
+   "en": "under, below",
+   "ipa": "ˈʊntɐ",
+   "pic": "⬇️",
+   "tags": [
+    "case"
+   ]
+  },
+  "w.in": {
+   "de": "in",
+   "en": "in, inside",
+   "ipa": "ɪn",
+   "pic": "📦",
+   "tags": [
+    "case"
+   ]
+  },
+  "n.kissen": {
+   "de": "das Kissen",
+   "plural": "die Kissen",
+   "gender": "das",
+   "en": "cushion, pillow",
+   "ipa": "ˈkɪsn̩",
+   "pic": "🛋️",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.wand": {
+   "de": "die Wand",
+   "plural": "die Wände",
+   "gender": "die",
+   "en": "wall",
+   "ipa": "vant",
+   "pic": "🧱",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.fenster": {
+   "de": "das Fenster",
+   "plural": "die Fenster",
+   "gender": "das",
+   "en": "window",
+   "ipa": "ˈfɛnstɐ",
+   "pic": "🪟",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.pflanze": {
+   "de": "die Pflanze",
+   "plural": "die Pflanzen",
+   "gender": "die",
+   "en": "plant",
+   "ipa": "ˈpflantsə",
+   "pic": "🪴",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.wolke": {
+   "de": "die Wolke",
+   "plural": "die Wolken",
+   "gender": "die",
+   "en": "cloud",
+   "ipa": "ˈvɔlkə",
+   "pic": "☁️",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.schrank": {
+   "de": "der Schrank",
+   "plural": "die Schränke",
+   "gender": "der",
+   "en": "cupboard, wardrobe",
+   "ipa": "ʃʁaŋk",
+   "pic": "🚪",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "d30.p.tasche_tisch": {
+   "de": "Die Tasche ist auf dem Tisch.",
+   "en": "The bag is on the table.",
+   "ipa": "diː ˈtaʃə ɪst aʊ̯f deːm tɪʃ",
+   "pic": "👜",
+   "tags": [
+    "case"
+   ]
+  },
+  "d30.p.hund_kissen": {
+   "de": "Der Hund ist auf dem Kissen.",
+   "en": "The dog is on the cushion.",
+   "pic": "🐕",
+   "tags": [
+    "case"
+   ]
+  },
+  "d30.p.bild_wand": {
+   "de": "Das Bild ist an der Wand.",
+   "en": "The picture is on the wall.",
+   "pic": "🖼️",
+   "tags": [
+    "case"
+   ]
+  },
+  "d30.p.neben_frau": {
+   "de": "Der Hund ist neben der Frau.",
+   "en": "The dog is next to the woman.",
+   "pic": "🐕",
+   "tags": [
+    "case"
+   ]
+  },
+  "d30.p.vor_fenster": {
+   "de": "Die Katze sitzt vor dem Fenster.",
+   "en": "The cat is sitting in front of the window.",
+   "pic": "🐱",
+   "tags": [
+    "case"
+   ]
+  },
+  "d30.p.zwischen": {
+   "de": "Die Katze ist zwischen der Pflanze und der Lampe.",
+   "en": "The cat is between the plant and the lamp.",
+   "pic": "🐱",
+   "tags": [
+    "case"
+   ]
+  },
+  "d30.p.ueber_wolken": {
+   "de": "Der Hund ist über den Wolken.",
+   "en": "The dog is above the clouds.",
+   "pic": "☁️",
+   "tags": [
+    "case"
+   ]
+  },
+  "d30.p.unter_kissen": {
+   "de": "Der Hund ist unter dem Kissen.",
+   "en": "The dog is under the cushion.",
+   "pic": "🐕",
+   "tags": [
+    "case"
+   ]
+  },
+  "d30.p.hinter_schrank": {
+   "de": "Die Tasche ist hinter dem Schrank.",
+   "en": "The bag is behind the cupboard.",
+   "pic": "👜",
+   "tags": [
+    "case"
+   ]
+  },
+  "d30.p.im_auto": {
+   "de": "Der Hund ist im Auto.",
+   "en": "The dog is in the car.",
+   "pic": "🚗",
+   "note": "*im* = *in dem*.",
+   "tags": [
+    "case"
+   ]
+  },
+  "d30.p.am_fenster": {
+   "de": "Die Katze ist am Fenster.",
+   "en": "The cat is at the window.",
+   "pic": "🪟",
+   "note": "*am* = *an dem*.",
+   "tags": [
+    "case"
+   ]
+  },
+  "d30.p.wo_handy": {
+   "de": "Wo ist dein Handy?",
+   "en": "Where is your phone?",
+   "pic": "📱",
+   "tags": []
+  },
+  "d30.p.handy_tasche": {
+   "de": "Mein Handy ist in der Tasche.",
+   "en": "My phone is in my bag.",
+   "pic": "👜",
+   "tags": [
+    "case"
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "id": "A",
+   "title": "Wo? auf dem Tisch, an der Wand …",
+   "said": [
+    "d30.p.tasche_tisch",
+    "d30.p.bild_wand",
+    "d30.p.zwischen",
+    "d30.p.im_auto",
+    "d30.p.handy_tasche"
+   ],
+   "steps": [
+    {
+     "type": "video",
+     "title": "Video: prepositions of place with Dativ",
+     "videoId": "2lP-26s27CE",
+     "channel": "YourGermanTeacher (Luzi)",
+     "start": 36,
+     "end": 729,
+     "note": "0:59 Dativ articles · 2:42 the 9 prepositions: 3:33 auf · 4:14 an · 5:01 neben · 5:30 vor · 6:09 hinter · 6:51 zwischen · 7:29 über · 9:21 unter · 9:44 in · 10:21 bonus *im / am* · 11:36 homework."
+    },
+    {
+     "type": "note",
+     "title": "Wo? → Dativ",
+     "md": "When something **is** somewhere (not moving) and you ask **Wo?** (where?), these nine prepositions take the **Dativ**:\n\n**auf, an, neben, vor, hinter, zwischen, über, unter, in**\n\n{de:Wo ist die Tasche?} → {de:Die Tasche ist auf **dem** Tisch.} (*der Tisch* → *dem*)\n\nWith movement (**Wohin?** — where to?) they take the **Akkusativ** instead: {de:über die Brücke} · {de:in die Stadt} — more at A2.\n\nShort forms: **im** = *in dem*, **am** = *an dem* (only for der- and das-words)."
+    },
+    {
+     "type": "phrases",
+     "title": "The nine prepositions",
+     "items": [
+      "w.auf",
+      "w.an",
+      "w.neben",
+      "w.vor",
+      "w.hinter",
+      "w.zwischen",
+      "w.ueber",
+      "w.unter",
+      "w.in"
+     ]
+    },
+    {
+     "type": "phrases",
+     "title": "Where is the dog? (from the video)",
+     "items": [
+      "d30.p.tasche_tisch",
+      "d30.p.hund_kissen",
+      "d30.p.bild_wand",
+      "d30.p.neben_frau",
+      "d30.p.vor_fenster",
+      "d30.p.zwischen",
+      "d30.p.ueber_wolken",
+      "d30.p.unter_kissen",
+      "d30.p.hinter_schrank",
+      "d30.p.im_auto",
+      "d30.p.am_fenster"
+     ]
+    },
+    {
+     "type": "gender",
+     "title": "der, die or das?",
+     "questions": [
+      {
+       "item": "n.kissen"
+      },
+      {
+       "item": "n.wand"
+      },
+      {
+       "item": "n.fenster"
+      },
+      {
+       "item": "n.pflanze"
+      },
+      {
+       "item": "n.schrank"
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Complete",
+     "questions": [
+      {
+       "prompt": "Das Buch liegt auf ___ Tisch.",
+       "options": [
+        "dem",
+        "den",
+        "der"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "case"
+      },
+      {
+       "prompt": "Die Uhr hängt an ___ Wand.",
+       "options": [
+        "der",
+        "die",
+        "dem"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "case"
+      },
+      {
+       "prompt": "Die Katze schläft unter ___ Bett.",
+       "options": [
+        "dem",
+        "das",
+        "der"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "case"
+      },
+      {
+       "prompt": "Der Hund ist ___ Auto. (in + dem)",
+       "options": [
+        "im",
+        "am",
+        "in"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "case"
+      },
+      {
+       "prompt": "🐱 between the plant and the lamp",
+       "options": [
+        "zwischen",
+        "neben",
+        "über"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "case"
+      },
+      {
+       "kind": "listen",
+       "say": "Die Katze sitzt vor dem Fenster.",
+       "item": "d30.p.vor_fenster",
+       "options": [
+        "in front of the window",
+        "behind the window",
+        "next to the window"
+       ],
+       "answer": 0,
+       "tag": "pron"
+      }
+     ]
+    },
+    {
+     "type": "build",
+     "title": "Build the sentence",
+     "questions": [
+      {
+       "en": "The bag is on the table.",
+       "answer": "Die Tasche ist auf dem Tisch.",
+       "extra": [
+        "den"
+       ],
+       "tag": "case",
+       "alts": [
+        "Auf dem Tisch ist die Tasche."
+       ]
+      },
+      {
+       "en": "The picture is on the wall.",
+       "answer": "Das Bild ist an der Wand.",
+       "extra": [
+        "die"
+       ],
+       "tag": "case",
+       "alts": [
+        "An der Wand ist das Bild."
+       ]
+      },
+      {
+       "en": "The cat is at the window.",
+       "answer": "Die Katze ist am Fenster.",
+       "extra": [
+        "an"
+       ],
+       "tag": "case"
+      }
+     ]
+    },
+    {
+     "type": "pattern",
+     "title": "Homework from the video",
+     "prompts": [
+      {
+       "q": "Wo ist dein Handy?",
+       "en": "Where is your phone?",
+       "item": "d30.p.handy_tasche"
+      },
+      {
+       "q": "Wo ist deine Tasche?",
+       "en": "Where is your bag?",
+       "example": "Meine Tasche ist auf dem Stuhl."
+      }
+     ]
+    },
+    {
+     "type": "write",
+     "title": "Practice tip from the video",
+     "prompt": "Put an object on a table and describe where it is with as many prepositions as you can (5 sentences).",
+     "promptEn": "Describe where things in my room are in German, 5 sentences with auf, an, neben, unter, in + Dativ.",
+     "minWords": 20,
+     "checklist": [
+      "Wo? → Dativ (dem / der / dem / den)",
+      "im = in dem, am = an dem",
+      "Verb in position 2"
+     ],
+     "model": "Das Handy ist auf dem Tisch. Der Tisch steht neben dem Fenster. Das Bild hängt an der Wand. Die Tasche ist unter dem Stuhl. Das Buch ist im Schrank."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,593 @@
+{
+ "id": "d27",
+ "title": "Transport",
+ "items": {
+  "n.flugzeug": {
+   "de": "das Flugzeug",
+   "plural": "die Flugzeuge",
+   "gender": "das",
+   "en": "plane",
+   "ipa": "ˈfluːktsɔɪ̯k",
+   "pic": "✈️",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.flughafen": {
+   "de": "der Flughafen",
+   "plural": "die Flughäfen",
+   "gender": "der",
+   "en": "airport",
+   "ipa": "ˈfluːkhaːfn̩",
+   "pic": "🛫",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.fuehrerschein": {
+   "de": "der Führerschein",
+   "plural": "die Führerscheine",
+   "gender": "der",
+   "en": "driving licence",
+   "ipa": "ˈfyːʁɐʃaɪ̯n",
+   "pic": "🪪",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.bahnhof": {
+   "de": "der Bahnhof",
+   "plural": "die Bahnhöfe",
+   "gender": "der",
+   "en": "train station",
+   "ipa": "ˈbaːnhoːf",
+   "pic": "🚉",
+   "note": "*der Hauptbahnhof* (Hbf) = main station.",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.bahn": {
+   "de": "die Bahn",
+   "plural": "die Bahnen",
+   "gender": "die",
+   "en": "railway, train",
+   "ipa": "baːn",
+   "pic": "🚆",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.gleis": {
+   "de": "das Gleis",
+   "plural": "die Gleise",
+   "gender": "das",
+   "en": "track, platform (number)",
+   "ipa": "ɡlaɪ̯s",
+   "pic": "🛤️",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.sbahn": {
+   "de": "die S-Bahn",
+   "plural": "die S-Bahnen",
+   "gender": "die",
+   "en": "suburban train",
+   "ipa": "ˈɛsbaːn",
+   "pic": "🚈",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.ubahn": {
+   "de": "die U-Bahn",
+   "plural": "die U-Bahnen",
+   "gender": "die",
+   "en": "underground, subway",
+   "ipa": "ˈuːbaːn",
+   "pic": "🚇",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.bus": {
+   "de": "der Bus",
+   "plural": "die Busse",
+   "gender": "der",
+   "en": "bus",
+   "ipa": "bʊs",
+   "pic": "🚌",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.haltestelle": {
+   "de": "die Haltestelle",
+   "plural": "die Haltestellen",
+   "gender": "die",
+   "en": "stop (bus, tram)",
+   "ipa": "ˈhaltəˌʃtɛlə",
+   "pic": "🚏",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.taxi2": {
+   "de": "das Taxi",
+   "plural": "die Taxis",
+   "gender": "das",
+   "en": "taxi",
+   "ipa": "ˈtaksi",
+   "pic": "🚕",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.fahrrad": {
+   "de": "das Fahrrad",
+   "plural": "die Fahrräder",
+   "gender": "das",
+   "en": "bicycle",
+   "ipa": "ˈfaːɐ̯ʁaːt",
+   "pic": "🚲",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.schiff": {
+   "de": "das Schiff",
+   "plural": "die Schiffe",
+   "gender": "das",
+   "en": "ship",
+   "ipa": "ʃɪf",
+   "pic": "🚢",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.motorrad": {
+   "de": "das Motorrad",
+   "plural": "die Motorräder",
+   "gender": "das",
+   "en": "motorbike",
+   "ipa": "ˈmoːtoːɐ̯ʁaːt",
+   "pic": "🏍️",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.fahrkarte": {
+   "de": "die Fahrkarte",
+   "plural": "die Fahrkarten",
+   "gender": "die",
+   "en": "ticket",
+   "ipa": "ˈfaːɐ̯kaʁtə",
+   "pic": "🎫",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "v.einsteigen": {
+   "de": "einsteigen",
+   "en": "to get on",
+   "ipa": "ˈaɪ̯nʃtaɪ̯ɡn̩",
+   "pic": "⬆️",
+   "tags": [
+    "order"
+   ]
+  },
+  "v.aussteigen": {
+   "de": "aussteigen",
+   "en": "to get off",
+   "ipa": "ˈaʊ̯sʃtaɪ̯ɡn̩",
+   "pic": "⬇️",
+   "tags": [
+    "order"
+   ]
+  },
+  "v.umsteigen": {
+   "de": "umsteigen",
+   "en": "to change (trains)",
+   "ipa": "ˈʊmʃtaɪ̯ɡn̩",
+   "pic": "🔁",
+   "tags": [
+    "order"
+   ]
+  },
+  "d27.p.fliege": {
+   "de": "Ich fliege morgen nach Deutschland.",
+   "en": "I'm flying to Germany tomorrow.",
+   "pic": "✈️",
+   "tags": [
+    "order"
+   ]
+  },
+  "d27.p.frankfurt": {
+   "de": "Ich komme um acht Uhr in Frankfurt an.",
+   "en": "I arrive in Frankfurt at eight.",
+   "pic": "🛬",
+   "tags": [
+    "order"
+   ]
+  },
+  "d27.p.wagen_mieten": {
+   "de": "Guten Tag, ich möchte einen Wagen mieten.",
+   "en": "Hello, I'd like to rent a car.",
+   "pic": "🚗",
+   "note": "*der Wagen* = *das Auto*.",
+   "tags": [
+    "case"
+   ]
+  },
+  "d27.p.zug_muenchen": {
+   "de": "Wo fährt der Zug nach München ab?",
+   "en": "Where does the train to Munich leave from?",
+   "pic": "🚆",
+   "tags": [
+    "order"
+   ]
+  },
+  "d27.p.gleis_18": {
+   "de": "Auf Gleis achtzehn.",
+   "en": "From platform 18.",
+   "pic": "🛤️",
+   "tags": [
+    "num"
+   ]
+  },
+  "d27.p.nicht_einsteigen": {
+   "de": "Bitte nicht einsteigen. Dieser Zug endet hier.",
+   "en": "Please don't get on. This train terminates here.",
+   "pic": "📢",
+   "tags": [
+    "order"
+   ]
+  },
+  "d27.p.naechster_halt": {
+   "de": "Nächster Halt: München Hauptbahnhof.",
+   "en": "Next stop: Munich main station.",
+   "pic": "📢",
+   "tags": []
+  },
+  "d27.p.aussteigen": {
+   "de": "Entschuldigung, ich muss hier aussteigen.",
+   "en": "Excuse me, I need to get off here.",
+   "pic": "⬇️",
+   "tags": [
+    "order"
+   ]
+  },
+  "d27.p.welche_linie": {
+   "de": "Welche Linie fährt zum Marienplatz?",
+   "en": "Which line goes to Marienplatz?",
+   "pic": "🗺️",
+   "tags": [
+    "case"
+   ]
+  },
+  "d27.p.umsteigen": {
+   "de": "Nein, Sie müssen einmal umsteigen.",
+   "en": "No, you have to change once.",
+   "pic": "🔁",
+   "tags": [
+    "order"
+   ]
+  },
+  "d27.p.taxi_preis": {
+   "de": "Wie viel kostet das ungefähr?",
+   "en": "Roughly how much does it cost?",
+   "pic": "💶",
+   "tags": []
+  },
+  "d27.p.zu_fuss": {
+   "de": "Sie können zu Fuß gehen. Das ist nicht weit.",
+   "en": "You can walk. It isn't far.",
+   "pic": "🚶",
+   "tags": [
+    "order"
+   ]
+  },
+  "d27.p.fahrkarten_bitte": {
+   "de": "Die Fahrkarten, bitte!",
+   "en": "Tickets, please!",
+   "pic": "🎫",
+   "tags": []
+  },
+  "d27.p.am_schnellsten": {
+   "de": "Wie komme ich am schnellsten zum Alexanderplatz?",
+   "en": "What's the quickest way to Alexanderplatz?",
+   "pic": "⚡",
+   "tags": [
+    "case"
+   ]
+  },
+  "d27.p.naechste_haltestelle": {
+   "de": "Wo ist hier die nächste Bushaltestelle?",
+   "en": "Where's the nearest bus stop?",
+   "pic": "🚏",
+   "tags": []
+  },
+  "d27.p.mit_dem_bus": {
+   "de": "Ich fahre mit dem Bus.",
+   "en": "I'm going by bus.",
+   "ipa": "ɪç ˈfaːʁə mɪt deːm bʊs",
+   "pic": "🚌",
+   "tags": [
+    "case"
+   ]
+  },
+  "d27.p.mit_der_bahn": {
+   "de": "Wir fahren mit der U-Bahn.",
+   "en": "We're going by underground.",
+   "pic": "🚇",
+   "tags": [
+    "case"
+   ]
+  },
+  "d27.p.mit_dem_fahrrad": {
+   "de": "Sie fährt mit dem Fahrrad zur Arbeit.",
+   "en": "She cycles to work.",
+   "pic": "🚲",
+   "tags": [
+    "case"
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "id": "A",
+   "title": "Plane, train, bus …",
+   "said": [
+    "d27.p.zug_muenchen",
+    "d27.p.aussteigen",
+    "d27.p.umsteigen",
+    "d27.p.mit_dem_bus",
+    "d27.p.naechste_haltestelle"
+   ],
+   "steps": [
+    {
+     "type": "video",
+     "title": "Video: transport in Germany",
+     "videoId": "xE57KB9xs-g",
+     "channel": "YourGermanTeacher (Johannes)",
+     "start": 0,
+     "end": 715,
+     "note": "Chapters: 0:32 plane · 1:35 car rental · 2:25 train station · 4:33 S-Bahn, tram, U-Bahn · 7:03 bus and taxi · 7:53 bike, on foot · 8:47 ship · 9:50 scooter, motorbike, truck · 10:20 tips (buy your ticket **before** you get on!)."
+    },
+    {
+     "type": "phrases",
+     "title": "Vehicles and places",
+     "items": [
+      "n.flugzeug",
+      "n.flughafen",
+      "n.fuehrerschein",
+      "n.bahnhof",
+      "n.bahn",
+      "n.zug",
+      "n.gleis",
+      "n.sbahn",
+      "n.ubahn",
+      "n.strassenbahn",
+      "n.bus",
+      "n.haltestelle",
+      "n.taxi2",
+      "n.fahrrad",
+      "n.schiff",
+      "n.motorrad",
+      "n.fahrkarte"
+     ]
+    },
+    {
+     "type": "phrases",
+     "title": "Getting on, off and changing",
+     "intro": "All separable (lesson 25): *Ich steige hier aus.*",
+     "items": [
+      "v.einsteigen",
+      "v.aussteigen",
+      "v.umsteigen",
+      "v.ankommen",
+      "v.abfahren"
+     ]
+    },
+    {
+     "type": "phrases",
+     "title": "Sentences from the video",
+     "items": [
+      "d27.p.fliege",
+      "d27.p.frankfurt",
+      "d27.p.wagen_mieten",
+      "d27.p.zug_muenchen",
+      "d27.p.gleis_18",
+      "d27.p.nicht_einsteigen",
+      "d27.p.naechster_halt",
+      "d27.p.aussteigen",
+      "d27.p.welche_linie",
+      "d27.p.umsteigen",
+      "d27.p.taxi_preis",
+      "d27.p.zu_fuss",
+      "d27.p.fahrkarten_bitte",
+      "d27.p.am_schnellsten",
+      "d27.p.naechste_haltestelle"
+     ]
+    },
+    {
+     "type": "note",
+     "title": "„mit dem Bus“ — how you travel",
+     "md": "To say **how** you travel, use **mit** + the vehicle. After *mit* comes the **Dativ** (lesson 29): *der/das* → **dem**, *die* → **der**.\n\n- {de:Ich fahre mit dem Bus.} (der Bus)\n- {de:Sie fährt mit dem Fahrrad zur Arbeit.} (das Fahrrad)\n- {de:Wir fahren mit der U-Bahn.} (die U-Bahn)\n\nOn foot is different: {de:zu Fuß gehen}.\n\n**nach** + country / city (*nach Deutschland, nach Berlin*; countries with an article: *in die Schweiz, in die Türkei*), **zum / zur** + other places (*zum Bahnhof, zur Arbeit*)."
+    },
+    {
+     "type": "phrases",
+     "title": "mit dem … / mit der …",
+     "items": [
+      "d27.p.mit_dem_bus",
+      "d27.p.mit_der_bahn",
+      "d27.p.mit_dem_fahrrad"
+     ]
+    },
+    {
+     "type": "gender",
+     "title": "der, die or das?",
+     "questions": [
+      {
+       "item": "n.flugzeug"
+      },
+      {
+       "item": "n.bahnhof"
+      },
+      {
+       "item": "n.haltestelle"
+      },
+      {
+       "item": "n.fahrrad"
+      },
+      {
+       "item": "n.gleis"
+      },
+      {
+       "item": "n.fahrkarte"
+      },
+      {
+       "item": "n.bus"
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "What do you say?",
+     "questions": [
+      {
+       "prompt": "You want to know where your train to Munich leaves from.",
+       "options": [
+        "Wo fährt der Zug nach München ab?",
+        "Wo kommt der Zug in München an?",
+        "Wann steige ich aus?"
+       ],
+       "answer": 0,
+       "deOptions": true
+      },
+      {
+       "prompt": "The train is full and you need to get off.",
+       "options": [
+        "Entschuldigung, ich muss hier aussteigen.",
+        "Bitte nicht einsteigen.",
+        "Ich muss umsteigen."
+       ],
+       "answer": 0,
+       "deOptions": true
+      },
+      {
+       "prompt": "Ich fahre mit ___ U-Bahn.",
+       "options": [
+        "der",
+        "dem",
+        "die"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "case",
+       "explain": "*die U-Bahn* → after *mit*: **der**."
+      },
+      {
+       "prompt": "Ich fahre mit ___ Zug.",
+       "options": [
+        "dem",
+        "der",
+        "den"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "case"
+      },
+      {
+       "kind": "listen",
+       "say": "Nein, Sie müssen einmal umsteigen.",
+       "item": "d27.p.umsteigen",
+       "options": [
+        "No, you have to change once.",
+        "No, you have to get off here.",
+        "No, the train doesn't stop here."
+       ],
+       "answer": 0,
+       "tag": "pron"
+      }
+     ]
+    },
+    {
+     "type": "build",
+     "title": "Build the sentence",
+     "questions": [
+      {
+       "en": "Excuse me, I need to get off here.",
+       "answer": "Entschuldigung, ich muss hier aussteigen.",
+       "tag": "order",
+       "alts": [
+        "Entschuldigung, hier muss ich aussteigen."
+       ]
+      },
+      {
+       "en": "I'm going by bus.",
+       "answer": "Ich fahre mit dem Bus.",
+       "extra": [
+        "der"
+       ],
+       "tag": "case",
+       "alts": [
+        "Mit dem Bus fahre ich."
+       ]
+      },
+      {
+       "en": "Where's the nearest bus stop?",
+       "answer": "Wo ist hier die nächste Bushaltestelle?",
+       "tag": "order"
+      }
+     ]
+    },
+    {
+     "type": "pattern",
+     "title": "How do you travel?",
+     "prompts": [
+      {
+       "q": "Wie fährst du zur Arbeit?",
+       "en": "How do you get to work?",
+       "example": "Ich fahre mit dem Bus zur Arbeit."
+      },
+      {
+       "q": "Wie kommst du zum Deutschkurs?",
+       "en": "How do you get to German class?",
+       "example": "Ich gehe zu Fuß. Das ist nicht weit."
+      }
+     ]
+    },
+    {
+     "type": "write",
+     "title": "Short writing",
+     "prompt": "Describe a trip: how you go to work or school, and a trip to another city (vehicle, change, arrival time).",
+     "promptEn": "Describe in German how I travel to work and a trip to another city: vehicle (mit dem/der …), changing trains, arrival time. 4-5 sentences.",
+     "minWords": 20,
+     "checklist": [
+      "mit dem (der/das) / mit der (die)",
+      "nach + city, zum/zur + place",
+      "Separable verbs: Ich steige … um / komme … an"
+     ],
+     "model": "Ich fahre mit dem Bus zur Arbeit. Am Samstag fahre ich mit dem Zug nach Berlin. In Hannover steige ich um. Ich komme um drei Uhr in Berlin an."
+    }
+   ]
+  }
+ ]
+}

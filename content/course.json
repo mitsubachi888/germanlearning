@@ -422,7 +422,8 @@
    "src": "ygt",
    "video": "xE57KB9xs-g",
    "len": 755,
-   "sessions": 1
+   "sessions": 1,
+   "file": true
   },
   {
    "id": "d28",
@@ -435,7 +436,8 @@
    "src": "ygt",
    "video": "JKk5vVRvqlc",
    "len": 1073,
-   "sessions": 2
+   "sessions": 2,
+   "file": true
   },
   {
    "id": "d29",
@@ -448,7 +450,8 @@
    "src": "ygt",
    "video": "G-dgLzu18EU",
    "len": 873,
-   "sessions": 1
+   "sessions": 1,
+   "file": true
   },
   {
    "id": "d30",
@@ -461,7 +464,8 @@
    "src": "ygt",
    "video": "2lP-26s27CE",
    "len": 754,
-   "sessions": 1
+   "sessions": 1,
+   "file": true
   },
   {
    "id": "d31",
@@ -474,7 +478,8 @@
    "src": "ygt",
    "video": "Ox0t6uz-iiU",
    "len": 816,
-   "sessions": 1
+   "sessions": 1,
+   "file": true
   },
   {
    "id": "d32",
@@ -487,7 +492,8 @@
    "src": "ygt",
    "video": "PGQhyX1NWes",
    "len": 508,
-   "sessions": 1
+   "sessions": 1,
+   "file": true
   },
   {
    "id": "d33",
@@ -500,7 +506,8 @@
    "src": "ygt",
    "video": "Mty5HjzgNOc",
    "len": 1118,
-   "sessions": 2
+   "sessions": 2,
+   "file": true
   },
   {
    "id": "d34",
@@ -513,7 +520,8 @@
    "src": "ygt",
    "video": "cWFjOK9sfBw",
    "len": 1211,
-   "sessions": 2
+   "sessions": 2,
+   "file": true
   },
   {
    "id": "d35",
@@ -526,7 +534,8 @@
    "src": "ygt",
    "video": "5vG9ofF0EHk",
    "len": 870,
-   "sessions": 1
+   "sessions": 1,
+   "file": true
   },
   {
    "id": "d36",
@@ -539,7 +548,8 @@
    "src": "ygt",
    "video": "g0Zo17VXDAA",
    "len": 574,
-   "sessions": 1
+   "sessions": 1,
+   "file": true
   },
   {
    "id": "d37",
@@ -552,7 +562,8 @@
    "src": "ygt",
    "video": "31NBABygZAU",
    "len": 838,
-   "sessions": 1
+   "sessions": 1,
+   "file": true
   },
   {
    "id": "m3",
@@ -566,7 +577,8 @@
    "src": "max",
    "video": "mNX1wpIQ4Uk",
    "len": 1502,
-   "sessions": 1
+   "sessions": 2,
+   "file": true
   }
  ]
 }

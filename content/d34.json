@@ -1,0 +1,561 @@
+{
+ "id": "d34",
+ "title": "Perfekt with haben",
+ "items": {
+  "d34.p.gestern_gelernt": {
+   "de": "Gestern habe ich Deutsch gelernt.",
+   "en": "Yesterday I studied German.",
+   "ipa": "ˈɡɛstɐn ˈhaːbə ɪç dɔɪ̯tʃ ɡəˈlɛʁnt",
+   "pic": "📚",
+   "tags": [
+    "verb",
+    "order"
+   ]
+  },
+  "d34.p.gemacht": {
+   "de": "Was hast du gestern gemacht?",
+   "en": "What did you do yesterday?",
+   "ipa": "vas hast duː ˈɡɛstɐn ɡəˈmaxt",
+   "pic": "❓",
+   "tags": [
+    "verb",
+    "order"
+   ]
+  },
+  "d34.p.gekauft": {
+   "de": "Ich habe Brot gekauft.",
+   "en": "I bought bread.",
+   "pic": "🍞",
+   "tags": [
+    "verb",
+    "order"
+   ]
+  },
+  "d34.p.gespielt": {
+   "de": "Wir haben Fußball gespielt.",
+   "en": "We played football.",
+   "pic": "⚽",
+   "tags": [
+    "verb",
+    "order"
+   ]
+  },
+  "d34.p.gearbeitet": {
+   "de": "Er hat lange gearbeitet.",
+   "en": "He worked for a long time.",
+   "pic": "💼",
+   "note": "Stem in *-t / -d* → *ge…et*: *gearbeitet*.",
+   "tags": [
+    "verb",
+    "order"
+   ]
+  },
+  "d34.p.gewohnt": {
+   "de": "Ich habe in Taschkent gewohnt.",
+   "en": "I lived in Tashkent.",
+   "pic": "🏙️",
+   "tags": [
+    "verb",
+    "order"
+   ]
+  },
+  "d34.p.telefoniert": {
+   "de": "Ich habe mit meiner Mutter telefoniert.",
+   "en": "I spoke to my mother on the phone.",
+   "pic": "📞",
+   "note": "*-ieren* verbs: no *ge-*.",
+   "tags": [
+    "verb",
+    "order"
+   ]
+  },
+  "d34.p.studiert": {
+   "de": "Was hast du an der Uni studiert?",
+   "en": "What did you study at university?",
+   "pic": "🎓",
+   "tags": [
+    "verb",
+    "order"
+   ]
+  },
+  "d34.p.gegessen": {
+   "de": "Ich habe eine Pizza gegessen.",
+   "en": "I ate a pizza.",
+   "pic": "🍕",
+   "tags": [
+    "verb",
+    "order"
+   ]
+  },
+  "d34.p.getrunken": {
+   "de": "Sie hat einen Tee getrunken.",
+   "en": "She drank a tea.",
+   "pic": "🍵",
+   "tags": [
+    "verb",
+    "order"
+   ]
+  },
+  "d34.p.gesehen": {
+   "de": "Wir haben einen Film gesehen.",
+   "en": "We watched a film.",
+   "pic": "🎬",
+   "tags": [
+    "verb",
+    "order"
+   ]
+  },
+  "d34.p.gelesen": {
+   "de": "Hast du das Buch gelesen?",
+   "en": "Have you read the book?",
+   "pic": "📖",
+   "tags": [
+    "verb",
+    "order"
+   ]
+  },
+  "d34.p.geschrieben": {
+   "de": "Ich habe eine E-Mail geschrieben.",
+   "en": "I wrote an email.",
+   "pic": "📧",
+   "tags": [
+    "verb",
+    "order"
+   ]
+  },
+  "d34.p.geschlafen": {
+   "de": "Ich habe gut geschlafen.",
+   "en": "I slept well.",
+   "pic": "😴",
+   "tags": [
+    "verb",
+    "order"
+   ]
+  },
+  "d34.p.eingekauft": {
+   "de": "Am Samstag habe ich eingekauft.",
+   "en": "On Saturday I went shopping.",
+   "pic": "🛒",
+   "tags": [
+    "verb",
+    "order"
+   ]
+  },
+  "d34.p.angerufen": {
+   "de": "Hast du mich angerufen?",
+   "en": "Did you call me?",
+   "pic": "📞",
+   "tags": [
+    "verb",
+    "order"
+   ]
+  },
+  "d34.p.aufgemacht": {
+   "de": "Er hat die Tür aufgemacht.",
+   "en": "He opened the door.",
+   "pic": "🚪",
+   "tags": [
+    "verb",
+    "order"
+   ]
+  },
+  "d34.p.bezahlt": {
+   "de": "Ich habe schon bezahlt.",
+   "en": "I've already paid.",
+   "pic": "💳",
+   "note": "*be-, er-, ver-* verbs: no *ge-*.",
+   "tags": [
+    "verb",
+    "order"
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "id": "A",
+   "title": "ge-…-t: regular verbs",
+   "said": [
+    "d34.p.gemacht",
+    "d34.p.gestern_gelernt",
+    "d34.p.gekauft",
+    "d34.p.gearbeitet",
+    "d34.p.telefoniert"
+   ],
+   "steps": [
+    {
+     "type": "video",
+     "title": "Video: the Perfekt with haben (part 1)",
+     "videoId": "cWFjOK9sfBw",
+     "channel": "YourGermanTeacher (Luzi)",
+     "start": 0,
+     "end": 571,
+     "note": "Chapters: 1:54 when to use the Perfekt · 2:52 when to use *haben* · 3:57 how to form the past participle · 4:26 regular verbs · 8:17 verbs in *-ieren*.\n\nThis video has no usable subtitles — follow the slides on screen. The examples in this lesson are standard German for the same rules."
+    },
+    {
+     "type": "note",
+     "title": "The Perfekt: how Germans talk about the past",
+     "md": "In **spoken** German the Perfekt is *the* past tense: {de:Was hast du gestern gemacht?} = What **did** you do yesterday?\n\n**haben** (conjugated, position 2) + **past participle** (at the end):\n\n{de:Ich **habe** Deutsch **gelernt**.} · {de:Gestern **habe** ich Deutsch **gelernt**.}\n\nMost verbs use **haben** — especially verbs with an Akkusativ object. (A few use *sein* → lesson 35.)"
+    },
+    {
+     "type": "table",
+     "title": "Regular verbs: ge + stem + t",
+     "skipFirst": true,
+     "cols": [
+      "verb",
+      "past participle",
+      "example"
+     ],
+     "rows": [
+      [
+       "machen",
+       "ge|mach|t",
+       "Ich habe … gemacht."
+      ],
+      [
+       "lernen",
+       "ge|lern|t",
+       "Ich habe Deutsch gelernt."
+      ],
+      [
+       "kaufen",
+       "ge|kauf|t",
+       "Ich habe Brot gekauft."
+      ],
+      [
+       "spielen",
+       "ge|spiel|t",
+       "Wir haben gespielt."
+      ],
+      [
+       "arbeiten",
+       "ge|arbeit|et",
+       "Er hat gearbeitet."
+      ],
+      [
+       "telefonieren",
+       "telefonier|t",
+       "Ich habe telefoniert."
+      ],
+      [
+       "studieren",
+       "studier|t",
+       "Was hast du studiert?"
+      ]
+     ],
+     "note": "Stem in *-t / -d* → **-et**. Verbs in **-ieren** get **no ge-**."
+    },
+    {
+     "type": "phrases",
+     "title": "Examples",
+     "items": [
+      "d34.p.gemacht",
+      "d34.p.gestern_gelernt",
+      "d34.p.gekauft",
+      "d34.p.gespielt",
+      "d34.p.gearbeitet",
+      "d34.p.gewohnt",
+      "d34.p.telefoniert",
+      "d34.p.studiert"
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Choose the past participle",
+     "questions": [
+      {
+       "prompt": "kaufen → Ich habe Brot ___.",
+       "options": [
+        "gekauft",
+        "gekaufen",
+        "kauft"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "verb"
+      },
+      {
+       "prompt": "arbeiten → Er hat lange ___.",
+       "options": [
+        "gearbeitet",
+        "gearbeitt",
+        "arbeitet"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "verb"
+      },
+      {
+       "prompt": "telefonieren → Ich habe ___.",
+       "options": [
+        "telefoniert",
+        "getelefoniert",
+        "telefonieren"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "verb"
+      },
+      {
+       "prompt": "Which word order is right?",
+       "options": [
+        "Ich habe gestern Tennis gespielt.",
+        "Ich habe gespielt gestern Tennis.",
+        "Ich gestern habe Tennis gespielt."
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "order"
+      }
+     ]
+    },
+    {
+     "type": "build",
+     "title": "Build the sentence",
+     "questions": [
+      {
+       "en": "What did you do yesterday?",
+       "answer": "Was hast du gestern gemacht?",
+       "tag": "order"
+      },
+      {
+       "en": "Yesterday I studied German.",
+       "answer": "Gestern habe ich Deutsch gelernt.",
+       "alts": [
+        "Ich habe gestern Deutsch gelernt."
+       ],
+       "tag": "order"
+      },
+      {
+       "en": "I spoke to my mother on the phone.",
+       "answer": "Ich habe mit meiner Mutter telefoniert.",
+       "extra": [
+        "getelefoniert"
+       ],
+       "tag": "verb",
+       "alts": [
+        "Mit meiner Mutter habe ich telefoniert."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "shadow",
+     "title": "Listen and repeat",
+     "items": [
+      "d34.p.gemacht",
+      "d34.p.gestern_gelernt",
+      "d34.p.gearbeitet",
+      "d34.p.telefoniert"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B",
+   "title": "Irregular and separable verbs",
+   "said": [
+    "d34.p.gegessen",
+    "d34.p.gesehen",
+    "d34.p.geschlafen",
+    "d34.p.eingekauft",
+    "d34.p.angerufen"
+   ],
+   "steps": [
+    {
+     "type": "video",
+     "title": "Video: the Perfekt with haben (part 2)",
+     "videoId": "cWFjOK9sfBw",
+     "channel": "YourGermanTeacher (Luzi)",
+     "start": 571,
+     "end": 1194,
+     "note": "Chapters: 9:31 irregular verbs · 12:08 separable verbs · 13:27 sentence structure · 16:00 homework · 16:25 bonus tip (*hatte*; verbs without *ge-*)."
+    },
+    {
+     "type": "table",
+     "title": "Irregular verbs: ge + (new) stem + en",
+     "skipFirst": true,
+     "intro": "These have to be learned by heart — the stem often changes.",
+     "cols": [
+      "verb",
+      "past participle"
+     ],
+     "rows": [
+      [
+       "essen",
+       "gegessen"
+      ],
+      [
+       "trinken",
+       "getrunken"
+      ],
+      [
+       "sehen",
+       "gesehen"
+      ],
+      [
+       "lesen",
+       "gelesen"
+      ],
+      [
+       "schreiben",
+       "geschrieben"
+      ],
+      [
+       "schlafen",
+       "geschlafen"
+      ],
+      [
+       "finden",
+       "gefunden"
+      ],
+      [
+       "nehmen",
+       "genommen"
+      ]
+     ]
+    },
+    {
+     "type": "phrases",
+     "title": "Irregular verbs",
+     "items": [
+      "d34.p.gegessen",
+      "d34.p.getrunken",
+      "d34.p.gesehen",
+      "d34.p.gelesen",
+      "d34.p.geschrieben",
+      "d34.p.geschlafen"
+     ]
+    },
+    {
+     "type": "note",
+     "title": "Separable verbs and verbs without ge-",
+     "md": "**Separable verbs** (lesson 25): *ge-* goes **between** the prefix and the verb:\n\n- {de:einkaufen → ein**ge**kauft} · {de:aufmachen → auf**ge**macht} · {de:anrufen → an**ge**rufen}\n\n**No ge-** with *-ieren* verbs and with the prefixes **be-, er-, ver-, ent-, emp-**:\n\n- {de:bezahlen → bezahlt} · {de:erklären → erklärt} · {de:verkaufen → verkauft}\n\nSentence structure: {de:Hast du mich angerufen?} — *haben* first (yes/no question), participle at the end."
+    },
+    {
+     "type": "phrases",
+     "title": "Separable verbs and no ge-",
+     "items": [
+      "d34.p.eingekauft",
+      "d34.p.angerufen",
+      "d34.p.aufgemacht",
+      "d34.p.bezahlt"
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Choose the past participle",
+     "questions": [
+      {
+       "prompt": "essen → Ich habe eine Pizza ___.",
+       "options": [
+        "gegessen",
+        "geesst",
+        "gessen"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "verb"
+      },
+      {
+       "prompt": "einkaufen → Wir haben ___.",
+       "options": [
+        "eingekauft",
+        "geeinkauft",
+        "einkaufen"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "verb"
+      },
+      {
+       "prompt": "bezahlen → Ich habe schon ___.",
+       "options": [
+        "bezahlt",
+        "gebezahlt",
+        "bezahlen"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "verb"
+      },
+      {
+       "prompt": "schreiben → Sie hat einen Brief ___.",
+       "options": [
+        "geschrieben",
+        "geschreibt",
+        "schrieben"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "verb"
+      },
+      {
+       "prompt": "anrufen → Hast du mich ___?",
+       "options": [
+        "angerufen",
+        "geanrufen",
+        "anrufen"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "verb"
+      }
+     ]
+    },
+    {
+     "type": "build",
+     "title": "Build the sentence",
+     "questions": [
+      {
+       "en": "We watched a film.",
+       "answer": "Wir haben einen Film gesehen.",
+       "tag": "order"
+      },
+      {
+       "en": "On Saturday I went shopping.",
+       "answer": "Am Samstag habe ich eingekauft.",
+       "alts": [
+        "Ich habe am Samstag eingekauft."
+       ],
+       "tag": "order"
+      },
+      {
+       "en": "Did you call me?",
+       "answer": "Hast du mich angerufen?",
+       "tag": "order"
+      }
+     ]
+    },
+    {
+     "type": "pattern",
+     "title": "Homework: yesterday",
+     "prompts": [
+      {
+       "q": "Was hast du gestern gemacht?",
+       "en": "What did you do yesterday?",
+       "example": "Ich habe gearbeitet und am Abend einen Film gesehen."
+      },
+      {
+       "q": "Was hast du heute gegessen?",
+       "en": "What did you eat today?",
+       "example": "Ich habe Brot gegessen und Tee getrunken."
+      }
+     ]
+    },
+    {
+     "type": "write",
+     "title": "Short writing",
+     "prompt": "Write about yesterday: 5 sentences in the Perfekt with haben (what you did, ate, bought, watched …).",
+     "promptEn": "Write 5 German sentences about yesterday in the Perfekt with haben (regular, irregular and separable verbs).",
+     "minWords": 20,
+     "checklist": [
+      "haben in position 2",
+      "Participle at the very end",
+      "ge…t / ge…en / ein-ge-kauft"
+     ],
+     "model": "Gestern habe ich lange gearbeitet. Dann habe ich eingekauft. Am Abend habe ich Plov gekocht. Wir haben zusammen gegessen. Danach habe ich ein Buch gelesen."
+    }
+   ]
+  }
+ ]
+}

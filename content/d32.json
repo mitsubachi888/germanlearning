@@ -1,0 +1,359 @@
+{
+ "id": "d32",
+ "title": "müssen",
+ "items": {
+  "v.muessen": {
+   "de": "müssen",
+   "en": "to have to",
+   "ipa": "ˈmʏsn̩",
+   "pic": "📌",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d32.p.kant": {
+   "de": "Ich kann, weil ich will, was ich muss.",
+   "en": "I can because I want what I must.",
+   "pic": "🎓",
+   "note": "Often attributed to the philosopher Immanuel Kant — three modal verbs in one sentence.",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d32.p.hart_trainieren": {
+   "de": "Profisportler müssen hart trainieren.",
+   "en": "Professional athletes have to train hard.",
+   "pic": "🏋️",
+   "tags": [
+    "verb",
+    "order"
+   ]
+  },
+  "d32.p.sofort_essen": {
+   "de": "Wir müssen sofort etwas essen.",
+   "en": "We have to eat something right now.",
+   "pic": "🍽️",
+   "tags": [
+    "verb",
+    "order"
+   ]
+  },
+  "d32.p.grammatik": {
+   "de": "Muss ich Grammatik lernen?",
+   "en": "Do I have to learn grammar?",
+   "pic": "📘",
+   "tags": [
+    "verb",
+    "order"
+   ]
+  },
+  "d32.p.ja_musst_du": {
+   "de": "Ja, das musst du.",
+   "en": "Yes, you have to.",
+   "pic": "✅",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d32.p.zu_hause_bleiben": {
+   "de": "Er muss heute zu Hause bleiben.",
+   "en": "He has to stay at home today.",
+   "pic": "🏠",
+   "tags": [
+    "verb",
+    "order"
+   ]
+  },
+  "d32.p.helm": {
+   "de": "Muss ich einen Helm tragen?",
+   "en": "Do I have to wear a helmet?",
+   "pic": "⛑️",
+   "tags": [
+    "verb",
+    "order"
+   ]
+  },
+  "d32.p.leise": {
+   "de": "In einer Bibliothek musst du leise sein.",
+   "en": "You have to be quiet in a library.",
+   "pic": "🤫",
+   "tags": [
+    "verb",
+    "order"
+   ]
+  },
+  "d32.p.bestellen": {
+   "de": "Hier müssen Sie etwas bestellen.",
+   "en": "You have to order something here.",
+   "pic": "☕",
+   "tags": [
+    "verb",
+    "order"
+   ]
+  },
+  "d32.p.morgen_arbeiten": {
+   "de": "Musst du morgen arbeiten?",
+   "en": "Do you have to work tomorrow?",
+   "pic": "💼",
+   "tags": [
+    "verb",
+    "order"
+   ]
+  },
+  "d32.p.flughafen": {
+   "de": "Wir müssen zum Flughafen.",
+   "en": "We have to go to the airport.",
+   "pic": "✈️",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d32.p.nach_hause": {
+   "de": "Ich muss nach Hause.",
+   "en": "I have to go home.",
+   "ipa": "ɪç mʊs naːx ˈhaʊ̯zə",
+   "pic": "🏠",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d32.p.muss_nicht": {
+   "de": "Er muss heute nicht arbeiten.",
+   "en": "He doesn't have to work today.",
+   "pic": "🏖️",
+   "note": "*nicht müssen* = **not have to** — not *must not*!",
+   "tags": [
+    "verb",
+    "order"
+   ]
+  },
+  "d32.p.braucht_nicht": {
+   "de": "Er braucht heute nicht zu arbeiten.",
+   "en": "He doesn't need to work today.",
+   "pic": "🏖️",
+   "tags": [
+    "verb",
+    "order"
+   ]
+  },
+  "d32.p.was_musst_du": {
+   "de": "Was musst du morgen machen?",
+   "en": "What do you have to do tomorrow?",
+   "pic": "📝",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d32.p.einkaufen": {
+   "de": "Morgen muss ich einkaufen.",
+   "en": "Tomorrow I have to go shopping.",
+   "pic": "🛒",
+   "tags": [
+    "verb",
+    "order"
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "id": "A",
+   "title": "ich muss … + verb at the end",
+   "said": [
+    "d32.p.nach_hause",
+    "d32.p.morgen_arbeiten",
+    "d32.p.helm",
+    "d32.p.muss_nicht",
+    "d32.p.einkaufen"
+   ],
+   "steps": [
+    {
+     "type": "video",
+     "title": "Video: the modal verb müssen",
+     "videoId": "PGQhyX1NWes",
+     "channel": "YourGermanTeacher (Luzi)",
+     "start": 13,
+     "end": 495,
+     "note": "0:26 a famous quote · 1:42 *müssen* = *have to* · 2:13 conjugation · 2:45 four situations (necessity, rule, order, duty) · 5:26 *müssen* without a second verb · 6:38 bonus: *nicht brauchen zu* · 7:48 homework."
+    },
+    {
+     "type": "table",
+     "title": "müssen",
+     "cols": [
+      "",
+      "müssen"
+     ],
+     "rows": [
+      [
+       "ich",
+       "muss"
+      ],
+      [
+       "du",
+       "musst"
+      ],
+      [
+       "er/sie/es",
+       "muss"
+      ],
+      [
+       "wir",
+       "müssen"
+      ],
+      [
+       "ihr",
+       "müsst"
+      ],
+      [
+       "sie/Sie",
+       "müssen"
+      ]
+     ],
+     "note": "Like *können*: no ending with *ich* and *er*, and no umlaut in the singular. Same sentence structure: *müssen* in position 2, the other verb **at the end**."
+    },
+    {
+     "type": "note",
+     "title": "Careful: „nicht müssen“ ≠ „must not“",
+     "md": "Translate *müssen* as **have to**:\n\n- {de:Ich muss arbeiten.} = I have to work.\n- {de:Ich muss nicht arbeiten.} = I **don't have to** work (I'm free!) — **not** *I must not work*.\n\nA nice alternative: {de:Ich brauche nicht zu arbeiten.}\n\nWhen it's obvious, the second verb can go: {de:Ich muss nach Hause.} (= go home)"
+    },
+    {
+     "type": "phrases",
+     "title": "Examples from the video",
+     "items": [
+      "v.muessen",
+      "d32.p.kant",
+      "d32.p.hart_trainieren",
+      "d32.p.sofort_essen",
+      "d32.p.grammatik",
+      "d32.p.ja_musst_du",
+      "d32.p.zu_hause_bleiben",
+      "d32.p.helm",
+      "d32.p.leise",
+      "d32.p.bestellen",
+      "d32.p.morgen_arbeiten"
+     ]
+    },
+    {
+     "type": "phrases",
+     "title": "Without a second verb · nicht brauchen zu",
+     "items": [
+      "d32.p.flughafen",
+      "d32.p.nach_hause",
+      "d32.p.muss_nicht",
+      "d32.p.braucht_nicht"
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Choose",
+     "questions": [
+      {
+       "prompt": "du ___ (müssen)",
+       "options": [
+        "musst",
+        "müsst",
+        "muss"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "verb"
+      },
+      {
+       "prompt": "ihr ___ (müssen)",
+       "options": [
+        "müsst",
+        "musst",
+        "müssen"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "verb"
+      },
+      {
+       "prompt": "{de:Du musst heute nicht kommen.} means …",
+       "options": [
+        "You don't have to come today.",
+        "You must not come today.",
+        "You can't come today."
+       ],
+       "answer": 0
+      },
+      {
+       "prompt": "Which order is right?",
+       "options": [
+        "Ich muss heute lange arbeiten.",
+        "Ich muss arbeiten heute lange.",
+        "Ich arbeiten muss heute lange."
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "order"
+      }
+     ]
+    },
+    {
+     "type": "build",
+     "title": "Build the sentence",
+     "questions": [
+      {
+       "en": "Do I have to wear a helmet?",
+       "answer": "Muss ich einen Helm tragen?",
+       "tag": "order"
+      },
+      {
+       "en": "He has to stay at home today.",
+       "answer": "Er muss heute zu Hause bleiben.",
+       "alts": [
+        "Heute muss er zu Hause bleiben."
+       ],
+       "tag": "order"
+      },
+      {
+       "en": "I have to go home.",
+       "answer": "Ich muss nach Hause.",
+       "tag": "order"
+      }
+     ]
+    },
+    {
+     "type": "pattern",
+     "title": "Homework from the video",
+     "prompts": [
+      {
+       "q": "Was musst du morgen machen?",
+       "en": "What do you have to do tomorrow?",
+       "item": "d32.p.einkaufen"
+      },
+      {
+       "q": "Musst du am Wochenende arbeiten?",
+       "en": "Do you have to work at the weekend?",
+       "example": "Nein, am Wochenende muss ich nicht arbeiten."
+      }
+     ]
+    },
+    {
+     "type": "shadow",
+     "title": "Listen and repeat",
+     "items": [
+      "d32.p.nach_hause",
+      "d32.p.morgen_arbeiten",
+      "d32.p.muss_nicht",
+      "d32.p.einkaufen"
+     ]
+    },
+    {
+     "type": "write",
+     "title": "Short writing",
+     "prompt": "What do you have to do this week? Write 4 things you must do and 1 thing you don't have to do.",
+     "promptEn": "Write 5 German sentences with müssen about my week: 4 things I have to do and 1 thing I don't have to do (nicht müssen / nicht brauchen zu).",
+     "minWords": 18,
+     "checklist": [
+      "ich muss (no ending)",
+      "Second verb at the end",
+      "nicht müssen = don't have to"
+     ],
+     "model": "Am Montag muss ich arbeiten. Am Dienstag muss ich Deutsch lernen. Ich muss einkaufen. Ich muss meine Mutter anrufen. Am Sonntag muss ich nicht arbeiten."
+    }
+   ]
+  }
+ ]
+}

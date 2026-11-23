@@ -1,0 +1,727 @@
+{
+ "id": "d28",
+ "title": "Asking for directions",
+ "items": {
+  "n.ampel": {
+   "de": "die Ampel",
+   "plural": "die Ampeln",
+   "gender": "die",
+   "en": "traffic light",
+   "ipa": "ˈampl̩",
+   "pic": "🚦",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.kreuzung": {
+   "de": "die Kreuzung",
+   "plural": "die Kreuzungen",
+   "gender": "die",
+   "en": "crossroads, junction",
+   "ipa": "ˈkʁɔɪ̯tsʊŋ",
+   "pic": "✖️",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.baustelle": {
+   "de": "die Baustelle",
+   "plural": "die Baustellen",
+   "gender": "die",
+   "en": "roadworks, building site",
+   "ipa": "ˈbaʊ̯ʃtɛlə",
+   "pic": "🚧",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.krankenhaus": {
+   "de": "das Krankenhaus",
+   "plural": "die Krankenhäuser",
+   "gender": "das",
+   "en": "hospital",
+   "ipa": "ˈkʁaŋkn̩haʊ̯s",
+   "pic": "🏥",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.bank": {
+   "de": "die Bank",
+   "plural": "die Banken",
+   "gender": "die",
+   "en": "bank",
+   "ipa": "baŋk",
+   "pic": "🏦",
+   "note": "*die Bank* = bench has the plural *die Bänke*.",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.post": {
+   "de": "die Post",
+   "gender": "die",
+   "en": "post office",
+   "ipa": "pɔst",
+   "pic": "🏤",
+   "note": "Usually no plural.",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.polizei": {
+   "de": "die Polizei",
+   "gender": "die",
+   "en": "police",
+   "ipa": "poliˈtsaɪ̯",
+   "pic": "🚓",
+   "note": "No plural.",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.hotel": {
+   "de": "das Hotel",
+   "plural": "die Hotels",
+   "gender": "das",
+   "en": "hotel",
+   "ipa": "hoˈtɛl",
+   "pic": "🏨",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.einkaufszentrum": {
+   "de": "das Einkaufszentrum",
+   "plural": "die Einkaufszentren",
+   "gender": "das",
+   "en": "shopping centre",
+   "ipa": "ˈaɪ̯nkaʊ̯fsˌtsɛntʁʊm",
+   "pic": "🛍️",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.tankstelle": {
+   "de": "die Tankstelle",
+   "plural": "die Tankstellen",
+   "gender": "die",
+   "en": "petrol station",
+   "ipa": "ˈtaŋkʃtɛlə",
+   "pic": "⛽",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.bruecke": {
+   "de": "die Brücke",
+   "plural": "die Brücken",
+   "gender": "die",
+   "en": "bridge",
+   "ipa": "ˈbʁʏkə",
+   "pic": "🌉",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.park": {
+   "de": "der Park",
+   "plural": "die Parks",
+   "gender": "der",
+   "en": "park",
+   "ipa": "paʁk",
+   "pic": "🌳",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.zebrastreifen": {
+   "de": "der Zebrastreifen",
+   "plural": "die Zebrastreifen",
+   "gender": "der",
+   "en": "zebra crossing",
+   "ipa": "ˈtseːbʁaˌʃtʁaɪ̯fn̩",
+   "pic": "🦓",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "w.geradeaus": {
+   "de": "geradeaus",
+   "en": "straight ahead",
+   "ipa": "ɡəʁaːdəˈʔaʊ̯s",
+   "pic": "⬆️",
+   "tags": []
+  },
+  "w.rechts": {
+   "de": "rechts",
+   "en": "right",
+   "ipa": "ʁɛçts",
+   "pic": "➡️",
+   "tags": []
+  },
+  "w.links": {
+   "de": "links",
+   "en": "left",
+   "ipa": "lɪŋks",
+   "pic": "⬅️",
+   "tags": []
+  },
+  "v.abbiegen": {
+   "de": "abbiegen",
+   "en": "to turn",
+   "ipa": "ˈapbiːɡn̩",
+   "pic": "↪️",
+   "note": "Separable: *Ich biege links ab.*",
+   "tags": [
+    "order"
+   ]
+  },
+  "d28.p.bahnhof": {
+   "de": "Entschuldigung, wie komme ich zum Bahnhof?",
+   "en": "Excuse me, how do I get to the station?",
+   "pic": "🚉",
+   "tags": [
+    "case"
+   ]
+  },
+  "d28.p.suche_bank": {
+   "de": "Entschuldigung, ich suche eine Bank.",
+   "en": "Excuse me, I'm looking for a bank.",
+   "pic": "🏦",
+   "tags": [
+    "case"
+   ]
+  },
+  "d28.p.krankenhaus": {
+   "de": "Verzeihung, wo ist das Krankenhaus?",
+   "en": "Excuse me, where is the hospital?",
+   "pic": "🏥",
+   "tags": []
+  },
+  "d28.p.weg_zum": {
+   "de": "Kennen Sie den Weg zum Bahnhof?",
+   "en": "Do you know the way to the station?",
+   "pic": "🗺️",
+   "tags": [
+    "case"
+   ]
+  },
+  "d28.p.weg_zur": {
+   "de": "Kennen Sie den Weg zur Post?",
+   "en": "Do you know the way to the post office?",
+   "pic": "🏤",
+   "tags": [
+    "case"
+   ]
+  },
+  "d28.p.geradeaus": {
+   "de": "Ich fahre geradeaus.",
+   "en": "I'm going straight ahead.",
+   "pic": "⬆️",
+   "tags": []
+  },
+  "d28.p.links_ab": {
+   "de": "Ich biege links ab.",
+   "en": "I turn left.",
+   "pic": "⬅️",
+   "tags": [
+    "order"
+   ]
+  },
+  "d28.p.bis_ampel": {
+   "de": "Ich fahre weiter geradeaus bis zur nächsten Ampel.",
+   "en": "I keep going straight to the next traffic light.",
+   "pic": "🚦",
+   "tags": [
+    "case"
+   ]
+  },
+  "d28.p.rechte_seite": {
+   "de": "Das Krankenhaus ist auf der rechten Seite.",
+   "en": "The hospital is on the right.",
+   "pic": "➡️",
+   "tags": [
+    "case"
+   ]
+  },
+  "d28.p.vorbei": {
+   "de": "Ich fahre an der Baustelle vorbei.",
+   "en": "I drive past the roadworks.",
+   "pic": "🚧",
+   "tags": [
+    "case"
+   ]
+  },
+  "d28.p.tunnel": {
+   "de": "Ich fahre durch den Tunnel.",
+   "en": "I drive through the tunnel.",
+   "pic": "🚇",
+   "tags": [
+    "case"
+   ]
+  },
+  "d28.p.bruecke": {
+   "de": "Ich fahre über die Brücke.",
+   "en": "I drive over the bridge.",
+   "pic": "🌉",
+   "tags": [
+    "case"
+   ]
+  },
+  "d28.p.problem": {
+   "de": "Ich habe fast kein Benzin mehr.",
+   "en": "I've almost run out of petrol.",
+   "pic": "⛽",
+   "tags": []
+  },
+  "d28.p.zu_schnell": {
+   "de": "Das war viel zu schnell!",
+   "en": "That was far too fast!",
+   "pic": "💨",
+   "tags": []
+  },
+  "d28.p.langsam": {
+   "de": "Ganz langsam, Stück für Stück.",
+   "en": "Very slowly, step by step.",
+   "pic": "🐢",
+   "tags": []
+  },
+  "d28.p.zuerst": {
+   "de": "Zuerst fährst du geradeaus und dann an der nächsten Ampel nach links.",
+   "en": "First go straight on, then turn left at the next traffic light.",
+   "pic": "1️⃣",
+   "tags": [
+    "order"
+   ]
+  },
+  "d28.p.danach": {
+   "de": "Danach noch mal zweihundert Meter geradeaus.",
+   "en": "After that, another 200 metres straight on.",
+   "pic": "2️⃣",
+   "tags": []
+  },
+  "d28.p.am_park": {
+   "de": "Am Park fährst du nach rechts.",
+   "en": "At the park, go right.",
+   "pic": "🌳",
+   "tags": [
+    "order"
+   ]
+  },
+  "d28.p.vor_tempel": {
+   "de": "Vor dem Tempel fährst du nach links.",
+   "en": "In front of the temple, go left.",
+   "pic": "⛩️",
+   "tags": [
+    "case"
+   ]
+  },
+  "d28.p.tankstelle_rechts": {
+   "de": "Danach siehst du die Tankstelle auf der rechten Seite.",
+   "en": "Then you'll see the petrol station on the right.",
+   "pic": "⛽",
+   "tags": [
+    "order"
+   ]
+  },
+  "d28.p.erste_strasse": {
+   "de": "Nehmen Sie die erste Straße rechts.",
+   "en": "Take the first street on the right.",
+   "pic": "➡️",
+   "tags": []
+  },
+  "d28.p.vor_der_bank": {
+   "de": "Vor der Bank biegen Sie rechts ab.",
+   "en": "Turn right in front of the bank.",
+   "pic": "🏦",
+   "tags": [
+    "case",
+    "order"
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "id": "A",
+   "title": "Straight on, left, right",
+   "said": [
+    "d28.p.bahnhof",
+    "w.geradeaus",
+    "d28.p.links_ab",
+    "d28.p.bis_ampel",
+    "d28.p.rechte_seite"
+   ],
+   "steps": [
+    {
+     "type": "video",
+     "title": "Video: directions (part 1)",
+     "videoId": "JKk5vVRvqlc",
+     "channel": "YourGermanTeacher (Luzi)",
+     "start": 0,
+     "end": 649,
+     "note": "Luzi rides a scooter through Taipei and says what she does and sees. Chapters: 1:22 ride part 1 · 7:27 ride part 2."
+    },
+    {
+     "type": "phrases",
+     "title": "Asking for the way",
+     "items": [
+      "d28.p.bahnhof",
+      "d28.p.suche_bank",
+      "d28.p.krankenhaus"
+     ]
+    },
+    {
+     "type": "phrases",
+     "title": "Directions",
+     "items": [
+      "w.geradeaus",
+      "w.rechts",
+      "w.links",
+      "v.abbiegen",
+      "d28.p.geradeaus",
+      "d28.p.links_ab",
+      "d28.p.bis_ampel",
+      "d28.p.rechte_seite",
+      "d28.p.vorbei",
+      "d28.p.tunnel",
+      "d28.p.bruecke"
+     ]
+    },
+    {
+     "type": "phrases",
+     "title": "Places in town",
+     "items": [
+      "n.ampel",
+      "n.kreuzung",
+      "n.baustelle",
+      "n.zebrastreifen",
+      "n.krankenhaus",
+      "n.bank",
+      "n.post",
+      "n.polizei",
+      "n.hotel",
+      "n.einkaufszentrum",
+      "n.park",
+      "n.bruecke"
+     ]
+    },
+    {
+     "type": "gender",
+     "title": "der, die or das?",
+     "questions": [
+      {
+       "item": "n.ampel"
+      },
+      {
+       "item": "n.krankenhaus"
+      },
+      {
+       "item": "n.kreuzung"
+      },
+      {
+       "item": "n.hotel"
+      },
+      {
+       "item": "n.park"
+      },
+      {
+       "item": "n.baustelle"
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Listen: where?",
+     "questions": [
+      {
+       "kind": "listen",
+       "say": "Ich biege rechts ab.",
+       "options": [
+        "➡️ right",
+        "⬅️ left",
+        "⬆️ straight on"
+       ],
+       "answer": 0,
+       "tag": "pron"
+      },
+      {
+       "kind": "listen",
+       "say": "geradeaus",
+       "item": "w.geradeaus",
+       "options": [
+        "⬆️ straight on",
+        "➡️ right",
+        "↩️ back"
+       ],
+       "answer": 0,
+       "tag": "pron"
+      },
+      {
+       "kind": "listen",
+       "say": "auf der linken Seite",
+       "options": [
+        "on the left",
+        "on the right",
+        "at the crossroads"
+       ],
+       "answer": 0,
+       "tag": "pron"
+      },
+      {
+       "kind": "listen",
+       "say": "an der Kreuzung",
+       "options": [
+        "at the crossroads",
+        "at the traffic light",
+        "at the bridge"
+       ],
+       "answer": 0,
+       "tag": "pron"
+      }
+     ]
+    },
+    {
+     "type": "build",
+     "title": "Build the sentence",
+     "questions": [
+      {
+       "en": "I turn left.",
+       "answer": "Ich biege links ab.",
+       "tag": "order",
+       "alts": [
+        "Links biege ich ab."
+       ]
+      },
+      {
+       "en": "Excuse me, how do I get to the station?",
+       "answer": "Entschuldigung, wie komme ich zum Bahnhof?",
+       "tag": "order"
+      },
+      {
+       "en": "I drive over the bridge.",
+       "answer": "Ich fahre über die Brücke.",
+       "tag": "case",
+       "alts": [
+        "Über die Brücke fahre ich."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "shadow",
+     "title": "Listen and repeat",
+     "items": [
+      "d28.p.bahnhof",
+      "d28.p.links_ab",
+      "d28.p.bis_ampel",
+      "d28.p.rechte_seite"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B",
+   "title": "Following directions",
+   "said": [
+    "d28.p.weg_zum",
+    "d28.p.weg_zur",
+    "d28.p.zuerst",
+    "d28.p.langsam",
+    "d28.p.erste_strasse"
+   ],
+   "steps": [
+    {
+     "type": "video",
+     "title": "Video: directions (part 2)",
+     "videoId": "JKk5vVRvqlc",
+     "channel": "YourGermanTeacher (Luzi)",
+     "start": 649,
+     "end": 1062,
+     "note": "Chapters: 10:49 a problem and a phone call · 11:59 following directions step by step · 13:36 summary + bonus tip."
+    },
+    {
+     "type": "phrases",
+     "title": "The phone call",
+     "items": [
+      "d28.p.problem",
+      "n.tankstelle",
+      "d28.p.zu_schnell",
+      "d28.p.langsam"
+     ]
+    },
+    {
+     "type": "phrases",
+     "title": "Step by step",
+     "intro": "Listen to the directions in order — *zuerst, dann, danach*.",
+     "items": [
+      "d28.p.zuerst",
+      "d28.p.danach",
+      "d28.p.am_park",
+      "d28.p.vor_tempel",
+      "d28.p.tankstelle_rechts"
+     ]
+    },
+    {
+     "type": "note",
+     "title": "Summary: zum, zur and the direction words",
+     "md": "**Asking:** {de:Entschuldigung, wie komme ich zum …?} · {de:Kennen Sie den Weg zum / zur …?}\n\n**zu** + Dativ (lesson 29): *der/das* → **zum** (*zu dem*), *die* → **zur** (*zu der*):\n{de:zum Bahnhof} · {de:zum Café} · {de:zur Post}\n\n**Giving directions:** {de:geradeaus} · {de:nach rechts / nach links} · {de:rechts / links abbiegen} · {de:die erste / zweite Straße rechts} · {de:an der Ampel} · {de:an der Kreuzung} · {de:über die Brücke} · {de:durch den Tunnel} · {de:an … vorbei}\n\n**In order:** {de:zuerst} → {de:dann} → {de:danach}"
+    },
+    {
+     "type": "phrases",
+     "title": "Polite questions and Sie-directions",
+     "items": [
+      "d28.p.weg_zum",
+      "d28.p.weg_zur",
+      "d28.p.erste_strasse",
+      "d28.p.vor_der_bank"
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "zum or zur?",
+     "questions": [
+      {
+       "prompt": "Wie komme ich ___ Bahnhof? (der Bahnhof)",
+       "options": [
+        "zum",
+        "zur"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "case"
+      },
+      {
+       "prompt": "Wie komme ich ___ Post? (die Post)",
+       "options": [
+        "zur",
+        "zum"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "case"
+      },
+      {
+       "prompt": "Wie komme ich ___ Krankenhaus? (das Krankenhaus)",
+       "options": [
+        "zum",
+        "zur"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "case"
+      },
+      {
+       "prompt": "Wie komme ich ___ Tankstelle?",
+       "options": [
+        "zur",
+        "zum"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "case"
+      }
+     ]
+    },
+    {
+     "type": "roleplay",
+     "title": "Role-play: asking a stranger",
+     "intro": "Choose “You”. You're looking for the post office.",
+     "lines": [
+      {
+       "who": "B",
+       "name": "You",
+       "item": "d28.p.weg_zur"
+      },
+      {
+       "who": "A",
+       "name": "Passer-by",
+       "de": "Ja. Zuerst gehen Sie geradeaus bis zur Ampel.",
+       "en": "Yes. First go straight on to the traffic light."
+      },
+      {
+       "who": "A",
+       "name": "Passer-by",
+       "de": "An der Ampel gehen Sie nach links.",
+       "en": "At the traffic light, go left."
+      },
+      {
+       "who": "B",
+       "name": "You",
+       "item": "p.wie_bitte"
+      },
+      {
+       "who": "A",
+       "name": "Passer-by",
+       "de": "An der Ampel links. Dann sehen Sie die Post auf der rechten Seite.",
+       "en": "Left at the traffic light. Then you'll see the post office on the right."
+      },
+      {
+       "who": "B",
+       "name": "You",
+       "item": "p.dankeschoen"
+      },
+      {
+       "who": "A",
+       "name": "Passer-by",
+       "item": "p.bitteschoen"
+      }
+     ]
+    },
+    {
+     "type": "build",
+     "title": "Build the directions",
+     "questions": [
+      {
+       "en": "Take the first street on the right.",
+       "answer": "Nehmen Sie die erste Straße rechts.",
+       "tag": "order"
+      },
+      {
+       "en": "Turn right in front of the bank.",
+       "answer": "Vor der Bank biegen Sie rechts ab.",
+       "alts": [
+        "Biegen Sie vor der Bank rechts ab."
+       ],
+       "tag": "order"
+      },
+      {
+       "en": "Do you know the way to the post office?",
+       "answer": "Kennen Sie den Weg zur Post?",
+       "extra": [
+        "zum"
+       ],
+       "tag": "case"
+      }
+     ]
+    },
+    {
+     "type": "write",
+     "title": "Short writing",
+     "prompt": "A friend visits you. Write the way from the bus stop to your home (4–5 steps) with zuerst, dann, danach.",
+     "promptEn": "Write directions in German (du-form) from the bus stop to my home in 4-5 steps using zuerst, dann, danach, geradeaus, links/rechts, an der Ampel.",
+     "minWords": 25,
+     "checklist": [
+      "zuerst → dann → danach",
+      "an der Ampel / an der Kreuzung",
+      "Verb in position 2 (Dann gehst du …)"
+     ],
+     "model": "Zuerst gehst du geradeaus bis zur Ampel. Dann gehst du nach rechts. Danach nimmst du die zweite Straße links. Mein Haus ist auf der linken Seite."
+    }
+   ]
+  }
+ ]
+}

@@ -1,10 +1,10 @@
 // Offline cache. Bump VERSION when the asset list changes.
 // Network-first for content/JS/CSS/HTML (updates arrive quickly), cache-first for icons, audio, fonts.
-const VERSION = "de-v0.6.0";
+const VERSION = "de-v0.7.0";
 const ASSETS = [
   "./", "index.html", "manifest.webmanifest", "css/app.css",
   "js/app.js", "js/store.js", "js/srs.js", "js/speech.js", "js/text.js", "js/ui.js", "js/steps.js", "js/plan.js", "js/profile.js", "js/icons.js",
-  "content/course.json", "content/d01.json", "content/d02.json", "content/d03.json", "content/d04.json", "content/d05.json", "content/d06.json", "content/d07.json", "content/d08.json", "content/d09.json", "content/d10.json", "content/d11.json", "content/d12.json", "content/d13.json", "content/m1.json", "content/d14.json", "content/d15.json", "content/d16.json", "content/d17.json", "content/d18.json", "content/d19.json", "content/d20.json", "content/d21.json", "content/d22.json", "content/d23.json", "content/d24.json", "content/d25.json", "content/d26.json", "content/m2.json", "audio/manifest.json",
+  "content/course.json", "content/d01.json", "content/d02.json", "content/d03.json", "content/d04.json", "content/d05.json", "content/d06.json", "content/d07.json", "content/d08.json", "content/d09.json", "content/d10.json", "content/d11.json", "content/d12.json", "content/d13.json", "content/m1.json", "content/d14.json", "content/d15.json", "content/d16.json", "content/d17.json", "content/d18.json", "content/d19.json", "content/d20.json", "content/d21.json", "content/d22.json", "content/d23.json", "content/d24.json", "content/d25.json", "content/d26.json", "content/m2.json", "content/d27.json", "content/d28.json", "content/d29.json", "content/d30.json", "content/d31.json", "content/d32.json", "content/d33.json", "content/d34.json", "content/d35.json", "content/d36.json", "content/d37.json", "content/m3.json", "audio/manifest.json",
   "icons/icon-180.png", "icons/icon-192.png", "icons/icon-512.png"
 ];
 

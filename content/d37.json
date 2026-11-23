@@ -1,0 +1,351 @@
+{
+ "id": "d37",
+ "title": "gefallen / schmecken",
+ "items": {
+  "v.gefallen": {
+   "de": "gefallen",
+   "en": "to like (lit. to please someone)",
+   "ipa": "ɡəˈfalən",
+   "pic": "😍",
+   "note": "+ Dativ: *Das gefällt mir.*",
+   "tags": [
+    "case"
+   ]
+  },
+  "v.schmecken": {
+   "de": "schmecken",
+   "en": "to taste (good)",
+   "ipa": "ˈʃmɛkn̩",
+   "pic": "😋",
+   "tags": [
+    "case"
+   ]
+  },
+  "v.passen": {
+   "de": "passen",
+   "en": "to fit, to suit",
+   "ipa": "ˈpasn̩",
+   "pic": "👕",
+   "tags": [
+    "case"
+   ]
+  },
+  "d37.p.handy_mir": {
+   "de": "Das Handy gehört mir.",
+   "en": "The phone belongs to me.",
+   "pic": "📱",
+   "tags": [
+    "case"
+   ]
+  },
+  "d37.p.fahrrad_mutter": {
+   "de": "Das Fahrrad gehört meiner Mutter.",
+   "en": "The bike belongs to my mother.",
+   "pic": "🚲",
+   "tags": [
+    "case"
+   ]
+  },
+  "d37.p.schuhe_kindern": {
+   "de": "Die Schuhe gehören den Kindern.",
+   "en": "The shoes belong to the children.",
+   "pic": "👟",
+   "tags": [
+    "case"
+   ]
+  },
+  "d37.p.tasche_dir": {
+   "de": "Gehört die Tasche dir?",
+   "en": "Is the bag yours?",
+   "pic": "👜",
+   "tags": [
+    "case"
+   ]
+  },
+  "d37.p.bild_gefaellt": {
+   "de": "Das Bild gefällt mir.",
+   "en": "I like the picture.",
+   "ipa": "das bɪlt ɡəˈfɛlt miːɐ̯",
+   "pic": "🖼️",
+   "tags": [
+    "case"
+   ]
+  },
+  "d37.p.farben": {
+   "de": "Die Farben gefallen ihnen.",
+   "en": "They like the colours.",
+   "pic": "🎨",
+   "tags": [
+    "case"
+   ]
+  },
+  "d37.p.frisur": {
+   "de": "Meine Frisur gefällt meinem Vater nicht.",
+   "en": "My dad doesn't like my haircut.",
+   "pic": "💇",
+   "tags": [
+    "case"
+   ]
+  },
+  "d37.p.gefaellt_film": {
+   "de": "Gefällt dir der Film?",
+   "en": "Do you like the film?",
+   "pic": "🎬",
+   "tags": [
+    "case"
+   ]
+  },
+  "d37.p.gefaellt_musik": {
+   "de": "Gefällt dir die Musik?",
+   "en": "Do you like the music?",
+   "pic": "🎵",
+   "tags": [
+    "case"
+   ]
+  },
+  "d37.p.du_gefaellst": {
+   "de": "Du gefällst mir.",
+   "en": "I like you (the way you are / look).",
+   "pic": "😊",
+   "tags": [
+    "case"
+   ]
+  },
+  "d37.p.brot": {
+   "de": "Das Brot schmeckt mir sehr gut.",
+   "en": "I really like this bread.",
+   "pic": "🍞",
+   "tags": [
+    "case"
+   ]
+  },
+  "d37.p.schmeckt_gut": {
+   "de": "Das schmeckt gut!",
+   "en": "That tastes good!",
+   "ipa": "das ʃmɛkt ɡuːt",
+   "pic": "😋",
+   "tags": []
+  },
+  "d37.p.jacke": {
+   "de": "Die Jacke passt dir perfekt.",
+   "en": "The jacket fits you perfectly.",
+   "pic": "🧥",
+   "tags": [
+    "case"
+   ]
+  },
+  "d37.p.mag_bild": {
+   "de": "Ich mag das Bild.",
+   "en": "I like the picture (I'm fond of it).",
+   "pic": "❤️",
+   "tags": []
+  },
+  "d37.p.was_gefaellt": {
+   "de": "Was gefällt dir in deiner Stadt?",
+   "en": "What do you like about your town?",
+   "pic": "🏙️",
+   "tags": [
+    "case"
+   ]
+  },
+  "d37.p.park_gefaellt": {
+   "de": "Der Park gefällt mir sehr.",
+   "en": "I really like the park.",
+   "pic": "🌳",
+   "tags": [
+    "case"
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "id": "A",
+   "title": "Das gefällt mir!",
+   "said": [
+    "d37.p.bild_gefaellt",
+    "d37.p.gefaellt_film",
+    "d37.p.schmeckt_gut",
+    "d37.p.tasche_dir",
+    "d37.p.jacke"
+   ],
+   "steps": [
+    {
+     "type": "video",
+     "title": "Video: gehören, gefallen, schmecken, passen",
+     "videoId": "31NBABygZAU",
+     "channel": "YourGermanTeacher (Luzi)",
+     "start": 39,
+     "end": 807,
+     "note": "0:47 *gehören* · 3:46 *gefallen* · 9:45 *schmecken* and *passen* · 10:57 bonus: *gefallen* or *mögen*? · 12:59 homework."
+    },
+    {
+     "type": "note",
+     "title": "Upside-down verbs",
+     "md": "With these four verbs, the **thing** is the subject and the **person** is in the **Dativ**:\n\n- {de:**Das Bild** gefällt **mir**.} = *the picture pleases me* → I like the picture.\n- {de:**Das Brot** schmeckt **mir**.} → I like the bread (taste).\n- {de:**Die Jacke** passt **dir**.} → the jacket fits you.\n- {de:**Das Handy** gehört **mir**.} → the phone is mine.\n\nThe verb follows the **thing**: one thing → *gefällt*, several → *gefallen*: {de:Die Farben gefallen ihnen.}\n\nDativ pronouns: **mir, dir, ihm, ihr, uns, euch, ihnen / Ihnen**."
+    },
+    {
+     "type": "phrases",
+     "title": "gehören",
+     "items": [
+      "v.gehoeren",
+      "d37.p.handy_mir",
+      "d37.p.fahrrad_mutter",
+      "d37.p.schuhe_kindern",
+      "d37.p.tasche_dir"
+     ]
+    },
+    {
+     "type": "phrases",
+     "title": "gefallen",
+     "items": [
+      "v.gefallen",
+      "d37.p.bild_gefaellt",
+      "d37.p.farben",
+      "d37.p.frisur",
+      "d37.p.gefaellt_film",
+      "d37.p.gefaellt_musik",
+      "d37.p.du_gefaellst"
+     ]
+    },
+    {
+     "type": "phrases",
+     "title": "schmecken and passen",
+     "items": [
+      "v.schmecken",
+      "d37.p.schmeckt_gut",
+      "d37.p.brot",
+      "v.passen",
+      "d37.p.jacke"
+     ]
+    },
+    {
+     "type": "note",
+     "title": "Bonus: gefallen or mögen?",
+     "md": "- {de:Das Bild gefällt mir.} — a quick judgement: I like how it **looks** (or sounds).\n- {de:Ich mag das Bild.} — a deeper, personal feeling.\n\n{de:Die Frau dort gefällt mir.} = she looks nice (you probably don't know her). {de:Ich mag die Frau dort.} = you know her and like her."
+    },
+    {
+     "type": "quiz",
+     "title": "Choose",
+     "questions": [
+      {
+       "prompt": "I like the film. → Der Film gefällt ___.",
+       "options": [
+        "mir",
+        "mich",
+        "ich"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "case"
+      },
+      {
+       "prompt": "Die Bilder ___ mir.",
+       "options": [
+        "gefallen",
+        "gefällt",
+        "gefalle"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "verb",
+       "explain": "*die Bilder* (plural) is the subject → *gefallen*."
+      },
+      {
+       "prompt": "Does the soup taste good to you? → Schmeckt ___ die Suppe?",
+       "options": [
+        "dir",
+        "dich",
+        "du"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "case"
+      },
+      {
+       "prompt": "Das Auto gehört ___ Vater. (mein)",
+       "options": [
+        "meinem",
+        "meinen",
+        "mein"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "case"
+      },
+      {
+       "prompt": "{de:Das Kleid passt dir nicht.} means …",
+       "options": [
+        "The dress doesn't fit you.",
+        "You don't like the dress.",
+        "The dress isn't yours."
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    {
+     "type": "build",
+     "title": "Build the sentence",
+     "questions": [
+      {
+       "en": "I like the picture.",
+       "answer": "Das Bild gefällt mir.",
+       "extra": [
+        "ich"
+       ],
+       "tag": "case",
+       "alts": [
+        "Mir gefällt das Bild."
+       ]
+      },
+      {
+       "en": "Do you like the film?",
+       "answer": "Gefällt dir der Film?",
+       "extra": [
+        "du"
+       ],
+       "tag": "case"
+      },
+      {
+       "en": "The jacket fits you perfectly.",
+       "answer": "Die Jacke passt dir perfekt.",
+       "tag": "case",
+       "alts": [
+        "Dir passt die Jacke perfekt."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "pattern",
+     "title": "Homework from the video",
+     "prompts": [
+      {
+       "q": "Was gefällt dir in deiner Stadt?",
+       "en": "What do you like about your town?",
+       "item": "d37.p.park_gefaellt"
+      },
+      {
+       "q": "Schmeckt dir das deutsche Brot?",
+       "en": "Do you like German bread?",
+       "example": "Ja, das Brot schmeckt mir sehr gut."
+      }
+     ]
+    },
+    {
+     "type": "write",
+     "title": "Short writing",
+     "prompt": "What do you like and not like where you live? Write 4–5 sentences with gefallen, schmecken (and mögen).",
+     "promptEn": "Write 4-5 German sentences about what I like and don't like where I live, using gefallen (+ Dativ), schmecken and mögen.",
+     "minWords": 20,
+     "checklist": [
+      "Thing = subject, person = Dativ (mir)",
+      "gefällt (1 thing) / gefallen (several)",
+      "nicht at the end: … gefällt mir nicht"
+     ],
+     "model": "Der Park gefällt mir sehr. Die Straßen gefallen mir nicht, sie sind laut. Das Essen schmeckt mir gut. Ich mag meine Nachbarn."
+    }
+   ]
+  }
+ ]
+}

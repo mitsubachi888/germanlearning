@@ -1,0 +1,93 @@
+{
+ "id": "d35",
+ "title": "Perfekt: sein or haben",
+ "items": {
+  "d35.p.sein_oder_haben": { "de": "Sein oder haben, das ist hier die Frage.", "en": "Sein or haben, that is the question.", "pic": "🎭", "tags": ["verb"] },
+  "d35.p.berlin_gereist": { "de": "Ich bin nach Berlin gereist.", "en": "I travelled to Berlin.", "ipa": "ɪç bɪn naːx bɛʁˈliːn ɡəˈʁaɪ̯st", "pic": "🧳", "tags": ["verb", "order"] },
+  "d35.p.spanien_geflogen": { "de": "Er ist nach Spanien geflogen.", "en": "He flew to Spain.", "pic": "✈️", "tags": ["verb", "order"] },
+  "d35.p.gegangen": { "de": "Wir sind ins Kino gegangen.", "en": "We went to the cinema.", "pic": "🎬", "tags": ["verb", "order"] },
+  "d35.p.gefahren": { "de": "Hans ist mit dem Auto gefahren.", "en": "Hans went by car.", "pic": "🚗", "tags": ["verb", "order"] },
+  "d35.p.gekommen": { "de": "Wann bist du gekommen?", "en": "When did you arrive?", "pic": "🕒", "tags": ["verb", "order"] },
+  "d35.p.gelaufen": { "de": "Sie ist schnell gelaufen.", "en": "She ran fast.", "pic": "🏃", "tags": ["verb", "order"] },
+  "d35.p.gewachsen": { "de": "Die Pflanze ist gewachsen.", "en": "The plant has grown.", "pic": "🌱", "tags": ["verb", "order"] },
+  "d35.p.aufgestanden": { "de": "Ich bin um sieben Uhr aufgestanden.", "en": "I got up at seven.", "pic": "⏰", "tags": ["verb", "order"] },
+  "d35.p.eingeschlafen": { "de": "Das Baby ist eingeschlafen.", "en": "The baby has fallen asleep.", "pic": "👶", "tags": ["verb", "order"] },
+  "d35.p.aufgewacht": { "de": "Bist du schon aufgewacht?", "en": "Have you woken up yet?", "pic": "🌅", "tags": ["verb", "order"] },
+  "d35.p.gewesen": { "de": "Ich bin in Köln gewesen.", "en": "I've been to Cologne.", "pic": "⛪", "note": "More common: *Ich war in Köln.* (lesson 36)", "tags": ["verb", "order"] },
+  "d35.p.geworden": { "de": "Sie ist Lehrerin geworden.", "en": "She became a teacher.", "pic": "👩‍🏫", "tags": ["verb", "order"] },
+  "d35.p.geblieben": { "de": "Ich bin zu Hause geblieben.", "en": "I stayed at home.", "pic": "🏠", "tags": ["verb", "order"] },
+  "d35.p.passiert": { "de": "Was ist passiert?", "en": "What happened?", "ipa": "vas ɪst paˈsiːɐ̯t", "pic": "😮", "tags": ["verb"] },
+  "d35.p.porsche": { "de": "Er hat einen Porsche gefahren.", "en": "He drove a Porsche.", "pic": "🏎️", "note": "*fahren* + Akkusativ object (the car) → **haben**.", "tags": ["verb", "order"] },
+  "d35.p.gesessen": { "de": "Ich habe lange gesessen.", "en": "I sat for a long time.", "pic": "🪑", "note": "*stehen, sitzen, liegen*: *haben* in most of Germany, *sein* in the south, Austria and Switzerland.", "tags": ["verb"] }
+ },
+ "sessions": [
+  {
+   "id": "A",
+   "title": "Movement, change, and four special verbs",
+   "said": ["d35.p.berlin_gereist", "d35.p.gegangen", "d35.p.aufgestanden", "d35.p.geblieben", "d35.p.passiert"],
+   "steps": [
+    {
+     "type": "video", "title": "Video: Perfekt — sein or haben?", "videoId": "5vG9ofF0EHk", "channel": "YourGermanTeacher (Luzi)", "start": 0, "end": 845,
+     "note": "Chapters: 1:15 Perfekt with *sein* · 3:49 change of place · 5:36 change of condition · 7:07 four special verbs · 9:42 sein or haben? · 11:30 bonus: *fahren*, and *stehen / sitzen / liegen*."
+    },
+    {
+     "type": "table", "title": "sein + participle",
+     "cols": ["", "reisen"],
+     "rows": [["ich", "bin … gereist"], ["du", "bist … gereist"], ["er/sie/es", "ist … gereist"], ["wir", "sind … gereist"], ["ihr", "seid … gereist"], ["sie/Sie", "sind … gereist"]],
+     "note": "Only *sein* changes — the participle stays the same."
+    },
+    {
+     "type": "note", "title": "When sein?",
+     "md": "Most verbs use **haben**. Use **sein** for:\n\n1. **A change of place** (moving from A to B): *gehen, fahren, kommen, fliegen, laufen, reisen* — {de:Er ist nach Spanien geflogen.}\n2. **A change of condition**: *wachsen, aufstehen, einschlafen, aufwachen, sterben* — {de:Die Pflanze ist gewachsen.}\n3. **Four special verbs**: *sein → gewesen, werden → geworden, bleiben → geblieben, passieren → passiert* — {de:Was ist passiert?}\n\nBonus: {de:Hans ist mit dem Auto gefahren.} (movement → sein) but {de:Er hat einen Porsche gefahren.} (with an Akkusativ object → haben)."
+    },
+    {
+     "type": "phrases", "title": "Change of place",
+     "items": ["d35.p.sein_oder_haben", "d35.p.berlin_gereist", "d35.p.spanien_geflogen", "d35.p.gegangen", "d35.p.gefahren", "d35.p.gekommen", "d35.p.gelaufen"]
+    },
+    {
+     "type": "phrases", "title": "Change of condition + 4 special verbs",
+     "items": ["d35.p.gewachsen", "d35.p.aufgestanden", "d35.p.eingeschlafen", "d35.p.aufgewacht", "d35.p.gewesen", "d35.p.geworden", "d35.p.geblieben", "d35.p.passiert"]
+    },
+    {
+     "type": "phrases", "title": "Bonus: special cases",
+     "items": ["d35.p.gefahren", "d35.p.porsche", "d35.p.gesessen"]
+    },
+    {
+     "type": "quiz", "title": "sein or haben?",
+     "questions": [
+      { "prompt": "Ich ___ nach Hamburg gefahren.", "options": ["bin", "habe"], "answer": 0, "deOptions": true, "tag": "verb" },
+      { "prompt": "Ich ___ einen Kaffee getrunken.", "options": ["habe", "bin"], "answer": 0, "deOptions": true, "tag": "verb" },
+      { "prompt": "Wir ___ zu Hause geblieben.", "options": ["sind", "haben"], "answer": 0, "deOptions": true, "tag": "verb" },
+      { "prompt": "Er ___ um sechs Uhr aufgestanden.", "options": ["ist", "hat"], "answer": 0, "deOptions": true, "tag": "verb" },
+      { "prompt": "Sie ___ ein Buch gelesen.", "options": ["hat", "ist"], "answer": 0, "deOptions": true, "tag": "verb" },
+      { "prompt": "Was ___ passiert?", "options": ["ist", "hat"], "answer": 0, "deOptions": true, "tag": "verb" },
+      { "prompt": "Er ___ einen BMW gefahren.", "options": ["hat", "ist"], "answer": 0, "deOptions": true, "tag": "verb", "explain": "*einen BMW* = Akkusativ object → *haben*." }
+     ]
+    },
+    {
+     "type": "build", "title": "Build the sentence",
+     "questions": [
+      { "en": "I travelled to Berlin.", "answer": "Ich bin nach Berlin gereist.", "extra": ["habe"], "tag": "verb" },
+      { "en": "I got up at seven.", "answer": "Ich bin um sieben Uhr aufgestanden.", "alts": ["Um sieben Uhr bin ich aufgestanden."], "tag": "verb" },
+      { "en": "What happened?", "answer": "Was ist passiert?", "extra": ["hat"], "tag": "verb" }
+     ]
+    },
+    {
+     "type": "pattern", "title": "Your last weekend",
+     "prompts": [
+      { "q": "Wohin bist du am Wochenende gefahren?", "en": "Where did you go at the weekend?", "example": "Ich bin zu meiner Familie gefahren." },
+      { "q": "Wann bist du heute aufgestanden?", "en": "When did you get up today?", "item": "d35.p.aufgestanden" }
+     ]
+    },
+    {
+     "type": "write", "title": "Short writing",
+     "prompt": "Write about a trip or your last weekend: 5 sentences, mixing sein and haben.",
+     "promptEn": "Write 5 German sentences in the Perfekt about my last weekend or a trip, mixing verbs with sein (fahren, gehen, bleiben, aufstehen) and haben.",
+     "minWords": 20,
+     "checklist": ["Movement / change → sein", "Everything else → haben", "Participle at the end"],
+     "model": "Am Samstag bin ich früh aufgestanden. Ich bin mit dem Zug nach Hamburg gefahren. Dort habe ich meinen Bruder getroffen. Wir sind in ein Café gegangen. Am Sonntag bin ich zu Hause geblieben."
+    }
+   ]
+  }
+ ]
+}
