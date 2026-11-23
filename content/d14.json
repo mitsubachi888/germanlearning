@@ -1,0 +1,124 @@
+{
+ "id": "d14",
+ "title": "Days, times of day, months",
+ "items": {
+  "n.montag": { "de": "der Montag", "plural": "die Montage", "gender": "der", "en": "Monday", "ipa": "ˈmoːntaːk", "pic": "1️⃣", "tags": ["noun", "gender"] },
+  "n.dienstag": { "de": "der Dienstag", "plural": "die Dienstage", "gender": "der", "en": "Tuesday", "ipa": "ˈdiːnstaːk", "pic": "2️⃣", "tags": ["noun", "gender"] },
+  "n.mittwoch": { "de": "der Mittwoch", "plural": "die Mittwoche", "gender": "der", "en": "Wednesday", "ipa": "ˈmɪtvɔx", "pic": "3️⃣", "note": "*Mitte* (middle) + *Woche* (week) = the middle of the week.", "tags": ["noun", "gender"] },
+  "n.donnerstag": { "de": "der Donnerstag", "plural": "die Donnerstage", "gender": "der", "en": "Thursday", "ipa": "ˈdɔnɐstaːk", "pic": "4️⃣", "tags": ["noun", "gender"] },
+  "n.freitag": { "de": "der Freitag", "plural": "die Freitage", "gender": "der", "en": "Friday", "ipa": "ˈfʁaɪ̯taːk", "pic": "5️⃣", "tags": ["noun", "gender"] },
+  "n.samstag": { "de": "der Samstag", "plural": "die Samstage", "gender": "der", "en": "Saturday", "ipa": "ˈzamstaːk", "pic": "6️⃣", "tags": ["noun", "gender"] },
+  "n.sonntag": { "de": "der Sonntag", "plural": "die Sonntage", "gender": "der", "en": "Sunday", "ipa": "ˈzɔntaːk", "pic": "7️⃣", "note": "*die Sonne* = the sun → sun-day.", "tags": ["noun", "gender"] },
+  "n.tag": { "de": "der Tag", "plural": "die Tage", "gender": "der", "en": "day", "ipa": "taːk", "pic": "☀️", "tags": ["noun", "gender"] },
+  "n.woche": { "de": "die Woche", "plural": "die Wochen", "gender": "die", "en": "week", "ipa": "ˈvɔxə", "pic": "🗓️", "tags": ["noun", "gender"] },
+  "n.wochenende": { "de": "das Wochenende", "plural": "die Wochenenden", "gender": "das", "en": "weekend", "ipa": "ˈvɔxn̩ˌʔɛndə", "pic": "🏖️", "note": "*das*, because *das Ende* = the end.", "tags": ["noun", "gender"] },
+  "n.morgen": { "de": "der Morgen", "plural": "die Morgen", "gender": "der", "en": "morning", "ipa": "ˈmɔʁɡn̩", "pic": "🌅", "note": "Small *morgen* = tomorrow (lesson 6).", "tags": ["noun", "gender"] },
+  "n.vormittag": { "de": "der Vormittag", "plural": "die Vormittage", "gender": "der", "en": "late morning (before noon)", "ipa": "ˈfoːɐ̯mɪtaːk", "pic": "🕙", "tags": ["noun", "gender"] },
+  "n.mittag": { "de": "der Mittag", "plural": "die Mittage", "gender": "der", "en": "midday, noon", "ipa": "ˈmɪtaːk", "pic": "🕛", "note": "*das Mittagessen* = lunch.", "tags": ["noun", "gender"] },
+  "n.nachmittag": { "de": "der Nachmittag", "plural": "die Nachmittage", "gender": "der", "en": "afternoon", "ipa": "ˈnaːxmɪtaːk", "pic": "🕒", "tags": ["noun", "gender"] },
+  "n.abend": { "de": "der Abend", "plural": "die Abende", "gender": "der", "en": "evening", "ipa": "ˈaːbn̩t", "pic": "🌆", "tags": ["noun", "gender"] },
+  "n.nacht": { "de": "die Nacht", "plural": "die Nächte", "gender": "die", "en": "night", "ipa": "naxt", "pic": "🌙", "tags": ["noun", "gender"] },
+  "mon.januar": { "de": "der Januar", "gender": "der", "en": "January", "ipa": "ˈjanu̯aːɐ̯", "tags": ["noun"] },
+  "mon.februar": { "de": "der Februar", "gender": "der", "en": "February", "ipa": "ˈfeːbʁu̯aːɐ̯", "tags": ["noun"] },
+  "mon.maerz": { "de": "der März", "gender": "der", "en": "March", "ipa": "mɛʁts", "tags": ["noun"] },
+  "mon.april": { "de": "der April", "gender": "der", "en": "April", "ipa": "aˈpʁɪl", "tags": ["noun"] },
+  "mon.mai": { "de": "der Mai", "gender": "der", "en": "May", "ipa": "maɪ̯", "tags": ["noun"] },
+  "mon.juni": { "de": "der Juni", "gender": "der", "en": "June", "ipa": "ˈjuːni", "note": "Juni vs Juli: listen for the **n** / **l**. Germans sometimes say *Juno* and *Julei* to avoid confusion.", "tags": ["noun"] },
+  "mon.juli": { "de": "der Juli", "gender": "der", "en": "July", "ipa": "ˈjuːli", "tags": ["noun"] },
+  "mon.august": { "de": "der August", "gender": "der", "en": "August", "ipa": "aʊ̯ˈɡʊst", "tags": ["noun"] },
+  "mon.september": { "de": "der September", "gender": "der", "en": "September", "ipa": "zɛpˈtɛmbɐ", "tags": ["noun"] },
+  "mon.oktober": { "de": "der Oktober", "gender": "der", "en": "October", "ipa": "ɔkˈtoːbɐ", "tags": ["noun"] },
+  "mon.november": { "de": "der November", "gender": "der", "en": "November", "ipa": "noˈvɛmbɐ", "tags": ["noun"] },
+  "mon.dezember": { "de": "der Dezember", "gender": "der", "en": "December", "ipa": "deˈtsɛmbɐ", "tags": ["noun"] },
+  "n.monat": { "de": "der Monat", "plural": "die Monate", "gender": "der", "en": "month", "ipa": "ˈmoːnat", "pic": "📅", "tags": ["noun", "gender"] },
+  "n.jahr": { "de": "das Jahr", "plural": "die Jahre", "gender": "das", "en": "year", "ipa": "jaːɐ̯", "pic": "🗓️", "tags": ["noun", "gender"] },
+  "n.jahreszeit": { "de": "die Jahreszeit", "plural": "die Jahreszeiten", "gender": "die", "en": "season", "ipa": "ˈjaːʁəsˌtsaɪ̯t", "pic": "🍂", "tags": ["noun", "gender"] },
+  "n.fruehling": { "de": "der Frühling", "plural": "die Frühlinge", "gender": "der", "en": "spring", "ipa": "ˈfʁyːlɪŋ", "pic": "🌷", "tags": ["noun", "gender"] },
+  "n.sommer": { "de": "der Sommer", "plural": "die Sommer", "gender": "der", "en": "summer", "ipa": "ˈzɔmɐ", "pic": "☀️", "tags": ["noun", "gender"] },
+  "n.herbst": { "de": "der Herbst", "plural": "die Herbste", "gender": "der", "en": "autumn, fall", "ipa": "hɛʁpst", "pic": "🍂", "tags": ["noun", "gender"] },
+  "n.winter": { "de": "der Winter", "plural": "die Winter", "gender": "der", "en": "winter", "ipa": "ˈvɪntɐ", "pic": "❄️", "tags": ["noun", "gender"] },
+  "n.schneemann": { "de": "der Schneemann", "plural": "die Schneemänner", "gender": "der", "en": "snowman", "ipa": "ˈʃneːman", "pic": "⛄", "tags": ["noun", "gender"] },
+  "d14.p.lieblingstag": { "de": "Was ist dein Lieblingstag?", "en": "What's your favourite day?", "ipa": "vas ɪst daɪ̯n ˈliːplɪŋsˌtaːk", "pic": "❤️", "tags": [] },
+  "d14.p.mein_lieblingstag": { "de": "Mein Lieblingstag ist der Freitag.", "en": "My favourite day is Friday.", "pic": "🎉", "tags": ["gender"] },
+  "d14.p.lieblingsmonat": { "de": "Mein Lieblingsmonat ist der Mai.", "en": "My favourite month is May.", "pic": "🌸", "tags": ["gender"] },
+  "d14.p.wochenende": { "de": "Samstag und Sonntag sind das Wochenende.", "en": "Saturday and Sunday are the weekend.", "pic": "🏖️", "tags": ["gender"] }
+ },
+ "sessions": [
+  {
+   "id": "A",
+   "title": "Montag bis Sonntag",
+   "said": ["n.mittwoch", "n.wochenende", "n.nachmittag", "mon.juli", "d14.p.mein_lieblingstag"],
+   "steps": [
+    {
+     "type": "video", "title": "Video: days, times of day, months", "videoId": "BtDsNX2i_uU", "channel": "YourGermanTeacher (Luzi)", "start": 45, "end": 488,
+     "note": "Every word is said three times — say it with Luzi.\n\n0:45 weekdays · 3:03 times of day · 4:34 months · 6:23 bonus: seasons · 7:39 *Lieblings-* (favourite)"
+    },
+    {
+     "type": "phrases", "title": "The seven days",
+     "items": ["n.montag", "n.dienstag", "n.mittwoch", "n.donnerstag", "n.freitag", "n.samstag", "n.sonntag", "n.tag", "n.woche", "n.wochenende"]
+    },
+    {
+     "type": "note", "title": "Almost everything here is „der“",
+     "md": "- all **days**: {de:der Montag}, {de:der Sonntag} … — but {de:das Wochenende} (because *das Ende*)\n- all **times of day**: {de:der Morgen}, {de:der Abend} … — but {de:die Nacht}\n- all **months**: {de:der Januar} … {de:der Dezember}\n- all **seasons**: {de:der Frühling}, {de:der Sommer}, {de:der Herbst}, {de:der Winter}\n\nSo: learn the two exceptions and you know them all."
+    },
+    {
+     "type": "phrases", "title": "Times of day",
+     "items": ["n.morgen", "n.vormittag", "n.mittag", "n.nachmittag", "n.abend", "n.nacht"]
+    },
+    {
+     "type": "phrases", "title": "The twelve months",
+     "items": ["mon.januar", "mon.februar", "mon.maerz", "mon.april", "mon.mai", "mon.juni", "mon.juli", "mon.august", "mon.september", "mon.oktober", "mon.november", "mon.dezember", "n.monat", "n.jahr"]
+    },
+    {
+     "type": "phrases", "title": "Bonus: the seasons",
+     "items": ["n.jahreszeit", "n.fruehling", "n.sommer", "n.herbst", "n.winter", "n.schneemann"]
+    },
+    {
+     "type": "gender", "title": "der, die or das?",
+     "questions": [{ "item": "n.donnerstag" }, { "item": "n.wochenende" }, { "item": "n.nacht" }, { "item": "n.woche" }, { "item": "n.abend" }, { "item": "n.jahr" }, { "item": "n.winter" }]
+    },
+    {
+     "type": "quiz", "title": "Days and months",
+     "questions": [
+      { "prompt": "Which day comes after {de:Mittwoch}?", "options": ["Donnerstag", "Dienstag", "Freitag"], "answer": 0, "deOptions": true },
+      { "prompt": "Which day is in the middle of the week?", "options": ["Mittwoch", "Montag", "Sonntag"], "answer": 0, "deOptions": true },
+      { "prompt": "{de:Samstag und Sonntag} = …", "options": ["das Wochenende", "die Woche", "der Monat"], "answer": 0, "deOptions": true },
+      { "kind": "listen", "say": "Juli", "item": "mon.juli", "options": ["July", "June", "January"], "answer": 0, "tag": "pron" },
+      { "kind": "listen", "say": "Juni", "item": "mon.juni", "options": ["June", "July", "May"], "answer": 0, "tag": "pron" },
+      { "kind": "listen", "say": "der Nachmittag", "item": "n.nachmittag", "options": ["afternoon", "late morning", "evening"], "answer": 0, "tag": "pron" },
+      { "prompt": "Which month is in winter in Germany?", "options": ["Januar", "Juli", "Mai"], "answer": 0, "deOptions": true }
+     ]
+    },
+    {
+     "type": "type", "title": "Listen and type (with the article)",
+     "questions": [
+      { "item": "n.donnerstag", "tag": "spell" },
+      { "item": "mon.maerz", "tag": "spell" },
+      { "item": "n.fruehling", "tag": "spell" }
+     ]
+    },
+    {
+     "type": "phrases", "title": "Lieblings- = favourite",
+     "intro": "Put *Lieblings-* in front of a noun: *Lieblingstag, Lieblingsmonat, Lieblingsfilm, Lieblingsbuch* …",
+     "items": ["d14.p.lieblingstag", "d14.p.mein_lieblingstag", "d14.p.lieblingsmonat", "d14.p.wochenende"]
+    },
+    {
+     "type": "pattern", "title": "Your favourites",
+     "prompts": [
+      { "q": "Was ist dein Lieblingstag?", "en": "What's your favourite day?", "example": "Mein Lieblingstag ist der Samstag." },
+      { "q": "Was ist dein Lieblingsmonat?", "en": "What's your favourite month?", "example": "Mein Lieblingsmonat ist der Mai." },
+      { "q": "Was ist deine Lieblingsjahreszeit?", "en": "What's your favourite season?", "example": "Meine Lieblingsjahreszeit ist der Frühling." }
+     ]
+    },
+    {
+     "type": "write", "title": "Short writing",
+     "prompt": "Write your favourite day, month and season (with the article), and one sentence about the weekend.",
+     "promptEn": "Write in German: my favourite day, month and season (Mein Lieblingstag ist der …), plus one sentence about the weekend.",
+     "minWords": 15,
+     "checklist": ["der with days, months and seasons", "Lieblingsjahreszeit → meine (die Jahreszeit)", "Nouns with a capital letter"],
+     "model": "Mein Lieblingstag ist der Freitag. Mein Lieblingsmonat ist der Mai. Meine Lieblingsjahreszeit ist der Frühling. Samstag und Sonntag sind das Wochenende."
+    }
+   ]
+  }
+ ]
+}

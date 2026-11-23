@@ -1,0 +1,849 @@
+{
+ "id": "d17",
+ "title": "der / die / das",
+ "items": {
+  "n.pilot": {
+   "de": "der Pilot",
+   "plural": "die Piloten",
+   "gender": "der",
+   "en": "pilot",
+   "ipa": "piˈloːt",
+   "pic": "👨‍✈️",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.maler": {
+   "de": "der Maler",
+   "plural": "die Maler",
+   "gender": "der",
+   "en": "painter",
+   "ipa": "ˈmaːlɐ",
+   "pic": "🧑‍🎨",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.feigling": {
+   "de": "der Feigling",
+   "plural": "die Feiglinge",
+   "gender": "der",
+   "en": "coward",
+   "ipa": "ˈfaɪ̯klɪŋ",
+   "pic": "🙈",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.teppich": {
+   "de": "der Teppich",
+   "plural": "die Teppiche",
+   "gender": "der",
+   "en": "carpet, rug",
+   "ipa": "ˈtɛpɪç",
+   "pic": "🧶",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.kapitalismus": {
+   "de": "der Kapitalismus",
+   "gender": "der",
+   "en": "capitalism",
+   "ipa": "kapitaˈlɪsmʊs",
+   "pic": "💰",
+   "note": "No plural.",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.koffer": {
+   "de": "der Koffer",
+   "plural": "die Koffer",
+   "gender": "der",
+   "en": "suitcase",
+   "ipa": "ˈkɔfɐ",
+   "pic": "🧳",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.komponist": {
+   "de": "der Komponist",
+   "plural": "die Komponisten",
+   "gender": "der",
+   "en": "composer",
+   "ipa": "kɔmpoˈnɪst",
+   "pic": "🎼",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.motor": {
+   "de": "der Motor",
+   "plural": "die Motoren",
+   "gender": "der",
+   "en": "engine, motor",
+   "ipa": "ˈmoːtoːɐ̯",
+   "pic": "⚙️",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.kontinent": {
+   "de": "der Kontinent",
+   "plural": "die Kontinente",
+   "gender": "der",
+   "en": "continent",
+   "ipa": "kɔntiˈnɛnt",
+   "pic": "🌍",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.schoenheit": {
+   "de": "die Schönheit",
+   "plural": "die Schönheiten",
+   "gender": "die",
+   "en": "beauty",
+   "ipa": "ˈʃøːnhaɪ̯t",
+   "pic": "🌸",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.moeglichkeit": {
+   "de": "die Möglichkeit",
+   "plural": "die Möglichkeiten",
+   "gender": "die",
+   "en": "possibility",
+   "ipa": "ˈmøːklɪçkaɪ̯t",
+   "pic": "🚪",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.mannschaft": {
+   "de": "die Mannschaft",
+   "plural": "die Mannschaften",
+   "gender": "die",
+   "en": "team",
+   "ipa": "ˈmanʃaft",
+   "pic": "⚽",
+   "note": "*Die Mannschaft* often means the German national football team.",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.flasche": {
+   "de": "die Flasche",
+   "plural": "die Flaschen",
+   "gender": "die",
+   "en": "bottle",
+   "ipa": "ˈflaʃə",
+   "pic": "🍾",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.baeckerei": {
+   "de": "die Bäckerei",
+   "plural": "die Bäckereien",
+   "gender": "die",
+   "en": "bakery",
+   "ipa": "bɛkəˈʁaɪ̯",
+   "pic": "🥐",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.situation": {
+   "de": "die Situation",
+   "plural": "die Situationen",
+   "gender": "die",
+   "en": "situation",
+   "ipa": "zituaˈtsi̯oːn",
+   "pic": "🧭",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.musik": {
+   "de": "die Musik",
+   "gender": "die",
+   "en": "music",
+   "ipa": "muˈziːk",
+   "pic": "🎵",
+   "note": "No plural.",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.kultur": {
+   "de": "die Kultur",
+   "plural": "die Kulturen",
+   "gender": "die",
+   "en": "culture",
+   "ipa": "kʊlˈtuːɐ̯",
+   "pic": "🎭",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.universitaet": {
+   "de": "die Universität",
+   "plural": "die Universitäten",
+   "gender": "die",
+   "en": "university",
+   "ipa": "univɛʁziˈtɛːt",
+   "pic": "🏛️",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.konferenz": {
+   "de": "die Konferenz",
+   "plural": "die Konferenzen",
+   "gender": "die",
+   "en": "conference",
+   "ipa": "kɔnfeˈʁɛnts",
+   "pic": "🎤",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.ding": {
+   "de": "das Ding",
+   "plural": "die Dinge",
+   "gender": "das",
+   "en": "thing",
+   "ipa": "dɪŋ",
+   "pic": "📦",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.rot": {
+   "de": "das Rot",
+   "gender": "das",
+   "en": "(the colour) red",
+   "ipa": "ʁoːt",
+   "pic": "🟥",
+   "note": "From the adjective *rot*. No plural.",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.lesen": {
+   "de": "das Lesen",
+   "gender": "das",
+   "en": "reading",
+   "ipa": "ˈleːzn̩",
+   "pic": "📖",
+   "note": "From the verb *lesen*. No plural.",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.schreiben": {
+   "de": "das Schreiben",
+   "gender": "das",
+   "en": "writing",
+   "ipa": "ˈʃʁaɪ̯bn̩",
+   "pic": "✍️",
+   "note": "From the verb *schreiben*. As a skill: no plural.",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.holz": {
+   "de": "das Holz",
+   "plural": "die Hölzer",
+   "gender": "das",
+   "en": "wood",
+   "ipa": "hɔlts",
+   "pic": "🪵",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.glas": {
+   "de": "das Glas",
+   "plural": "die Gläser",
+   "gender": "das",
+   "en": "glass",
+   "ipa": "ɡlaːs",
+   "pic": "🥛",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.metall": {
+   "de": "das Metall",
+   "plural": "die Metalle",
+   "gender": "das",
+   "en": "metal",
+   "ipa": "meˈtal",
+   "pic": "🔩",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.voeglein": {
+   "de": "das Vöglein",
+   "plural": "die Vöglein",
+   "gender": "das",
+   "en": "little bird",
+   "ipa": "ˈføːklaɪ̯n",
+   "pic": "🐤",
+   "note": "*der Vogel* + *-lein* → *das* Vöglein.",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.paket": {
+   "de": "das Paket",
+   "plural": "die Pakete",
+   "gender": "das",
+   "en": "parcel, package",
+   "ipa": "paˈkeːt",
+   "pic": "📦",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.paeckchen": {
+   "de": "das Päckchen",
+   "plural": "die Päckchen",
+   "gender": "das",
+   "en": "small parcel",
+   "ipa": "ˈpɛkçən",
+   "pic": "🎁",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.maedchen": {
+   "de": "das Mädchen",
+   "plural": "die Mädchen",
+   "gender": "das",
+   "en": "girl",
+   "ipa": "ˈmɛːtçən",
+   "pic": "👧",
+   "note": "A girl is *das* because of *-chen*.",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.bett": {
+   "de": "das Bett",
+   "plural": "die Betten",
+   "gender": "das",
+   "en": "bed",
+   "ipa": "bɛt",
+   "pic": "🛏️",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.buero": {
+   "de": "das Büro",
+   "plural": "die Büros",
+   "gender": "das",
+   "en": "office",
+   "ipa": "byˈʁoː",
+   "pic": "🏢",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.medikament": {
+   "de": "das Medikament",
+   "plural": "die Medikamente",
+   "gender": "das",
+   "en": "medicine",
+   "ipa": "medikaˈmɛnt",
+   "pic": "💊",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.fruehjahr": {
+   "de": "das Frühjahr",
+   "plural": "die Frühjahre",
+   "gender": "das",
+   "en": "spring (season)",
+   "ipa": "ˈfʁyːjaːɐ̯",
+   "pic": "🌱",
+   "note": "Same meaning as *der Frühling* — but *das*, because of *das Jahr*.",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "id": "A",
+   "title": "der and die",
+   "said": [
+    "n.teppich",
+    "n.koffer",
+    "n.mannschaft",
+    "n.flasche",
+    "n.universitaet"
+   ],
+   "steps": [
+    {
+     "type": "video",
+     "title": "Video: der, die, das (part 1)",
+     "videoId": "IFsEX4ZY6bc",
+     "channel": "YourGermanTeacher (Luzi)",
+     "start": 26,
+     "end": 604,
+     "note": "Chapters: 0:26 intro — three ways to guess the gender: **sex, meaning, ending** · 2:11 **der** · 5:54 **die**.\n\nThe example nouns are shown on screen — pause to read them."
+    },
+    {
+     "type": "note",
+     "title": "Three ways to guess the article",
+     "md": "1. **Natural sex**: a man is *der*, a woman is *die* ({de:der Pilot}, {de:die Pilotin}).\n2. **Meaning**: some groups always share an article (days, months, seasons, car brands …).\n3. **Ending** (*die Nachsilbe*) — the most useful for beginners.\n\nAnd the golden rule from the video: **always learn a noun together with its article.**"
+    },
+    {
+     "type": "table",
+     "title": "der: meanings and endings",
+     "skipFirst": true,
+     "cols": [
+      "",
+      "rule",
+      "example"
+     ],
+     "rows": [
+      [
+       "meaning",
+       "male people & jobs",
+       "der Pilot, der Maler"
+      ],
+      [
+       "meaning",
+       "days, times of day, months, seasons",
+       "der Montag, der Mai, der Winter"
+      ],
+      [
+       "meaning",
+       "car brands",
+       "der BMW, der Audi"
+      ],
+      [
+       "almost always",
+       "-ling, -ich, -ismus",
+       "der Feigling, der Teppich, der Kapitalismus"
+      ],
+      [
+       "mostly",
+       "-er, -ant, -ist, -ig, -or, -ent",
+       "der Koffer, der Elefant, der Komponist, der König, der Motor, der Kontinent"
+      ]
+     ],
+     "note": "Exceptions: {de:die Nacht} (lesson 14) and {de:das Frühjahr} (= der Frühling)."
+    },
+    {
+     "type": "phrases",
+     "title": "der words",
+     "items": [
+      "n.pilot",
+      "n.maler",
+      "n.feigling",
+      "n.teppich",
+      "n.kapitalismus",
+      "n.koffer",
+      "n.elefant",
+      "n.komponist",
+      "n.koenig",
+      "n.motor",
+      "n.kontinent"
+     ]
+    },
+    {
+     "type": "table",
+     "title": "die: meanings and endings",
+     "skipFirst": true,
+     "cols": [
+      "",
+      "rule",
+      "example"
+     ],
+     "rows": [
+      [
+       "meaning",
+       "female people & jobs (-in)",
+       "die Mutter, die Pilotin"
+      ],
+      [
+       "always",
+       "-heit, -keit, -schaft",
+       "die Schönheit, die Möglichkeit, die Mannschaft"
+      ],
+      [
+       "always",
+       "-ung, -tion / -sion, -tät",
+       "die Zeitung, die Situation, die Universität"
+      ],
+      [
+       "almost always",
+       "-ei, -ik, -ur, -enz",
+       "die Bäckerei, die Musik, die Kultur, die Konferenz"
+      ],
+      [
+       "over 90 %",
+       "-e",
+       "die Flasche, die Tasche, die Lampe"
+      ]
+     ],
+     "note": "**-e** is the most useful one: lots of nouns end in *-e*, and most of them are *die*. Exceptions you know: {de:der Löwe}, {de:das Ende}."
+    },
+    {
+     "type": "phrases",
+     "title": "die words",
+     "items": [
+      "n.schoenheit",
+      "n.moeglichkeit",
+      "n.mannschaft",
+      "n.flasche",
+      "n.baeckerei",
+      "n.zeitung",
+      "n.situation",
+      "n.musik",
+      "n.kultur",
+      "n.universitaet",
+      "n.konferenz"
+     ]
+    },
+    {
+     "type": "gender",
+     "title": "Use the ending!",
+     "questions": [
+      {
+       "item": "n.teppich"
+      },
+      {
+       "item": "n.schoenheit"
+      },
+      {
+       "item": "n.koffer"
+      },
+      {
+       "item": "n.situation"
+      },
+      {
+       "item": "n.feigling"
+      },
+      {
+       "item": "n.baeckerei"
+      },
+      {
+       "item": "n.flasche"
+      },
+      {
+       "item": "n.komponist"
+      },
+      {
+       "item": "n.universitaet"
+      },
+      {
+       "item": "n.mannschaft"
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Which ending gives „die“?",
+     "questions": [
+      {
+       "prompt": "Which word is feminine (die)?",
+       "options": [
+        "Freiheit",
+        "Frühling",
+        "Kapitalismus"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "gender",
+       "explain": "*-heit* → always *die*."
+      },
+      {
+       "prompt": "Which word is masculine (der)?",
+       "options": [
+        "Lehrling",
+        "Zeitung",
+        "Kultur"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "gender",
+       "explain": "*-ling* → *der* (*der Lehrling* = apprentice)."
+      },
+      {
+       "prompt": "{de:Wohnung} (flat) is …",
+       "options": [
+        "die",
+        "der",
+        "das"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "gender",
+       "explain": "*-ung* → always *die*."
+      }
+     ]
+    },
+    {
+     "type": "write",
+     "title": "Short writing",
+     "prompt": "Write 6 nouns from today with their article: 3 der-words and 3 die-words. Underline (in your head) the ending that told you.",
+     "promptEn": "List 6 German nouns with articles (3 der, 3 die) and say which ending (-ling, -ich, -er, -ung, -heit, -e …) shows the gender.",
+     "minWords": 12,
+     "checklist": [
+      "Each noun with its article",
+      "Capital letter on every noun"
+     ],
+     "model": "der Teppich, der Koffer, der Feigling, die Zeitung, die Flasche, die Schönheit"
+    }
+   ]
+  },
+  {
+   "id": "B",
+   "title": "das + the emergency tip",
+   "said": [
+    "n.maedchen",
+    "n.paeckchen",
+    "n.lesen",
+    "n.glas",
+    "n.buero"
+   ],
+   "steps": [
+    {
+     "type": "video",
+     "title": "Video: der, die, das (part 2)",
+     "videoId": "IFsEX4ZY6bc",
+     "channel": "YourGermanTeacher (Luzi)",
+     "start": 604,
+     "end": 911,
+     "note": "Chapters: 10:04 **das** · 14:28 bonus tip: if you have to guess fast, which article is the safest bet?"
+    },
+    {
+     "type": "table",
+     "title": "das: meanings and endings",
+     "skipFirst": true,
+     "cols": [
+      "",
+      "rule",
+      "example"
+     ],
+     "rows": [
+      [
+       "meaning",
+       "a child, a thing",
+       "das Kind, das Ding"
+      ],
+      [
+       "always",
+       "colours and ideas from adjectives",
+       "rot → das Rot, neu → das Neue"
+      ],
+      [
+       "always",
+       "infinitive → noun",
+       "lesen → das Lesen, schreiben → das Schreiben"
+      ],
+      [
+       "mostly",
+       "materials",
+       "das Holz, das Glas, das Metall"
+      ],
+      [
+       "always",
+       "-chen, -lein (small things)",
+       "das Päckchen, das Vöglein, das Mädchen"
+      ],
+      [
+       "often",
+       "-um, -ment, -o (foreign words)",
+       "das Datum, das Medikament, das Büro"
+      ]
+     ],
+     "note": "*-chen* and *-lein* make things small — and always *das*, even for people: {de:das Mädchen} (the girl)."
+    },
+    {
+     "type": "phrases",
+     "title": "das words",
+     "items": [
+      "n.kind",
+      "n.ding",
+      "n.rot",
+      "n.lesen",
+      "n.schreiben",
+      "n.holz",
+      "n.glas",
+      "n.metall",
+      "n.paket",
+      "n.paeckchen",
+      "n.vogel",
+      "n.voeglein",
+      "n.maedchen",
+      "n.bett",
+      "n.buero",
+      "n.medikament",
+      "n.fruehjahr"
+     ]
+    },
+    {
+     "type": "note",
+     "title": "The emergency tip",
+     "md": "If you have no idea and must decide fast (in an exam, in a conversation): **choose die**.\n\nAbout **46 %** of German nouns are feminine, **34 %** masculine and only **20 %** neuter — so *die* is the best guess."
+    },
+    {
+     "type": "gender",
+     "title": "der, die or das? (all lessons)",
+     "questions": [
+      {
+       "item": "n.maedchen"
+      },
+      {
+       "item": "n.paeckchen"
+      },
+      {
+       "item": "n.glas"
+      },
+      {
+       "item": "n.lesen"
+      },
+      {
+       "item": "n.buero"
+      },
+      {
+       "item": "n.motor"
+      },
+      {
+       "item": "n.konferenz"
+      },
+      {
+       "item": "n.holz"
+      },
+      {
+       "item": "n.kontinent"
+      },
+      {
+       "item": "n.musik"
+      },
+      {
+       "item": "n.fruehjahr"
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Why this article?",
+     "questions": [
+      {
+       "prompt": "Why is it {de:das Mädchen}?",
+       "options": [
+        "because of the ending -chen",
+        "because girls are neuter",
+        "because of the umlaut"
+       ],
+       "answer": 0,
+       "tag": "gender"
+      },
+      {
+       "prompt": "{de:schwimmen} → ___ Schwimmen (swimming)",
+       "options": [
+        "das",
+        "die",
+        "der"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "gender",
+       "explain": "Verbs used as nouns are always *das*."
+      },
+      {
+       "prompt": "{de:der Frühling} and {de:das Frühjahr} both mean …",
+       "options": [
+        "spring",
+        "summer",
+        "early morning"
+       ],
+       "answer": 0
+      },
+      {
+       "prompt": "No idea at all? The safest guess is …",
+       "options": [
+        "die",
+        "der",
+        "das"
+       ],
+       "answer": 0,
+       "deOptions": true
+      }
+     ]
+    },
+    {
+     "type": "shadow",
+     "title": "Listen and repeat",
+     "items": [
+      "n.maedchen",
+      "n.paeckchen",
+      "n.universitaet",
+      "n.koffer"
+     ]
+    },
+    {
+     "type": "write",
+     "title": "Short writing",
+     "prompt": "Look around you. Write 8 things you can see — always with der, die or das.",
+     "promptEn": "List 8 everyday objects around me in German with the correct article (der/die/das). Point out any mistakes in the articles.",
+     "minWords": 16,
+     "checklist": [
+      "Every noun with its article",
+      "Used the endings to decide",
+      "No idea? → die"
+     ],
+     "model": "der Tisch, der Stuhl, die Lampe, die Tasche, die Flasche, das Handy, das Buch, das Bett"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,308 @@
+{
+ "id": "d21",
+ "title": "Word order",
+ "items": {
+  "d21.p.fruehstueck": {
+   "de": "Ich esse um acht Uhr Frühstück.",
+   "en": "I have breakfast at eight.",
+   "pic": "🥐",
+   "tags": [
+    "order"
+   ]
+  },
+  "d21.p.hans_spaghetti": {
+   "de": "Hans isst gern Spaghetti.",
+   "en": "Hans likes eating spaghetti.",
+   "pic": "🍝",
+   "tags": [
+    "order"
+   ]
+  },
+  "d21.p.wir_sprechen": {
+   "de": "Wir sprechen heute Deutsch.",
+   "en": "We're speaking German today.",
+   "pic": "🗣️",
+   "tags": [
+    "order"
+   ]
+  },
+  "d21.p.heute_sprechen": {
+   "de": "Heute sprechen wir Deutsch.",
+   "en": "Today we're speaking German.",
+   "pic": "📅",
+   "tags": [
+    "order"
+   ]
+  },
+  "d21.p.was_esst_ihr": {
+   "de": "Was esst ihr gern?",
+   "en": "What do you (all) like eating?",
+   "pic": "🍽️",
+   "tags": [
+    "order"
+   ]
+  },
+  "d21.p.wann_lernst_du": {
+   "de": "Wann lernst du Deutsch?",
+   "en": "When do you study German?",
+   "pic": "🕒",
+   "tags": [
+    "order"
+   ]
+  },
+  "d21.p.schaust_du": {
+   "de": "Schaust du gern Fußball?",
+   "en": "Do you like watching football?",
+   "pic": "⚽",
+   "tags": [
+    "order"
+   ]
+  },
+  "d21.p.hoert_er": {
+   "de": "Hört er oft Musik?",
+   "en": "Does he often listen to music?",
+   "pic": "🎧",
+   "tags": [
+    "order"
+   ]
+  },
+  "d21.p.essen_wir": {
+   "de": "Essen wir heute Abend zu Hause?",
+   "en": "Are we eating at home this evening?",
+   "pic": "🏠",
+   "tags": [
+    "order"
+   ]
+  },
+  "d21.p.hans_bus": {
+   "de": "Hans fährt morgen mit dem Bus in die Schule.",
+   "en": "Hans is going to school by bus tomorrow.",
+   "pic": "🚌",
+   "tags": [
+    "order"
+   ]
+  },
+  "d21.p.lisa_kino": {
+   "de": "Lisa geht am Dienstag zu Fuß ins Kino.",
+   "en": "On Tuesday Lisa is walking to the cinema.",
+   "pic": "🎬",
+   "tags": [
+    "order"
+   ]
+  },
+  "d21.p.am_dienstag_lisa": {
+   "de": "Am Dienstag geht Lisa zu Fuß ins Kino.",
+   "en": "On Tuesday Lisa walks to the cinema.",
+   "pic": "📅",
+   "tags": [
+    "order"
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "id": "A",
+   "title": "The verb is in position 2",
+   "said": [
+    "d21.p.heute_sprechen",
+    "d21.p.wann_lernst_du",
+    "d21.p.schaust_du",
+    "d21.p.hans_bus",
+    "d21.p.am_dienstag_lisa"
+   ],
+   "steps": [
+    {
+     "type": "video",
+     "title": "Video: sentence structure (main clause)",
+     "videoId": "O-_cxHx5FD4",
+     "channel": "YourGermanTeacher (Luzi)",
+     "start": 26,
+     "end": 688,
+     "note": "0:59 three types of main clause · 1:44 statements · 4:52 W-questions · 6:21 yes/no questions · 7:40 recap · 8:03 bonus: the order of time, manner and place."
+    },
+    {
+     "type": "table",
+     "title": "Three sentence types",
+     "skipFirst": true,
+     "intro": "Tap a row to hear the example.",
+     "cols": [
+      "type",
+      "position 1",
+      "position 2",
+      "rest"
+     ],
+     "rows": [
+      [
+       "statement",
+       "Wir",
+       "sprechen",
+       "heute Deutsch."
+      ],
+      [
+       "statement",
+       "Heute",
+       "sprechen",
+       "wir Deutsch."
+      ],
+      [
+       "W-question",
+       "Wann",
+       "lernst",
+       "du Deutsch?"
+      ],
+      [
+       "yes/no question",
+       "Schaust",
+       "du",
+       "gern Fußball?"
+      ]
+     ],
+     "note": "**Statements and W-questions: the verb is in position 2.** If something else comes first (*heute*), the subject moves **after** the verb.\n\n**Yes/no questions: the verb is in position 1.**"
+    },
+    {
+     "type": "phrases",
+     "title": "Statements",
+     "items": [
+      "d21.p.fruehstueck",
+      "d21.p.hans_spaghetti",
+      "d21.p.wir_sprechen",
+      "d21.p.heute_sprechen"
+     ]
+    },
+    {
+     "type": "phrases",
+     "title": "Questions",
+     "items": [
+      "d21.p.was_esst_ihr",
+      "d21.p.wann_lernst_du",
+      "d21.p.schaust_du",
+      "d21.p.hoert_er",
+      "d21.p.essen_wir"
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Which order is right?",
+     "questions": [
+      {
+       "prompt": "Today I'm learning German.",
+       "options": [
+        "Heute lerne ich Deutsch.",
+        "Heute ich lerne Deutsch.",
+        "Ich heute lerne Deutsch."
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "order"
+      },
+      {
+       "prompt": "Do you like reading?",
+       "options": [
+        "Liest du gern?",
+        "Du liest gern?",
+        "Gern du liest?"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "order",
+       "explain": "Yes/no question → verb first. (*Du liest gern?* with rising voice is possible in speech, but the standard form is *Liest du gern?*)"
+      },
+      {
+       "prompt": "Where do you work?",
+       "options": [
+        "Wo arbeitest du?",
+        "Wo du arbeitest?",
+        "Arbeitest wo du?"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "order"
+      },
+      {
+       "prompt": "In the evening we watch a film.",
+       "options": [
+        "Am Abend sehen wir einen Film.",
+        "Am Abend wir sehen einen Film.",
+        "Wir am Abend sehen einen Film."
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "order"
+      }
+     ]
+    },
+    {
+     "type": "note",
+     "title": "Bonus: when → how → where",
+     "md": "When a sentence has several extra pieces, the usual order is **time (wann?) → manner (wie?) → place (wo/wohin?)**. Teachers call it *Te-Ka-Mo-Lo* (temporal, kausal, modal, lokal):\n\n{de:Hans fährt **morgen** **mit dem Bus** **in die Schule**.}\n\n{de:Lisa geht **am Dienstag** **zu Fuß** **ins Kino**.}\n\nYou can put one piece first for emphasis — the verb stays in position 2: {de:Am Dienstag geht Lisa zu Fuß ins Kino.}"
+    },
+    {
+     "type": "phrases",
+     "title": "Time – manner – place",
+     "items": [
+      "d21.p.hans_bus",
+      "d21.p.lisa_kino",
+      "d21.p.am_dienstag_lisa"
+     ]
+    },
+    {
+     "type": "build",
+     "title": "Build the sentence",
+     "questions": [
+      {
+       "en": "Today we're speaking German.",
+       "answer": "Heute sprechen wir Deutsch.",
+       "tag": "order",
+       "alts": [
+        "Wir sprechen heute Deutsch."
+       ]
+      },
+      {
+       "en": "Does he often listen to music?",
+       "answer": "Hört er oft Musik?",
+       "tag": "order"
+      },
+      {
+       "en": "Hans is going to school by bus tomorrow.",
+       "answer": "Hans fährt morgen mit dem Bus in die Schule.",
+       "tag": "order",
+       "alts": [
+        "Morgen fährt Hans mit dem Bus in die Schule."
+       ]
+      },
+      {
+       "en": "On Tuesday Lisa walks to the cinema.",
+       "answer": "Am Dienstag geht Lisa zu Fuß ins Kino.",
+       "tag": "order",
+       "alts": [
+        "Lisa geht am Dienstag zu Fuß ins Kino."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "shadow",
+     "title": "Listen and repeat",
+     "items": [
+      "d21.p.heute_sprechen",
+      "d21.p.schaust_du",
+      "d21.p.hans_bus"
+     ]
+    },
+    {
+     "type": "write",
+     "title": "Short writing",
+     "prompt": "Write 2 statements starting with a time word, 2 W-questions and 2 yes/no questions.",
+     "promptEn": "Write in German: 2 statements that start with a time expression, 2 W-questions and 2 yes/no questions. Check the verb position.",
+     "minWords": 20,
+     "checklist": [
+      "Statement: verb in position 2",
+      "W-question: W-word, then verb",
+      "Yes/no question: verb first"
+     ],
+     "model": "Am Montag arbeite ich. Heute Abend lese ich ein Buch. Wo wohnst du? Was machst du gern? Hast du Zeit? Spielst du gern Fußball?"
+    }
+   ]
+  }
+ ]
+}

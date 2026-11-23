@@ -1,0 +1,402 @@
+{
+ "id": "d20",
+ "title": "Akkusativ",
+ "items": {
+  "n.hund": {
+   "de": "der Hund",
+   "plural": "die Hunde",
+   "gender": "der",
+   "en": "dog",
+   "ipa": "hʊnt",
+   "pic": "🐕",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.laptop": {
+   "de": "der Laptop",
+   "plural": "die Laptops",
+   "gender": "der",
+   "en": "laptop",
+   "ipa": "ˈlɛptɔp",
+   "pic": "💻",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.brief": {
+   "de": "der Brief",
+   "plural": "die Briefe",
+   "gender": "der",
+   "en": "letter",
+   "ipa": "bʁiːf",
+   "pic": "✉️",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.email": {
+   "de": "die E-Mail",
+   "plural": "die E-Mails",
+   "gender": "die",
+   "en": "email",
+   "ipa": "ˈiːmeɪ̯l",
+   "pic": "📧",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "d20.p.kind_gluecklich": {
+   "de": "Das Kind ist glücklich.",
+   "en": "The child is happy.",
+   "pic": "😊",
+   "tags": [
+    "case"
+   ]
+  },
+  "d20.p.einen_hund": {
+   "de": "Das Kind sieht einen Hund.",
+   "en": "The child sees a dog.",
+   "ipa": "das kɪnt ziːt ˈaɪ̯nən hʊnt",
+   "pic": "🐕",
+   "tags": [
+    "case"
+   ]
+  },
+  "d20.p.hund_sieht_kind": {
+   "de": "Der Hund sieht das Kind.",
+   "en": "The dog sees the child.",
+   "pic": "🐕",
+   "tags": [
+    "case"
+   ]
+  },
+  "d20.p.einen_laptop": {
+   "de": "Das Kind hat einen Laptop.",
+   "en": "The child has a laptop.",
+   "pic": "💻",
+   "tags": [
+    "case"
+   ]
+  },
+  "d20.p.einen_film": {
+   "de": "Sie schaut einen Film.",
+   "en": "She's watching a film.",
+   "pic": "🎬",
+   "tags": [
+    "case"
+   ]
+  },
+  "d20.p.einen_brief": {
+   "de": "Er schreibt einen Brief.",
+   "en": "He's writing a letter.",
+   "pic": "✉️",
+   "tags": [
+    "case"
+   ]
+  },
+  "d20.p.eine_email": {
+   "de": "Er schreibt eine E-Mail.",
+   "en": "He's writing an email.",
+   "pic": "📧",
+   "tags": [
+    "case"
+   ]
+  },
+  "d20.p.ein_buch": {
+   "de": "Er schreibt ein Buch.",
+   "en": "He's writing a book.",
+   "pic": "📖",
+   "tags": [
+    "case"
+   ]
+  },
+  "d20.p.einen_stift": {
+   "de": "Er hat einen Stift.",
+   "en": "He has a pen.",
+   "pic": "🖊️",
+   "tags": [
+    "case"
+   ]
+  },
+  "d20.p.den_stift": {
+   "de": "Ich finde den Stift praktisch.",
+   "en": "I think the pen is practical.",
+   "pic": "🖊️",
+   "tags": [
+    "case"
+   ]
+  },
+  "d20.p.brief_vorn": {
+   "de": "Einen Brief schreibt der Mann.",
+   "en": "It's a letter that the man is writing.",
+   "pic": "✉️",
+   "note": "Object first for emphasis — the verb stays in position 2. Not very common.",
+   "tags": [
+    "case",
+    "order"
+   ]
+  },
+  "d20.p.was_isst_du": {
+   "de": "Was isst du gern?",
+   "en": "What do you like eating?",
+   "pic": "🍽️",
+   "tags": []
+  },
+  "d20.p.ich_esse_apfel": {
+   "de": "Ich esse gern einen Apfel.",
+   "en": "I like eating an apple.",
+   "pic": "🍎",
+   "tags": [
+    "case"
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "id": "A",
+   "title": "der → den, ein → einen",
+   "said": [
+    "d20.p.einen_hund",
+    "d20.p.einen_brief",
+    "d20.p.einen_stift",
+    "d20.p.den_stift",
+    "d20.p.was_isst_du"
+   ],
+   "steps": [
+    {
+     "type": "video",
+     "title": "Video: what is the accusative?",
+     "videoId": "fPKH95g_9cs",
+     "channel": "YourGermanTeacher (Luzi)",
+     "start": 25,
+     "end": 713,
+     "note": "Chapters: 0:25 what is the accusative · 4:04 the articles · 5:28 examples · 9:23 word order · 11:22 question of the day."
+    },
+    {
+     "type": "note",
+     "title": "Subject and object",
+     "md": "**Nominativ** = the subject — who does something. **Akkusativ** = the direct object — what/who the action happens to.\n\n- {de:Das Kind ist glücklich.} → only a subject\n- {de:Das Kind sieht **einen Hund**.} → *Kind* = subject, *Hund* = object (Akkusativ)\n\nMost verbs take an accusative object — and **haben always does**: {de:Ich habe einen Bruder.} (lesson 11)."
+    },
+    {
+     "type": "table",
+     "title": "Only der-words change",
+     "intro": "Tap a row to hear it.",
+     "cols": [
+      "",
+      "Nominativ",
+      "Akkusativ"
+     ],
+     "rows": [
+      [
+       "der (m)",
+       "der / ein Hund",
+       "den / einen Hund"
+      ],
+      [
+       "die (f)",
+       "die / eine E-Mail",
+       "die / eine E-Mail"
+      ],
+      [
+       "das (n)",
+       "das / ein Buch",
+       "das / ein Buch"
+      ],
+      [
+       "plural",
+       "die Stifte",
+       "die Stifte"
+      ]
+     ],
+     "skipFirst": true,
+     "note": "That's all: **der → den, ein → einen** (and *kein → keinen*). Everything else stays the same."
+    },
+    {
+     "type": "phrases",
+     "title": "Examples from the video",
+     "items": [
+      "d20.p.kind_gluecklich",
+      "d20.p.einen_hund",
+      "d20.p.hund_sieht_kind",
+      "d20.p.einen_laptop",
+      "d20.p.einen_film",
+      "d20.p.einen_brief",
+      "d20.p.eine_email",
+      "d20.p.ein_buch",
+      "d20.p.einen_stift",
+      "d20.p.den_stift"
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Akkusativ or not?",
+     "questions": [
+      {
+       "prompt": "Ich habe ___ Bruder. (der Bruder)",
+       "options": [
+        "einen",
+        "ein",
+        "eine"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "case"
+      },
+      {
+       "prompt": "Ich habe ___ Schwester. (die Schwester)",
+       "options": [
+        "eine",
+        "einen",
+        "ein"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "case"
+      },
+      {
+       "prompt": "Sie kauft ___ Auto. (das Auto)",
+       "options": [
+        "ein",
+        "einen",
+        "eine"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "case"
+      },
+      {
+       "prompt": "Wir sehen ___ Film. (der Film)",
+       "options": [
+        "den",
+        "der",
+        "die"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "case"
+      },
+      {
+       "prompt": "___ Hund ist groß. (der Hund — subject!)",
+       "options": [
+        "Der",
+        "Den",
+        "Einen"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "case",
+       "explain": "*Der Hund* is the subject here → Nominativ, no change."
+      },
+      {
+       "prompt": "Ich trinke ___ Kaffee. (der Kaffee)",
+       "options": [
+        "einen",
+        "ein",
+        "eine"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "case"
+      },
+      {
+       "prompt": "Ich habe ___ Hund. (no dog)",
+       "options": [
+        "keinen",
+        "kein",
+        "nicht"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "case",
+       "explain": "*kein* follows *ein*: **keinen** with der-words."
+      }
+     ]
+    },
+    {
+     "type": "note",
+     "title": "Bonus: word order",
+     "md": "In English the order shows who is the subject. In German the **case** shows it — so the object can come first to emphasise it. The verb stays in **position 2**:\n\n- {de:Der Mann schreibt einen Brief.}\n- {de:Einen Brief schreibt der Mann.} (emphasis on *a letter* — not very common)"
+    },
+    {
+     "type": "build",
+     "title": "Build the sentence",
+     "questions": [
+      {
+       "en": "The child sees a dog.",
+       "answer": "Das Kind sieht einen Hund.",
+       "extra": [
+        "ein"
+       ],
+       "tag": "case"
+      },
+      {
+       "en": "I think the pen is practical.",
+       "answer": "Ich finde den Stift praktisch.",
+       "extra": [
+        "der"
+       ],
+       "tag": "case"
+      },
+      {
+       "en": "He's writing an email.",
+       "answer": "Er schreibt eine E-Mail.",
+       "extra": [
+        "einen"
+       ],
+       "tag": "case"
+      }
+     ]
+    },
+    {
+     "type": "type",
+     "title": "Listen and type",
+     "questions": [
+      {
+       "item": "d20.p.einen_brief",
+       "tag": "case"
+      },
+      {
+       "item": "d20.p.einen_stift",
+       "tag": "case"
+      }
+     ]
+    },
+    {
+     "type": "pattern",
+     "title": "Question of the day",
+     "intro": "Answer with a **der-word** to practise *einen*: der Apfel, der Salat, der Burger, der Döner …",
+     "prompts": [
+      {
+       "q": "Was isst du gern?",
+       "en": "What do you like eating?",
+       "item": "d20.p.ich_esse_apfel"
+      },
+      {
+       "q": "Hast du einen Hund?",
+       "en": "Do you have a dog?",
+       "example": "Nein, ich habe keinen Hund."
+      }
+     ]
+    },
+    {
+     "type": "write",
+     "title": "Short writing",
+     "prompt": "What do you have, see, buy or eat? Write 5 sentences with an object — at least 3 with a der-word (einen / den).",
+     "promptEn": "Write 5 German sentences with an accusative object (haben, sehen, kaufen, essen, trinken); at least 3 with masculine nouns (einen/den).",
+     "minWords": 15,
+     "checklist": [
+      "der → den, ein → einen, kein → keinen",
+      "die / das / plural: no change",
+      "Verb in position 2"
+     ],
+     "model": "Ich habe einen Bruder. Ich trinke einen Kaffee. Ich kaufe einen Stift. Ich sehe den Hund. Ich lese ein Buch."
+    }
+   ]
+  }
+ ]
+}

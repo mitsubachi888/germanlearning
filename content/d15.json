@@ -1,0 +1,489 @@
+{
+ "id": "d15",
+ "title": "Telling the time",
+ "items": {
+  "d15.p.wie_spaet": {
+   "de": "Wie spät ist es?",
+   "en": "What time is it?",
+   "ipa": "viː ʃpɛːt ɪst ɛs",
+   "pic": "🕒",
+   "tags": [
+    "num"
+   ]
+  },
+  "d15.p.wie_viel_uhr": {
+   "de": "Wie viel Uhr ist es?",
+   "en": "What time is it?",
+   "pic": "🕒",
+   "note": "Same meaning as *Wie spät ist es?*",
+   "tags": [
+    "num"
+   ]
+  },
+  "n.uhrzeit": {
+   "de": "die Uhrzeit",
+   "plural": "die Uhrzeiten",
+   "gender": "die",
+   "en": "time (on the clock)",
+   "ipa": "ˈuːɐ̯tsaɪ̯t",
+   "pic": "⏰",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "d15.p.14_33": {
+   "de": "Es ist vierzehn Uhr dreiunddreißig.",
+   "en": "It's 14:33.",
+   "pic": "📻",
+   "tags": [
+    "num"
+   ]
+  },
+  "d15.p.18_45": {
+   "de": "Es ist achtzehn Uhr fünfundvierzig.",
+   "en": "It's 18:45.",
+   "pic": "📺",
+   "tags": [
+    "num"
+   ]
+  },
+  "d15.p.drei_uhr": {
+   "de": "Es ist drei Uhr.",
+   "en": "It's three o'clock.",
+   "pic": "🕒",
+   "tags": [
+    "num"
+   ]
+  },
+  "d15.p.punkt_drei": {
+   "de": "Es ist Punkt drei.",
+   "en": "It's exactly three.",
+   "pic": "🕒",
+   "tags": [
+    "num"
+   ]
+  },
+  "d15.p.viertel_nach": {
+   "de": "Es ist Viertel nach sieben.",
+   "en": "It's quarter past seven (7:15).",
+   "pic": "🕖",
+   "tags": [
+    "num"
+   ]
+  },
+  "d15.p.halb_elf": {
+   "de": "Es ist halb elf.",
+   "en": "It's half past ten (10:30).",
+   "ipa": "ɛs ɪst halp ɛlf",
+   "pic": "🕥",
+   "note": "**halb elf** = half (on the way) to eleven = **10:30**, not 11:30!",
+   "tags": [
+    "num"
+   ]
+  },
+  "d15.p.viertel_vor": {
+   "de": "Es ist Viertel vor vier.",
+   "en": "It's quarter to four (3:45).",
+   "pic": "🕞",
+   "tags": [
+    "num"
+   ]
+  },
+  "d15.p.zehn_nach_neun": {
+   "de": "Es ist zehn nach neun.",
+   "en": "It's ten past nine (9:10).",
+   "pic": "🕘",
+   "tags": [
+    "num"
+   ]
+  },
+  "d15.p.fuenf_vor_halb_vier": {
+   "de": "Es ist fünf vor halb vier.",
+   "en": "It's 3:25 (five to half past three).",
+   "pic": "🕞",
+   "tags": [
+    "num"
+   ]
+  },
+  "d15.p.fuenf_nach_halb_zwei": {
+   "de": "Es ist fünf nach halb zwei.",
+   "en": "It's 1:35 (five past half past one).",
+   "pic": "🕜",
+   "tags": [
+    "num"
+   ]
+  },
+  "d15.p.zwanzig_vor_fuenf": {
+   "de": "Es ist zwanzig vor fünf.",
+   "en": "It's twenty to five (4:40).",
+   "pic": "🕓",
+   "tags": [
+    "num"
+   ]
+  },
+  "d15.p.kurz_vor": {
+   "de": "Es ist kurz vor zwölf.",
+   "en": "It's just before twelve.",
+   "pic": "🕛",
+   "tags": [
+    "num"
+   ]
+  },
+  "d15.p.kurz_nach": {
+   "de": "Es ist kurz nach zehn.",
+   "en": "It's just after ten.",
+   "pic": "🕙",
+   "tags": [
+    "num"
+   ]
+  },
+  "d15.p.etwa": {
+   "de": "Es ist etwa zehn.",
+   "en": "It's about ten.",
+   "pic": "🕙",
+   "tags": [
+    "num"
+   ]
+  },
+  "d15.p.kino": {
+   "de": "Ich gehe um acht Uhr ins Kino.",
+   "en": "I'm going to the cinema at eight.",
+   "ipa": "ɪç ˈɡeːə ʊm axt uːɐ̯ ɪns ˈkiːno",
+   "pic": "🎬",
+   "tags": [
+    "num"
+   ]
+  },
+  "d15.p.wann_kino": {
+   "de": "Wann gehst du ins Kino?",
+   "en": "When are you going to the cinema?",
+   "pic": "🎬",
+   "tags": [
+    "num"
+   ]
+  },
+  "d15.p.wann_abend": {
+   "de": "Wann isst du zu Abend?",
+   "en": "When do you have dinner?",
+   "ipa": "van ɪst duː tsuː ˈaːbn̩t",
+   "pic": "🍽️",
+   "tags": [
+    "num"
+   ]
+  },
+  "d15.p.um_sieben": {
+   "de": "Ich esse um sieben Uhr zu Abend.",
+   "en": "I have dinner at seven o'clock.",
+   "pic": "🍽️",
+   "tags": [
+    "num"
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "id": "A",
+   "title": "Wie spät ist es?",
+   "said": [
+    "d15.p.wie_spaet",
+    "d15.p.halb_elf",
+    "d15.p.viertel_vor",
+    "d15.p.kurz_nach",
+    "d15.p.kino"
+   ],
+   "steps": [
+    {
+     "type": "video",
+     "title": "Video: telling the time",
+     "videoId": "niBAknPZn0I",
+     "channel": "YourGermanTeacher (Luzi)",
+     "start": 52,
+     "end": 822,
+     "note": "Luzi shows **two ways**: 1:09 the official way (radio and TV) and 3:32 the everyday way (conversation). Beginners can always use the first one.\n\nEveryday way by minutes: 7:08 (1–20) · 8:29 (21–29) · 9:30 (31–39) · 10:25 (40–59) · 11:25 bonus *kurz vor / nach, etwa* · 12:23 bonus *um* + time."
+    },
+    {
+     "type": "phrases",
+     "title": "Asking for the time",
+     "items": [
+      "d15.p.wie_spaet",
+      "d15.p.wie_viel_uhr",
+      "n.uhrzeit"
+     ]
+    },
+    {
+     "type": "note",
+     "title": "Way 1: the official time (always works)",
+     "md": "**hour + Uhr + minutes**, often the 24-hour clock:\n\n- 14:33 → {de:Es ist vierzehn Uhr dreiunddreißig.}\n- 18:45 → {de:Es ist achtzehn Uhr fünfundvierzig.} (or *sechs Uhr fünfundvierzig*)\n- 9:00 → {de:Es ist neun Uhr.}\n\n*Uhr* stands **between** the hour and the minutes."
+    },
+    {
+     "type": "phrases",
+     "title": "Official time",
+     "items": [
+      "d15.p.14_33",
+      "d15.p.18_45"
+     ]
+    },
+    {
+     "type": "table",
+     "title": "Way 2: everyday time",
+     "skipFirst": true,
+     "intro": "Germans think in **quarters and halves**. **halb** always points to the **next** hour. Tap a row to hear the example.",
+     "cols": [
+      "minutes",
+      "pattern",
+      "example"
+     ],
+     "rows": [
+      [
+       ":00",
+       "… Uhr",
+       "drei Uhr (3:00)"
+      ],
+      [
+       ":15",
+       "Viertel nach …",
+       "Viertel nach sieben (7:15)"
+      ],
+      [
+       ":30",
+       "halb + next hour",
+       "halb elf (10:30)"
+      ],
+      [
+       ":45",
+       "Viertel vor + next hour",
+       "Viertel vor vier (3:45)"
+      ],
+      [
+       "1–20",
+       "… nach …",
+       "zehn nach neun (9:10)"
+      ],
+      [
+       "21–29",
+       "… vor halb …",
+       "fünf vor halb vier (3:25)"
+      ],
+      [
+       "31–39",
+       "… nach halb …",
+       "fünf nach halb zwei (1:35)"
+      ],
+      [
+       "40–59",
+       "… vor + next hour",
+       "zwanzig vor fünf (4:40)"
+      ]
+     ]
+    },
+    {
+     "type": "phrases",
+     "title": "Everyday time",
+     "items": [
+      "d15.p.drei_uhr",
+      "d15.p.punkt_drei",
+      "d15.p.viertel_nach",
+      "d15.p.halb_elf",
+      "d15.p.viertel_vor",
+      "d15.p.zehn_nach_neun",
+      "d15.p.fuenf_vor_halb_vier",
+      "d15.p.fuenf_nach_halb_zwei",
+      "d15.p.zwanzig_vor_fuenf"
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "What time is it?",
+     "questions": [
+      {
+       "prompt": "🕥 10:30",
+       "options": [
+        "halb elf",
+        "halb zehn",
+        "zehn Uhr dreißig nach"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "num",
+       "explain": "*halb elf* = halfway to eleven."
+      },
+      {
+       "prompt": "🕖 7:15",
+       "options": [
+        "Viertel nach sieben",
+        "Viertel vor sieben",
+        "Viertel nach acht"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "num"
+      },
+      {
+       "prompt": "🕞 3:45",
+       "options": [
+        "Viertel vor vier",
+        "Viertel nach drei",
+        "Viertel vor drei"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "num"
+      },
+      {
+       "prompt": "🕘 9:10",
+       "options": [
+        "zehn nach neun",
+        "zehn vor neun",
+        "neun nach zehn"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "num"
+      },
+      {
+       "prompt": "🕓 4:40",
+       "options": [
+        "zwanzig vor fünf",
+        "zwanzig nach vier",
+        "zwanzig vor vier"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "num"
+      },
+      {
+       "prompt": "🕝 2:25",
+       "options": [
+        "fünf vor halb drei",
+        "fünf nach halb zwei",
+        "fünf vor halb zwei"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "num"
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Listen: which time?",
+     "questions": [
+      {
+       "kind": "listen",
+       "say": "Es ist halb acht.",
+       "options": [
+        "7:30",
+        "8:30",
+        "8:00"
+       ],
+       "answer": 0,
+       "tag": "num"
+      },
+      {
+       "kind": "listen",
+       "say": "Es ist Viertel vor zehn.",
+       "options": [
+        "9:45",
+        "10:15",
+        "10:45"
+       ],
+       "answer": 0,
+       "tag": "num"
+      },
+      {
+       "kind": "listen",
+       "say": "Es ist fünf nach halb sechs.",
+       "options": [
+        "5:35",
+        "6:35",
+        "5:25"
+       ],
+       "answer": 0,
+       "tag": "num"
+      },
+      {
+       "kind": "listen",
+       "say": "Es ist zwanzig Uhr fünfzehn.",
+       "options": [
+        "20:15",
+        "15:20",
+        "8:50"
+       ],
+       "answer": 0,
+       "tag": "num"
+      }
+     ]
+    },
+    {
+     "type": "phrases",
+     "title": "Bonus: about … and „um“",
+     "intro": "In real life people round the time. And to say **when** something happens, use **um** + time.",
+     "items": [
+      "d15.p.kurz_vor",
+      "d15.p.kurz_nach",
+      "d15.p.etwa",
+      "d15.p.wann_kino",
+      "d15.p.kino",
+      "d15.p.wann_abend",
+      "d15.p.um_sieben"
+     ]
+    },
+    {
+     "type": "build",
+     "title": "Build the sentence",
+     "questions": [
+      {
+       "en": "It's quarter to four.",
+       "answer": "Es ist Viertel vor vier.",
+       "extra": [
+        "nach"
+       ],
+       "tag": "num"
+      },
+      {
+       "en": "I'm going to the cinema at eight.",
+       "answer": "Ich gehe um acht Uhr ins Kino.",
+       "extra": [
+        "am"
+       ],
+       "tag": "order",
+       "alts": [
+        "Um acht Uhr gehe ich ins Kino."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "pattern",
+     "title": "Your day",
+     "prompts": [
+      {
+       "q": "Wie spät ist es jetzt?",
+       "en": "What time is it now?",
+       "example": "Es ist halb acht."
+      },
+      {
+       "q": "Wann isst du zu Abend?",
+       "en": "When do you have dinner?",
+       "item": "d15.p.um_sieben"
+      }
+     ]
+    },
+    {
+     "type": "write",
+     "title": "Short writing",
+     "prompt": "Write 4 times in both ways (official + everyday), e.g. 7:30 → sieben Uhr dreißig / halb acht.",
+     "promptEn": "Write four clock times in German in two ways each: the official way (sieben Uhr dreißig) and the everyday way (halb acht).",
+     "minWords": 16,
+     "checklist": [
+      "halb + the NEXT hour",
+      "Viertel nach / Viertel vor",
+      "um + time for 'at'"
+     ],
+     "model": "Sieben Uhr dreißig – halb acht. Neun Uhr fünfzehn – Viertel nach neun. Sechzehn Uhr fünfundvierzig – Viertel vor fünf. Zwölf Uhr zehn – zehn nach zwölf."
+    }
+   ]
+  }
+ ]
+}

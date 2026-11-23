@@ -811,7 +811,10 @@
        "en": "I'm off tomorrow.",
        "answer": "Morgen habe ich frei.",
        "tag": "order",
-       "note": "Time word first → verb second → then *ich*."
+       "note": "Time word first → verb second → then *ich*.",
+       "alts": [
+        "Ich habe morgen frei."
+       ]
       },
       {
        "en": "Do you have time?",
@@ -832,7 +835,10 @@
       {
        "en": "Tomorrow I'll buy a bag.",
        "answer": "Morgen kaufe ich eine Tasche.",
-       "tag": "order"
+       "tag": "order",
+       "alts": [
+        "Ich kaufe morgen eine Tasche."
+       ]
       }
      ]
     },

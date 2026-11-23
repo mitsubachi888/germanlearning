@@ -557,7 +557,10 @@
       {
        "en": "I think the watch is very modern.",
        "answer": "Ich finde die Uhr sehr modern.",
-       "tag": "order"
+       "tag": "order",
+       "alts": [
+        "Die Uhr finde ich sehr modern."
+       ]
       },
       {
        "en": "The brand comes from Germany.",

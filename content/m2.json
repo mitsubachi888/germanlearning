@@ -1,0 +1,448 @@
+{
+ "id": "m2",
+ "title": "Mini-Gespräch 2: meeting up & at the café",
+ "items": {
+  "m2.p.hast_du_zeit": {
+   "de": "Hast du am Samstag Zeit?",
+   "en": "Are you free on Saturday?",
+   "ipa": "hast duː am ˈzamstaːk tsaɪ̯t",
+   "pic": "📅",
+   "tags": [
+    "case"
+   ]
+  },
+  "m2.p.ja_zeit": {
+   "de": "Ja, am Samstag habe ich Zeit.",
+   "en": "Yes, I'm free on Saturday.",
+   "pic": "👍",
+   "tags": [
+    "order"
+   ]
+  },
+  "m2.p.leider_nicht": {
+   "de": "Leider nicht. Am Samstag arbeite ich.",
+   "en": "Unfortunately not. I'm working on Saturday.",
+   "pic": "😕",
+   "tags": [
+    "order"
+   ]
+  },
+  "m2.p.cafe": {
+   "de": "Möchtest du ins Café gehen?",
+   "en": "Would you like to go to a café?",
+   "pic": "☕",
+   "tags": [
+    "verb"
+   ]
+  },
+  "m2.p.gute_idee": {
+   "de": "Gute Idee! Um wie viel Uhr?",
+   "en": "Good idea! At what time?",
+   "pic": "💡",
+   "tags": []
+  },
+  "m2.p.um_drei": {
+   "de": "Um drei Uhr. Geht das?",
+   "en": "At three. Does that work?",
+   "pic": "🕒",
+   "tags": [
+    "case"
+   ]
+  },
+  "m2.p.halb_vier": {
+   "de": "Um drei kann ich nicht. Geht es um halb vier?",
+   "en": "I can't at three. Does half past three work?",
+   "pic": "🕞",
+   "tags": [
+    "verb"
+   ]
+  },
+  "m2.p.ja_kann": {
+   "de": "Ja, das kann ich.",
+   "en": "Yes, I can.",
+   "pic": "👌",
+   "tags": [
+    "verb"
+   ]
+  },
+  "m2.p.wo": {
+   "de": "Und wo? Im Café am Bahnhof?",
+   "en": "And where? At the café at the station?",
+   "pic": "📍",
+   "tags": []
+  },
+  "m2.p.bis_samstag": {
+   "de": "Super, bis Samstag!",
+   "en": "Great, see you on Saturday!",
+   "pic": "👋",
+   "tags": []
+  },
+  "m2.p.was_moechten_sie": {
+   "de": "Guten Tag! Was möchten Sie trinken?",
+   "en": "Hello! What would you like to drink?",
+   "pic": "🧑‍🍳",
+   "tags": [
+    "verb"
+   ]
+  },
+  "m2.p.einen_tee": {
+   "de": "Ich hätte gerne einen Tee.",
+   "en": "I'd like a tea.",
+   "pic": "🍵",
+   "tags": [
+    "case"
+   ]
+  },
+  "m2.p.und_kuchen": {
+   "de": "Und ich nehme einen Kaffee und ein Stück Kuchen.",
+   "en": "And I'll have a coffee and a piece of cake.",
+   "pic": "🍰",
+   "tags": [
+    "case"
+   ]
+  },
+  "m2.p.getrennt": {
+   "de": "Getrennt, bitte.",
+   "en": "Separately, please.",
+   "pic": "➗",
+   "tags": []
+  },
+  "m2.p.ich_zahle_tee": {
+   "de": "Ich zahle den Tee.",
+   "en": "I'm paying for the tea.",
+   "pic": "🍵",
+   "tags": [
+    "case"
+   ]
+  },
+  "m2.p.drei_zwanzig": {
+   "de": "Das macht drei Euro zwanzig.",
+   "en": "That's €3.20.",
+   "pic": "💶",
+   "tags": [
+    "num"
+   ]
+  },
+  "m2.p.vier_euro": {
+   "de": "Hier sind vier Euro. Stimmt so.",
+   "en": "Here's four euros. Keep the change.",
+   "pic": "😊",
+   "tags": [
+    "num"
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "id": "A",
+   "title": "Making a plan and ordering",
+   "said": [
+    "m2.p.hast_du_zeit",
+    "m2.p.cafe",
+    "m2.p.halb_vier",
+    "m2.p.einen_tee",
+    "m2.p.getrennt"
+   ],
+   "steps": [
+    {
+     "type": "note",
+     "title": "Today: a whole afternoon in German",
+     "md": "No video today. You'll use lessons 14–26 together:\n\n1. **Make a plan** with a friend: day (*am Samstag*), time (*um halb vier*), place — with *können* and *möchten*.\n2. **At the café**: order (*Ich hätte gerne einen Tee*), Akkusativ (*einen Tee, einen Kaffee*), pay separately and give a tip.\n\nIf you don't understand: {de:Wie bitte? Noch einmal langsam, bitte.}"
+    },
+    {
+     "type": "dialogue",
+     "title": "Part 1: on the phone",
+     "intro": "Leon calls Aziz. Listen to the whole conversation first.",
+     "lines": [
+      {
+       "who": "A",
+       "name": "Leon",
+       "de": "Hallo Aziz! Hier ist Leon.",
+       "en": "Hi Aziz! It's Leon."
+      },
+      {
+       "who": "A",
+       "name": "Leon",
+       "item": "m2.p.hast_du_zeit"
+      },
+      {
+       "who": "B",
+       "name": "Aziz",
+       "item": "m2.p.ja_zeit"
+      },
+      {
+       "who": "A",
+       "name": "Leon",
+       "item": "m2.p.cafe"
+      },
+      {
+       "who": "B",
+       "name": "Aziz",
+       "item": "m2.p.gute_idee"
+      },
+      {
+       "who": "A",
+       "name": "Leon",
+       "item": "m2.p.um_drei"
+      },
+      {
+       "who": "B",
+       "name": "Aziz",
+       "item": "m2.p.halb_vier"
+      },
+      {
+       "who": "A",
+       "name": "Leon",
+       "item": "m2.p.ja_kann"
+      },
+      {
+       "who": "B",
+       "name": "Aziz",
+       "item": "m2.p.wo"
+      },
+      {
+       "who": "A",
+       "name": "Leon",
+       "item": "m2.p.bis_samstag"
+      }
+     ]
+    },
+    {
+     "type": "phrases",
+     "title": "Making plans",
+     "items": [
+      "m2.p.hast_du_zeit",
+      "m2.p.ja_zeit",
+      "m2.p.leider_nicht",
+      "m2.p.cafe",
+      "m2.p.gute_idee",
+      "m2.p.um_drei",
+      "m2.p.halb_vier",
+      "m2.p.ja_kann",
+      "m2.p.bis_samstag"
+     ]
+    },
+    {
+     "type": "dialogue",
+     "title": "Part 2: at the café",
+     "lines": [
+      {
+       "who": "A",
+       "name": "Waiter",
+       "item": "m2.p.was_moechten_sie"
+      },
+      {
+       "who": "B",
+       "name": "Aziz",
+       "item": "m2.p.einen_tee"
+      },
+      {
+       "who": "B",
+       "name": "Leon",
+       "item": "m2.p.und_kuchen"
+      },
+      {
+       "who": "A",
+       "name": "Waiter",
+       "de": "Gerne.",
+       "en": "Certainly."
+      },
+      {
+       "who": "B",
+       "name": "Aziz",
+       "item": "d22.p.rechnung_bitte"
+      },
+      {
+       "who": "A",
+       "name": "Waiter",
+       "item": "d22.p.zusammen_getrennt"
+      },
+      {
+       "who": "B",
+       "name": "Aziz",
+       "item": "m2.p.getrennt"
+      },
+      {
+       "who": "B",
+       "name": "Aziz",
+       "item": "m2.p.ich_zahle_tee"
+      },
+      {
+       "who": "A",
+       "name": "Waiter",
+       "item": "m2.p.drei_zwanzig"
+      },
+      {
+       "who": "B",
+       "name": "Aziz",
+       "item": "m2.p.vier_euro"
+      },
+      {
+       "who": "A",
+       "name": "Waiter",
+       "de": "Vielen Dank! Schönen Tag noch!",
+       "en": "Thank you very much! Have a nice day!"
+      }
+     ]
+    },
+    {
+     "type": "phrases",
+     "title": "At the café",
+     "items": [
+      "m2.p.was_moechten_sie",
+      "m2.p.einen_tee",
+      "m2.p.und_kuchen",
+      "m2.p.getrennt",
+      "m2.p.ich_zahle_tee",
+      "m2.p.drei_zwanzig",
+      "m2.p.vier_euro"
+     ]
+    },
+    {
+     "type": "roleplay",
+     "title": "Role-play: you make the plan",
+     "intro": "Choose “You”. Leon calls you.",
+     "lines": [
+      {
+       "who": "A",
+       "name": "Leon",
+       "item": "m2.p.hast_du_zeit"
+      },
+      {
+       "who": "B",
+       "name": "You",
+       "item": "m2.p.ja_zeit"
+      },
+      {
+       "who": "A",
+       "name": "Leon",
+       "item": "m2.p.cafe"
+      },
+      {
+       "who": "B",
+       "name": "You",
+       "item": "m2.p.gute_idee"
+      },
+      {
+       "who": "A",
+       "name": "Leon",
+       "item": "m2.p.um_drei"
+      },
+      {
+       "who": "B",
+       "name": "You",
+       "item": "m2.p.halb_vier"
+      },
+      {
+       "who": "A",
+       "name": "Leon",
+       "item": "m2.p.ja_kann"
+      },
+      {
+       "who": "B",
+       "name": "You",
+       "item": "m2.p.wo"
+      },
+      {
+       "who": "A",
+       "name": "Leon",
+       "item": "m2.p.bis_samstag"
+      }
+     ]
+    },
+    {
+     "type": "roleplay",
+     "title": "Role-play: you order and pay",
+     "intro": "Choose “You”.",
+     "lines": [
+      {
+       "who": "A",
+       "name": "Waiter",
+       "item": "m2.p.was_moechten_sie"
+      },
+      {
+       "who": "B",
+       "name": "You",
+       "item": "m2.p.einen_tee"
+      },
+      {
+       "who": "A",
+       "name": "Waiter",
+       "de": "Gerne. Möchten Sie auch etwas essen?",
+       "en": "Certainly. Would you like something to eat too?"
+      },
+      {
+       "who": "B",
+       "name": "You",
+       "de": "Ja, ich nehme ein Stück Kuchen.",
+       "en": "Yes, I'll have a piece of cake."
+      },
+      {
+       "who": "B",
+       "name": "You",
+       "item": "d22.p.rechnung_bitte"
+      },
+      {
+       "who": "A",
+       "name": "Waiter",
+       "de": "Das macht sechs Euro achtzig.",
+       "en": "That's €6.80."
+      },
+      {
+       "who": "B",
+       "name": "You",
+       "de": "Sieben Euro fünfzig, bitte.",
+       "en": "Make it €7.50, please."
+      },
+      {
+       "who": "A",
+       "name": "Waiter",
+       "de": "Danke schön!",
+       "en": "Thank you!"
+      }
+     ]
+    },
+    {
+     "type": "build",
+     "title": "Build the sentence",
+     "questions": [
+      {
+       "en": "Are you free on Saturday?",
+       "answer": "Hast du am Samstag Zeit?",
+       "tag": "order"
+      },
+      {
+       "en": "Yes, I'm free on Saturday.",
+       "answer": "Ja, am Samstag habe ich Zeit.",
+       "tag": "order",
+       "alts": [
+        "Ja, ich habe am Samstag Zeit."
+       ]
+      },
+      {
+       "en": "I'd like a tea, please.",
+       "answer": "Ich hätte gerne einen Tee.",
+       "extra": [
+        "ein"
+       ],
+       "tag": "case"
+      }
+     ]
+    },
+    {
+     "type": "write",
+     "title": "Your message",
+     "prompt": "Write a short message to a friend: suggest a day, a time and a place to meet, and say what you'd like to do there.",
+     "promptEn": "Write a short German text message (4-6 sentences, du-form) to a friend suggesting a day, a time and a café to meet, and what I'd like to order.",
+     "minWords": 25,
+     "checklist": [
+      "am + day, um + time",
+      "Möchtest du …? / Kannst du …? (second verb at the end)",
+      "einen + der-word (einen Tee, einen Kaffee)"
+     ],
+     "model": "Hallo Leon! Hast du am Sonntag Zeit? Möchtest du ins Café gehen? Kannst du um vier Uhr? Ich möchte ein Stück Kuchen essen und einen Tee trinken. Bis Sonntag!"
+    }
+   ]
+  }
+ ]
+}

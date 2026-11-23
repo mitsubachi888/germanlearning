@@ -1,0 +1,456 @@
+{
+ "id": "d25",
+ "title": "Separable verbs",
+ "items": {
+  "v.ankommen": {
+   "de": "ankommen",
+   "en": "to arrive",
+   "ipa": "ˈankɔmən",
+   "pic": "🛬",
+   "tags": [
+    "order"
+   ]
+  },
+  "v.abfahren": {
+   "de": "abfahren",
+   "en": "to depart, to leave",
+   "ipa": "ˈapfaːʁən",
+   "pic": "🚉",
+   "tags": [
+    "order"
+   ]
+  },
+  "v.losfahren": {
+   "de": "losfahren",
+   "en": "to set off",
+   "ipa": "ˈloːsfaːʁən",
+   "pic": "🚗",
+   "tags": [
+    "order"
+   ]
+  },
+  "v.mitfahren": {
+   "de": "mitfahren",
+   "en": "to come along (in a vehicle)",
+   "ipa": "ˈmɪtfaːʁən",
+   "pic": "🚙",
+   "tags": [
+    "order"
+   ]
+  },
+  "v.anmachen": {
+   "de": "anmachen",
+   "en": "to turn on",
+   "ipa": "ˈanmaxn̩",
+   "pic": "💡",
+   "tags": [
+    "order"
+   ]
+  },
+  "v.ausmachen": {
+   "de": "ausmachen",
+   "en": "to turn off",
+   "ipa": "ˈaʊ̯smaxn̩",
+   "pic": "🔌",
+   "tags": [
+    "order"
+   ]
+  },
+  "v.einkaufen": {
+   "de": "einkaufen",
+   "en": "to go shopping (for food etc.)",
+   "ipa": "ˈaɪ̯nkaʊ̯fn̩",
+   "pic": "🛒",
+   "tags": [
+    "order"
+   ]
+  },
+  "v.mitmachen": {
+   "de": "mitmachen",
+   "en": "to join in",
+   "ipa": "ˈmɪtmaxn̩",
+   "pic": "🙋",
+   "tags": [
+    "order"
+   ]
+  },
+  "v.zumachen": {
+   "de": "zumachen",
+   "en": "to close",
+   "ipa": "ˈtsuːmaxn̩",
+   "pic": "🚪",
+   "tags": [
+    "order"
+   ]
+  },
+  "v.zurueckfahren": {
+   "de": "zurückfahren",
+   "en": "to go back (by vehicle)",
+   "ipa": "tsuˈʁʏkfaːʁən",
+   "pic": "↩️",
+   "tags": [
+    "order"
+   ]
+  },
+  "v.vorbereiten": {
+   "de": "vorbereiten",
+   "en": "to prepare",
+   "ipa": "ˈfoːɐ̯bəˌʁaɪ̯tn̩",
+   "pic": "📝",
+   "tags": [
+    "order"
+   ]
+  },
+  "v.anrufen": {
+   "de": "anrufen",
+   "en": "to call (on the phone)",
+   "ipa": "ˈanʁuːfn̩",
+   "pic": "📞",
+   "tags": [
+    "order"
+   ]
+  },
+  "v.verkaufen": {
+   "de": "verkaufen",
+   "en": "to sell",
+   "ipa": "fɛɐ̯ˈkaʊ̯fn̩",
+   "pic": "🏷️",
+   "note": "*ver-* never separates.",
+   "tags": [
+    "order"
+   ]
+  },
+  "v.erklaeren": {
+   "de": "erklären",
+   "en": "to explain",
+   "ipa": "ɛɐ̯ˈklɛːʁən",
+   "pic": "🧑‍🏫",
+   "note": "*er-* never separates.",
+   "tags": [
+    "order"
+   ]
+  },
+  "v.bezahlen": {
+   "de": "bezahlen",
+   "en": "to pay",
+   "ipa": "bəˈtsaːlən",
+   "pic": "💳",
+   "note": "*be-* never separates.",
+   "tags": [
+    "order"
+   ]
+  },
+  "d25.p.berlin_an": {
+   "de": "Ich komme in Berlin an.",
+   "en": "I'm arriving in Berlin.",
+   "ipa": "ɪç ˈkɔmə ɪn bɛʁˈliːn an",
+   "pic": "🛬",
+   "tags": [
+    "order"
+   ]
+  },
+  "d25.p.lisa_9": {
+   "de": "Lisa kommt um neun Uhr an.",
+   "en": "Lisa arrives at nine.",
+   "pic": "🕘",
+   "tags": [
+    "order"
+   ]
+  },
+  "d25.p.lisa_zug": {
+   "de": "Lisa kommt um neun Uhr mit dem Zug in Berlin an.",
+   "en": "Lisa arrives in Berlin by train at nine.",
+   "pic": "🚆",
+   "tags": [
+    "order"
+   ]
+  },
+  "d25.p.wann_an": {
+   "de": "Wann kommt Lisa an?",
+   "en": "When does Lisa arrive?",
+   "pic": "❓",
+   "tags": [
+    "order"
+   ]
+  },
+  "d25.p.kommt_an": {
+   "de": "Kommt Lisa um neun Uhr an?",
+   "en": "Is Lisa arriving at nine?",
+   "pic": "❓",
+   "tags": [
+    "order"
+   ]
+  },
+  "d25.p.aufstehen": {
+   "de": "Ich stehe um sieben Uhr auf.",
+   "en": "I get up at seven.",
+   "pic": "⏰",
+   "tags": [
+    "order"
+   ]
+  },
+  "d25.p.einkaufen": {
+   "de": "Am Samstag kaufe ich ein.",
+   "en": "On Saturday I go shopping.",
+   "pic": "🛒",
+   "tags": [
+    "order"
+   ]
+  },
+  "d25.p.licht_aus": {
+   "de": "Mach bitte das Licht aus.",
+   "en": "Please turn off the light.",
+   "pic": "💡",
+   "tags": [
+    "order"
+   ]
+  },
+  "d25.p.zug_ab": {
+   "de": "Der Zug fährt um zehn Uhr ab.",
+   "en": "The train leaves at ten.",
+   "pic": "🚉",
+   "tags": [
+    "order"
+   ]
+  },
+  "d25.p.auto_verkaufen": {
+   "de": "Ich verkaufe mein Auto.",
+   "en": "I'm selling my car.",
+   "pic": "🚗",
+   "tags": [
+    "order"
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "id": "A",
+   "title": "The prefix goes to the end",
+   "said": [
+    "d25.p.berlin_an",
+    "d25.p.aufstehen",
+    "d25.p.einkaufen",
+    "d25.p.zug_ab",
+    "d25.p.wann_an"
+   ],
+   "steps": [
+    {
+     "type": "video",
+     "title": "Video: separable verbs",
+     "videoId": "Tizr0WwCzFQ",
+     "channel": "YourGermanTeacher (Luzi)",
+     "start": 44,
+     "end": 675,
+     "note": "Chapters: 1:10 what they are · 2:30 how they're formed · 3:42 conjugation · 4:32 sentence structure · 6:55 separable prefixes · 8:47 prefixes that never separate · 10:19 prefixes that can do both."
+    },
+    {
+     "type": "note",
+     "title": "How they work",
+     "md": "A **prefix** + a verb = a new verb: *kommen* (come) → **an**kommen (arrive). In the infinitive they're one word.\n\nIn a normal sentence the verb goes to position 2 and the **prefix jumps to the very end**:\n\n- ✗ *Ich ankomme in Berlin.*\n- ✓ {de:Ich **komme** in Berlin **an**.}\n- {de:Lisa **kommt** um neun Uhr mit dem Zug in Berlin **an**.}\n\nLuzi's rule: *Das Präfix steht immer am Satzende.* (the prefix is always at the end of the sentence)"
+    },
+    {
+     "type": "table",
+     "title": "ankommen",
+     "cols": [
+      "",
+      "ankommen"
+     ],
+     "rows": [
+      [
+       "ich",
+       "komme … an"
+      ],
+      [
+       "du",
+       "kommst … an"
+      ],
+      [
+       "er/sie/es",
+       "kommt … an"
+      ],
+      [
+       "wir",
+       "kommen … an"
+      ],
+      [
+       "ihr",
+       "kommt … an"
+      ],
+      [
+       "sie/Sie",
+       "kommen … an"
+      ]
+     ],
+     "note": "Normal endings — only the prefix moves away."
+    },
+    {
+     "type": "phrases",
+     "title": "Lisa arrives …",
+     "items": [
+      "v.ankommen",
+      "d25.p.berlin_an",
+      "d25.p.lisa_9",
+      "d25.p.lisa_zug",
+      "d25.p.wann_an",
+      "d25.p.kommt_an"
+     ]
+    },
+    {
+     "type": "phrases",
+     "title": "Separable: ab, an, auf, aus, ein, los, mit, zu, zurück, vor …",
+     "items": [
+      "v.abfahren",
+      "v.losfahren",
+      "v.mitfahren",
+      "v.anmachen",
+      "v.ausmachen",
+      "v.aufstehen",
+      "v.einkaufen",
+      "v.mitmachen",
+      "v.zumachen",
+      "v.zurueckfahren",
+      "v.vorbereiten",
+      "v.anrufen"
+     ]
+    },
+    {
+     "type": "phrases",
+     "title": "Never separate: be-, emp-, ent-, er-, ge-, ver-, zer- …",
+     "items": [
+      "v.bezahlen",
+      "v.erklaeren",
+      "v.verkaufen",
+      "d25.p.auto_verkaufen"
+     ]
+    },
+    {
+     "type": "phrases",
+     "title": "Everyday sentences",
+     "items": [
+      "d25.p.aufstehen",
+      "d25.p.einkaufen",
+      "d25.p.licht_aus",
+      "d25.p.zug_ab"
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Which sentence is right?",
+     "questions": [
+      {
+       "prompt": "I get up at six.",
+       "options": [
+        "Ich stehe um sechs Uhr auf.",
+        "Ich aufstehe um sechs Uhr.",
+        "Ich stehe auf um sechs Uhr."
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "order"
+      },
+      {
+       "prompt": "When does the train leave?",
+       "options": [
+        "Wann fährt der Zug ab?",
+        "Wann abfährt der Zug?",
+        "Wann fährt ab der Zug?"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "order"
+      },
+      {
+       "prompt": "I'm selling my car.",
+       "options": [
+        "Ich verkaufe mein Auto.",
+        "Ich kaufe mein Auto ver."
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "order",
+       "explain": "*ver-* never separates."
+      },
+      {
+       "prompt": "Are you going shopping today?",
+       "options": [
+        "Kaufst du heute ein?",
+        "Einkaufst du heute?",
+        "Kaufst ein du heute?"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "order"
+      }
+     ]
+    },
+    {
+     "type": "build",
+     "title": "Build the sentence",
+     "questions": [
+      {
+       "en": "I get up at seven.",
+       "answer": "Ich stehe um sieben Uhr auf.",
+       "tag": "order",
+       "alts": [
+        "Um sieben Uhr stehe ich auf."
+       ]
+      },
+      {
+       "en": "On Saturday I go shopping.",
+       "answer": "Am Samstag kaufe ich ein.",
+       "tag": "order",
+       "alts": [
+        "Ich kaufe am Samstag ein."
+       ]
+      },
+      {
+       "en": "The train leaves at ten.",
+       "answer": "Der Zug fährt um zehn Uhr ab.",
+       "tag": "order",
+       "alts": [
+        "Um zehn Uhr fährt der Zug ab."
+       ]
+      },
+      {
+       "en": "Please turn off the light.",
+       "answer": "Mach bitte das Licht aus.",
+       "tag": "order",
+       "alts": [
+        "Mach das Licht bitte aus."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "pattern",
+     "title": "Your day",
+     "prompts": [
+      {
+       "q": "Wann stehst du auf?",
+       "en": "When do you get up?",
+       "item": "d25.p.aufstehen"
+      },
+      {
+       "q": "Wann kaufst du ein?",
+       "en": "When do you go shopping?",
+       "item": "d25.p.einkaufen"
+      }
+     ]
+    },
+    {
+     "type": "write",
+     "title": "Short writing",
+     "prompt": "Describe your morning in 4–5 sentences with separable verbs (aufstehen, anmachen, einkaufen, losfahren, ankommen …).",
+     "promptEn": "Describe my morning routine in German in 4-5 sentences using separable verbs (aufstehen, anmachen, losfahren, ankommen, einkaufen).",
+     "minWords": 18,
+     "checklist": [
+      "Prefix at the very end",
+      "Verb in position 2",
+      "be-, er-, ver- don't separate"
+     ],
+     "model": "Ich stehe um sieben Uhr auf. Ich mache das Radio an. Um acht Uhr fahre ich los. Ich komme um halb neun im Büro an. Dann kaufe ich ein."
+    }
+   ]
+  }
+ ]
+}

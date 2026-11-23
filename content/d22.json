@@ -1,0 +1,543 @@
+{
+ "id": "d22",
+ "title": "Ordering at a restaurant",
+ "items": {
+  "n.restaurant": {
+   "de": "das Restaurant",
+   "plural": "die Restaurants",
+   "gender": "das",
+   "en": "restaurant",
+   "ipa": "ʁɛstoˈʁɑ̃ː",
+   "pic": "🍽️",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.speisekarte2": {
+   "de": "die Speisekarte",
+   "plural": "die Speisekarten",
+   "gender": "die",
+   "en": "menu",
+   "ipa": "ˈʃpaɪ̯zəˌkaʁtə",
+   "pic": "📋",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.preis": {
+   "de": "der Preis",
+   "plural": "die Preise",
+   "gender": "der",
+   "en": "price",
+   "ipa": "pʁaɪ̯s",
+   "pic": "🏷️",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.bedienung": {
+   "de": "die Bedienung",
+   "plural": "die Bedienungen",
+   "gender": "die",
+   "en": "waiter / waitress (the person serving you)",
+   "ipa": "bəˈdiːnʊŋ",
+   "pic": "🧑‍🍳",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.vorspeise": {
+   "de": "die Vorspeise",
+   "plural": "die Vorspeisen",
+   "gender": "die",
+   "en": "starter",
+   "ipa": "ˈfoːɐ̯ʃpaɪ̯zə",
+   "pic": "🥗",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.hauptgericht": {
+   "de": "das Hauptgericht",
+   "plural": "die Hauptgerichte",
+   "gender": "das",
+   "en": "main course",
+   "ipa": "ˈhaʊ̯ptɡəˌʁɪçt",
+   "pic": "🍲",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.nachtisch": {
+   "de": "der Nachtisch",
+   "plural": "die Nachtische",
+   "gender": "der",
+   "en": "dessert",
+   "ipa": "ˈnaːxtɪʃ",
+   "pic": "🍨",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.rechnung": {
+   "de": "die Rechnung",
+   "plural": "die Rechnungen",
+   "gender": "die",
+   "en": "bill",
+   "ipa": "ˈʁɛçnʊŋ",
+   "pic": "🧾",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.trinkgeld": {
+   "de": "das Trinkgeld",
+   "plural": "die Trinkgelder",
+   "gender": "das",
+   "en": "tip",
+   "ipa": "ˈtʁɪŋkɡɛlt",
+   "pic": "💶",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "d22.p.tisch_zwei": {
+   "de": "Haben Sie noch einen Tisch für zwei Personen?",
+   "en": "Do you have a table for two?",
+   "pic": "🪑",
+   "tags": []
+  },
+  "d22.p.zu_trinken": {
+   "de": "Darf ich Ihnen schon etwas zu trinken bringen?",
+   "en": "Can I bring you something to drink?",
+   "pic": "🥤",
+   "tags": []
+  },
+  "d22.p.moment": {
+   "de": "Wir brauchen noch einen Moment.",
+   "en": "We need another moment.",
+   "pic": "⏳",
+   "tags": []
+  },
+  "d22.p.bestellen": {
+   "de": "Wir würden gerne bestellen.",
+   "en": "We'd like to order.",
+   "ipa": "viːɐ̯ ˈvʏʁdn̩ ˈɡɛʁnə bəˈʃtɛlən",
+   "pic": "📝",
+   "tags": []
+  },
+  "d22.p.cola": {
+   "de": "Ich hätte gerne eine Cola.",
+   "en": "I'd like a cola.",
+   "pic": "🥤",
+   "tags": [
+    "case"
+   ]
+  },
+  "d22.p.wasser": {
+   "de": "Ich nehme ein großes Wasser.",
+   "en": "I'll have a large water.",
+   "pic": "💧",
+   "note": "In the video: *Ich nehme ein großes Bier.*",
+   "tags": [
+    "case"
+   ]
+  },
+  "d22.p.empfehlen": {
+   "de": "Was können Sie uns empfehlen?",
+   "en": "What can you recommend?",
+   "ipa": "vas ˈkœnən ziː ʊns ɛmˈpfeːlən",
+   "pic": "🤔",
+   "tags": []
+  },
+  "d22.p.suppe": {
+   "de": "Unsere Tomatensuppe ist wirklich lecker.",
+   "en": "Our tomato soup is really tasty.",
+   "pic": "🍅",
+   "tags": []
+  },
+  "d22.p.zweimal": {
+   "de": "Dann bitte zweimal die Tomatensuppe.",
+   "en": "Then two tomato soups, please.",
+   "pic": "🍲",
+   "tags": []
+  },
+  "d22.p.als_hauptgericht": {
+   "de": "Als Hauptgericht hätte ich gerne die Käsespätzle.",
+   "en": "For my main course I'd like the cheese spätzle.",
+   "pic": "🧀",
+   "tags": []
+  },
+  "d22.p.kleine_portionen": {
+   "de": "Machen Sie auch kleine Portionen?",
+   "en": "Do you also do small portions?",
+   "pic": "🥣",
+   "tags": []
+  },
+  "d22.p.salz_pfeffer": {
+   "de": "Könnten wir bitte Salz und Pfeffer haben?",
+   "en": "Could we have salt and pepper, please?",
+   "pic": "🧂",
+   "tags": []
+  },
+  "d22.p.in_ordnung": {
+   "de": "War alles in Ordnung?",
+   "en": "Was everything OK?",
+   "pic": "👍",
+   "tags": []
+  },
+  "d22.p.geschmeckt": {
+   "de": "Hat es Ihnen geschmeckt?",
+   "en": "Did you enjoy your meal?",
+   "pic": "😋",
+   "tags": []
+  },
+  "d22.p.bestens": {
+   "de": "Alles bestens, danke.",
+   "en": "Everything was great, thanks.",
+   "pic": "👌",
+   "tags": []
+  },
+  "d22.p.einpacken": {
+   "de": "Könnten Sie uns das einpacken?",
+   "en": "Could you pack that up for us?",
+   "pic": "🥡",
+   "tags": []
+  },
+  "d22.p.rechnung_bitte": {
+   "de": "Die Rechnung, bitte.",
+   "en": "The bill, please.",
+   "ipa": "diː ˈʁɛçnʊŋ ˈbɪtə",
+   "pic": "🧾",
+   "tags": []
+  },
+  "d22.p.zahlen": {
+   "de": "Wir würden gerne zahlen.",
+   "en": "We'd like to pay.",
+   "pic": "💳",
+   "tags": []
+  },
+  "d22.p.zusammen_getrennt": {
+   "de": "Zusammen oder getrennt?",
+   "en": "Together or separately?",
+   "pic": "➗",
+   "tags": []
+  },
+  "d22.p.zusammen": {
+   "de": "Zusammen, bitte.",
+   "en": "Together, please.",
+   "pic": "🤝",
+   "tags": []
+  },
+  "d22.p.das_macht": {
+   "de": "Das macht achtundvierzig Euro sechzig.",
+   "en": "That's €48.60.",
+   "pic": "💶",
+   "tags": [
+    "num"
+   ]
+  },
+  "d22.p.bar_karte": {
+   "de": "Zahlen Sie bar oder mit Karte?",
+   "en": "Are you paying cash or by card?",
+   "pic": "💳",
+   "tags": []
+  },
+  "d22.p.stimmt_so": {
+   "de": "Stimmt so.",
+   "en": "Keep the change.",
+   "ipa": "ʃtɪmt zoː",
+   "pic": "😊",
+   "tags": []
+  },
+  "d22.p.machen_sie": {
+   "de": "Machen Sie fünfundfünfzig.",
+   "en": "Make it 55.",
+   "pic": "💶",
+   "note": "Say the total **including** the tip (up to about 10 %).",
+   "tags": [
+    "num"
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "id": "A",
+   "title": "Im Restaurant",
+   "said": [
+    "d22.p.tisch_zwei",
+    "d22.p.bestellen",
+    "d22.p.cola",
+    "d22.p.rechnung_bitte",
+    "d22.p.stimmt_so"
+   ],
+   "steps": [
+    {
+     "type": "video",
+     "title": "Video: ordering food in a restaurant",
+     "videoId": "d2XXhIVjmTc",
+     "channel": "YourGermanTeacher (Johannes)",
+     "start": 32,
+     "end": 647,
+     "note": "Chapters: 0:32 restaurant, menu, table · 1:30 the waiter · 3:23 ordering · 5:14 small portions, salt, take-away, dessert · 7:22 the bill and the tip · 9:28 bonus tips (no own food, don't slurp, be patient)."
+    },
+    {
+     "type": "phrases",
+     "title": "Words",
+     "items": [
+      "n.restaurant",
+      "n.speisekarte2",
+      "n.preis",
+      "n.bedienung",
+      "n.vorspeise",
+      "n.hauptgericht",
+      "n.nachtisch",
+      "n.rechnung",
+      "n.trinkgeld"
+     ]
+    },
+    {
+     "type": "phrases",
+     "title": "Arriving and ordering",
+     "intro": "*Ich hätte gerne …* and *Wir würden gerne …* are the polite „I'd like“ forms (you'll learn the grammar later — just use them).",
+     "items": [
+      "d22.p.tisch_zwei",
+      "d22.p.zu_trinken",
+      "d22.p.moment",
+      "d22.p.bestellen",
+      "d22.p.cola",
+      "d22.p.wasser",
+      "d22.p.empfehlen",
+      "d22.p.suppe",
+      "d22.p.zweimal",
+      "d22.p.als_hauptgericht"
+     ]
+    },
+    {
+     "type": "phrases",
+     "title": "During the meal",
+     "items": [
+      "d22.p.kleine_portionen",
+      "d22.p.salz_pfeffer",
+      "d22.p.in_ordnung",
+      "d22.p.geschmeckt",
+      "d22.p.bestens",
+      "d22.p.einpacken"
+     ]
+    },
+    {
+     "type": "phrases",
+     "title": "Paying",
+     "intro": "In Germany you say the tip out loud when you pay — you usually don't just leave it on the table.",
+     "items": [
+      "d22.p.rechnung_bitte",
+      "d22.p.zahlen",
+      "d22.p.zusammen_getrennt",
+      "d22.p.zusammen",
+      "d22.p.das_macht",
+      "d22.p.bar_karte",
+      "d22.p.stimmt_so",
+      "d22.p.machen_sie"
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "What do you say?",
+     "questions": [
+      {
+       "prompt": "You want to call the waiter.",
+       "options": [
+        "Hallo, Bedienung!",
+        "Hallo, Kellner!",
+        "Hallo, Restaurant!"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "explain": "Johannes: *Kellner* is the job title; to call someone, say *Bedienung*."
+      },
+      {
+       "prompt": "You need more time with the menu.",
+       "options": [
+        "Wir brauchen noch einen Moment.",
+        "Die Rechnung, bitte.",
+        "Stimmt so."
+       ],
+       "answer": 0,
+       "deOptions": true
+      },
+      {
+       "prompt": "The bill is €18.50, you give €20 and want no change back.",
+       "options": [
+        "Stimmt so.",
+        "Zusammen, bitte.",
+        "Alles bestens."
+       ],
+       "answer": 0,
+       "deOptions": true
+      },
+      {
+       "prompt": "{de:Zusammen oder getrennt?} means …",
+       "options": [
+        "Together or separately?",
+        "Cash or card?",
+        "Starter or dessert?"
+       ],
+       "answer": 0
+      },
+      {
+       "kind": "listen",
+       "say": "Hat es Ihnen geschmeckt?",
+       "item": "d22.p.geschmeckt",
+       "options": [
+        "Did you enjoy your meal?",
+        "Would you like a dessert?",
+        "Was everything expensive?"
+       ],
+       "answer": 0,
+       "tag": "pron"
+      }
+     ]
+    },
+    {
+     "type": "roleplay",
+     "title": "Role-play: dinner for two",
+     "intro": "Choose “Guest”. The waiter speaks; you order.",
+     "lines": [
+      {
+       "who": "B",
+       "name": "Guest",
+       "item": "d22.p.tisch_zwei"
+      },
+      {
+       "who": "A",
+       "name": "Waiter",
+       "de": "Ja, natürlich. Bitte schön!",
+       "en": "Yes, of course. Here you are!"
+      },
+      {
+       "who": "A",
+       "name": "Waiter",
+       "item": "d22.p.zu_trinken"
+      },
+      {
+       "who": "B",
+       "name": "Guest",
+       "item": "d22.p.cola"
+      },
+      {
+       "who": "A",
+       "name": "Waiter",
+       "de": "Gerne. Und zum Essen?",
+       "en": "Certainly. And to eat?"
+      },
+      {
+       "who": "B",
+       "name": "Guest",
+       "item": "d22.p.empfehlen"
+      },
+      {
+       "who": "A",
+       "name": "Waiter",
+       "item": "d22.p.suppe"
+      },
+      {
+       "who": "B",
+       "name": "Guest",
+       "item": "d22.p.zweimal"
+      },
+      {
+       "who": "A",
+       "name": "Waiter",
+       "item": "d22.p.in_ordnung"
+      },
+      {
+       "who": "B",
+       "name": "Guest",
+       "item": "d22.p.bestens"
+      },
+      {
+       "who": "B",
+       "name": "Guest",
+       "item": "d22.p.rechnung_bitte"
+      },
+      {
+       "who": "A",
+       "name": "Waiter",
+       "item": "d22.p.zusammen_getrennt"
+      },
+      {
+       "who": "B",
+       "name": "Guest",
+       "item": "d22.p.zusammen"
+      },
+      {
+       "who": "A",
+       "name": "Waiter",
+       "de": "Das macht zweiundzwanzig Euro.",
+       "en": "That's €22."
+      },
+      {
+       "who": "B",
+       "name": "Guest",
+       "de": "Machen Sie vierundzwanzig.",
+       "en": "Make it 24."
+      }
+     ]
+    },
+    {
+     "type": "build",
+     "title": "Build the sentence",
+     "questions": [
+      {
+       "en": "We'd like to order.",
+       "answer": "Wir würden gerne bestellen.",
+       "tag": "order"
+      },
+      {
+       "en": "Could we have salt and pepper, please?",
+       "answer": "Könnten wir bitte Salz und Pfeffer haben?",
+       "tag": "order"
+      },
+      {
+       "en": "Do you have a table for two?",
+       "answer": "Haben Sie noch einen Tisch für zwei Personen?",
+       "tag": "order"
+      }
+     ]
+    },
+    {
+     "type": "shadow",
+     "title": "Listen and repeat",
+     "items": [
+      "d22.p.bestellen",
+      "d22.p.empfehlen",
+      "d22.p.rechnung_bitte",
+      "d22.p.stimmt_so"
+     ]
+    },
+    {
+     "type": "write",
+     "title": "Short writing",
+     "prompt": "Write your own café order: a table, a drink, a main course, and paying with a tip.",
+     "promptEn": "Write what I say in a German café/restaurant from arriving to paying (table, drink, food, bill, tip), 5-6 sentences.",
+     "minWords": 20,
+     "checklist": [
+      "Ich hätte gerne … / Ich nehme …",
+      "Die Rechnung, bitte.",
+      "Say the tip out loud (Stimmt so / Machen Sie …)"
+     ],
+     "model": "Haben Sie noch einen Tisch für zwei Personen? Ich hätte gerne einen Tee. Als Hauptgericht nehme ich die Suppe. Die Rechnung, bitte. Zusammen, bitte. Stimmt so."
+    }
+   ]
+  }
+ ]
+}

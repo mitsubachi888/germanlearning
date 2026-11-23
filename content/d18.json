@@ -1,0 +1,432 @@
+{
+ "id": "d18",
+ "title": "Plurals",
+ "items": {
+  "n.ei": {
+   "de": "das Ei",
+   "plural": "die Eier",
+   "gender": "das",
+   "en": "egg",
+   "ipa": "aɪ̯",
+   "pic": "🥚",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.messer": {
+   "de": "das Messer",
+   "plural": "die Messer",
+   "gender": "das",
+   "en": "knife",
+   "ipa": "ˈmɛsɐ",
+   "pic": "🔪",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.broetchen": {
+   "de": "das Brötchen",
+   "plural": "die Brötchen",
+   "gender": "das",
+   "en": "bread roll",
+   "ipa": "ˈbʁøːtçən",
+   "pic": "🥯",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.sofa": {
+   "de": "das Sofa",
+   "plural": "die Sofas",
+   "gender": "das",
+   "en": "sofa",
+   "ipa": "ˈzoːfa",
+   "pic": "🛋️",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.stadt": {
+   "de": "die Stadt",
+   "plural": "die Städte",
+   "gender": "die",
+   "en": "town, city",
+   "ipa": "ʃtat",
+   "pic": "🏙️",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.knopf": {
+   "de": "der Knopf",
+   "plural": "die Knöpfe",
+   "gender": "der",
+   "en": "button",
+   "ipa": "knɔpf",
+   "pic": "🔘",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.mann": {
+   "de": "der Mann",
+   "plural": "die Männer",
+   "gender": "der",
+   "en": "man",
+   "ipa": "man",
+   "pic": "👨",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.bad": {
+   "de": "das Bad",
+   "plural": "die Bäder",
+   "gender": "das",
+   "en": "bathroom; bath",
+   "ipa": "baːt",
+   "pic": "🛁",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.hand": {
+   "de": "die Hand",
+   "plural": "die Hände",
+   "gender": "die",
+   "en": "hand",
+   "ipa": "hant",
+   "pic": "✋",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "d18.p.wie_viele_haende": {
+   "de": "Wie viele Hände hast du?",
+   "en": "How many hands do you have?",
+   "pic": "✋",
+   "tags": [
+    "case"
+   ]
+  },
+  "d18.p.wie_viele_tische": {
+   "de": "Wie viele Tische hast du?",
+   "en": "How many tables do you have?",
+   "pic": "🪑",
+   "tags": [
+    "case"
+   ]
+  },
+  "d18.p.zwei_haende": {
+   "de": "Ich habe zwei Hände.",
+   "en": "I have two hands.",
+   "pic": "🙌",
+   "tags": [
+    "case"
+   ]
+  },
+  "d18.p.drei_brueder": {
+   "de": "Er hat drei Brüder.",
+   "en": "He has three brothers.",
+   "pic": "👦",
+   "tags": [
+    "case"
+   ]
+  },
+  "d18.p.viele_buecher": {
+   "de": "Ich habe viele Bücher.",
+   "en": "I have a lot of books.",
+   "pic": "📚",
+   "tags": [
+    "case"
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "id": "A",
+   "title": "Six plural tips + umlaut",
+   "said": [
+    "n.stadt",
+    "n.hand",
+    "d18.p.zwei_haende",
+    "d18.p.wie_viele_tische",
+    "d18.p.viele_buecher"
+   ],
+   "steps": [
+    {
+     "type": "video",
+     "title": "Video: plural rules",
+     "videoId": "3Aqc5WDKO9A",
+     "channel": "YourGermanTeacher (Luzi)",
+     "start": 63,
+     "end": 562,
+     "note": "Chapters: 1:03 nouns ending in -e · 2:16 masculine + e · 2:51 feminine + (e)n · 3:24 neuter + er · 4:03 no change · 5:05 foreign words + s · 6:07 summary · 7:21 bonus: umlaut · 8:48 practice.\n\nThe example words are on screen — pause to read them."
+    },
+    {
+     "type": "table",
+     "title": "The six tips",
+     "skipFirst": true,
+     "intro": "With these tips you get about 80 % of plurals right. The plural article is always **die**.",
+     "cols": [
+      "",
+      "rule",
+      "example"
+     ],
+     "rows": [
+      [
+       "1",
+       "ends in -e → + n",
+       "die Tasche → die Taschen"
+      ],
+      [
+       "2",
+       "der-word → + e",
+       "der Tisch → die Tische"
+      ],
+      [
+       "3",
+       "die-word → + (e)n",
+       "die Tür → die Türen"
+      ],
+      [
+       "4",
+       "das-word → + er",
+       "das Bild → die Bilder"
+      ],
+      [
+       "5",
+       "der/das-words in -er, -en, -el; all -chen, -lein → no change",
+       "das Messer → die Messer"
+      ],
+      [
+       "6",
+       "foreign words, ending in a vowel (-o, -a, -i, -y) → + s",
+       "das Sofa → die Sofas"
+      ]
+     ],
+     "note": "Not sure? Add **-e** — it's the most common plural ending. And from now on, learn every new noun **with its plural**. (die-words in -er / -el add -n: {de:die Schwester → die Schwestern}.)"
+    },
+    {
+     "type": "phrases",
+     "title": "Examples",
+     "items": [
+      "n.tasche",
+      "n.lampe",
+      "n.tisch",
+      "n.stift",
+      "n.tuer",
+      "n.bild",
+      "n.ei",
+      "n.messer",
+      "n.broetchen",
+      "n.sofa",
+      "n.buero",
+      "n.handy"
+     ]
+    },
+    {
+     "type": "note",
+     "title": "Bonus: the umlaut",
+     "md": "Many plurals also get an umlaut (ä, ö, ü):\n\n- with **-e**: {de:die Stadt → die Städte}, {de:der Knopf → die Knöpfe}, {de:der Ball → die Bälle}\n- with **-er**: {de:das Haus → die Häuser}, {de:der Mann → die Männer}, {de:das Bad → die Bäder}\n- with **no ending**: {de:der Vater → die Väter}, {de:die Mutter → die Mütter}, {de:der Vogel → die Vögel}\n\n*a* → *ä*, *o* → *ö*, *u* → *ü*, *au* → *äu*."
+    },
+    {
+     "type": "phrases",
+     "title": "Plurals with umlaut",
+     "items": [
+      "n.stadt",
+      "n.knopf",
+      "n.ball",
+      "n.haus",
+      "n.mann",
+      "n.bad",
+      "n.vater",
+      "n.mutter",
+      "n.vogel",
+      "n.hand"
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Choose the plural",
+     "questions": [
+      {
+       "prompt": "{de:die Lampe} → die …",
+       "options": [
+        "Lampen",
+        "Lampe",
+        "Lampes"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "spell"
+      },
+      {
+       "prompt": "{de:der Tisch} → die …",
+       "options": [
+        "Tische",
+        "Tischen",
+        "Tischer"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "spell"
+      },
+      {
+       "prompt": "{de:das Kind} → die …",
+       "options": [
+        "Kinder",
+        "Kinde",
+        "Kinds"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "spell"
+      },
+      {
+       "prompt": "{de:das Brötchen} → die …",
+       "options": [
+        "Brötchen",
+        "Brötchens",
+        "Brötchenen"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "spell"
+      },
+      {
+       "prompt": "{de:das Auto} → die …",
+       "options": [
+        "Autos",
+        "Autoe",
+        "Auten"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "spell"
+      },
+      {
+       "prompt": "{de:der Mann} → die …",
+       "options": [
+        "Männer",
+        "Manner",
+        "Manne"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "spell"
+      },
+      {
+       "prompt": "{de:die Stadt} → die …",
+       "options": [
+        "Städte",
+        "Stadte",
+        "Städten"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "spell"
+      },
+      {
+       "prompt": "{de:der Lehrer} → die …",
+       "options": [
+        "Lehrer",
+        "Lehrers",
+        "Lehreren"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "spell"
+      }
+     ]
+    },
+    {
+     "type": "note",
+     "title": "wie viele + plural",
+     "md": "After **wie viele** (how many) the noun is always plural:\n\n- {de:Wie viele Hände hast du?}\n- {de:Wie viele Tische hast du?}\n- {de:Wie viele Computer hast du?} (*-er* → no change)"
+    },
+    {
+     "type": "phrases",
+     "title": "Practice from the video",
+     "items": [
+      "d18.p.wie_viele_haende",
+      "d18.p.zwei_haende",
+      "d18.p.wie_viele_tische",
+      "d18.p.drei_brueder",
+      "d18.p.viele_buecher"
+     ]
+    },
+    {
+     "type": "type",
+     "title": "Write the plural",
+     "questions": [
+      {
+       "answer": "die Taschen",
+       "en": "the bags",
+       "ask": "Listen and write the plural.",
+       "tag": "spell"
+      },
+      {
+       "answer": "die Häuser",
+       "en": "the houses",
+       "ask": "Listen and write the plural.",
+       "tag": "spell"
+      },
+      {
+       "answer": "die Väter",
+       "en": "the fathers",
+       "ask": "Listen and write the plural.",
+       "tag": "spell"
+      },
+      {
+       "answer": "die Handys",
+       "en": "the mobile phones",
+       "ask": "Listen and write the plural.",
+       "tag": "spell"
+      }
+     ]
+    },
+    {
+     "type": "pattern",
+     "title": "How many?",
+     "prompts": [
+      {
+       "q": "Wie viele Bücher hast du?",
+       "en": "How many books do you have?",
+       "example": "Ich habe zwanzig Bücher."
+      },
+      {
+       "q": "Wie viele Geschwister hast du?",
+       "en": "How many brothers and sisters do you have?",
+       "item": "me.sibl",
+       "example": "Ich habe zwei Geschwister."
+      }
+     ]
+    },
+    {
+     "type": "write",
+     "title": "Short writing",
+     "prompt": "Write 5 sentences about things you have at home, with numbers and plurals.",
+     "promptEn": "Write 5 German sentences about things I have at home using numbers and plural nouns (Ich habe zwei Stühle …).",
+     "hint": "Ich habe zwei Stühle, drei Lampen …",
+     "minWords": 15,
+     "checklist": [
+      "Plural article die",
+      "Umlaut where needed (Stühle, Häuser)",
+      "Numbers as words"
+     ],
+     "model": "Ich habe vier Stühle. Ich habe zwei Lampen. Ich habe viele Bücher. Ich habe drei Taschen. Wir haben zwei Handys."
+    }
+   ]
+  }
+ ]
+}

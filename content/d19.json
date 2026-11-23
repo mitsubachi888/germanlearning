@@ -1,0 +1,371 @@
+{
+ "id": "d19",
+ "title": "kein or nicht",
+ "items": {
+  "d19.p.kein_tisch": {
+   "de": "Das ist kein Tisch.",
+   "en": "That's not a table.",
+   "pic": "🪑",
+   "tags": [
+    "order"
+   ]
+  },
+  "d19.p.nicht_schoen": {
+   "de": "Das Bild ist nicht schön.",
+   "en": "The picture isn't nice.",
+   "pic": "🖼️",
+   "tags": [
+    "order"
+   ]
+  },
+  "d19.p.ich_gehe_nicht": {
+   "de": "Ich gehe nicht.",
+   "en": "I'm not going.",
+   "pic": "🚫",
+   "tags": [
+    "order"
+   ]
+  },
+  "d19.p.keine_tomaten": {
+   "de": "Nein, das sind keine Tomaten.",
+   "en": "No, those aren't tomatoes.",
+   "pic": "🍅",
+   "tags": [
+    "order"
+   ]
+  },
+  "d19.p.kein_neues_buch": {
+   "de": "Nein, das ist kein neues Buch.",
+   "en": "No, that's not a new book.",
+   "pic": "📕",
+   "tags": [
+    "order"
+   ]
+  },
+  "d19.p.verstehe_nicht": {
+   "de": "Ich verstehe das nicht.",
+   "en": "I don't understand that.",
+   "ipa": "ɪç fɛɐ̯ˈʃteːə das nɪçt",
+   "pic": "🤔",
+   "tags": [
+    "order"
+   ]
+  },
+  "d19.p.nicht_nach_hause": {
+   "de": "Sie geht nicht nach Hause.",
+   "en": "She isn't going home.",
+   "pic": "🏠",
+   "tags": [
+    "order"
+   ]
+  },
+  "d19.p.nicht_billig": {
+   "de": "Das Sofa ist nicht billig.",
+   "en": "The sofa isn't cheap.",
+   "pic": "🛋️",
+   "tags": [
+    "order"
+   ]
+  },
+  "d19.p.nicht_allein": {
+   "de": "Er wohnt nicht allein.",
+   "en": "He doesn't live alone.",
+   "pic": "👥",
+   "tags": [
+    "order"
+   ]
+  },
+  "d19.p.nicht_gern": {
+   "de": "Lernst du nicht gern Deutsch?",
+   "en": "Don't you like learning German?",
+   "pic": "📚",
+   "tags": [
+    "order"
+   ]
+  },
+  "d19.p.nicht_zu_hause": {
+   "de": "Wir essen morgen nicht zu Hause.",
+   "en": "We're not eating at home tomorrow.",
+   "pic": "🍽️",
+   "tags": [
+    "order"
+   ]
+  },
+  "d19.p.problem_nicht": {
+   "de": "Ich sehe das Problem nicht.",
+   "en": "I don't see the problem.",
+   "pic": "🧐",
+   "tags": [
+    "order"
+   ]
+  },
+  "d19.p.nicht_mein_buch": {
+   "de": "Das ist nicht mein Buch.",
+   "en": "That's not my book.",
+   "pic": "📖",
+   "tags": [
+    "order"
+   ]
+  },
+  "d19.p.kein_deutsch": {
+   "de": "Ich spreche kein Deutsch.",
+   "en": "I don't speak German.",
+   "pic": "🗣️",
+   "tags": [
+    "order"
+   ]
+  },
+  "d19.p.kein_fleisch": {
+   "de": "Ich esse kein Fleisch.",
+   "en": "I don't eat meat.",
+   "pic": "🥗",
+   "tags": [
+    "order"
+   ]
+  },
+  "d19.p.kein_problem": {
+   "de": "Kein Problem!",
+   "en": "No problem!",
+   "ipa": "kaɪ̯n pʁoˈbleːm",
+   "pic": "👌",
+   "tags": []
+  },
+  "d19.p.kein_schweinefleisch": {
+   "de": "Ich esse kein Schweinefleisch.",
+   "en": "I don't eat pork.",
+   "pic": "🚫",
+   "tags": [
+    "order"
+   ]
+  },
+  "d19.p.keine_zeit": {
+   "de": "Ich habe keine Zeit.",
+   "en": "I don't have time.",
+   "pic": "⏳",
+   "tags": [
+    "order"
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "id": "A",
+   "title": "kein + noun, nicht + the rest",
+   "said": [
+    "d19.p.verstehe_nicht",
+    "d19.p.kein_problem",
+    "d19.p.keine_zeit",
+    "d19.p.kein_fleisch",
+    "d19.p.nicht_mein_buch"
+   ],
+   "steps": [
+    {
+     "type": "video",
+     "title": "Video: kein vs nicht",
+     "videoId": "NcswV-xuyMc",
+     "channel": "YourGermanTeacher (Luzi)",
+     "start": 60,
+     "end": 705,
+     "note": "1:00 the general rule · 2:07 when to use **kein** · 5:33 when to use **nicht** · 9:05 special cases where both are possible · 10:57 question of the day."
+    },
+    {
+     "type": "note",
+     "title": "The rule",
+     "md": "**kein** replaces *ein* / no article → it negates a **noun**:\n\n- {de:Das ist ein Tisch.} → {de:Das ist kein Tisch.}\n- plural, no article: {de:Das sind Tomaten.} → {de:Das sind keine Tomaten.}\n- also with an adjective in between: {de:kein neues Buch}\n\n**nicht** negates everything else: a **verb**, an **adjective**, an **adverb** (*gern, morgen*), or a noun with **der/die/das** or **mein/dein**:\n\n- {de:Ich verstehe das nicht.} · {de:Das Sofa ist nicht billig.} · {de:Das ist nicht mein Buch.}\n\n*kein* takes endings like *ein*: **keine** with die-words and plural ({de:Ich habe keine Zeit.}), **keinen** with der-words after *haben* (next lesson)."
+    },
+    {
+     "type": "phrases",
+     "title": "kein",
+     "items": [
+      "d19.p.kein_tisch",
+      "d19.p.keine_tomaten",
+      "d19.p.kein_neues_buch",
+      "d19.p.kein_problem",
+      "d19.p.keine_zeit"
+     ]
+    },
+    {
+     "type": "phrases",
+     "title": "nicht",
+     "items": [
+      "d19.p.ich_gehe_nicht",
+      "d19.p.nicht_schoen",
+      "d19.p.verstehe_nicht",
+      "d19.p.nicht_nach_hause",
+      "d19.p.nicht_billig",
+      "d19.p.nicht_allein",
+      "d19.p.nicht_gern",
+      "d19.p.nicht_zu_hause",
+      "d19.p.problem_nicht",
+      "d19.p.nicht_mein_buch"
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "kein or nicht?",
+     "questions": [
+      {
+       "prompt": "Das ist ___ Stuhl.",
+       "options": [
+        "kein",
+        "nicht"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "order"
+      },
+      {
+       "prompt": "Ich wohne ___ in Berlin.",
+       "options": [
+        "nicht",
+        "kein"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "order"
+      },
+      {
+       "prompt": "Das Wetter ist ___ gut.",
+       "options": [
+        "nicht",
+        "kein"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "order"
+      },
+      {
+       "prompt": "Ich habe ___ Zeit.",
+       "options": [
+        "keine",
+        "nicht",
+        "kein"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "order",
+       "explain": "*die Zeit* → **keine**."
+      },
+      {
+       "prompt": "Das ist ___ mein Handy.",
+       "options": [
+        "nicht",
+        "kein"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "order",
+       "explain": "With *mein / dein* → *nicht*."
+      },
+      {
+       "prompt": "Das sind ___ Äpfel.",
+       "options": [
+        "keine",
+        "nicht",
+        "kein"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "order"
+      },
+      {
+       "prompt": "Er kommt heute ___.",
+       "options": [
+        "nicht",
+        "kein"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "order"
+      }
+     ]
+    },
+    {
+     "type": "phrases",
+     "title": "Special cases: both are possible",
+     "intro": "With languages both work — *kein* is more common: {de:Ich spreche kein Deutsch.} / {de:Ich spreche nicht Deutsch.} With food, use *kein*: {de:Ich esse kein Fleisch.}",
+     "items": [
+      "d19.p.kein_deutsch",
+      "d19.p.kein_fleisch",
+      "d19.p.kein_schweinefleisch"
+     ]
+    },
+    {
+     "type": "build",
+     "title": "Build the sentence",
+     "questions": [
+      {
+       "en": "I don't understand that.",
+       "answer": "Ich verstehe das nicht.",
+       "extra": [
+        "kein"
+       ],
+       "tag": "order"
+      },
+      {
+       "en": "I don't have time.",
+       "answer": "Ich habe keine Zeit.",
+       "extra": [
+        "nicht"
+       ],
+       "tag": "order"
+      },
+      {
+       "en": "That's not my book.",
+       "answer": "Das ist nicht mein Buch.",
+       "extra": [
+        "kein"
+       ],
+       "tag": "order"
+      }
+     ]
+    },
+    {
+     "type": "shadow",
+     "title": "Listen and repeat",
+     "items": [
+      "d19.p.verstehe_nicht",
+      "d19.p.kein_problem",
+      "d19.p.keine_zeit",
+      "d19.p.nicht_mein_buch"
+     ]
+    },
+    {
+     "type": "pattern",
+     "title": "Say no",
+     "intro": "Answer every question with **Nein, …** and kein or nicht.",
+     "prompts": [
+      {
+       "q": "Ist das ein Tisch?",
+       "en": "Is that a table?",
+       "example": "Nein, das ist kein Tisch."
+      },
+      {
+       "q": "Wohnst du in Berlin?",
+       "en": "Do you live in Berlin?",
+       "example": "Nein, ich wohne nicht in Berlin."
+      },
+      {
+       "q": "Hast du Kinder?",
+       "en": "Do you have children?",
+       "example": "Nein, ich habe keine Kinder."
+      }
+     ]
+    },
+    {
+     "type": "write",
+     "title": "Short writing",
+     "prompt": "Write 5 true sentences about yourself with kein / keine or nicht (things you don't have, don't do, don't like).",
+     "promptEn": "Write 5 true German sentences about myself using kein/keine or nicht correctly (A1).",
+     "minWords": 15,
+     "checklist": [
+      "kein/keine + noun",
+      "nicht + verb / adjective / mein…",
+      "nicht usually near the end"
+     ],
+     "model": "Ich habe keine Zeit. Ich esse kein Fleisch. Ich wohne nicht in Berlin. Ich spiele nicht gern Fußball. Das ist nicht mein Auto."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,357 @@
+{
+ "id": "d26",
+ "title": "mein / dein",
+ "items": {
+  "n.brille": {
+   "de": "die Brille",
+   "plural": "die Brillen",
+   "gender": "die",
+   "en": "glasses",
+   "ipa": "ˈbʁɪlə",
+   "pic": "👓",
+   "note": "Singular in German: *die Brille* = a pair of glasses.",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "d26.p.dein_stift": {
+   "de": "Ist das dein Stift?",
+   "en": "Is that your pen?",
+   "pic": "🖊️",
+   "tags": [
+    "gender"
+   ]
+  },
+  "d26.p.mein_stift": {
+   "de": "Nein, das ist mein Stift.",
+   "en": "No, that's my pen.",
+   "pic": "🖊️",
+   "tags": [
+    "gender"
+   ]
+  },
+  "d26.p.ihr_hund": {
+   "de": "Das ist ihr Hund.",
+   "en": "That's her dog.",
+   "pic": "🐕",
+   "tags": [
+    "gender"
+   ]
+  },
+  "d26.p.sein_vogel": {
+   "de": "Ja, das ist sein Vogel.",
+   "en": "Yes, that's his bird.",
+   "pic": "🐦",
+   "tags": [
+    "gender"
+   ]
+  },
+  "d26.p.deine_brille": {
+   "de": "Ist das deine Brille?",
+   "en": "Are those your glasses?",
+   "pic": "👓",
+   "tags": [
+    "gender"
+   ]
+  },
+  "d26.p.ihre_katze": {
+   "de": "Nein, das ist ihre Katze.",
+   "en": "No, that's her cat.",
+   "pic": "🐱",
+   "tags": [
+    "gender"
+   ]
+  },
+  "d26.p.sein_buero": {
+   "de": "Das ist sein Büro.",
+   "en": "That's his office.",
+   "pic": "🏢",
+   "tags": [
+    "gender"
+   ]
+  },
+  "d26.p.meine_handys": {
+   "de": "Nein, das sind meine Handys.",
+   "en": "No, those are my phones.",
+   "pic": "📱",
+   "tags": [
+    "gender"
+   ]
+  },
+  "d26.p.ihre_taschen": {
+   "de": "Ja, das sind ihre Taschen.",
+   "en": "Yes, those are her bags.",
+   "pic": "👜",
+   "tags": [
+    "gender"
+   ]
+  },
+  "d26.p.meinen_stift": {
+   "de": "Siehst du meinen Stift?",
+   "en": "Can you see my pen?",
+   "pic": "🔎",
+   "tags": [
+    "case"
+   ]
+  },
+  "d26.p.deinen_stift": {
+   "de": "Ja, ich sehe deinen Stift.",
+   "en": "Yes, I can see your pen.",
+   "pic": "👀",
+   "tags": [
+    "case"
+   ]
+  },
+  "d26.p.meine_videos": {
+   "de": "Magst du meine Videos?",
+   "en": "Do you like my videos?",
+   "pic": "📺",
+   "tags": [
+    "case"
+   ]
+  },
+  "d26.p.meins": {
+   "de": "Das ist meins.",
+   "en": "That's mine.",
+   "pic": "☝️",
+   "note": "Without a noun it's a pronoun: *meins* (another lesson).",
+   "tags": []
+  }
+ },
+ "sessions": [
+  {
+   "id": "A",
+   "title": "my, your, his, her",
+   "said": [
+    "d26.p.mein_stift",
+    "d26.p.deine_brille",
+    "d26.p.ihre_katze",
+    "d26.p.meinen_stift",
+    "d26.p.meine_handys"
+   ],
+   "steps": [
+    {
+     "type": "video",
+     "title": "Video: possessive articles",
+     "videoId": "xdVWELZqPT8",
+     "channel": "YourGermanTeacher (Luzi)",
+     "start": 38,
+     "end": 606,
+     "note": "Chapters: 0:40 the possessive articles (*mein, dein, sein, ihr*) · 7:35 in the accusative · 8:53 examples and homework."
+    },
+    {
+     "type": "table",
+     "title": "mein, dein, sein, ihr",
+     "intro": "Trick from the video: start from *ein / eine* and put **m, d, s** in front (*ihr* is the exception). Tap a row to hear it.",
+     "cols": [
+      "",
+      "der / das",
+      "die / plural"
+     ],
+     "rows": [
+      [
+       "ich → my",
+       "mein",
+       "meine"
+      ],
+      [
+       "du → your",
+       "dein",
+       "deine"
+      ],
+      [
+       "er → his",
+       "sein",
+       "seine"
+      ],
+      [
+       "sie → her",
+       "ihr",
+       "ihre"
+      ],
+      [
+       "es → its",
+       "sein",
+       "seine"
+      ]
+     ],
+     "skipFirst": true,
+     "note": "der- and das-words: **no ending**. die-words and plural: **-e**. (Accusative: der-words get **-en** — *meinen, deinen, seinen, ihren*.)"
+    },
+    {
+     "type": "phrases",
+     "title": "Questions and answers from the video",
+     "items": [
+      "d26.p.dein_stift",
+      "d26.p.mein_stift",
+      "d26.p.ihr_hund",
+      "d26.p.sein_vogel",
+      "n.brille",
+      "d26.p.deine_brille",
+      "d26.p.ihre_katze",
+      "d26.p.sein_buero",
+      "d26.p.meine_handys",
+      "d26.p.ihre_taschen"
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Choose the possessive",
+     "questions": [
+      {
+       "prompt": "Das ist ___ Mutter. (my)",
+       "options": [
+        "meine",
+        "mein",
+        "meinen"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "gender"
+      },
+      {
+       "prompt": "Ist das ___ Auto? (your, du)",
+       "options": [
+        "dein",
+        "deine",
+        "deinen"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "gender"
+      },
+      {
+       "prompt": "Anna hat einen Hund. Das ist ___ Hund.",
+       "options": [
+        "ihr",
+        "sein",
+        "ihre"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "gender",
+       "explain": "Anna → *her* → **ihr**; der Hund → no ending."
+      },
+      {
+       "prompt": "Peter hat eine Tasche. Das ist ___ Tasche.",
+       "options": [
+        "seine",
+        "sein",
+        "ihre"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "gender"
+      },
+      {
+       "prompt": "Das sind ___ Kinder. (my)",
+       "options": [
+        "meine",
+        "mein",
+        "meinen"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "gender"
+      },
+      {
+       "prompt": "Ich sehe ___ Bruder. (my — Akkusativ!)",
+       "options": [
+        "meinen",
+        "mein",
+        "meine"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "case"
+      }
+     ]
+    },
+    {
+     "type": "phrases",
+     "title": "Accusative: -en for der-words",
+     "items": [
+      "d26.p.meinen_stift",
+      "d26.p.deinen_stift",
+      "d26.p.meine_videos",
+      "d23.p.chef_nicht",
+      "d26.p.meins"
+     ]
+    },
+    {
+     "type": "build",
+     "title": "Build the sentence",
+     "questions": [
+      {
+       "en": "No, that's her cat.",
+       "answer": "Nein, das ist ihre Katze.",
+       "extra": [
+        "sein"
+       ],
+       "tag": "gender"
+      },
+      {
+       "en": "Can you see my pen?",
+       "answer": "Siehst du meinen Stift?",
+       "extra": [
+        "mein"
+       ],
+       "tag": "case"
+      },
+      {
+       "en": "Those are my phones.",
+       "answer": "Das sind meine Handys.",
+       "tag": "gender"
+      }
+     ]
+    },
+    {
+     "type": "pattern",
+     "title": "Talk about your family",
+     "intro": "Use *mein / meine* and *sein / ihr*.",
+     "prompts": [
+      {
+       "q": "Wie heißt deine Mutter?",
+       "en": "What's your mother's name?",
+       "example": "Meine Mutter heißt Dilnoza."
+      },
+      {
+       "q": "Wo wohnt dein Bruder?",
+       "en": "Where does your brother live?",
+       "example": "Mein Bruder wohnt in Taschkent."
+      },
+      {
+       "q": "Magst du meine Videos?",
+       "en": "Do you like my videos? (homework from the video)",
+       "example": "Ja, ich mag deine Videos."
+      }
+     ]
+    },
+    {
+     "type": "shadow",
+     "title": "Listen and repeat",
+     "items": [
+      "d26.p.mein_stift",
+      "d26.p.ihre_katze",
+      "d26.p.meinen_stift",
+      "d26.p.meine_handys"
+     ]
+    },
+    {
+     "type": "write",
+     "title": "Short writing",
+     "prompt": "Introduce 4 people in your life with mein/meine and say one thing about each with sein/ihr.",
+     "promptEn": "Write about 4 people in my life in German using mein/meine and sein/seine/ihr/ihre (e.g. Das ist meine Schwester. Ihr Mann heißt …).",
+     "minWords": 20,
+     "checklist": [
+      "mein + der/das-word, meine + die-word/plural",
+      "his → sein, her → ihr",
+      "Akkusativ: meinen (der-words)"
+     ],
+     "model": "Das ist meine Mutter. Ihr Name ist Dilnoza. Das ist mein Bruder. Sein Auto ist neu. Das ist mein Freund Aziz. Seine Schwester heißt Malika."
+    }
+   ]
+  }
+ ]
+}

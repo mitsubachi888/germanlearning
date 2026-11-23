@@ -1,0 +1,407 @@
+{
+ "id": "d24",
+ "title": "können",
+ "items": {
+  "v.koennen": {
+   "de": "können",
+   "en": "can, to be able to",
+   "ipa": "ˈkœnən",
+   "pic": "💪",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d24.p.nicht_arbeiten": {
+   "de": "Ich kann nicht arbeiten.",
+   "en": "I can't work.",
+   "pic": "🤒",
+   "tags": [
+    "verb",
+    "order"
+   ]
+  },
+  "d24.p.will_nicht": {
+   "de": "Ich will nicht arbeiten.",
+   "en": "I don't want to work.",
+   "pic": "🙅",
+   "tags": [
+    "verb",
+    "order"
+   ]
+  },
+  "d24.p.fussball": {
+   "de": "Ich kann nicht Fußball spielen.",
+   "en": "I can't play football.",
+   "pic": "⚽",
+   "tags": [
+    "verb",
+    "order"
+   ]
+  },
+  "d24.p.singen": {
+   "de": "Sie kann sehr gut singen.",
+   "en": "She can sing very well.",
+   "pic": "🎤",
+   "tags": [
+    "verb",
+    "order"
+   ]
+  },
+  "d24.p.kochen": {
+   "de": "Kannst du gut kochen?",
+   "en": "Can you cook well?",
+   "pic": "🍳",
+   "tags": [
+    "verb",
+    "order"
+   ]
+  },
+  "d24.p.film": {
+   "de": "Können wir einen Film schauen?",
+   "en": "Can we watch a film?",
+   "pic": "🎬",
+   "tags": [
+    "verb",
+    "order"
+   ]
+  },
+  "d24.p.helfen": {
+   "de": "Könnt ihr mir bitte helfen?",
+   "en": "Can you (all) help me, please?",
+   "pic": "🆘",
+   "tags": [
+    "verb",
+    "order"
+   ]
+  },
+  "d24.p.schlafen": {
+   "de": "Warum kannst du nicht schlafen?",
+   "en": "Why can't you sleep?",
+   "pic": "😵",
+   "tags": [
+    "verb",
+    "order"
+   ]
+  },
+  "d24.p.wo_spielen": {
+   "de": "Wo können wir spielen?",
+   "en": "Where can we play?",
+   "pic": "🛝",
+   "tags": [
+    "verb",
+    "order"
+   ]
+  },
+  "d24.p.anrufen": {
+   "de": "Wann kannst du ihn anrufen?",
+   "en": "When can you call him?",
+   "pic": "📞",
+   "tags": [
+    "verb",
+    "order"
+   ]
+  },
+  "d24.p.wieder_arbeiten": {
+   "de": "Er kann morgen wieder arbeiten.",
+   "en": "He can work again tomorrow.",
+   "pic": "💼",
+   "tags": [
+    "verb",
+    "order"
+   ]
+  },
+  "d24.p.videos": {
+   "de": "Mit Videos kann man Deutsch lernen.",
+   "en": "You can learn German with videos.",
+   "pic": "📺",
+   "tags": [
+    "verb",
+    "order"
+   ]
+  },
+  "d24.p.auto_haben": {
+   "de": "Du kannst das Auto haben.",
+   "en": "You can have the car.",
+   "pic": "🚗",
+   "tags": [
+    "verb",
+    "order"
+   ]
+  },
+  "d24.p.garten": {
+   "de": "Können wir im Garten spielen?",
+   "en": "Can we play in the garden?",
+   "pic": "🌳",
+   "tags": [
+    "verb",
+    "order"
+   ]
+  },
+  "d24.p.noch_nicht_essen": {
+   "de": "Du kannst noch nicht essen.",
+   "en": "You can't eat yet.",
+   "pic": "🍽️",
+   "tags": [
+    "verb",
+    "order"
+   ]
+  },
+  "d24.p.ich_kann_deutsch": {
+   "de": "Ich kann ein bisschen Deutsch.",
+   "en": "I can speak a little German.",
+   "pic": "🇩🇪",
+   "note": "When it's obvious, *können* can stand alone: *Ich kann Deutsch.* / *Ich kann kein Deutsch.*",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d24.p.was_kannst_du": {
+   "de": "Was kannst du gut?",
+   "en": "What are you good at?",
+   "pic": "⭐",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d24.p.gut_kochen": {
+   "de": "Ich kann gut kochen.",
+   "en": "I can cook well.",
+   "pic": "🍲",
+   "tags": [
+    "verb",
+    "order"
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "id": "A",
+   "title": "können + verb at the end",
+   "said": [
+    "d24.p.kochen",
+    "d24.p.helfen",
+    "d24.p.anrufen",
+    "d24.p.ich_kann_deutsch",
+    "d24.p.gut_kochen"
+   ],
+   "steps": [
+    {
+     "type": "video",
+     "title": "Video: the modal verb können",
+     "videoId": "rltGCzVa9U4",
+     "channel": "YourGermanTeacher (Luzi)",
+     "start": 41,
+     "end": 687,
+     "note": "Chapters: 0:41 what a modal verb is · 2:13 conjugation · 2:49 examples and sentence structure · 7:08 when to use *können* (ability, possibility, permission) · 9:21 bonus: cases and *können* alone."
+    },
+    {
+     "type": "table",
+     "title": "können",
+     "cols": [
+      "",
+      "können"
+     ],
+     "rows": [
+      [
+       "ich",
+       "kann"
+      ],
+      [
+       "du",
+       "kannst"
+      ],
+      [
+       "er/sie/es",
+       "kann"
+      ],
+      [
+       "wir",
+       "können"
+      ],
+      [
+       "ihr",
+       "könnt"
+      ],
+      [
+       "sie/Sie",
+       "können"
+      ]
+     ],
+     "note": "*ich kann* and *er kann* — **no ending**, and the vowel changes ö → a in the singular."
+    },
+    {
+     "type": "note",
+     "title": "The modal-verb bracket",
+     "md": "The **modal verb** is conjugated and stands in **position 2**. The **second verb** stays in the infinitive and goes to the **very end**:\n\n- {de:Ich **kann** nicht Fußball **spielen**.}\n- W-question: {de:Wann **kannst** du ihn **anrufen**?}\n- yes/no question: {de:**Kannst** du gut **kochen**?}\n\nLuzi's rule: *Das Vollverb steht immer am Ende.* (the main verb is always at the end)"
+    },
+    {
+     "type": "phrases",
+     "title": "Examples from the video",
+     "items": [
+      "v.koennen",
+      "d24.p.nicht_arbeiten",
+      "d24.p.will_nicht",
+      "d24.p.fussball",
+      "d24.p.singen",
+      "d24.p.kochen",
+      "d24.p.film",
+      "d24.p.helfen",
+      "d24.p.schlafen",
+      "d24.p.wo_spielen",
+      "d24.p.anrufen"
+     ]
+    },
+    {
+     "type": "phrases",
+     "title": "Ability · possibility · permission",
+     "items": [
+      "d24.p.wieder_arbeiten",
+      "d24.p.videos",
+      "d24.p.auto_haben",
+      "d24.p.garten",
+      "d24.p.noch_nicht_essen",
+      "d24.p.ich_kann_deutsch"
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Choose",
+     "questions": [
+      {
+       "prompt": "du ___ (können)",
+       "options": [
+        "kannst",
+        "könnst",
+        "kann"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "verb"
+      },
+      {
+       "prompt": "ihr ___ (können)",
+       "options": [
+        "könnt",
+        "kannt",
+        "können"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "verb"
+      },
+      {
+       "prompt": "Which order is right?",
+       "options": [
+        "Ich kann gut schwimmen.",
+        "Ich kann schwimmen gut.",
+        "Ich schwimmen kann gut."
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "order"
+      },
+      {
+       "prompt": "Which order is right?",
+       "options": [
+        "Kannst du mir helfen?",
+        "Du kannst helfen mir?",
+        "Kannst helfen du mir?"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "order"
+      },
+      {
+       "prompt": "Teacher to the class: {de:Ihr könnt jetzt eine Pause machen.} — what is it?",
+       "options": [
+        "permission",
+        "ability",
+        "possibility"
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    {
+     "type": "build",
+     "title": "Build the sentence",
+     "questions": [
+      {
+       "en": "She can sing very well.",
+       "answer": "Sie kann sehr gut singen.",
+       "tag": "order"
+      },
+      {
+       "en": "When can you call him?",
+       "answer": "Wann kannst du ihn anrufen?",
+       "tag": "order"
+      },
+      {
+       "en": "Can we watch a film?",
+       "answer": "Können wir einen Film schauen?",
+       "tag": "order"
+      }
+     ]
+    },
+    {
+     "type": "type",
+     "title": "Listen and type",
+     "questions": [
+      {
+       "item": "d24.p.kochen",
+       "tag": "order"
+      },
+      {
+       "item": "d24.p.ich_kann_deutsch",
+       "tag": "spell"
+      }
+     ]
+    },
+    {
+     "type": "pattern",
+     "title": "Homework from the video",
+     "prompts": [
+      {
+       "q": "Was kannst du gut?",
+       "en": "What are you good at?",
+       "item": "d24.p.gut_kochen"
+      },
+      {
+       "q": "Kannst du schwimmen?",
+       "en": "Can you swim?",
+       "example": "Ja, ich kann gut schwimmen."
+      },
+      {
+       "q": "Sprichst du Deutsch?",
+       "en": "Do you speak German?",
+       "item": "d24.p.ich_kann_deutsch"
+      }
+     ]
+    },
+    {
+     "type": "shadow",
+     "title": "Listen and repeat",
+     "items": [
+      "d24.p.kochen",
+      "d24.p.helfen",
+      "d24.p.anrufen",
+      "d24.p.ich_kann_deutsch"
+     ]
+    },
+    {
+     "type": "write",
+     "title": "Short writing",
+     "prompt": "Write 3 things you can do well, 1 thing you can't do, and 1 question with können.",
+     "promptEn": "Write 5 German sentences with können: 3 things I can do well, 1 thing I can't, 1 question. Check that the second verb is at the end.",
+     "minWords": 18,
+     "checklist": [
+      "ich kann (no ending)",
+      "Second verb at the end, unchanged",
+      "Question: Kannst du …?"
+     ],
+     "model": "Ich kann gut kochen. Ich kann schnell laufen. Ich kann ein bisschen Deutsch sprechen. Ich kann nicht singen. Kannst du gut tanzen?"
+    }
+   ]
+  }
+ ]
+}

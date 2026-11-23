@@ -1,0 +1,427 @@
+{
+ "id": "d16",
+ "title": "Prepositions of time",
+ "items": {
+  "d16.p.unterricht": {
+   "de": "Der Unterricht beginnt um acht Uhr.",
+   "en": "Class starts at eight o'clock.",
+   "pic": "🏫",
+   "tags": [
+    "case"
+   ]
+  },
+  "d16.p.strassenbahn": {
+   "de": "Die Straßenbahn kommt um fünfzehn Uhr.",
+   "en": "The tram comes at 3 p.m.",
+   "pic": "🚋",
+   "tags": [
+    "case"
+   ]
+  },
+  "d16.p.im_winter": {
+   "de": "Im Winter ist es in Deutschland kalt.",
+   "en": "In winter it's cold in Germany.",
+   "pic": "❄️",
+   "tags": [
+    "case",
+    "order"
+   ]
+  },
+  "d16.p.im_juli": {
+   "de": "Im Juli geht er manchmal segeln.",
+   "en": "In July he sometimes goes sailing.",
+   "pic": "⛵",
+   "tags": [
+    "case",
+    "order"
+   ]
+  },
+  "d16.p.am_dienstag": {
+   "de": "Am Dienstag arbeite ich von zu Hause.",
+   "en": "On Tuesday I work from home.",
+   "pic": "💻",
+   "tags": [
+    "case",
+    "order"
+   ]
+  },
+  "d16.p.am_wochenende": {
+   "de": "Am Wochenende haben viele Leute frei.",
+   "en": "At the weekend many people are off.",
+   "pic": "🏖️",
+   "tags": [
+    "case",
+    "order"
+   ]
+  },
+  "d16.p.am_morgen": {
+   "de": "Am Morgen trinke ich oft einen Kaffee.",
+   "en": "In the morning I often drink a coffee.",
+   "pic": "☕",
+   "tags": [
+    "case",
+    "order"
+   ]
+  },
+  "d16.p.sonntagmorgen": {
+   "de": "Am Sonntagmorgen backe ich ein Brot.",
+   "en": "On Sunday morning I bake a loaf of bread.",
+   "pic": "🍞",
+   "tags": [
+    "case",
+    "order"
+   ]
+  },
+  "d16.p.von_bis_uhr": {
+   "de": "Er joggt jeden Morgen von acht bis halb zehn.",
+   "en": "He jogs every morning from eight to half past nine.",
+   "pic": "🏃",
+   "tags": [
+    "case"
+   ]
+  },
+  "d16.p.von_bis_tage": {
+   "de": "Von Montag bis Donnerstag ist sie im Urlaub.",
+   "en": "From Monday to Thursday she's on holiday.",
+   "pic": "🏝️",
+   "tags": [
+    "case"
+   ]
+  },
+  "d16.p.von_bis_monate": {
+   "de": "Von Oktober bis Dezember regnet es oft.",
+   "en": "From October to December it often rains.",
+   "pic": "🌧️",
+   "tags": [
+    "case"
+   ]
+  },
+  "d16.p.ab_zwoelf": {
+   "de": "Normalerweise schlafe ich ab zwölf Uhr.",
+   "en": "I usually sleep from twelve o'clock on.",
+   "pic": "😴",
+   "tags": [
+    "case"
+   ]
+  },
+  "d16.p.ab_16": {
+   "de": "Ab sechzehn Uhr übt sie Geige.",
+   "en": "From 4 p.m. on she practises the violin.",
+   "pic": "🎻",
+   "tags": [
+    "case",
+    "order"
+   ]
+  },
+  "d16.p.kombi": {
+   "de": "Am Sonntagabend um zwanzig Uhr schaue ich einen Film.",
+   "en": "On Sunday evening at 8 p.m. I watch a film.",
+   "pic": "🎬",
+   "tags": [
+    "order"
+   ]
+  },
+  "d16.p.fest": {
+   "de": "Ich mache im April am Samstagnachmittag um vierzehn Uhr ein Fest.",
+   "en": "I'm having a party in April on a Saturday afternoon at 2 p.m.",
+   "pic": "🎉",
+   "tags": [
+    "order"
+   ]
+  },
+  "d16.p.wann_sport": {
+   "de": "Wann machst du Sport?",
+   "en": "When do you do sport?",
+   "pic": "🏃",
+   "tags": []
+  },
+  "d16.p.wann_kurs": {
+   "de": "Wann hast du Deutschkurs?",
+   "en": "When do you have German class?",
+   "pic": "📚",
+   "tags": []
+  },
+  "n.unterricht": {
+   "de": "der Unterricht",
+   "gender": "der",
+   "en": "lessons, class",
+   "ipa": "ˈʊntɐʁɪçt",
+   "pic": "🏫",
+   "note": "No plural.",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  },
+  "n.strassenbahn": {
+   "de": "die Straßenbahn",
+   "plural": "die Straßenbahnen",
+   "gender": "die",
+   "en": "tram",
+   "ipa": "ˈʃtʁaːsn̩baːn",
+   "pic": "🚋",
+   "tags": [
+    "noun",
+    "gender"
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "id": "A",
+   "title": "um, am, im, von … bis, ab",
+   "said": [
+    "d16.p.am_dienstag",
+    "d16.p.im_winter",
+    "d16.p.am_morgen",
+    "d16.p.von_bis_tage",
+    "d16.p.ab_16"
+   ],
+   "steps": [
+    {
+     "type": "video",
+     "title": "Video: the top 5 time prepositions",
+     "videoId": "ziPDfbS5Rlk",
+     "channel": "YourGermanTeacher (Luzi)",
+     "start": 45,
+     "end": 508,
+     "note": "0:45 **um** · 1:40 **im** · 2:29 **am** · 4:23 **von … bis** · 5:25 **ab** · 6:36 summary · 7:02 combining them · 8:22 homework."
+    },
+    {
+     "type": "table",
+     "title": "Which one when?",
+     "skipFirst": true,
+     "intro": "Tap a row to hear the example.",
+     "cols": [
+      "word",
+      "with",
+      "example"
+     ],
+     "rows": [
+      [
+       "um",
+       "clock time",
+       "um acht Uhr"
+      ],
+      [
+       "am",
+       "day, time of day, weekend",
+       "am Dienstag, am Morgen"
+      ],
+      [
+       "im",
+       "month, season",
+       "im Juli, im Winter"
+      ],
+      [
+       "von … bis",
+       "from … to (a duration)",
+       "von Montag bis Donnerstag"
+      ],
+      [
+       "ab",
+       "from … on (no end)",
+       "ab sechzehn Uhr"
+      ]
+     ],
+     "note": "Exception you'll often hear: **in der Nacht** (at night), because *die Nacht* is feminine."
+    },
+    {
+     "type": "phrases",
+     "title": "um · im · am",
+     "items": [
+      "d16.p.unterricht",
+      "d16.p.strassenbahn",
+      "d16.p.im_winter",
+      "d16.p.im_juli",
+      "d16.p.am_dienstag",
+      "d16.p.am_wochenende",
+      "d16.p.am_morgen",
+      "d16.p.sonntagmorgen"
+     ]
+    },
+    {
+     "type": "phrases",
+     "title": "von … bis · ab",
+     "items": [
+      "d16.p.von_bis_uhr",
+      "d16.p.von_bis_tage",
+      "d16.p.von_bis_monate",
+      "d16.p.ab_zwoelf",
+      "d16.p.ab_16"
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "um, am or im?",
+     "questions": [
+      {
+       "prompt": "___ Montag",
+       "options": [
+        "am",
+        "im",
+        "um"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "case"
+      },
+      {
+       "prompt": "___ halb neun",
+       "options": [
+        "um",
+        "am",
+        "im"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "case"
+      },
+      {
+       "prompt": "___ August",
+       "options": [
+        "im",
+        "am",
+        "um"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "case"
+      },
+      {
+       "prompt": "___ Abend",
+       "options": [
+        "am",
+        "im",
+        "um"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "case"
+      },
+      {
+       "prompt": "___ Sommer",
+       "options": [
+        "im",
+        "am",
+        "um"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "case"
+      },
+      {
+       "prompt": "___ Wochenende",
+       "options": [
+        "am",
+        "im",
+        "um"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "case"
+      },
+      {
+       "prompt": "I work from 9 to 5: Ich arbeite ___ neun ___ fünf.",
+       "options": [
+        "von … bis",
+        "um … bis",
+        "um … am"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "case"
+      }
+     ]
+    },
+    {
+     "type": "note",
+     "title": "Several time words in one sentence",
+     "md": "Go from **big to small**: month → day → clock time.\n\n{de:Ich mache im April am Samstagnachmittag um vierzehn Uhr ein Fest.}\n\nAnd remember the verb-second rule: if the sentence starts with a time, the verb still comes second — {de:Am Dienstag **arbeite** ich von zu Hause.}"
+    },
+    {
+     "type": "phrases",
+     "title": "Combining",
+     "items": [
+      "d16.p.kombi",
+      "d16.p.fest"
+     ]
+    },
+    {
+     "type": "build",
+     "title": "Build the sentence",
+     "questions": [
+      {
+       "en": "On Tuesday I work from home.",
+       "answer": "Am Dienstag arbeite ich von zu Hause.",
+       "extra": [
+        "Im"
+       ],
+       "tag": "order",
+       "alts": [
+        "Ich arbeite am Dienstag von zu Hause."
+       ]
+      },
+      {
+       "en": "In winter it's cold in Germany.",
+       "answer": "Im Winter ist es in Deutschland kalt.",
+       "tag": "order",
+       "alts": [
+        "In Deutschland ist es im Winter kalt.",
+        "Es ist im Winter in Deutschland kalt."
+       ]
+      },
+      {
+       "en": "From 4 p.m. on she practises the violin.",
+       "answer": "Ab sechzehn Uhr übt sie Geige.",
+       "tag": "order",
+       "alts": [
+        "Sie übt ab sechzehn Uhr Geige."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "shadow",
+     "title": "Listen and repeat",
+     "items": [
+      "d16.p.am_dienstag",
+      "d16.p.am_morgen",
+      "d16.p.von_bis_tage",
+      "d16.p.kombi"
+     ]
+    },
+    {
+     "type": "pattern",
+     "title": "Homework from the video",
+     "intro": "Answer out loud with um / am / im / von … bis.",
+     "prompts": [
+      {
+       "q": "Wann machst du Sport?",
+       "en": "When do you do sport?",
+       "example": "Am Samstagmorgen um neun Uhr."
+      },
+      {
+       "q": "Wann hast du Deutschkurs?",
+       "en": "When do you have German class?",
+       "example": "Am Montag und am Mittwoch von sechs bis acht."
+      }
+     ]
+    },
+    {
+     "type": "write",
+     "title": "Short writing",
+     "prompt": "Describe your week in 4 sentences with um, am, im, von … bis and ab.",
+     "promptEn": "Describe my week in German in 4 sentences using um, am, im, von … bis and ab (A1).",
+     "minWords": 20,
+     "checklist": [
+      "am + day, um + time, im + month",
+      "Time first → verb second",
+      "von … bis for a duration"
+     ],
+     "model": "Am Montag arbeite ich von acht bis fünf. Am Abend lerne ich Deutsch. Am Samstag um zehn Uhr spiele ich Fußball. Ab sechs Uhr koche ich."
+    }
+   ]
+  }
+ ]
+}

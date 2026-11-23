@@ -228,7 +228,8 @@
    "src": "ygt",
    "video": "BtDsNX2i_uU",
    "len": 522,
-   "sessions": 1
+   "sessions": 1,
+   "file": true
   },
   {
    "id": "d15",
@@ -241,7 +242,8 @@
    "src": "ygt",
    "video": "niBAknPZn0I",
    "len": 853,
-   "sessions": 1
+   "sessions": 1,
+   "file": true
   },
   {
    "id": "d16",
@@ -254,7 +256,8 @@
    "src": "ygt",
    "video": "ziPDfbS5Rlk",
    "len": 559,
-   "sessions": 1
+   "sessions": 1,
+   "file": true
   },
   {
    "id": "d17",
@@ -267,7 +270,8 @@
    "src": "ygt",
    "video": "IFsEX4ZY6bc",
    "len": 953,
-   "sessions": 2
+   "sessions": 2,
+   "file": true
   },
   {
    "id": "d18",
@@ -280,7 +284,8 @@
    "src": "ygt",
    "video": "3Aqc5WDKO9A",
    "len": 607,
-   "sessions": 1
+   "sessions": 1,
+   "file": true
   },
   {
    "id": "d19",
@@ -293,7 +298,8 @@
    "src": "ygt",
    "video": "NcswV-xuyMc",
    "len": 754,
-   "sessions": 1
+   "sessions": 1,
+   "file": true
   },
   {
    "id": "d20",
@@ -306,7 +312,8 @@
    "src": "ygt",
    "video": "fPKH95g_9cs",
    "len": 755,
-   "sessions": 1
+   "sessions": 1,
+   "file": true
   },
   {
    "id": "d21",
@@ -319,20 +326,22 @@
    "src": "ygt",
    "video": "O-_cxHx5FD4",
    "len": 709,
-   "sessions": 1
+   "sessions": 1,
+   "file": true
   },
   {
    "id": "d22",
    "n": 22,
    "stage": 2,
    "pic": "☕",
-   "title": "Ordering at a café",
+   "title": "Ordering at a restaurant",
    "hero": "Ich hätte gern einen Kaffee.",
    "gloss": "I'd like a coffee, please.",
    "src": "ygt",
    "video": "d2XXhIVjmTc",
    "len": 684,
-   "sessions": 1
+   "sessions": 1,
+   "file": true
   },
   {
    "id": "d23",
@@ -345,7 +354,8 @@
    "src": "ygt",
    "video": "RVkZUHdv_iA",
    "len": 595,
-   "sessions": 1
+   "sessions": 1,
+   "file": true
   },
   {
    "id": "d24",
@@ -358,7 +368,8 @@
    "src": "ygt",
    "video": "rltGCzVa9U4",
    "len": 718,
-   "sessions": 1
+   "sessions": 1,
+   "file": true
   },
   {
    "id": "d25",
@@ -371,7 +382,8 @@
    "src": "ygt",
    "video": "Tizr0WwCzFQ",
    "len": 737,
-   "sessions": 1
+   "sessions": 1,
+   "file": true
   },
   {
    "id": "d26",
@@ -384,7 +396,8 @@
    "src": "ygt",
    "video": "xdVWELZqPT8",
    "len": 653,
-   "sessions": 1
+   "sessions": 1,
+   "file": true
   },
   {
    "id": "m2",
@@ -395,7 +408,8 @@
    "title": "Mini-Gespräch 2: meeting up & at the café",
    "hero": "Hast du am Samstag Zeit?",
    "gloss": "Are you free on Saturday?",
-   "sessions": 1
+   "sessions": 1,
+   "file": true
   },
   {
    "id": "d27",

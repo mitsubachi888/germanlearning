@@ -330,7 +330,8 @@ STEP.build = (s, body) => {
   quizRunner(s, body, {
     renderQ: (q, card, done) => {
       card.append(h(`<div class="q-prompt"><p>Build the German sentence:</p><h3>${esc(q.en)}</h3></div>`));
-      const target = q.answer.normalize("NFC").split(/\s+/).filter(Boolean);
+      // tiles without punctuation, so the full stop never gives away the last word (norm() ignores punctuation)
+      const target = q.answer.normalize("NFC").replace(/[.,!?;:„“"]/g, "").split(/\s+/).filter(Boolean);
       const pool = shuffle([...target, ...(q.extra || [])]);
       const line = h(`<div class="build-line" aria-label="Your sentence"></div>`);
       const tray = h(`<div class="tray"></div>`);
@@ -354,7 +355,8 @@ STEP.build = (s, body) => {
       render();
       check.addEventListener("click", () => {
         if (!chosen.length) { toast("Tap some words first."); return; }
-        const ok = norm(chosen.map(i => pool[i]).join(" ")) === norm(q.answer);
+        const given = norm(chosen.map(i => pool[i]).join(" "));
+        const ok = [q.answer, ...(q.alts || [])].some(a => norm(a) === given); // alts: other correct word orders
         check.remove();
         card.querySelectorAll(".tile").forEach(t => (t.disabled = true));
         bump(line, ok);

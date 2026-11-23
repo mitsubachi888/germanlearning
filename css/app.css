@@ -277,7 +277,8 @@ select.field { width: auto; min-height: 44px; font-size: 16px; padding: 8px 12px
 .gtable { background: var(--surface); border: 1px solid var(--line); border-radius: 22px; overflow-x: auto; margin: 10px 0 12px; }
 .gtable table { width: 100%; border-collapse: collapse; }
 .gtable th { text-align: left; font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); padding: 12px 12px 6px; font-weight: 800; }
-.gtable td { padding: 9px 8px; font-size: 18px; border-top: 1px solid var(--line); white-space: nowrap; }
+.gtable td { padding: 9px 8px; font-size: 17px; line-height: 1.3; border-top: 1px solid var(--line); white-space: normal; vertical-align: top; }
+.gtable td.pr { white-space: nowrap; }
 .gtable td.pr { color: var(--muted); font-size: 15px; }
 .gtable th { padding: 12px 10px 6px; }
 .gtable .end { color: var(--accent); filter: brightness(.85); }

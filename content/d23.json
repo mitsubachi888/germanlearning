@@ -1,0 +1,397 @@
+{
+ "id": "d23",
+ "title": "mögen / möchten / gern",
+ "items": {
+  "v.moegen": {
+   "de": "mögen",
+   "en": "to like",
+   "ipa": "ˈmøːɡn̩",
+   "pic": "❤️",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d23.p.wir_moegen_pizza": {
+   "de": "Wir mögen Pizza.",
+   "en": "We like pizza.",
+   "pic": "🍕",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d23.p.sie_mag_ihn": {
+   "de": "Sie mag ihn.",
+   "en": "She likes him.",
+   "pic": "💕",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d23.p.chef_nicht": {
+   "de": "Ich mag meinen Chef nicht.",
+   "en": "I don't like my boss.",
+   "pic": "😒",
+   "tags": [
+    "verb",
+    "case"
+   ]
+  },
+  "d23.p.kein_muesli": {
+   "de": "Sie mögen kein Müsli.",
+   "en": "They don't like muesli.",
+   "pic": "🥣",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d23.p.heute_nicht": {
+   "de": "Heute mag ich nicht arbeiten.",
+   "en": "I don't feel like working today.",
+   "pic": "😴",
+   "note": "*mögen* + *nicht* + verb = not in the mood (common in the south of Germany and in Austria).",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d23.p.glas_wasser": {
+   "de": "Möchtest du ein Glas Wasser?",
+   "en": "Would you like a glass of water?",
+   "ipa": "ˈmœçtəst duː aɪ̯n ɡlaːs ˈvasɐ",
+   "pic": "💧",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d23.p.ans_meer": {
+   "de": "Ich möchte ans Meer fahren.",
+   "en": "I'd like to go to the sea.",
+   "pic": "🏖️",
+   "tags": [
+    "verb",
+    "order"
+   ]
+  },
+  "d23.p.pommes": {
+   "de": "Sie möchten Pommes essen.",
+   "en": "They'd like to eat chips.",
+   "pic": "🍟",
+   "tags": [
+    "verb",
+    "order"
+   ]
+  },
+  "d23.p.einen_kaffee": {
+   "de": "Ich möchte einen Kaffee, bitte.",
+   "en": "I'd like a coffee, please.",
+   "pic": "☕",
+   "tags": [
+    "verb",
+    "case"
+   ]
+  },
+  "d23.p.bezahlen": {
+   "de": "Entschuldigung, wir möchten bezahlen.",
+   "en": "Excuse me, we'd like to pay.",
+   "pic": "💳",
+   "tags": [
+    "verb"
+   ]
+  },
+  "d23.p.lernst_gern": {
+   "de": "Du lernst gern Deutsch.",
+   "en": "You like learning German.",
+   "pic": "📚",
+   "tags": [
+    "order"
+   ]
+  },
+  "d23.p.tomaten": {
+   "de": "Ich esse nicht gern Tomaten.",
+   "en": "I don't like eating tomatoes.",
+   "pic": "🍅",
+   "tags": [
+    "order"
+   ]
+  },
+  "d23.p.liest_gern": {
+   "de": "Liest du gern Bücher?",
+   "en": "Do you like reading books?",
+   "pic": "📖",
+   "tags": [
+    "order"
+   ]
+  },
+  "d23.p.schwimmt_gern": {
+   "de": "Sie schwimmt gern.",
+   "en": "She likes swimming.",
+   "pic": "🏊",
+   "tags": [
+    "order"
+   ]
+  },
+  "d23.p.gern_haben": {
+   "de": "Ich habe dich gern.",
+   "en": "I like you (I'm fond of you).",
+   "pic": "🤗",
+   "tags": []
+  },
+  "d23.p.was_magst_du": {
+   "de": "Was magst du?",
+   "en": "What do you like?",
+   "pic": "❓",
+   "tags": [
+    "verb"
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "id": "A",
+   "title": "I like · I'd like · I like doing",
+   "said": [
+    "d23.p.wir_moegen_pizza",
+    "d23.p.glas_wasser",
+    "d23.p.einen_kaffee",
+    "d23.p.liest_gern",
+    "d23.p.tomaten"
+   ],
+   "steps": [
+    {
+     "type": "video",
+     "title": "Video: mögen, möchten, gern",
+     "videoId": "RVkZUHdv_iA",
+     "channel": "YourGermanTeacher (Luzi)",
+     "start": 19,
+     "end": 566,
+     "note": "Chapters: 0:19 the 6 modal verbs · 1:52 conjugation of *mögen* · 2:31 liking · 3:17 not liking · 4:14 not in the mood · 5:12 wishes → *möchten* · 7:05 *gern* · 8:52 your turn."
+    },
+    {
+     "type": "table",
+     "title": "mögen and möchten",
+     "cols": [
+      "",
+      "mögen (like)",
+      "möchten (would like)"
+     ],
+     "rows": [
+      [
+       "ich",
+       "mag",
+       "möchte"
+      ],
+      [
+       "du",
+       "magst",
+       "möchtest"
+      ],
+      [
+       "er/sie/es",
+       "mag",
+       "möchte"
+      ],
+      [
+       "wir",
+       "mögen",
+       "möchten"
+      ],
+      [
+       "ihr",
+       "mögt",
+       "möchtet"
+      ],
+      [
+       "sie/Sie",
+       "mögen",
+       "möchten"
+      ]
+     ],
+     "note": "*ich* and *er/sie/es* have **no ending**: *ich mag, er mag* · *ich möchte, er möchte*."
+    },
+    {
+     "type": "note",
+     "title": "Which one when?",
+     "md": "**mögen** + a thing or person = *to like*:\n{de:Wir mögen Pizza.} · {de:Sie mag ihn.} · {de:Ich mag meinen Chef nicht.}\n\n**möchten** = *would like* — a wish, ordering, asking politely:\n{de:Ich möchte einen Kaffee, bitte.} · {de:Möchtest du ein Glas Wasser?} · with a second verb at the end: {de:Ich möchte ans Meer fahren.}\n\n**gern** + verb = *to like doing*:\n{de:Liest du gern Bücher?} — Germans say this rather than *Magst du Bücher lesen?* (Luzi at 7:31)."
+    },
+    {
+     "type": "phrases",
+     "title": "mögen",
+     "items": [
+      "v.moegen",
+      "d23.p.wir_moegen_pizza",
+      "d23.p.sie_mag_ihn",
+      "d23.p.chef_nicht",
+      "d23.p.kein_muesli",
+      "d23.p.heute_nicht",
+      "d23.p.was_magst_du"
+     ]
+    },
+    {
+     "type": "phrases",
+     "title": "möchten",
+     "items": [
+      "d23.p.glas_wasser",
+      "d23.p.ans_meer",
+      "d23.p.pommes",
+      "d23.p.einen_kaffee",
+      "d23.p.bezahlen"
+     ]
+    },
+    {
+     "type": "phrases",
+     "title": "gern",
+     "items": [
+      "d23.p.lernst_gern",
+      "d23.p.tomaten",
+      "d23.p.liest_gern",
+      "d23.p.schwimmt_gern",
+      "d23.p.gern_haben"
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "mag, möchte or gern?",
+     "questions": [
+      {
+       "prompt": "In a café: Ich ___ einen Tee, bitte.",
+       "options": [
+        "möchte",
+        "mag",
+        "gern"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "verb"
+      },
+      {
+       "prompt": "Ich ___ Katzen. (in general)",
+       "options": [
+        "mag",
+        "möchte",
+        "gern"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "verb"
+      },
+      {
+       "prompt": "Ich koche ___.",
+       "options": [
+        "gern",
+        "mag",
+        "möchte"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "order"
+      },
+      {
+       "prompt": "du ___ (mögen)",
+       "options": [
+        "magst",
+        "mögst",
+        "magt"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "verb"
+      },
+      {
+       "prompt": "er ___ (möchten)",
+       "options": [
+        "möchte",
+        "möchtet",
+        "möchtst"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "verb"
+      },
+      {
+       "prompt": "Do you like reading books? — the most natural German:",
+       "options": [
+        "Liest du gern Bücher?",
+        "Magst du Bücher lesen?",
+        "Möchtest du gern Bücher?"
+       ],
+       "answer": 0,
+       "deOptions": true,
+       "tag": "order"
+      }
+     ]
+    },
+    {
+     "type": "build",
+     "title": "Build the sentence",
+     "questions": [
+      {
+       "en": "I'd like to go to the sea.",
+       "answer": "Ich möchte ans Meer fahren.",
+       "tag": "order",
+       "note": "The second verb goes to the **end**."
+      },
+      {
+       "en": "I don't like eating tomatoes.",
+       "answer": "Ich esse nicht gern Tomaten.",
+       "tag": "order",
+       "alts": [
+        "Ich esse Tomaten nicht gern."
+       ]
+      },
+      {
+       "en": "Would you like a glass of water?",
+       "answer": "Möchtest du ein Glas Wasser?",
+       "extra": [
+        "Magst"
+       ],
+       "tag": "verb"
+      }
+     ]
+    },
+    {
+     "type": "pattern",
+     "title": "Your turn (from the video)",
+     "prompts": [
+      {
+       "q": "Was machst du gern?",
+       "en": "What do you like doing?",
+       "item": "me.hobby"
+      },
+      {
+       "q": "Was magst du?",
+       "en": "What do you like?",
+       "example": "Ich mag Pizza und Tee."
+      },
+      {
+       "q": "Was möchtest du trinken?",
+       "en": "What would you like to drink?",
+       "example": "Ich möchte einen Tee, bitte."
+      }
+     ]
+    },
+    {
+     "type": "shadow",
+     "title": "Listen and repeat",
+     "items": [
+      "d23.p.wir_moegen_pizza",
+      "d23.p.einen_kaffee",
+      "d23.p.liest_gern",
+      "d23.p.ans_meer"
+     ]
+    },
+    {
+     "type": "write",
+     "title": "Short writing",
+     "prompt": "Write 2 sentences with mögen (things/people you like), 2 with gern (things you like doing) and 1 with möchten (a wish).",
+     "promptEn": "Write 5 German sentences: 2 with mögen, 2 with verb + gern, 1 with möchten (+ a second verb at the end).",
+     "minWords": 15,
+     "checklist": [
+      "ich mag / ich möchte (no -e on mag)",
+      "gern after the verb",
+      "möchten + second verb at the end"
+     ],
+     "model": "Ich mag Tee. Ich mag meine Familie. Ich koche gern. Ich lese gern Bücher. Ich möchte nach Deutschland fahren."
+    }
+   ]
+  }
+ ]
+}
